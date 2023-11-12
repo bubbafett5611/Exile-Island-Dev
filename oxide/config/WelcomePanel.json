@@ -5,7 +5,7 @@
     "Open at tab": 1,
     "Block movement when browsing panel": true,
     "Enable text tags": true,
-    "Server Title": "<size=13>YOURSERVER.NET | 2x LOOT | WEEKLY WIPES | ACTIVE ADMINS | KITS</size>",
+    "Server Title": "<size=13>[US] PvExile Island Survival - No KoS|RPG|NPC Bases|XP|Skills|Stats|Quarry&Pump|FREEVIP</size>",
     "Server Logo": "https://rustplugins.net/products/welcomepanellite/2/rustlogo.png",
     "Selected button color": "0.757 0.259 0.161 1.00",
     "Base Command": "info",
@@ -27,16 +27,20 @@
       "Text Alignment": 3,
       "Text Lines": [
         [
-          "<size=45><color=#c14229>RUSTSERVERNAME</color> #4 </size> ",
-          "<size=25>WIPE SCHEDULE <color=#c142299f>WEEKLY</color> @ <color=#c142299f>4:00PM</color> (CET)</size>",
-          "<size=25>RATES <color=#c142299f>2x GATHER</color> | <color=#c142299f>1.5x LOOT</color></size> ",
-          "<size=25>GROUP LIMIT <color=#c142299f>MAX 5</color></size>",
-          "<size=25>MAPSIZE <color=#c142299f>3500</color></size> ",
+          "<size=45>[US] <color=#4A95CC>Exile Island Survival Server </color>[Perks+]</size> ",
+          "\n",
+          "<size=25>Heavily Modded<color=#83b8c7> PvE Server</color> with <color=#83b8c7>Dynamic PvP </color>Zones</size>",
+          "<size=17><color=#4A95CC>Active and Engaged Admin and Moderators</color> that care about the players and their experience.</size>",
+          "<size=22><color=#83b8c7>Creative Building</color> is encouraged with <color=#83b8c7>Multiplied Gather Rates</color></size> ",
+          "<size=22>Access to <color=#83b8c7>Private and Virtual</color> Pumpjacks and Quarries, as well as base Recyclers!</size>",
+          "<size=22>Many exciting features are planned for future addition! <color=#83b8c7>Join our team!</color></size> ",
           "\n",
           "\n",
-          "<size=15>Server is located in EU. Blueprints are wiped monthly. Feel free to browse our infomation panel to find out more about the server. If you have more questions, please join our discord and we will happy to help you.</size>",
+          "<size=22><color=#ff8000>Discord:</color> Come join us @ <color=#4a95cc>discord.ExileIsland.net</color></size><size=15>or use invite code: <b>JuyguE2U6R</b></size>",
+          "<size=22><color=#83b8c7>Webstore:</color> You can support the server by going online to <color=#4a95cc>https://shop.ExileIsland.net</color></size>",
+          "<size=15>Server is owned and operated in the US. Blueprints are wiped each month (for default players) Map wipe takes place every <color=#83b8c7> First Thursday</color> of the month - the same time as force wipe. We have a two day purge before Wipe happens. If you have suggestions or ideas, please don't hesitate to post your thoughts on the Discord 'Suggestions' forum!</size>",
           "\n",
-          "<size=15>\n This is demo page for Welcome Panel, you can find more examples by checking other tabs.</size>"
+          "<size=15><color=#83b8c7>\nVIP Packages: </color> You can purchase items and packages from our webstore at Shop.ExileIsland.Net - Subscription packages are available now in four different tiers. A one-time payment for a 'Lifetime' package, then three monthly VIP groups. You can be The Reject, The Outcast, or The Exile - in order of prestige. Any and all contributions go a long way towards helping the server grow! If you enjoy yourself here and you would like to donate or contribute in some other way - Reach out to Clay or an Admin on discord and let us know what you have to offer! This is not a simple project that one man can run on his own! <color=83b8c7>It takes an Island!</color></size>"
         ]
       ],
       "Addon (plugin name)": ""
@@ -53,16 +57,21 @@
       "Text Alignment": 4,
       "Text Lines": [
         [
-          "<size=45><color=#c14229>Text Alignment</color></size>",
-          "",
-          "<size=18>You can set various text alignments inside config file.</size>",
-          "<size=18>There is 9 available settings, each one is defined by number (0 to 8)</size>",
-          "",
-          "<size=17>UpperLeft - <color=#c14229>0</color></size>\n<size=17>UpperCenter - <color=#c14229>1</color></size>\n<size=17>UpperRight - <color=#c14229>2</color></size>",
-          "<size=17>MiddleLeft - <color=#c14229>3</color></size>\n<size=17>MiddleCenter - <color=#c14229>4</color></size>\n<size=17>MiddleRight - <color=#c14229>5</color></size>",
-          "<size=17>LowerLeft - <color=#c14229>6</color></size>\n<size=17>LowerCenter - <color=#c14229>7</color></size>\n<size=17>LowerRight - <color=#c14229>8</color></size>",
-          "",
-          ""
+          "<size=35><color=#4A95CC>Exile Island Code of Conduct:</color></size>",
+          "\n",
+          "<size=16>This is a Southern US-based, English language server. We welcome players from all over the world! If you prefer to speak in another language, please use Discord or another service to do so. Due to us being ignorant, mono-lingual Americans, we cannot moderate any languages other than English. We apologize for any inconvenience and hope you understand!</size>",
+          "\n",
+          "<size=16><color=#83b8c7>○ <b>Game Play:</b> </color>This is a <color=#83b8c7>PvE</color> server with designated <color=#ff8000>PvP</color> zones. Attempting to raid a player-owned base or engaging in PvP outside of these areas is strictly prohibited. On this flipside, if you are attacked in a PvP zone - there is nothing the Admin or Moderators can do to get your stuff back for you if it is taken. <color=#ff8000>Killing and looting is permitted in these areas</color>.</size>",
+          "<size=16><color=#4A95CC>○ <b>Stealing:</b> </color>Again, this is a PvE server. Stealing from another player (outside of PvP areas) <i>in any way</i> is strictly prohibited.</size>",
+          "<size=16><color=#4A95CC>○ <b>Leeching:</b> </color>Do not join the server and immediately start asking in the chat for people to give you handouts. This is <i>not</i> the same thing as asking for help. 'If you give a man a fish, you feed him for a day. If you teach a man to fish, you feed him for a lifetime.'</size>",
+          "<size=16><color=#4A95CC>○ <b>Cheating:</b> </color>Any hack or cheat programs that are detected will result in an <b>instant and permanent</b> ban. We play fair on Exile Island.</size>",
+          "<size=16><color=#4A95CC>○ <b>Glitching:</b> </color>Abusing <i>any</i> kind of exploit, whether game or server related, will also be considered cheating. Again, this will result in a <b>permanent ban.</b></size>",
+          "<size=16><color=#4A95CC>○ <b>Maturity:</b> </color>This is an Mature (18+) game so we expect you to act that way. If you're going to behave like a child - ie: throwing temper tantrums, petulance in the voice chat, or just generally behaving obnoxiously - You will be removed. </size>",
+          "<size=16><color=#4A95CC>○ <b>Association:</b> </color>Teaming or playing with cheaters / glitchers will make you <b>guilty by association.</b> Choose your teammates carefully!</size>",
+          "<size=16><color=#4A95CC>○ <b>Toxicity / Trolling:</b> </color>Racism, hate-speech, hate-symbols, cyber-bullying, and encouraging self-harm are <b>not tolerated</b>. The same goes for trolling other players in anyway. Do not build to block other players in. Do not lock other players in your base. You will receive a 3-day ban on first offence. </size>",
+          "<size=16><color=#4A95CC>○ <b>Alt Accounts:</b> </color> We are not EA, Rockstar, or Blizzard. Banned players returning on an alt-account will receive an additional <b>permanent ban</b>.</size>",
+          "<size=16><color=#4A95CC>○ <b>Spam & Ads:</b> </color>Spamming the chat unnecessarily will not be tolerated. Advertising of any kind, including but not limited to: other servers, gambling sites, your pyramid scheme, or your girlfriend's Mary Kay stuff... will result in you being <b>kicked</b>.</size>",
+          "<size=16><color=#4A95CC>○ <b>Sketchiness:</b> </color>Any other odd behavior that could cause issues. Such trying to impersonate <color=#009900>admins</color> or other players (or clans)</size>"
         ]
       ],
       "Addon (plugin name)": ""
