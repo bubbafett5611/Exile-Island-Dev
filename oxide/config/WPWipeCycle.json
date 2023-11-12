@@ -1,0 +1,28 @@
+{
+  "Map Wipe": {
+    "Title Text": "<size=22>MAP WIPE</size> \n <size=11>Only map change, all progress will stay, currencies, blueprints, ladderboards...</size>",
+    "Date Text": "<size=14>  Weekly / every friday</size>",
+    "Time Text": "<size=14>  5:00 PM (CET)</size>",
+    "Main Panel Color": "0.25 0.25 0.25 0.65",
+    "Secondary Panels Color": "0.19 0.19 0.19 0.85",
+    "Main Icon URL": "https://rustlabs.com/img/items180/map.png",
+    "Date Icon URL": "https://i.ibb.co/N97bTzY/dateicon.png",
+    "Time Icon URL": "https://i.ibb.co/n3FXkfn/timeicon.png"
+  },
+  "BP Wipe": {
+    "Title Text": "<size=22>BLUEPRINT WIPE</size> \n <size=11>Blueprint wipe, all progress will be wiped, currencies, blueprints, ladderboards.</size>",
+    "Date Text": "<size=14>  Monthly / first friday</size>",
+    "Time Text": "<size=14>  5:00 PM (CET)</size>",
+    "Main Panel Color": "0.25 0.25 0.25 0.65",
+    "Secondary Panels Color": "0.19 0.19 0.19 0.85",
+    "Main Icon URL": "https://i.ibb.co/m6jw3W3/bpwipeicon.png",
+    "Date Icon URL": "https://i.ibb.co/N97bTzY/dateicon.png",
+    "Time Icon URL": "https://i.ibb.co/n3FXkfn/timeicon.png"
+  },
+  "Other": {
+    "Top Title Text": "Our Wipe Schedule",
+    "Countdown Text": "Next wipe in (WipeCountdown plugin required)",
+    "Font Outline Color": "0 0 0 1",
+    "Font Outline Thickness": "1"
+  }
+}
