@@ -27,17 +27,17 @@
       "Text Alignment": 3,
       "Text Lines": [
         [
-          "<size=45>[US] <color=#4A95CC>Exile Island Survival Server </color>[Perks+]</size> ",
+          "<size=35>[US] <color=#4A95CC>Exile Island Survival Server </color>[Perks+]</size> ",
           "\n",
-          "<size=25>Heavily Modded<color=#83b8c7> PvE Server</color> with <color=#83b8c7>Dynamic PvP </color>Zones</size>",
-          "<size=17><color=#4A95CC>Active and Engaged Admin and Moderators</color> that care about the players and their experience.</size>",
-          "<size=22><color=#83b8c7>Creative Building</color> is encouraged with <color=#83b8c7>Multiplied Gather Rates</color></size> ",
-          "<size=22>Access to <color=#83b8c7>Private and Virtual</color> Pumpjacks and Quarries, as well as base Recyclers!</size>",
-          "<size=22>Many exciting features are planned for future addition! <color=#83b8c7>Join our team!</color></size> ",
+          "<size=15>Heavily Modded<color=#83b8c7> PvE Server</color> with <color=#83b8c7>Dynamic PvP </color>Zones</size>",
+          "<size=15><color=#4A95CC>Active and Engaged Admins and Moderators</color> that care about the players and their experience.</size>",
+          "<size=15><color=#83b8c7>Creative Building</color> is encouraged with <color=#83b8c7>Multiplied Gather Rates</color></size> ",
+          "<size=15>Access to <color=#83b8c7>Private and Virtual</color> Pumpjacks and Quarries, as well as base Recyclers!</size>",
+          "<size=15>Many exciting features are planned for future addition! <color=#83b8c7>Join our team!</color></size> ",
           "\n",
           "\n",
-          "<size=22><color=#ff8000>Discord:</color> Come join us @ <color=#4a95cc>discord.ExileIsland.net</color></size><size=15>or use invite code: <b>JuyguE2U6R</b></size>",
-          "<size=22><color=#83b8c7>Webstore:</color> You can support the server by going online to <color=#4a95cc>https://shop.ExileIsland.net</color></size>",
+          "<size=15><color=#ff8000>Discord:</color> Come join us @ <color=#4a95cc>discord.ExileIsland.net</color></size><size=15>or use invite code: <b>JuyguE2U6R</b></size>",
+          "<size=15><color=#83b8c7>Webstore:</color> You can support the server by going online to <color=#4a95cc>https://shop.ExileIsland.net</color></size>",
           "<size=15>Server is owned and operated in the US. Blueprints are wiped each month (for default players) Map wipe takes place every <color=#83b8c7> First Thursday</color> of the month - the same time as force wipe. We have a two day purge before Wipe happens. If you have suggestions or ideas, please don't hesitate to post your thoughts on the Discord 'Suggestions' forum!</size>",
           "\n",
           "<size=15><color=#83b8c7>\nVIP Packages: </color> You can purchase items and packages from our webstore at Shop.ExileIsland.Net - Subscription packages are available now in four different tiers. A one-time payment for a 'Lifetime' package, then three monthly VIP groups. You can be The Reject, The Outcast, or The Exile - in order of prestige. Any and all contributions go a long way towards helping the server grow! If you enjoy yourself here and you would like to donate or contribute in some other way - Reach out to Clay or an Admin on discord and let us know what you have to offer! This is not a simple project that one man can run on his own! <color=83b8c7>It takes an Island!</color></size>"
@@ -57,7 +57,7 @@
       "Text Alignment": 4,
       "Text Lines": [
         [
-          "<size=35><color=#4A95CC>Exile Island Code of Conduct:</color></size>",
+          "<size=15><color=#4A95CC>Exile Island Code of Conduct:</color></size>",
           "\n",
           "<size=16>This is a Southern US-based, English language server. We welcome players from all over the world! If you prefer to speak in another language, please use Discord or another service to do so. Due to us being ignorant, mono-lingual Americans, we cannot moderate any languages other than English. We apologize for any inconvenience and hope you understand!</size>",
           "\n",
@@ -100,7 +100,7 @@
           "    <b>droidsansmono.ttf</b>"
         ]
       ],
-      "Addon (plugin name)": ""
+      "Addon (plugin name)": "wipecycle"
     },
     {
       "Name": "             <size=13>Links</size>",
@@ -229,7 +229,7 @@
   "Base Ui Elements": {
     "background": {
       "Color": "0 0 0 0.8",
-      "Material": "assets/content/ui/uibackgroundblur.mat",
+      "Material": "assets/content/ui/uibackgroundblur-ingamemenu.mat",
       "Image": "",
       "Anchor Min": "0 0",
       "Anchor Max": "1 1",
