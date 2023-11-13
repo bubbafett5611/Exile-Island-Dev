@@ -1,33 +1,33 @@
 {
   "Panel #1": {
     "Enabled": true,
-    "Title Text": "<color=#3498DB><size=15>Reject</size></color>",
-    "Text Field": "\n✔ Que Skip\n✔ Discord Role\n✔ Sign Artist\n <color=#696969>✘ SkinBox\n✘ Better Metabolism\n✘ Daily Special Kit\n✘ My Mini\n✘ Access to Bgrade\n</color>",
+    "Title Text": "",
+    "Text Field": "✔ <color=#fff000>[Reject]</color> Prefix in chat\n✔ <color=#fff000>Reject</color> Discord Role\n✔ 72 Backpack Slots\n✔ Experience+\n✔ /locker Access\n✔ Reduced Bed/Bag Timer\n✔ Virtual Quarries+\n✔ Reject's Resource Kit\n\nFind out more on our Store!",
     "Icon Image": "https://shop.exileisland.net/pages/dashboard/admin/store_img/c1933d8086823d96dfc3d37634b915c3.png",
-    "Button Text": "<size=9>BUY FOR</size> <size=15>3$</size>  ",
+    "Button Text": "<size=9>BUY FOR</size> <size=15>$3/month</size>  ",
     "Main Panel Color": "0.25 0.25 0.25 0.65",
     "Secondary Panel Color": "0.19 0.19 0.19 0.85",
-    "Button Color": "0.16 0.34 0.49 0.80"
+    "Button Color": "0.88 0.42 0.00 0.80"
   },
   "Panel #2": {
     "Enabled": true,
-    "Title Text": "<color=#E16B00FF><size=15>Outcast</size></color>",
-    "Text Field": "\n✔ Que Skip\n✔ Discord Role\n✔ Sign Artist\n✔ SkinBox\n✔ Better Metabolism\n✔ Daily Special Kit\n<color=#696969>✘ My Mini\n✘ Access to Bgrade\n</color>",
+    "Title Text": "",
+    "Text Field": "✔ <color=#00ffff>[Outcast]</color> Prefix in chat\n✔ <color=#00ffff>Outcast</color> Discord Role\n✔ 96 Backpack Slots\n✔ Experience++\n✔ /locker Access\n✔ Reduced Bed/Bag Timer\n✔ Virtual Quarries++\n✔ Outcast's Resource Kit\n\nFind out more on our Store!",
     "Icon Image": "https://shop.exileisland.net/pages/dashboard/admin/store_img/a92dd98e4b75c2e9a303e48096fe1bbb.png",
-    "Button Text": "<size=9>BUY FOR</size> <size=15>6$</size>  ",
+    "Button Text": "<size=9>BUY FOR</size> <size=15>$6/month</size>  ",
     "Main Panel Color": "0.25 0.25 0.25 0.65",
     "Secondary Panel Color": "0.19 0.19 0.19 0.85",
     "Button Color": "0.88 0.42 0.00 0.80"
   },
   "Panel #3": {
     "Enabled": true,
-    "Title Text": "<color=#C70039FF><size=15>Exile</size></color>",
-    "Text Field": "\n✔ Que Skip\n✔ Discord Role\n✔ Sign Artist\n✔ SkinBox\n✔ Better Metabolism\n✔ Daily Special Kit\n✔ My Mini\n✔ Access to Bgrade\n",
+    "Title Text": "",
+    "Text Field": "✔ <color=#cc0000>[Exile]</color> Prefix in chat\n✔ <color=#cc0000>Exile</color> Discord Role\n✔ 120 Backpack Slots\n✔ Experience+++\n✔ /locker Access\n✔ Reduced Bed/Bag Timer\n✔ Virtual Quarries+++\n✔ Exiles's Resource Kit\n\nFind out more on our Store!",
     "Icon Image": "https://shop.exileisland.net/pages/dashboard/admin/store_img/6fc1c83bbbb2ad9c860ab1b00ce10364.png",
-    "Button Text": "<size=9>BUY FOR</size> <size=15>9$</size>  ",
+    "Button Text": "<size=9>BUY FOR</size> <size=15>$9/month</size>  ",
     "Main Panel Color": "0.25 0.25 0.25 0.65",
     "Secondary Panel Color": "0.19 0.19 0.19 0.85",
-    "Button Color": "0.78 0.00 0.22 0.80"
+    "Button Color": "0.88 0.42 0.00 0.80"
   },
   "Panel #4": {
     "Enabled": false,
@@ -60,7 +60,7 @@
     "Button Color": "0.25 0.25 0.25 0.85"
   },
   "Other": {
-    "Title Text": "Exile Island Web Store",
+    "Title Text": "",
     "Footer Text": "<size=8>By purchasing stuff at our store you directly supporting our servers.</size>",
     "Font Outline Color": "0 0 0 1",
     "Font Outline Thickness": "1",
