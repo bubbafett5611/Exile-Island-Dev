@@ -485,7 +485,7 @@
   "Minimum time between events [sec.]": 1800.0,
   "Maximum time between events [sec.]": 1800.0,
   "Is there a timer to start the event? [true/false]": true,
-  "Time before the starting of the event after receiving a chat message [sec.]": 300.0,
+  "Time before the starting of the event after receiving a chat message [sec.]": 150.0,
   "Time of notification signaling the end of the event [sec.]": 300,
   "The duration of the event, if no one calls The General for help [sec.]": 1200,
   "Marker configuration on the map": {
