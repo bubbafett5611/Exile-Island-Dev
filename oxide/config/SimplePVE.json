@@ -40,11 +40,11 @@
     "Player can loot other player in PVP Zones": true
   },
   "Notifications": {
-    "Prefix": "<color=#00ffff>[SimplePVE]</color>: ",
+    "Prefix": "<color=#00ffff>[Exile Island]</color>: ",
     "Chat Avatar": 0,
-    "Show PVE Icon Overlay": true,
+    "Show PVE Icon Overlay": false,
     "Show PVE Warning Messages": true,
-    "PVE Warning Type(Chat/UI/Both)": "Both",
+    "PVE Warning Type(Chat/UI/Both)": "Chat",
     "PVE Warning Chat Message": "PVE enabled on this server, blocking damage.",
     "PVE Warning UI Settings": {
       "Anchor Min": "0.786 0.722",
@@ -52,7 +52,7 @@
       "Warning Image URL": "https://i.postimg.cc/0jZNDr9x/Add-a-subheading-2.png"
     },
     "Show Loot Protection Messages": true,
-    "Loot Protection Type(Chat/UI/Both)": "Both",
+    "Loot Protection Type(Chat/UI/Both)": "Chat",
     "Loot Protection Chat Message": "This entity is protected!",
     "Loot Protection UI Settings": {
       "Anchor Min": "0.786 0.722",
