@@ -8,7 +8,7 @@
   "Broadcast grids they spawn in?": true,
   "Show map markers when they spawn?": true,
   "Color of Map Marker": "#00FF00",
-  "Map Marker Radius": 0.50,
+  "Map Marker Radius": 0.5,
   "Name color for decoy killer.": "orange",
   "Name color for pookie killer.": "green",
   "Enable custom HP for Pookie and Decoy?": false,
@@ -96,7 +96,7 @@
     {
       "Effect Name": "Drop Inventory",
       "Effect Description": "Drops the players inventory on the ground.(1 = Hot Bar, 2 = Armor, 3 = Main Inventory, 4 = All)",
-      "Enabled": false,
+      "Enabled": true,
       "Amount": 1
     },
     {

@@ -12,10 +12,10 @@
     "Additional Commands": {
       "rules": 2,
       "wipecycle": 3,
-      "commands":4,
-      "discord":5,
-      "kits":6,
-      "vip":7
+      "commands": 4,
+      "discord": 5,
+      "kits": 6,
+      "vip": 7
     }
   },
   "Text Tabs": [
@@ -132,7 +132,7 @@
           "<size=14><color=#83b8c7>Clans |Allies</color></size>",
           "<color=#ff8000>/clans</color> | Brings up the Clans GUI for managing your clan or creating alliances with other ones.",
           "<color=#ff8000>/clan create (name)</color> | Create a clan with your custom TAG and a short description."
-            ],
+        ],
         [
           "<size=14><color=#83b8c7>Socialize</color></size>",
           "<color=#ff8000>/pm (playername)</color> | Sends a private message to another player.",
@@ -144,7 +144,7 @@
           "<color=#ff8000>/shop </color> | The glorious shop! Opens up the Shop GUI, where you can use your server credits to buy useful items on-the-go.",
           "<color=#ff8000>/xphelp </color> |  Learn about the XP System you can use to advance your character! Increase your gather rate, your medical, farming, and fighting skills - and many more!",
           "<color=#ff8000>/xpstats </color> | Takes your directly to the menu for picking which skills & traits you want to advance."
-            ],
+        ],
         [
           "<size=14><color=#83b8c7>Building</color></size>",
           "<color=#ff8000>/up (1-4)</color> | Enable upgrading mode. Hit items with your hammer to upgrade to wood(1), stone(2), metal(3), or armored(4). You can use all DLC building skins without having to purchase them. This is done through the settings wheel through this command.",
@@ -161,7 +161,7 @@
           "<size=14><color=#83b8c7>Extras</color></size>",
           "<color=#ff8000>/kit </color> | Opens up the Kit GUI, where limited-use free kits are available to help you get started.",
           "<color=#ff8000>/backpack </color> | Opens your backpack. Use <color=#ff8000>/backpackgui </color>to hide the backpack button on your HUD.",
-          "<color=#ff8000>/locker</color> | This is for VIP subscriptions. opens your portable locker.",      
+          "<color=#ff8000>/locker</color> | This is for VIP subscriptions. opens your portable locker.",
           "<color=#ff8000>/vq</color> | <color=#708a43>Opens up your Virtual Quarry and Pumpjack</color> menu. For more info, visit the 'How To' channel in discord!",
           "<color=#ff8000>/mydrop</color> | Adds your free daily airdrop to your inventory!",
           "<color=#ff8000>/vipdrop</color> | This is for VIP subscriptions. Adds three daily airdrops to your inventory!"

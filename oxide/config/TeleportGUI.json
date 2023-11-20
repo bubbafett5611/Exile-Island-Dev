@@ -1,0 +1,507 @@
+{
+  "Chat options": {
+    "Use chat prefix": true,
+    "Chat prefix": "<color=#C4FF00>Transit: </color>",
+    "Chat icon (steam ID)": 0
+  },
+  "Teleport options": {
+    "Teleport request timeout (seconds)": 30,
+    "Only shows friends, clan members and team mates in player list": false,
+    "Cancel pending teleport if hurt": false,
+    "Cancel pending teleport if either player dies": true,
+    "Teleport delay options": {
+      "Default time until teleport (seconds)": 15,
+      "VIP time until teleport (permission | seconds)": {
+        "teleportgui.lifetime": 12,
+        "teleportgui.outcast": 9,
+        "teleportgui.reject": 5,
+        "teleportgui.exile": 3,
+        "teleportgui.vip": 0
+      }
+    },
+    "Teleport cooldown options": {
+      "Default cooldown time (seconds)": 180,
+      "VIP cooldown times (permission | seconds)": {
+        "teleportgui.lifetime": 120,
+        "teleportgui.outcast": 60,
+        "teleportgui.reject": 30,
+        "teleportgui.exile": 15,
+        "teleportgui.vip": 0
+      }
+    },
+    "Teleport daily limit options": {
+      "Default daily limit (0 disables limits entirely)": 7,
+      "VIP daily limit (permission | limit)": {
+        "teleportgui.lifetime": 10,
+        "teleportgui.outcast": 16,
+        "teleportgui.reject": 24,
+        "teleportgui.exile": 32,
+        "teleportgui.vip": 0
+      }
+    },
+    "Purchase options": {
+      "Require payment to teleport after daily limit has been reached": true,
+      "Payment mode (ServerRewards, Economics, Scrap)": "Economics",
+      "Default payment cost": 125,
+      "VIP payment cost (permission | cost)": {
+        "teleportgui.lifetime": 100,
+        "teleportgui.outcast": 100,
+        "teleportgui.reject": 100,
+        "teleportgui.exile": 100,
+        "teleportgui.vip": 0
+      }
+    },
+    "Command aliases": []
+  },
+  "Home options": {
+    "Max home options": {
+      "Default home limit (0 disables limits entirely)": 3,
+      "VIP home limit (permission | limit)": {
+        "teleportgui.lifetime": 5,
+        "teleportgui.outcast": 7,
+        "teleportgui.reject": 9,
+        "teleportgui.exile": 12,
+        "teleportgui.vip": 50
+      }
+    },
+    "Sleeping bag homes": {
+      "Create home on bag placement": false,
+      "Create home on bed placement": false,
+      "Create home on beach towel placement": false,
+      "Only create a home on placement if it is inside a building": true,
+      "Disable set home command": false
+    },
+    "Allow creating home in building blocked area": false,
+    "Homes can only be set on building blocks": true,
+    "Allow homes to be set on floors": true,
+    "Don't allow homes to be set within X distance of another home": 20.0,
+    "Wipe home data when the server is wiped": true,
+    "Cancel pending teleport if hurt": false,
+    "Cancel pending teleport if either player dies": true,
+    "Teleport delay options": {
+      "Default time until teleport (seconds)": 15,
+      "VIP time until teleport (permission | seconds)": {
+        "teleportgui.lifetime": 12,
+        "teleportgui.outcast": 9,
+        "teleportgui.reject": 5,
+        "teleportgui.exile": 3,
+        "teleportgui.vip": 0
+      }
+    },
+    "Teleport cooldown options": {
+      "Default cooldown time (seconds)": 180,
+      "VIP cooldown times (permission | seconds)": {
+        "teleportgui.lifetime": 120,
+        "teleportgui.outcast": 60,
+        "teleportgui.reject": 30,
+        "teleportgui.exile": 15,
+        "teleportgui.vip": 0
+      }
+    },
+    "Teleport daily limit options": {
+      "Default daily limit (0 disables limits entirely)": 7,
+      "VIP daily limit (permission | limit)": {
+        "teleportgui.lifetime": 10,
+        "teleportgui.outcast": 16,
+        "teleportgui.reject": 24,
+        "teleportgui.exile": 32,
+        "teleportgui.vip": 0
+      }
+    },
+    "Purchase options": {
+      "Require payment to teleport after daily limit has been reached": true,
+      "Payment mode (ServerRewards, Economics, Scrap)": "Economics",
+      "Default payment cost": 125,
+      "VIP payment cost (permission | cost)": {
+        "teleportgui.lifetime": 100,
+        "teleportgui.outcast": 100,
+        "teleportgui.reject": 100,
+        "teleportgui.exile": 100,
+        "teleportgui.vip": 0
+      }
+    },
+    "Command aliases": []
+  },
+  "Warp options": {
+    "Teleport to random point in X vicinity (0 to disable)": 0.0,
+    "Radius to check for NPC's when teleporting to a monument warp point": 25.0,
+    "Monument warp points": {
+      "launch_site_1": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "military_tunnel_1": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "excavator_1": {
+        "Generate warp for this monument": true,
+        "Custom chat command": "giantex",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "lighthouse": {
+        "Generate warp for this monument": true,
+        "Custom chat command": "lighthouse",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "fishing_village_b": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "fishing_village_a": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "stables_a": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "water_well_c": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "supermarket_1": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "gas_station_1": {
+        "Generate warp for this monument": true,
+        "Custom chat command": "oxums",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "fishing_village_c": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "mining_quarry_a": {
+        "Generate warp for this monument": true,
+        "Custom chat command": "sulfur",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "entrance_bunker_b": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "entrance_bunker_c": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "bandit_town": {
+        "Generate warp for this monument": true,
+        "Custom chat command": "bandit",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "water_well_e": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "water_well_a": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "water_well_d": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "arctic_research_base_a": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "compound": {
+        "Generate warp for this monument": true,
+        "Custom chat command": "outpost",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "water_well_b": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "mining_quarry_b": {
+        "Generate warp for this monument": true,
+        "Custom chat command": "stone",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "mining_quarry_c": {
+        "Generate warp for this monument": true,
+        "Custom chat command": "hqm",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "nuclear_missile_silo": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "trainyard_1": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "ferry_terminal_1": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "harbor_1": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "harbor_2": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "desert_military_base_c": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "junkyard_1": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "water_treatment_plant_1": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "airfield_1": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "powerplant_1": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "radtown_small_3": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "satellite_dish": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "sphere_tank": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "entrance_bunker_a": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "entrance_bunker_d": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "warehouse": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "desert_military_base_d": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "stables_b": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "desert_military_base_b": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "train_tunnel_double_entrance": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      },
+      "desert_military_base_a": {
+        "Generate warp for this monument": false,
+        "Custom chat command": "",
+        "Required permission (prefix with teleportgui.)": ""
+      }
+    },
+    "Cancel pending teleport if hurt": false,
+    "Cancel pending teleport if either player dies": true,
+    "Teleport delay options": {
+      "Default time until teleport (seconds)": 15,
+      "VIP time until teleport (permission | seconds)": {
+        "teleportgui.lifetime": 12,
+        "teleportgui.outcast": 9,
+        "teleportgui.reject": 5,
+        "teleportgui.exile": 3,
+        "teleportgui.vip": 0
+      }
+    },
+    "Teleport cooldown options": {
+      "Default cooldown time (seconds)": 180,
+      "VIP cooldown times (permission | seconds)": {
+        "teleportgui.lifetime": 120,
+        "teleportgui.outcast": 60,
+        "teleportgui.reject": 30,
+        "teleportgui.exile": 15,
+        "teleportgui.vip": 0
+      }
+    },
+    "Teleport daily limit options": {
+      "Default daily limit (0 disables limits entirely)": 7,
+      "VIP daily limit (permission | limit)": {
+        "teleportgui.lifetime": 10,
+        "teleportgui.outcast": 16,
+        "teleportgui.reject": 24,
+        "teleportgui.exile": 32,
+        "teleportgui.vip": 0
+      }
+    },
+    "Purchase options": {
+      "Require payment to teleport after daily limit has been reached": true,
+      "Payment mode (ServerRewards, Economics, Scrap)": "Economics",
+      "Default payment cost": 125,
+      "VIP payment cost (permission | cost)": {
+        "teleportgui.lifetime": 100,
+        "teleportgui.outcast": 100,
+        "teleportgui.reject": 100,
+        "teleportgui.exile": 100,
+        "teleportgui.vip": 0
+      }
+    },
+    "Command aliases": []
+  },
+  "Teleport conditions": {
+    "Can teleport whilst bleeding": {
+      "Can teleport if target player has condition": true,
+      "Can teleport if player has condition": true
+    },
+    "Can teleport whilst crafting": {
+      "Can teleport if target player has condition": true,
+      "Can teleport if player has condition": true
+    },
+    "Can teleport if mounted": {
+      "Can teleport if target player has condition": false,
+      "Can teleport if player has condition": false
+    },
+    "Can teleport if building blocked": {
+      "Can teleport if target position has condition": false,
+      "Can teleport if target player has condition": true,
+      "Can teleport if player has condition": true
+    },
+    "Can teleport if raid blocked": {
+      "Can teleport if target player has condition": false,
+      "Can teleport if player has condition": false
+    },
+    "Can teleport if on cargo ship": {
+      "Can teleport if target player has condition": true,
+      "Can teleport if player has condition": true
+    },
+    "Can teleport if on hot air balloon": {
+      "Can teleport if target player has condition": true,
+      "Can teleport if player has condition": true
+    },
+    "Can teleport if near oil rig": {
+      "Can teleport if target position has condition": false,
+      "Can teleport if target player has condition": false,
+      "Can teleport if player has condition": true
+    },
+    "Can teleport if in underwater labs": {
+      "Can teleport if target position has condition": false,
+      "Can teleport if target player has condition": false,
+      "Can teleport if player has condition": true
+    },
+    "Can teleport if in water": {
+      "Can teleport if target player has condition": true,
+      "Can teleport if player has condition": true
+    },
+    "Can teleport if in notp zone": {
+      "Can teleport if target player has condition": true,
+      "Can teleport if player has condition": true
+    },
+    "Can teleport if in safe zone": {
+      "Can teleport if target player has condition": true,
+      "Can teleport if player has condition": true
+    },
+    "Can teleport if hostile": {
+      "Only check when warping": true,
+      "Can teleport if target player has condition": false,
+      "Can teleport if player has condition": false
+    },
+    "Can teleport if in monument": {
+      "Ignore safe zones when checking condition": false,
+      "Can teleport if target position has condition": false,
+      "Can teleport if target player has condition": false,
+      "Can teleport if player has condition": true
+    },
+    "Can teleport if in any topologies (advanced)": {
+      "Topology names (ex. ['Road', 'Roadside', 'Cliff'], replacing single quotation marks with double quotation marks)": [],
+      "Can teleport if target position has condition": true,
+      "Can teleport if target player has condition": true,
+      "Can teleport if player has condition": true
+    }
+  },
+  "Purge user data after x amount of days of no activity": 30,
+  "Admin options": {
+    "Don't notify user's when a admin teleports to them": true,
+    "Allow instant teleportation for admins": false
+  },
+  "UI options": {
+    "Disable UI": false,
+    "Hide admins from player search list": false,
+    "Hide warp points if the player doesn't have permission": true,
+    "UI Colors": {
+      "Background": {
+        "Hex": "151515",
+        "Alpha": 0.94
+      },
+      "Panel": {
+        "Hex": "FFFFFF",
+        "Alpha": 0.165
+      },
+      "Header": {
+        "Hex": "C4FF00",
+        "Alpha": 0.314
+      },
+      "Button": {
+        "Hex": "2A2E32",
+        "Alpha": 1.0
+      },
+      "Close": {
+        "Hex": "CE422B",
+        "Alpha": 1.0
+      },
+      "Highlight": {
+        "Hex": "C4FF00",
+        "Alpha": 1.0
+      }
+    }
+  },
+  "Version": {
+    "Major": 2,
+    "Minor": 0,
+    "Patch": 14
+  }
+}
