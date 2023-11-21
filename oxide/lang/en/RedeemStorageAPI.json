@@ -1,0 +1,12 @@
+{
+  "StorageNotFound": "Storage with name <color=#5c81ed>{0}</color> has not been found.",
+  "NoPermission": "You don't have permission to use this command!",
+  "AdminOpening": "Opening <color=#5c81ed>{0}</color> inventory of <color=#5c81ed>{1}</color>...",
+  "UserNotFound": "User has not been found.",
+  "NotAuthToRefund": "You are <color=#5c81ed>not authorized in Cupboard</color>. You cannot open this redeem inventory!",
+  "NotInSafeZone": "You are <color=#5c81ed>not in safe zone</color>. You cannot open this redeem inventory!",
+  "StorageEmpty": "This storage is <color=#5c81ed>empty</color>...",
+  "NewItemInStorage": "You've got new item!\nIt's <color=#5c81ed>{1}</color>! You can redeem it by typing <color=#5c81ed>/{2} {0}</color>.",
+  "UnredeemedItemsRemind": "You have unredeemed items in your storage!\nRun <color=#5c81ed>/{0} {1}</color> to get your items.",
+  "OpenMessage_shop": "Default Open Message!"
+}

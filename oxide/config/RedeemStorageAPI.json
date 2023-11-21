@@ -1,0 +1,22 @@
+{
+  "Redeem Commands": [
+    "redeem",
+    "red"
+  ],
+  "PopUp API Preset": "Legacy",
+  "Redeem Storage Item Reminder (in seconds, 0 to disable)": 600,
+  "Redeem Inventories": {
+    "default": {
+      "Default Redeem Inventory (only one)": true,
+      "PopUp Message (configurable in lang file)": false,
+      "Redeem Only In Safezone": true,
+      "Redeem Only If Authed": true
+    },
+    "shop": {
+      "Default Redeem Inventory (only one)": false,
+      "PopUp Message (configurable in lang file)": true,
+      "Redeem Only In Safezone": false,
+      "Redeem Only If Authed": false
+    }
+  }
+}
