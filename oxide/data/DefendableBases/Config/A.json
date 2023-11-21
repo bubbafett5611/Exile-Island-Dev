@@ -621,7 +621,7 @@
       "Barricade position": "(4.5, 0.018, 0)"
     }
   ],
-  "Does the Recycler appear? [true/false]": true,
+  "Does the Recycler appear? [true/false]": false,
   "Does the Repair Bench appear? [true/false]": true,
   "Does the Workbench appear? [true/false]": true,
   "List of turrets": [
@@ -629,8 +629,8 @@
       "Name (not edited)": "Auto Turret",
       "Enabled? [true/false]": true,
       "Price to unlock": {
-        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
-        "Price (if the economy method is 0, 1, 2)": 0.0,
+        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 0,
+        "Price (if the economy method is 0, 1, 2)": 1000.0,
         "List of items, 3 maximum (if the economy method is 3)": [
           {
             "ShortName": "metal.refined",
@@ -686,8 +686,8 @@
           "Name (not edited)": "5.56 Rifle Ammo",
           "Enabled? [true/false]": true,
           "Price": {
-            "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
-            "Price (if the economy method is 0, 1, 2)": 0.0,
+            "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 0,
+            "Price (if the economy method is 0, 1, 2)": 100.0,
             "List of items, 3 maximum (if the economy method is 3)": [
               {
                 "ShortName": "metal.fragments",
@@ -701,15 +701,15 @@
               }
             ]
           },
-          "Maximum number of ammo": 400,
+          "Maximum number of ammo": 500,
           "Ammo amount each purchase": 100
         },
         {
           "Name (not edited)": "HV 5.56 Rifle Ammo",
           "Enabled? [true/false]": false,
           "Price": {
-            "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
-            "Price (if the economy method is 0, 1, 2)": 0.0,
+            "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 0,
+            "Price (if the economy method is 0, 1, 2)": 150.0,
             "List of items, 3 maximum (if the economy method is 3)": [
               {
                 "ShortName": "metal.fragments",
@@ -723,15 +723,15 @@
               }
             ]
           },
-          "Maximum number of ammo": 400,
+          "Maximum number of ammo": 500,
           "Ammo amount each purchase": 100
         },
         {
           "Name (not edited)": "Incendiary 5.56 Rifle Ammo",
           "Enabled? [true/false]": true,
           "Price": {
-            "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
-            "Price (if the economy method is 0, 1, 2)": 0.0,
+            "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 0,
+            "Price (if the economy method is 0, 1, 2)": 200.0,
             "List of items, 3 maximum (if the economy method is 3)": [
               {
                 "ShortName": "metal.fragments",
@@ -750,15 +750,15 @@
               }
             ]
           },
-          "Maximum number of ammo": 400,
+          "Maximum number of ammo": 500,
           "Ammo amount each purchase": 100
         },
         {
           "Name (not edited)": "Explosive 5.56 Rifle Ammo",
           "Enabled? [true/false]": true,
           "Price": {
-            "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
-            "Price (if the economy method is 0, 1, 2)": 0.0,
+            "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 0,
+            "Price (if the economy method is 0, 1, 2)": 400.0,
             "List of items, 3 maximum (if the economy method is 3)": [
               {
                 "ShortName": "metal.fragments",
@@ -777,7 +777,7 @@
               }
             ]
           },
-          "Maximum number of ammo": 400,
+          "Maximum number of ammo": 500,
           "Ammo amount each purchase": 100
         }
       ]
@@ -786,8 +786,8 @@
       "Name (not edited)": "Flame Turret",
       "Enabled? [true/false]": true,
       "Price to unlock": {
-        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
-        "Price (if the economy method is 0, 1, 2)": 0.0,
+        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 0,
+        "Price (if the economy method is 0, 1, 2)": 500.0,
         "List of items, 3 maximum (if the economy method is 3)": [
           {
             "ShortName": "metal.fragments",
@@ -813,8 +813,8 @@
           "Name (not edited)": "Low Grade Fuel",
           "Enabled? [true/false]": true,
           "Price": {
-            "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
-            "Price (if the economy method is 0, 1, 2)": 0.0,
+            "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 0,
+            "Price (if the economy method is 0, 1, 2)": 100.0,
             "List of items, 3 maximum (if the economy method is 3)": [
               {
                 "ShortName": "lowgradefuel",
@@ -823,7 +823,7 @@
               }
             ]
           },
-          "Maximum number of ammo": 150,
+          "Maximum number of ammo": 250,
           "Ammo amount each purchase": 100
         }
       ]
@@ -832,8 +832,8 @@
       "Name (not edited)": "Shotgun Trap",
       "Enabled? [true/false]": true,
       "Price to unlock": {
-        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
-        "Price (if the economy method is 0, 1, 2)": 0.0,
+        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 0,
+        "Price (if the economy method is 0, 1, 2)": 1000.0,
         "List of items, 3 maximum (if the economy method is 3)": [
           {
             "ShortName": "metal.fragments",
@@ -864,8 +864,8 @@
           "Name (not edited)": "Handmade Shell",
           "Enabled? [true/false]": true,
           "Price": {
-            "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
-            "Price (if the economy method is 0, 1, 2)": 0.0,
+            "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 0,
+            "Price (if the economy method is 0, 1, 2)": 50.0,
             "List of items, 3 maximum (if the economy method is 3)": [
               {
                 "ShortName": "stones",
@@ -892,8 +892,8 @@
       "ShortName (not edited)": "wall.frame.netting",
       "SkinID (not edited)": 2777422016,
       "Price": {
-        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
-        "Price (if the economy method is 0, 1, 2)": 0.0,
+        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 0,
+        "Price (if the economy method is 0, 1, 2)": 100.0,
         "List of items, 3 maximum (if the economy method is 3)": [
           {
             "ShortName": "wood",
@@ -909,8 +909,8 @@
       "ShortName (not edited)": "wall.frame.netting",
       "SkinID (not edited)": 2777422268,
       "Price": {
-        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
-        "Price (if the economy method is 0, 1, 2)": 0.0,
+        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 0,
+        "Price (if the economy method is 0, 1, 2)": 200.0,
         "List of items, 3 maximum (if the economy method is 3)": [
           {
             "ShortName": "wood",
@@ -926,8 +926,8 @@
       "ShortName (not edited)": "wall.frame.netting",
       "SkinID (not edited)": 2803087918,
       "Price": {
-        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
-        "Price (if the economy method is 0, 1, 2)": 0.0,
+        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 0,
+        "Price (if the economy method is 0, 1, 2)": 300.0,
         "List of items, 3 maximum (if the economy method is 3)": [
           {
             "ShortName": "wood",
@@ -948,8 +948,8 @@
       "ShortName (not edited)": "wall.frame.netting",
       "SkinID (not edited)": 2777422630,
       "Price": {
-        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
-        "Price (if the economy method is 0, 1, 2)": 0.0,
+        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 0,
+        "Price (if the economy method is 0, 1, 2)": 400.0,
         "List of items, 3 maximum (if the economy method is 3)": [
           {
             "ShortName": "wood",
@@ -970,8 +970,8 @@
       "ShortName (not edited)": "wall.frame.netting",
       "SkinID (not edited)": 2777422812,
       "Price": {
-        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
-        "Price (if the economy method is 0, 1, 2)": 0.0,
+        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 0,
+        "Price (if the economy method is 0, 1, 2)": 500.0,
         "List of items, 3 maximum (if the economy method is 3)": [
           {
             "ShortName": "wood",

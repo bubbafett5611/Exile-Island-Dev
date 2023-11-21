@@ -6,10 +6,10 @@
     "m"
   ],
   "Quick Sell Commands": {
-    "sell": "rp"
+    "sell": "economics"
   },
   "Quick List Commands": {
-    "list": "rp"
+    "list": "economics"
   },
   "Currency Deposit Commands": {},
   "Admin Command": "curr",
@@ -32,106 +32,13 @@
       "Icon URL": "",
       "Other Currency Plugin": "Economics",
       "Currency Symbol": "${0}",
-      "Can Transfer": false,
-      "Can Deposit": false,
-      "Count Deposit Item As Currency From Inventory": false,
-      "Format Currency Amount": true,
-      "Take X Percentage Of Player's Balance On Map Wipe (0 to disable)": 0.0,
-      "Config Generation - Generate With All Default Items": false,
-      "Shop Discount Permission (percentage)": {},
-      "Deposit Item": {
-        "Allow Withdraw": false,
-        "Shortname": "",
-        "Skin": 0,
-        "Icon URL (if skin not 0)": "",
-        "Value": 1,
-        "Display Name": ""
-      },
-      "NPC List (and their categories)": {},
-      "Stock Market Configuration": {
-        "Enabled": false,
-        "Wipe Buy Listings Data On Wipe": false,
-        "Wipe Sell Listings Data On Wipe": false,
-        "Wipe Bank Data On Wipe": false,
-        "Enable All Items Category": true,
-        "Enabled Bank": false,
-        "Bank Permission": "",
-        "Enable Favourite Tab": true,
-        "Favourite Permission": "",
-        "Max Price Per Item (0, to disable)": 0,
-        "Server Offer Price Update Interval (in minutes)": 30,
-        "Web Price API - Enabled": false,
-        "Web Price API - Link": "",
-        "Default Selected Category": "",
-        "Overwrite Category Order": false,
-        "Category Priority Order": [],
-        "NPC List": [],
-        "Always Run Timer On Hour Minute": [],
-        "Blacklisted Category Item Shortnames": [],
-        "Multiplier Events": {}
-      },
-      "Wipe Currency On Wipe": false
-    },
-    "gold": {
-      "Required Permission": "",
-      "Icon URL": "",
-      "Other Currency Plugin": "",
-      "Currency Symbol": "{0} Gold",
-      "Can Transfer": false,
-      "Can Deposit": false,
-      "Count Deposit Item As Currency From Inventory": false,
-      "Format Currency Amount": true,
-      "Take X Percentage Of Player's Balance On Map Wipe (0 to disable)": 0.0,
-      "Config Generation - Generate With All Default Items": false,
-      "Shop Discount Permission (percentage)": {},
-      "Deposit Item": {
-        "Allow Withdraw": false,
-        "Shortname": "",
-        "Skin": 0,
-        "Icon URL (if skin not 0)": "",
-        "Value": 1,
-        "Display Name": ""
-      },
-      "NPC List (and their categories)": {},
-      "Stock Market Configuration": {
-        "Enabled": false,
-        "Wipe Buy Listings Data On Wipe": false,
-        "Wipe Sell Listings Data On Wipe": false,
-        "Wipe Bank Data On Wipe": false,
-        "Enable All Items Category": true,
-        "Enabled Bank": false,
-        "Bank Permission": "",
-        "Enable Favourite Tab": true,
-        "Favourite Permission": "",
-        "Max Price Per Item (0, to disable)": 0,
-        "Server Offer Price Update Interval (in minutes)": 30,
-        "Web Price API - Enabled": false,
-        "Web Price API - Link": "",
-        "Default Selected Category": "",
-        "Overwrite Category Order": false,
-        "Category Priority Order": [],
-        "NPC List": [],
-        "Always Run Timer On Hour Minute": [],
-        "Blacklisted Category Item Shortnames": [],
-        "Multiplier Events": {}
-      },
-      "Wipe Currency On Wipe": false
-    },
-    "rp": {
-      "Required Permission": "",
-      "Icon URL": "",
-      "Other Currency Plugin": "",
-      "Currency Symbol": "{0} RP",
       "Can Transfer": true,
-      "Can Deposit": false,
+      "Can Deposit": true,
       "Count Deposit Item As Currency From Inventory": false,
       "Format Currency Amount": true,
       "Take X Percentage Of Player's Balance On Map Wipe (0 to disable)": 0.0,
       "Config Generation - Generate With All Default Items": false,
-      "Shop Discount Permission (percentage)": {
-        "shoppystock.discount.premium": 15.0,
-        "shoppystock.discount.vip": 5.0
-      },
+      "Shop Discount Permission (percentage)": {},
       "Deposit Item": {
         "Allow Withdraw": false,
         "Shortname": "",
@@ -142,13 +49,13 @@
       },
       "NPC List (and their categories)": {},
       "Stock Market Configuration": {
-        "Enabled": true,
+        "Enabled": false,
         "Wipe Buy Listings Data On Wipe": false,
         "Wipe Sell Listings Data On Wipe": false,
         "Wipe Bank Data On Wipe": false,
         "Enable All Items Category": true,
-        "Enabled Bank": true,
-        "Bank Permission": "shoppystock.bank.rp",
+        "Enabled Bank": false,
+        "Bank Permission": "",
         "Enable Favourite Tab": true,
         "Favourite Permission": "",
         "Max Price Per Item (0, to disable)": 0,
@@ -157,53 +64,11 @@
         "Web Price API - Link": "",
         "Default Selected Category": "",
         "Overwrite Category Order": false,
-        "Category Priority Order": [
-          "TeaIngredients",
-          "Traps",
-          "Food"
-        ],
+        "Category Priority Order": [],
         "NPC List": [],
-        "Always Run Timer On Hour Minute": [
-          0,
-          30,
-          60
-        ],
-        "Blacklisted Category Item Shortnames": [
-          "Items",
-          "Construction"
-        ],
-        "Multiplier Events": {
-          "ExtremeDemand": {
-            "Negative (false), Positive (true)": true,
-            "Weight": 1,
-            "Multiplier - Minimal": 1.7,
-            "Multiplier - Maximal": 2.5
-          },
-          "HighDemand": {
-            "Negative (false), Positive (true)": true,
-            "Weight": 10,
-            "Multiplier - Minimal": 1.3,
-            "Multiplier - Maximal": 2.3
-          },
-          "NegativeDemand": {
-            "Negative (false), Positive (true)": false,
-            "Weight": 15,
-            "Multiplier - Minimal": 0.5,
-            "Multiplier - Maximal": 0.9
-          },
-          "UltraNegativeDemand": {
-            "Negative (false), Positive (true)": false,
-            "Weight": 5,
-            "Multiplier - Minimal": 0.2,
-            "Multiplier - Maximal": 0.5
-          },
-          "VeryHighDemand": {
-            "Negative (false), Positive (true)": true,
-            "Weight": 30,
-            "Multiplier - Minimal": 1.1,
-            "Multiplier - Maximal": 1.7
-          }
-        }
+        "Always Run Timer On Hour Minute": [],
+        "Blacklisted Category Item Shortnames": [],
+        "Multiplier Events": {}
       },
       "Wipe Currency On Wipe": false
     }
