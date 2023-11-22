@@ -155,18 +155,18 @@
             "Use minimum and maximum values? [true/false]": false,
             "List of items": [
               {
-                "ShortName": "ammo.rifle",
-                "Minimum": 128,
-                "Maximum": 128,
+                "ShortName": "scrap",
+                "Minimum": 100,
+                "Maximum": 100,
                 "Chance probability [0.0-100.0]": 100.0,
                 "Is this a blueprint? [true/false]": false,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
               },
               {
-                "ShortName": "scrap",
-                "Minimum": 100,
-                "Maximum": 100,
+                "ShortName": "ammo.rifle",
+                "Minimum": 128,
+                "Maximum": 128,
                 "Chance probability [0.0-100.0]": 100.0,
                 "Is this a blueprint? [true/false]": false,
                 "SkinID (0 - default)": 0,
@@ -203,18 +203,18 @@
             "Use minimum and maximum values? [true/false]": false,
             "List of items": [
               {
-                "ShortName": "ammo.rifle",
-                "Minimum": 192,
-                "Maximum": 192,
+                "ShortName": "scrap",
+                "Minimum": 150,
+                "Maximum": 150,
                 "Chance probability [0.0-100.0]": 100.0,
                 "Is this a blueprint? [true/false]": false,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
               },
               {
-                "ShortName": "scrap",
-                "Minimum": 150,
-                "Maximum": 150,
+                "ShortName": "ammo.rifle",
+                "Minimum": 192,
+                "Maximum": 192,
                 "Chance probability [0.0-100.0]": 100.0,
                 "Is this a blueprint? [true/false]": false,
                 "SkinID (0 - default)": 0,
@@ -241,11 +241,11 @@
             "List of prefabs": [
               {
                 "Chance probability [0.0-100.0]": 50.0,
-                "Prefab path": "assets/prefabs/npc/patrol helicopter/heli_crate.prefab"
+                "Prefab path": "assets/prefabs/npc/m2bradley/bradley_crate.prefab"
               },
               {
                 "Chance probability [0.0-100.0]": 50.0,
-                "Prefab path": "assets/prefabs/npc/m2bradley/bradley_crate.prefab"
+                "Prefab path": "assets/prefabs/npc/patrol helicopter/heli_crate.prefab"
               },
               {
                 "Chance probability [0.0-100.0]": 100.0,
@@ -259,18 +259,18 @@
             "Use minimum and maximum values? [true/false]": false,
             "List of items": [
               {
-                "ShortName": "ammo.rifle",
-                "Minimum": 256,
-                "Maximum": 256,
+                "ShortName": "scrap",
+                "Minimum": 200,
+                "Maximum": 200,
                 "Chance probability [0.0-100.0]": 100.0,
                 "Is this a blueprint? [true/false]": false,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
               },
               {
-                "ShortName": "scrap",
-                "Minimum": 200,
-                "Maximum": 200,
+                "ShortName": "ammo.rifle",
+                "Minimum": 256,
+                "Maximum": 256,
                 "Chance probability [0.0-100.0]": 100.0,
                 "Is this a blueprint? [true/false]": false,
                 "SkinID (0 - default)": 0,
@@ -297,11 +297,11 @@
             "List of prefabs": [
               {
                 "Chance probability [0.0-100.0]": 50.0,
-                "Prefab path": "assets/prefabs/npc/patrol helicopter/heli_crate.prefab"
+                "Prefab path": "assets/prefabs/npc/m2bradley/bradley_crate.prefab"
               },
               {
                 "Chance probability [0.0-100.0]": 50.0,
-                "Prefab path": "assets/prefabs/npc/m2bradley/bradley_crate.prefab"
+                "Prefab path": "assets/prefabs/npc/patrol helicopter/heli_crate.prefab"
               },
               {
                 "Chance probability [0.0-100.0]": 100.0,
@@ -315,18 +315,18 @@
             "Use minimum and maximum values? [true/false]": false,
             "List of items": [
               {
-                "ShortName": "ammo.rifle",
-                "Minimum": 320,
-                "Maximum": 320,
+                "ShortName": "scrap",
+                "Minimum": 250,
+                "Maximum": 250,
                 "Chance probability [0.0-100.0]": 100.0,
                 "Is this a blueprint? [true/false]": false,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
               },
               {
-                "ShortName": "scrap",
-                "Minimum": 250,
-                "Maximum": 250,
+                "ShortName": "ammo.rifle",
+                "Minimum": 320,
+                "Maximum": 320,
                 "Chance probability [0.0-100.0]": 100.0,
                 "Is this a blueprint? [true/false]": false,
                 "SkinID (0 - default)": 0,
@@ -353,15 +353,15 @@
             "List of prefabs": [
               {
                 "Chance probability [0.0-100.0]": 100.0,
+                "Prefab path": "assets/prefabs/npc/m2bradley/bradley_crate.prefab"
+              },
+              {
+                "Chance probability [0.0-100.0]": 100.0,
                 "Prefab path": "assets/prefabs/npc/patrol helicopter/heli_crate.prefab"
               },
               {
                 "Chance probability [0.0-100.0]": 100.0,
                 "Prefab path": "assets/bundled/prefabs/radtown/crate_elite.prefab"
-              },
-              {
-                "Chance probability [0.0-100.0]": 100.0,
-                "Prefab path": "assets/prefabs/npc/m2bradley/bradley_crate.prefab"
               }
             ]
           },
@@ -370,6 +370,15 @@
             "Maximum number of items": 3,
             "Use minimum and maximum values? [true/false]": false,
             "List of items": [
+              {
+                "ShortName": "ammo.rocket.basic",
+                "Minimum": 1,
+                "Maximum": 1,
+                "Chance probability [0.0-100.0]": 50.0,
+                "Is this a blueprint? [true/false]": true,
+                "SkinID (0 - default)": 0,
+                "Name (empty - default)": ""
+              },
               {
                 "ShortName": "rocket.launcher",
                 "Minimum": 1,
@@ -398,11 +407,11 @@
                 "Name (empty - default)": ""
               },
               {
-                "ShortName": "ammo.rocket.basic",
-                "Minimum": 1,
-                "Maximum": 1,
-                "Chance probability [0.0-100.0]": 50.0,
-                "Is this a blueprint? [true/false]": true,
+                "ShortName": "scrap",
+                "Minimum": 300,
+                "Maximum": 300,
+                "Chance probability [0.0-100.0]": 100.0,
+                "Is this a blueprint? [true/false]": false,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
               },
@@ -410,15 +419,6 @@
                 "ShortName": "ammo.rifle",
                 "Minimum": 384,
                 "Maximum": 384,
-                "Chance probability [0.0-100.0]": 100.0,
-                "Is this a blueprint? [true/false]": false,
-                "SkinID (0 - default)": 0,
-                "Name (empty - default)": ""
-              },
-              {
-                "ShortName": "scrap",
-                "Minimum": 300,
-                "Maximum": 300,
                 "Chance probability [0.0-100.0]": 100.0,
                 "Is this a blueprint? [true/false]": false,
                 "SkinID (0 - default)": 0,
@@ -445,15 +445,15 @@
             "List of prefabs": [
               {
                 "Chance probability [0.0-100.0]": 100.0,
+                "Prefab path": "assets/prefabs/npc/m2bradley/bradley_crate.prefab"
+              },
+              {
+                "Chance probability [0.0-100.0]": 100.0,
                 "Prefab path": "assets/prefabs/npc/patrol helicopter/heli_crate.prefab"
               },
               {
                 "Chance probability [0.0-100.0]": 100.0,
                 "Prefab path": "assets/bundled/prefabs/radtown/crate_elite.prefab"
-              },
-              {
-                "Chance probability [0.0-100.0]": 100.0,
-                "Prefab path": "assets/prefabs/npc/m2bradley/bradley_crate.prefab"
               }
             ]
           },
@@ -462,6 +462,15 @@
             "Maximum number of items": 3,
             "Use minimum and maximum values? [true/false]": false,
             "List of items": [
+              {
+                "ShortName": "ammo.rocket.basic",
+                "Minimum": 1,
+                "Maximum": 1,
+                "Chance probability [0.0-100.0]": 50.0,
+                "Is this a blueprint? [true/false]": true,
+                "SkinID (0 - default)": 0,
+                "Name (empty - default)": ""
+              },
               {
                 "ShortName": "rocket.launcher",
                 "Minimum": 1,
@@ -490,11 +499,11 @@
                 "Name (empty - default)": ""
               },
               {
-                "ShortName": "ammo.rocket.basic",
-                "Minimum": 1,
-                "Maximum": 1,
-                "Chance probability [0.0-100.0]": 50.0,
-                "Is this a blueprint? [true/false]": true,
+                "ShortName": "scrap",
+                "Minimum": 400,
+                "Maximum": 400,
+                "Chance probability [0.0-100.0]": 100.0,
+                "Is this a blueprint? [true/false]": false,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
               },
@@ -502,15 +511,6 @@
                 "ShortName": "ammo.rifle",
                 "Minimum": 512,
                 "Maximum": 512,
-                "Chance probability [0.0-100.0]": 100.0,
-                "Is this a blueprint? [true/false]": false,
-                "SkinID (0 - default)": 0,
-                "Name (empty - default)": ""
-              },
-              {
-                "ShortName": "scrap",
-                "Minimum": 400,
-                "Maximum": 400,
                 "Chance probability [0.0-100.0]": 100.0,
                 "Is this a blueprint? [true/false]": false,
                 "SkinID (0 - default)": 0,
@@ -1057,6 +1057,14 @@
             "Use minimum and maximum values? [true/false]": false,
             "List of items": [
               {
+                "ShortName": "blueberries",
+                "Minimum": 20,
+                "Maximum": 20,
+                "Chance probability [0.0-100.0]": 35.0,
+                "SkinID (0 - default)": 0,
+                "Name (empty - default)": ""
+              },
+              {
                 "ShortName": "grenade.f1",
                 "Minimum": 2,
                 "Maximum": 4,
@@ -1073,10 +1081,10 @@
                 "Name (empty - default)": ""
               },
               {
-                "ShortName": "blueberries",
-                "Minimum": 20,
-                "Maximum": 20,
-                "Chance probability [0.0-100.0]": 35.0,
+                "ShortName": "ammo.rifle",
+                "Minimum": 200,
+                "Maximum": 200,
+                "Chance probability [0.0-100.0]": 100.0,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
               },
@@ -1092,14 +1100,6 @@
                 "ShortName": "scrap",
                 "Minimum": 100,
                 "Maximum": 100,
-                "Chance probability [0.0-100.0]": 100.0,
-                "SkinID (0 - default)": 0,
-                "Name (empty - default)": ""
-              },
-              {
-                "ShortName": "ammo.rifle",
-                "Minimum": 200,
-                "Maximum": 200,
                 "Chance probability [0.0-100.0]": 100.0,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
@@ -1145,6 +1145,14 @@
             "Use minimum and maximum values? [true/false]": false,
             "List of items": [
               {
+                "ShortName": "blueberries",
+                "Minimum": 20,
+                "Maximum": 20,
+                "Chance probability [0.0-100.0]": 35.0,
+                "SkinID (0 - default)": 0,
+                "Name (empty - default)": ""
+              },
+              {
                 "ShortName": "grenade.f1",
                 "Minimum": 2,
                 "Maximum": 4,
@@ -1161,10 +1169,10 @@
                 "Name (empty - default)": ""
               },
               {
-                "ShortName": "blueberries",
-                "Minimum": 20,
-                "Maximum": 20,
-                "Chance probability [0.0-100.0]": 35.0,
+                "ShortName": "ammo.rifle",
+                "Minimum": 200,
+                "Maximum": 200,
+                "Chance probability [0.0-100.0]": 100.0,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
               },
@@ -1180,14 +1188,6 @@
                 "ShortName": "scrap",
                 "Minimum": 100,
                 "Maximum": 100,
-                "Chance probability [0.0-100.0]": 100.0,
-                "SkinID (0 - default)": 0,
-                "Name (empty - default)": ""
-              },
-              {
-                "ShortName": "ammo.rifle",
-                "Minimum": 200,
-                "Maximum": 200,
                 "Chance probability [0.0-100.0]": 100.0,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
@@ -1242,6 +1242,14 @@
             "Use minimum and maximum values? [true/false]": false,
             "List of items": [
               {
+                "ShortName": "blueberries",
+                "Minimum": 30,
+                "Maximum": 40,
+                "Chance probability [0.0-100.0]": 35.0,
+                "SkinID (0 - default)": 0,
+                "Name (empty - default)": ""
+              },
+              {
                 "ShortName": "grenade.f1",
                 "Minimum": 4,
                 "Maximum": 6,
@@ -1258,10 +1266,10 @@
                 "Name (empty - default)": ""
               },
               {
-                "ShortName": "blueberries",
-                "Minimum": 30,
-                "Maximum": 40,
-                "Chance probability [0.0-100.0]": 35.0,
+                "ShortName": "ammo.rifle",
+                "Minimum": 400,
+                "Maximum": 400,
+                "Chance probability [0.0-100.0]": 100.0,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
               },
@@ -1277,14 +1285,6 @@
                 "ShortName": "scrap",
                 "Minimum": 200,
                 "Maximum": 200,
-                "Chance probability [0.0-100.0]": 100.0,
-                "SkinID (0 - default)": 0,
-                "Name (empty - default)": ""
-              },
-              {
-                "ShortName": "ammo.rifle",
-                "Minimum": 400,
-                "Maximum": 400,
                 "Chance probability [0.0-100.0]": 100.0,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
@@ -1348,6 +1348,14 @@
             "Use minimum and maximum values? [true/false]": false,
             "List of items": [
               {
+                "ShortName": "blueberries",
+                "Minimum": 30,
+                "Maximum": 40,
+                "Chance probability [0.0-100.0]": 35.0,
+                "SkinID (0 - default)": 0,
+                "Name (empty - default)": ""
+              },
+              {
                 "ShortName": "grenade.f1",
                 "Minimum": 4,
                 "Maximum": 6,
@@ -1364,10 +1372,10 @@
                 "Name (empty - default)": ""
               },
               {
-                "ShortName": "blueberries",
-                "Minimum": 30,
-                "Maximum": 40,
-                "Chance probability [0.0-100.0]": 35.0,
+                "ShortName": "ammo.rifle",
+                "Minimum": 400,
+                "Maximum": 400,
+                "Chance probability [0.0-100.0]": 100.0,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
               },
@@ -1383,14 +1391,6 @@
                 "ShortName": "scrap",
                 "Minimum": 200,
                 "Maximum": 200,
-                "Chance probability [0.0-100.0]": 100.0,
-                "SkinID (0 - default)": 0,
-                "Name (empty - default)": ""
-              },
-              {
-                "ShortName": "ammo.rifle",
-                "Minimum": 400,
-                "Maximum": 400,
                 "Chance probability [0.0-100.0]": 100.0,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
@@ -1463,6 +1463,14 @@
             "Use minimum and maximum values? [true/false]": false,
             "List of items": [
               {
+                "ShortName": "blueberries",
+                "Minimum": 40,
+                "Maximum": 40,
+                "Chance probability [0.0-100.0]": 35.0,
+                "SkinID (0 - default)": 0,
+                "Name (empty - default)": ""
+              },
+              {
                 "ShortName": "grenade.f1",
                 "Minimum": 6,
                 "Maximum": 8,
@@ -1479,10 +1487,10 @@
                 "Name (empty - default)": ""
               },
               {
-                "ShortName": "blueberries",
-                "Minimum": 40,
-                "Maximum": 40,
-                "Chance probability [0.0-100.0]": 35.0,
+                "ShortName": "ammo.rifle",
+                "Minimum": 600,
+                "Maximum": 600,
+                "Chance probability [0.0-100.0]": 100.0,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
               },
@@ -1498,14 +1506,6 @@
                 "ShortName": "scrap",
                 "Minimum": 300,
                 "Maximum": 300,
-                "Chance probability [0.0-100.0]": 100.0,
-                "SkinID (0 - default)": 0,
-                "Name (empty - default)": ""
-              },
-              {
-                "ShortName": "ammo.rifle",
-                "Minimum": 600,
-                "Maximum": 600,
                 "Chance probability [0.0-100.0]": 100.0,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
@@ -1578,6 +1578,14 @@
             "Use minimum and maximum values? [true/false]": false,
             "List of items": [
               {
+                "ShortName": "blueberries",
+                "Minimum": 40,
+                "Maximum": 40,
+                "Chance probability [0.0-100.0]": 35.0,
+                "SkinID (0 - default)": 0,
+                "Name (empty - default)": ""
+              },
+              {
                 "ShortName": "grenade.f1",
                 "Minimum": 6,
                 "Maximum": 8,
@@ -1594,10 +1602,10 @@
                 "Name (empty - default)": ""
               },
               {
-                "ShortName": "blueberries",
-                "Minimum": 40,
-                "Maximum": 40,
-                "Chance probability [0.0-100.0]": 35.0,
+                "ShortName": "ammo.rifle",
+                "Minimum": 600,
+                "Maximum": 600,
+                "Chance probability [0.0-100.0]": 100.0,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
               },
@@ -1613,14 +1621,6 @@
                 "ShortName": "scrap",
                 "Minimum": 300,
                 "Maximum": 300,
-                "Chance probability [0.0-100.0]": 100.0,
-                "SkinID (0 - default)": 0,
-                "Name (empty - default)": ""
-              },
-              {
-                "ShortName": "ammo.rifle",
-                "Minimum": 600,
-                "Maximum": 600,
                 "Chance probability [0.0-100.0]": 100.0,
                 "SkinID (0 - default)": 0,
                 "Name (empty - default)": ""
