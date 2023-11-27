@@ -1797,7 +1797,7 @@
         },
         "Lucky Shot": {
           "Permission required to show this node": null,
-          "enabled": false,
+          "enabled": true,
           "max_level": 5,
           "tier": 3,
           "value_per_buff": 0.01,
@@ -1811,7 +1811,7 @@
         },
         "Assassin": {
           "Permission required to show this node": null,
-          "enabled": false,
+          "enabled": true,
           "max_level": 5,
           "tier": 3,
           "value_per_buff": 0.01,
@@ -1825,7 +1825,7 @@
         },
         "Guarded": {
           "Permission required to show this node": null,
-          "enabled": false,
+          "enabled": true,
           "max_level": 5,
           "tier": 3,
           "value_per_buff": 0.02,
@@ -2699,7 +2699,7 @@
     }
   },
   "Leveling information. Y value must be set to 2 or 3": {
-    "x": 0.07,
+    "x": 0.05,
     "y": 2,
     "xp_table": {
       "0": 0.0,
