@@ -3,25 +3,31 @@
     "Skill points per level": 2,
     "Maximum points a player can spend [default]": 200,
     "Modified max skill points based on permissions [must be higher than default]": {
-      "vip": 240,
+      "lifetime": 210,
+      "reject": 220,
+      "outcast": 230,
+      "exile": 240,
       "nolimit": 0
     },
     "Maximum level a player can get to": 100,
     "Allow players to respec their skill points": true,
     "Cost per point to respec [default]": 30.0,
     "Cost per point to respec based on permissions [must be lower than default]": {
-      "vip": 15.0
+      "lifetime": 27.5,
+      "reject": 25.0,
+      "outcast": 22.5,
+      "exile": 20.0
     },
     "Permission based level requirement override": {},
     "Permission based point requirement override": {},
-    "Currency type to respec [scrap, economics, srp, custom]": "scrap",
+    "Currency type to respec [scrap, economics, srp, custom]": "economics",
     "If currency is set to custom, what are the details of the item": {
       "displayName": "",
       "shortname": "",
       "skin": 0
     },
-    "Multiplier increase after each respec [0.2 = a 20% increase in the cost to respec each time. 0 = no increase] [resets on wipe or data reset]": 0.0,
-    "Maximum value that the respec multiplier can get to [0 = no limit]": 0.0,
+    "Multiplier increase after each respec [0.2 = a 20% increase in the cost to respec each time. 0 = no increase] [resets on wipe or data reset]": 0.10,
+    "Maximum value that the respec multiplier can get to [0 = no limit]": 1.5,
     "List of rewards the player receives based on level": {
       "100": {
         "List of commands and chat messages that the player receives when reaching the specified level [Left = command. Right = Private message to player]. {id} = steam ID. {name} == name.": {
@@ -224,26 +230,26 @@
       "Maximum stack of tea that the player will receive when the Tea Looter buff procs?": 1,
       "Tea looter table [shortname : drop weight]": {
         "radiationresisttea": 100,
-        "radiationresisttea.advanced": 100,
-        "radiationresisttea.pure": 100,
+        "radiationresisttea.advanced": 50,
+        "radiationresisttea.pure": 30,
         "healingtea": 100,
-        "healingtea.advanced": 100,
-        "healingtea.pure": 100,
+        "healingtea.advanced": 50,
+        "healingtea.pure": 30,
         "maxhealthtea": 100,
-        "maxhealthtea.advanced": 100,
-        "maxhealthtea.pure": 100,
+        "maxhealthtea.advanced": 50,
+        "maxhealthtea.pure": 30,
         "oretea": 100,
-        "oretea.advanced": 100,
-        "oretea.pure": 100,
+        "oretea.advanced": 50,
+        "oretea.pure": 30,
         "radiationremovetea": 100,
-        "radiationremovetea.advanced": 100,
-        "radiationremovetea.pure": 100,
+        "radiationremovetea.advanced": 50,
+        "radiationremovetea.pure": 30,
         "scraptea": 100,
-        "scraptea.advanced": 100,
-        "scraptea.pure": 100,
+        "scraptea.advanced": 50,
+        "scraptea.pure": 30,
         "woodtea": 100,
-        "woodtea.advanced": 100,
-        "woodtea.pure": 100
+        "woodtea.advanced": 50,
+        "woodtea.pure": 30
       },
       "Containers that tea can be found in": [
         "crate_normal_2_food",
@@ -259,11 +265,11 @@
     "Raid perk settings": {
       "Settings for trap_damage_reduction": {
         "Traps blacklist - will ignore the buff": [],
-        "Only allow this buff to work with raidable base traps": false
+        "Only allow this buff to work with raidable base traps": true
       },
       "Settings for trap_damage_increase": {
         "Traps blacklist - will ignore the buff": [],
-        "Only allow this buff to work with raidable base traps": false
+        "Only allow this buff to work with raidable base traps": true
       },
       "Settings for Personal_Explosive_Reduction": {
         "Prefabs blacklist - will ignore the buff": [],
@@ -271,25 +277,25 @@
       },
       "Settings for Double_Explosion_chance": {
         "Prefabs black - will not trigger with items listed here": [],
-        "Only allow this buff to work with raidable base?": false
+        "Only allow this buff to work with raidable base?": true
       },
       "Settings for Explosion_Radius": {
         "Prefabs blacklist - will ignore the buff": [],
         "Add the difference to the minimum explosion radius": true,
-        "Only allow this buff to work with raidable base?": false
+        "Only allow this buff to work with raidable base?": true
       },
       "Settings for Lock_Picker": {
         "Command required for the player to activate their lockpick ability": "picklock",
         "Time after the command has been used before the ability use expires [seconds]": 30.0,
         "Delay before the Lock_Picker ability can be used again [seconds]": 600.0,
-        "Only allow this buff to work with raidable base?": false,
+        "Only allow this buff to work with raidable base?": true,
         "Damage the player receives when they fail an attempt": 0.0,
         "Show the pick lock timer when activating the ability": true,
         "How often should the timer update": 1,
         "Set the lock to unlocked when successfully picking a lock? [false will open the entity but keep it locked]": false
       },
       "Settings for Dudless_Explosive": {
-        "Only allow this buff to work with raidable base?": false
+        "Only allow this buff to work with raidable base?": true
       },
       "Settings for Trap_Spotter": {
         "Max distance from the player to search for traps": 20.0,
@@ -297,7 +303,7 @@
         "Time that the traps will be displayed for [seconds]": 60.0,
         "Show the names of each trap prefab": true,
         "Command to perform the search": "traps",
-        "Only allow this buff to work with raidable base?": false,
+        "Only allow this buff to work with raidable base?": true,
         "Colours that the traps will be displayed in": {
           "flameturret.deployed": [
             0.851,
@@ -343,7 +349,7 @@
       "offset_min": "-48 -48",
       "offset_max": "-12 -12"
     },
-    "Allow the UnderwaterDamageBonus to function in PVP": true,
+    "Allow the UnderwaterDamageBonus to function in PVP": false,
     "Base the crafting xp on the time it takes to craft the item? [false will use blueprint craft time]": true
   },
   "Chat command settings": {
@@ -365,9 +371,9 @@
       "Allow players to go into xp debt if they lose more xp than their level would allow?": true,
       "Use the players xp (not the level xp) to calculate loss": false,
       "Death penalty grace period - players won't lose xp if they die again within the specified time [seconds]": 0.0,
-      "Percentage of xp into their current level that players lose when killed in PVP": 20.0,
-      "Percentage of xp into their current level that players lose when killed in PVE": 20.0,
-      "Percentage of xp into their current level that players lose when they suicide": 0.0,
+      "Percentage of xp into their current level that players lose when killed in PVP": 0.0,
+      "Percentage of xp into their current level that players lose when killed in PVE": 10.0,
+      "Percentage of xp into their current level that players lose when they suicide": 10.0,
       "Prevent xp loss when a player is offline?": true,
       "Permission based modifiers [1.0 = no reduced amount]": {
         "vip": 0.5
@@ -421,11 +427,11 @@
       "LootHeliCrate": 250.0,
       "LootBradleyCrate": 50.0,
       "CookingMealXP": 10.0,
-      "RaidableBaseCompletion_Easy": 100.0,
-      "RaidableBaseCompletion_Medium": 200.0,
-      "RaidableBaseCompletion_Hard": 300.0,
-      "RaidableBaseCompletion_Expert": 400.0,
-      "RaidableBaseCompletion_Nightmare": 500.0,
+      "RaidableBaseCompletion_Easy": 300.0,
+      "RaidableBaseCompletion_Medium": 350.0,
+      "RaidableBaseCompletion_Hard": 500.0,
+      "RaidableBaseCompletion_Expert": 700.0,
+      "RaidableBaseCompletion_Nightmare": 1000.0,
       "Win_HungerGames": 2000.0,
       "Win_ScubaArena": 2000.0,
       "Win_Skirmish": 2000.0,
@@ -520,15 +526,15 @@
       "electric.generator.small"
     ],
     "Power tool modifiers (chainsaw and jackhammer). 1 = full xp/buffs. 0 = off. 0.5 = half xp/buffs.": {
-      "Yield modifier when using a jackhammer to mine": 0.25,
-      "Yield modifier when using a chainsaw to chop wood": 0.25,
-      "Yield modifier when using a power tool to skin": 0.25,
-      "XP modifier when using a jackhammer to mine": 0.25,
-      "XP modifier when using a chainsaw to chop wood": 0.25,
-      "XP modifier when using a power tool to skin": 0.25,
-      "Luck modifier when using a jackhammer to mine": 0.25,
-      "Luck modifier when using a chainsaw to chop wood": 0.25,
-      "Luck modifier when using a power tool to skin": 0.25
+      "Yield modifier when using a jackhammer to mine": 0.5,
+      "Yield modifier when using a chainsaw to chop wood": 0.5,
+      "Yield modifier when using a power tool to skin": 0.5,
+      "XP modifier when using a jackhammer to mine": 0.5,
+      "XP modifier when using a chainsaw to chop wood": 0.5,
+      "XP modifier when using a power tool to skin": 0.5,
+      "Luck modifier when using a jackhammer to mine": 0.5,
+      "Luck modifier when using a chainsaw to chop wood": 0.5,
+      "Luck modifier when using a power tool to skin": 0.5
     },
     "Extra Pockets black list - disallows items that match": [],
     "Extra Pockets white list - will only allow items that match": [],
@@ -840,7 +846,7 @@
       "Delay between each rocket when the barrage starts": 0.5,
       "Allow the Double_Explosion_chance buff to trigger with this ultimate?": false,
       "Reset the MLRS strike cool down on respec?": false,
-      "Only allow the ultimate to work in RaidableBase Zones?": false,
+      "Only allow the ultimate to work in RaidableBase Zones?": true,
       "Prevent multiple players using the MLRS ability at the same location?": true,
       "Radius from the strike centre point that will disallow additional strikes": 60.0,
       "Time that strikes will be prevented in that location [seconds]": 1800.0,
@@ -1421,7 +1427,7 @@
         },
         "Extra pockets": {
           "Permission required to show this node": null,
-          "enabled": true,
+          "enabled": false,
           "max_level": 5,
           "tier": 2,
           "value_per_buff": 2.0,
@@ -1791,7 +1797,7 @@
         },
         "Lucky Shot": {
           "Permission required to show this node": null,
-          "enabled": true,
+          "enabled": false,
           "max_level": 5,
           "tier": 3,
           "value_per_buff": 0.01,
@@ -1805,7 +1811,7 @@
         },
         "Assassin": {
           "Permission required to show this node": null,
-          "enabled": true,
+          "enabled": false,
           "max_level": 5,
           "tier": 3,
           "value_per_buff": 0.01,
@@ -1819,7 +1825,7 @@
         },
         "Guarded": {
           "Permission required to show this node": null,
-          "enabled": true,
+          "enabled": false,
           "max_level": 5,
           "tier": 3,
           "value_per_buff": 0.02,
