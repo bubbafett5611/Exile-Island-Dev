@@ -5,10 +5,10 @@
   "Presets": [
     {
       "Enabled? [true/false]": true,
-      "Minimum numbers - Day": 13,
-      "Maximum numbers - Day": 18,
-      "Minimum numbers - Night": 10,
-      "Maximum numbers - Night": 15,
+      "Minimum numbers - Day": 5,
+      "Maximum numbers - Day": 10,
+      "Minimum numbers - Night": 5,
+      "Maximum numbers - Night": 10,
       "NPCs setting": {
         "Names": [
           "Oilman"
@@ -21,7 +21,7 @@
         "Target Memory Duration [sec.]": 60.0,
         "Scale damage": 0.5,
         "Aim Cone Scale": 1.0,
-        "Detect the target only in the NPC's viewing vision cone? [true/false]": false,
+        "Detect the target only in the NPC's viewing vision cone? [true/false]": true,
         "Vision Cone": 135.0,
         "Speed": 7.5,
         "Minimum time of appearance after death (not used for Events) [sec.]": 1500.0,
@@ -151,10 +151,10 @@
     },
     {
       "Enabled? [true/false]": true,
-      "Minimum numbers - Day": 13,
-      "Maximum numbers - Day": 18,
-      "Minimum numbers - Night": 10,
-      "Maximum numbers - Night": 15,
+      "Minimum numbers - Day": 5,
+      "Maximum numbers - Day": 10,
+      "Minimum numbers - Night": 5,
+      "Maximum numbers - Night": 10,
       "NPCs setting": {
         "Names": [
           "Oilman"
@@ -167,7 +167,7 @@
         "Target Memory Duration [sec.]": 60.0,
         "Scale damage": 0.5,
         "Aim Cone Scale": 1.0,
-        "Detect the target only in the NPC's viewing vision cone? [true/false]": false,
+        "Detect the target only in the NPC's viewing vision cone? [true/false]": true,
         "Vision Cone": 135.0,
         "Speed": 7.5,
         "Minimum time of appearance after death (not used for Events) [sec.]": 1500.0,

@@ -1,5 +1,5 @@
 {
-  "ID": null,
+  "ID": "",
   "Enabled? [true/false]": true,
   "Position": "(-357.76, 81.24, 826.56)",
   "Rotation": "(0.00, 0.00, 0.00)",
@@ -66,28 +66,28 @@
             "Mods": [
               "weapon.mod.flashlight"
             ],
-            "Ammo": null
+            "Ammo": ""
           },
           {
             "ShortName": "syringe.medical",
             "Amount": 2,
             "SkinID (0 - default)": 0,
             "Mods": [],
-            "Ammo": null
+            "Ammo": ""
           },
           {
             "ShortName": "largemedkit",
             "Amount": 1,
             "SkinID (0 - default)": 0,
             "Mods": [],
-            "Ammo": null
+            "Ammo": ""
           },
           {
             "ShortName": "grenade.f1",
             "Amount": 50,
             "SkinID (0 - default)": 0,
             "Mods": [],
-            "Ammo": null
+            "Ammo": ""
           }
         ],
         "Kits (it is recommended to use the previous 2 settings to improve performance)": []

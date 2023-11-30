@@ -1,7 +1,7 @@
 {
   "Enabled? [true/false]": true,
   "The size of the monument": "(130.0, 40.0, 105.0)",
-  "Remove other NPCs? [true/false]": true,
+  "Remove other NPCs? [true/false]": false,
   "Presets": [
     {
       "Enabled? [true/false]": true,
@@ -21,7 +21,7 @@
         "Target Memory Duration [sec.]": 60.0,
         "Scale damage": 1.5,
         "Aim Cone Scale": 0.8,
-        "Detect the target only in the NPC's viewing vision cone? [true/false]": false,
+        "Detect the target only in the NPC's viewing vision cone? [true/false]": true,
         "Vision Cone": 135.0,
         "Speed": 7.5,
         "Minimum time of appearance after death (not used for Events) [sec.]": 1800.0,
@@ -180,7 +180,7 @@
         "Target Memory Duration [sec.]": 30.0,
         "Scale damage": 0.7,
         "Aim Cone Scale": 2.0,
-        "Detect the target only in the NPC's viewing vision cone? [true/false]": false,
+        "Detect the target only in the NPC's viewing vision cone? [true/false]": true,
         "Vision Cone": 135.0,
         "Speed": 7.5,
         "Minimum time of appearance after death (not used for Events) [sec.]": 1800.0,

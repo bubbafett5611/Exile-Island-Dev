@@ -1,5 +1,5 @@
 {
-  "ID": null,
+  "ID": "",
   "Enabled? [true/false]": true,
   "Position": "(1819.94, 28.91, 987.23)",
   "Rotation": "(0.00, 0.00, 0.00)",
@@ -92,24 +92,6 @@
         "Use minimum and maximum values? [true/false]": true,
         "List of items": [
           {
-            "ShortName": "xmas.present.large",
-            "Minimum": 1,
-            "Maximum": 2,
-            "Chance [0.0-100.0]": 50.0,
-            "Is this a blueprint? [true/false]": false,
-            "SkinID (0 - default)": 0,
-            "Name (empty - default)": ""
-          },
-          {
-            "ShortName": "xmasdoorwreath",
-            "Minimum": 1,
-            "Maximum": 2,
-            "Chance [0.0-100.0]": 50.0,
-            "Is this a blueprint? [true/false]": false,
-            "SkinID (0 - default)": 0,
-            "Name (empty - default)": ""
-          },
-          {
             "ShortName": "xmas.lightstring",
             "Minimum": 1,
             "Maximum": 2,
@@ -135,7 +117,25 @@
             "Is this a blueprint? [true/false]": false,
             "SkinID (0 - default)": 0,
             "Name (empty - default)": ""
-          } 
+          },
+          {
+            "ShortName": "xmas.present.large",
+            "Minimum": 1,
+            "Maximum": 2,
+            "Chance [0.0-100.0]": 50.0,
+            "Is this a blueprint? [true/false]": false,
+            "SkinID (0 - default)": 0,
+            "Name (empty - default)": ""
+          },
+          {
+            "ShortName": "xmasdoorwreath",
+            "Minimum": 1,
+            "Maximum": 2,
+            "Chance [0.0-100.0]": 50.0,
+            "Is this a blueprint? [true/false]": false,
+            "SkinID (0 - default)": 0,
+            "Name (empty - default)": ""
+          }
         ]
       }
     }
