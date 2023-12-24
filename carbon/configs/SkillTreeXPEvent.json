@@ -1,0 +1,369 @@
+{
+  "Time between events [seconds]": 1800.0,
+  "Time between hud updates [seconds]": 3,
+  "Event settings": {
+    "NodeHitFinal": {
+      "Chance for this source to be selected [weight system][0=off]": 100,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 3099594829,
+      "Item id": 1751045826
+    },
+    "TreeHitFinal": {
+      "Chance for this source to be selected [weight system][0=off]": 100,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2668843336,
+      "Item id": 1751045826
+    },
+    "SkinHitFinal": {
+      "Chance for this source to be selected [weight system][0=off]": 100,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2806645341,
+      "Item id": 1751045826
+    },
+    "CollectWildEntities": {
+      "Chance for this source to be selected [weight system][0=off]": 100,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 3099597204,
+      "Item id": 1751045826
+    },
+    "CollectWildBerries": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 0,
+      "Item id": 1272194103
+    },
+    "CollectWildHemp": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 0,
+      "Item id": -858312878
+    },
+    "CollectWildPumpkin": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 0,
+      "Item id": -567909622
+    },
+    "CollectWildPotato": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 0,
+      "Item id": -2086926071
+    },
+    "CollectWildCorn": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 0,
+      "Item id": 1367190888
+    },
+    "CollectMushrooms": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2668914545,
+      "Item id": 1751045826
+    },
+    "CollectOreNodes": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 3099600356,
+      "Item id": 1751045826
+    },
+    "CollectGrownEntities": {
+      "Chance for this source to be selected [weight system][0=off]": 25,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2668906806,
+      "Item id": 1751045826
+    },
+    "CollectGrownBerries": {
+      "Chance for this source to be selected [weight system][0=off]": 10,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 0,
+      "Item id": 1272194103
+    },
+    "CollectGrownHemp": {
+      "Chance for this source to be selected [weight system][0=off]": 10,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 0,
+      "Item id": -858312878
+    },
+    "CollectGrownCorn": {
+      "Chance for this source to be selected [weight system][0=off]": 10,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 0,
+      "Item id": 1367190888
+    },
+    "CollectGrownPotato": {
+      "Chance for this source to be selected [weight system][0=off]": 10,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 0,
+      "Item id": -2086926071
+    },
+    "CollectGrownPumpkin": {
+      "Chance for this source to be selected [weight system][0=off]": 10,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 0,
+      "Item id": -567909622
+    },
+    "SkinWolfFinal": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2806645092,
+      "Item id": 1751045826
+    },
+    "SkinBearFinal": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2806645547,
+      "Item id": 1751045826
+    },
+    "SkinChickenFinal": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2806645341,
+      "Item id": 1751045826
+    },
+    "SkinBoarFinal": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2806645796,
+      "Item id": 1751045826
+    },
+    "SkinStagFinal": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2806645210,
+      "Item id": 1751045826
+    },
+    "SkinPolarBearFinal": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2806644689,
+      "Item id": 1751045826
+    },
+    "CatchAnyFish": {
+      "Chance for this source to be selected [weight system][0=off]": 100,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 3099603674,
+      "Item id": 1751045826
+    },
+    "KillScientist": {
+      "Chance for this source to be selected [weight system][0=off]": 100,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 3099607227,
+      "Item id": 1751045826
+    },
+    "KillTunnelDweller": {
+      "Chance for this source to be selected [weight system][0=off]": 100,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 3099613770,
+      "Item id": 1751045826
+    },
+    "KillUnderwaterDweller": {
+      "Chance for this source to be selected [weight system][0=off]": 100,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.5,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 3099620500,
+      "Item id": 1751045826
+    },
+    "KillAnyAnimal": {
+      "Chance for this source to be selected [weight system][0=off]": 100,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2806645341,
+      "Item id": 1751045826
+    },
+    "KillBear": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.5,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2806645547,
+      "Item id": 1751045826
+    },
+    "KillStag": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.5,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2806645210,
+      "Item id": 1751045826
+    },
+    "KillBoar": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.5,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2806645796,
+      "Item id": 1751045826
+    },
+    "KillChicken": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.5,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2806645341,
+      "Item id": 1751045826
+    },
+    "KillWolf": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.5,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2806645092,
+      "Item id": 1751045826
+    },
+    "KillPolarBear": {
+      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.5,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 2806644689,
+      "Item id": 1751045826
+    },
+    "LootCrate": {
+      "Chance for this source to be selected [weight system][0=off]": 100,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 3099621428,
+      "Item id": 1751045826
+    },
+    "BreakBarrel": {
+      "Chance for this source to be selected [weight system][0=off]": 100,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 3099626605,
+      "Item id": 1751045826
+    },
+    "BreakRoadSign": {
+      "Chance for this source to be selected [weight system][0=off]": 100,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 3099628039,
+      "Item id": 1751045826
+    },
+    "SwipeCard": {
+      "Chance for this source to be selected [weight system][0=off]": 100,
+      "Minimum multiplier to roll": 0.8,
+      "Maximum multiplier to roll": 1.2,
+      "Minimum duration for the event to run [seconds]": 300,
+      "Maximum duration for the event to run [seconds]": 1200,
+      "Skin ID that appears in the popup": 3099628631,
+      "Item id": 1751045826
+    }
+  },
+  "Notification settings": {
+    "Hud hint notification settings": {
+      "Send event notifications via hud hint?": true,
+      "Hud hint duration [seconds]": 10.0,
+      "Hex colour code for the hud hint": "62d507"
+    },
+    "UINotify settings": {
+      "Send event notifications via UINotify?": true,
+      "Notification type": 0
+    },
+    "Chat notification settings": {
+      "Send event notifications via chat message?": true,
+      "Hex colour code of the message [null or empty is vanilla]": "62d507"
+    }
+  },
+  "UI anchor settings": {
+    "anchor_min": "1 1",
+    "anchor_max": "1 1",
+    "offset_min": "-164.865 -52",
+    "offset_max": "-7.135 -8"
+  }
+}

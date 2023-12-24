@@ -1,0 +1,37 @@
+{
+  "Enabled": true,
+  "Config": {
+    "OvenSpeedOverride": 0.5,
+    "OvenSpeedBlacklistedOverride": 0.5,
+    "OvenSpeedOverrideBlacklist (prefab shortname, type)": [
+      "lantern.deployed",
+      "tunalight.deployed",
+      "chineselantern.deployed"
+    ],
+    "Quarry": {
+      "*": 1.0
+    },
+    "Excavator": {
+      "*": 1.0
+    },
+    "Pickup": {
+      "*": 5.0,
+      "seed.black.berry": 5.0,
+      "seed.blue.berry": 5.0,
+      "seed.corn": 5.0,
+      "seed.green.berry": 5.0,
+      "seed.hemp": 5.0,
+      "seed.potato": 5.0,
+      "seed.pumpkin": 5.0,
+      "seed.red.berry": 5.0,
+      "seed.white.berry": 5.0,
+      "seed.yellow.berry": 5.0
+    },
+    "Gather": {
+      "*": 5.0,
+      "skull.wolf": 5.0,
+      "skull.human": 5.0
+    }
+  },
+  "Version": "1975352340"
+}

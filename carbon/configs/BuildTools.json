@@ -1,0 +1,500 @@
+{
+  "Remove Commands": [
+    "remove"
+  ],
+  "Upgrade Commands": [
+    "up",
+    "building.upgrade"
+  ],
+  "Downgrade Commands": [
+    "down",
+    "down.grade"
+  ],
+  "Settings Commands": [
+    "bskin",
+    "buildingskin",
+    "bsettings"
+  ],
+  "Work with Notify?": true,
+  "Work with PersonalVaultDoor?": true,
+  "Work with LangAPI?": true,
+  "Use hammer hit actions on entity?": true,
+  "Switching between modes with a middle click?": false,
+  "Setting Modes": [
+    {
+      "Enabled": true,
+      "Icon (assets/url)": "assets/icons/clear.png",
+      "Type (Remove/Wood/Stone/Metal/TopTier)": "Remove",
+      "Permission (ex: buildtools.1)": "",
+      "Enable skins?": false,
+      "Skins": []
+    },
+    {
+      "Enabled": true,
+      "Icon (assets/url)": "assets/icons/level_wood.png",
+      "Type (Remove/Wood/Stone/Metal/TopTier)": "Wood",
+      "Permission (ex: buildtools.1)": "",
+      "Enable skins?": true,
+      "Skins": [
+        {
+          "Enabled": true,
+          "Lang Key": "SkinLegacy Wood",
+          "Permission": "",
+          "Skin": 10232,
+          "Enable colors?": false
+        },
+        {
+          "Enabled": true,
+          "Lang Key": "SkinGingerbread",
+          "Permission": "",
+          "Skin": 2,
+          "Enable colors?": false
+        }
+      ]
+    },
+    {
+      "Enabled": true,
+      "Icon (assets/url)": "assets/icons/level_stone.png",
+      "Type (Remove/Wood/Stone/Metal/TopTier)": "Stone",
+      "Permission (ex: buildtools.1)": "",
+      "Enable skins?": true,
+      "Skins": [
+        {
+          "Enabled": true,
+          "Lang Key": "SkinAdobe",
+          "Permission": "",
+          "Skin": 10220,
+          "Enable colors?": false
+        },
+        {
+          "Enabled": true,
+          "Lang Key": "SkinBrick",
+          "Permission": "",
+          "Skin": 10223,
+          "Enable colors?": false
+        },
+        {
+          "Enabled": true,
+          "Lang Key": "SkinBrutalist",
+          "Permission": "",
+          "Skin": 10225,
+          "Enable colors?": false
+        }
+      ]
+    },
+    {
+      "Enabled": true,
+      "Icon (assets/url)": "assets/icons/level_metal.png",
+      "Type (Remove/Wood/Stone/Metal/TopTier)": "Metal",
+      "Permission (ex: buildtools.1)": "",
+      "Enable skins?": true,
+      "Skins": [
+        {
+          "Enabled": true,
+          "Lang Key": "SkinContainer",
+          "Permission": "",
+          "Skin": 10221,
+          "Enable colors?": true
+        }
+      ]
+    },
+    {
+      "Enabled": true,
+      "Icon (assets/url)": "assets/icons/level_top.png",
+      "Type (Remove/Wood/Stone/Metal/TopTier)": "TopTier",
+      "Permission (ex: buildtools.1)": "",
+      "Enable skins?": false,
+      "Skins": []
+    },
+    {
+      "Enabled": true,
+      "Icon (assets/url)": "assets/icons/demolish.png",
+      "Type (Remove/Wood/Stone/Metal/TopTier)": "Down",
+      "Permission (ex: buildtools.1)": "",
+      "Enable skins?": false,
+      "Skins": []
+    }
+  ],
+  "Upgrade Settings": {
+    "Amount of upgrade entities per tick": 5,
+    "Notify the player of the required resources for upgrading a building when they do not have enough resources": false,
+    "Press Shift + Attack to Upgrade All": false,
+    "Updating building skins on right-click upgrade?": true,
+    "Skins Settings": {
+      "Enabled": true,
+      "Icon (assets/url)": "assets/icons/gear.png",
+      "Image for skins": {
+        "10220": "https://i.ibb.co/GRjNqrq/ty1gZVS.png",
+        "10221": "https://i.ibb.co/N1ZtZ1h/CSTnZ9V.png",
+        "10223": "https://i.ibb.co/6yv2gCp/SGB52rr.png",
+        "10225": "https://i.ibb.co/HgjXDCp/512fx512fdpx2x.png",
+        "10232": "https://i.ibb.co/zWcN5wR/512fx512f.png",
+        "2": "https://i.ibb.co/ZSjMHJt/gingerbread.png"
+      }
+    },
+    "Upgrade buildings while they are being built?": true,
+    "Permission to modify all entities (/command all) ": "buildtools.all",
+    "Time of action": 30,
+    "Cooldown (default | 0 - disable)": 0,
+    "Cooldowns": {
+      "buildtools.vip": 0,
+      "buildtools.premium": 0
+    },
+    "Block After Wipe (default | 0 - disable)": 0,
+    "Block After Wipe": {
+      "buildtools.vip": 0,
+      "buildtools.premium": 0
+    }
+  },
+  "Remove Settings": {
+    "Blocked items to remove (prefab – settings)": {
+      "shortname 1": [
+        {
+          "Skins (* – all)": [
+            "*"
+          ],
+          "Can remove?": false,
+          "Return Item": false,
+          "Returnable Item Percentage": 100.0
+        }
+      ],
+      "shortname 2": [
+        {
+          "Skins (* – all)": [
+            "*"
+          ],
+          "Can remove?": false,
+          "Return Item": false,
+          "Returnable Item Percentage": 100.0
+        }
+      ],
+      "shortname 3": [
+        {
+          "Skins (* – all)": [
+            "*"
+          ],
+          "Can remove?": false,
+          "Return Item": false,
+          "Returnable Item Percentage": 100.0
+        }
+      ]
+    },
+    "Return Item": true,
+    "Returnable Item Percentage": 100.0,
+    "Percentages of returnable items (permission – percent)": {
+      "buildtools.vip": 100.0,
+      "buildtools.premium": 100.0
+    },
+    "Can friends remove? (Friends)": true,
+    "Can clanmates remove? (Clans)": true,
+    "Can teammates remove?": true,
+    "Remove by cupboard? (those who are authorized in the cupboard can remove)": false,
+    "Remove container with items?": false,
+    "Condition Settings": {
+      "Default (from game)": true,
+      "Use percent?": false,
+      "Percent (value)": 0.0
+    },
+    "Block Cooldown After Spawn Settings": {
+      "Default": 36000.0,
+      "Permissions": {
+        "buildtools.vip": 34000.0,
+        "buildtools.premium": 32000.0
+      }
+    },
+    "Amount of remove entities per tick": 5,
+    "Press Shift + Attack to Remove All": false,
+    "Vision Removal": {
+      "Enabled": false,
+      "Permission": "buildtools.vision",
+      "Distance": 5.0,
+      "Crosshair": {
+        "Enabled": false,
+        "Size": 30.0,
+        "Thickness": 4.0,
+        "Color": {
+          "Opacity (0 - 100)": 100.0,
+          "HEX": "#FFFFFF"
+        },
+        "Display type (Overlay/Hud)": "Overlay"
+      }
+    },
+    "Permission to modify all entities (/command all) ": "buildtools.all",
+    "Time of action": 30,
+    "Cooldown (default | 0 - disable)": 0,
+    "Cooldowns": {
+      "buildtools.vip": 0,
+      "buildtools.premium": 0
+    },
+    "Block After Wipe (default | 0 - disable)": 0,
+    "Block After Wipe": {
+      "buildtools.vip": 0,
+      "buildtools.premium": 0
+    }
+  },
+  "Downgrade Settings": {
+    "Blocked items to downgrade (prefab – skins, but '*' - all skins)": {
+      "shortname 1": [
+        "*"
+      ],
+      "shortname 2": [
+        "*"
+      ],
+      "shortname 3": [
+        "*"
+      ]
+    },
+    "Can friends downgrade? (Friends)": true,
+    "Can clanmates downgrade? (Clans)": true,
+    "Can teammates downgrade?": true,
+    "Amount of downgrade entities per tick": 5,
+    "Press Shift + Attack to Downgrade All": false,
+    "Permission to modify all entities (/command all) ": "buildtools.all",
+    "Time of action": 30,
+    "Cooldown (default | 0 - disable)": 0,
+    "Cooldowns": {
+      "buildtools.vip": 0,
+      "buildtools.premium": 0
+    },
+    "Block After Wipe (default | 0 - disable)": 0,
+    "Block After Wipe": {
+      "buildtools.vip": 0,
+      "buildtools.premium": 0
+    }
+  },
+  "Block Settings": {
+    "Work with NoEscape?": true,
+    "Work with Clans? (clan members will be able to delete/upgrade)": true,
+    "Work with Friends? (friends will be able to delete/upgrade)": true,
+    "Can those authorized in the cupboard delete/upgrade?": true,
+    "Is an upgrade/remove cupboard required?": false
+  },
+  "UI Settings": {
+    "Display type (Overlay/Hud)": "Overlay",
+    "Color 1": {
+      "Opacity (0 - 100)": 100.0,
+      "HEX": "#4B68FF"
+    },
+    "Color 2": {
+      "Opacity (0 - 100)": 100.0,
+      "HEX": "#2C2C2C"
+    },
+    "Color 3": {
+      "Opacity (0 - 100)": 100.0,
+      "HEX": "#B64040"
+    },
+    "Offset Y": 0.0,
+    "Offset X": 0.0,
+    "Progress Title Text Size": 12,
+    "Progress Title Text Color": {
+      "Opacity (0 - 100)": 60.0,
+      "HEX": "#FFFFFF"
+    },
+    "Settings Background Color": {
+      "Opacity (0 - 100)": 100.0,
+      "HEX": "#0E0E10"
+    },
+    "Settings Header Color": {
+      "Opacity (0 - 100)": 100.0,
+      "HEX": "#161617"
+    },
+    "Settings Image Background Color": {
+      "Opacity (0 - 100)": 100.0,
+      "HEX": "#161617"
+    },
+    "Settings Selected Color": {
+      "Opacity (0 - 100)": 100.0,
+      "HEX": "#4B68FF"
+    },
+    "Settings Not Selected Color": {
+      "Opacity (0 - 100)": 100.0,
+      "HEX": "#242425"
+    },
+    "Settings Text Color": {
+      "Opacity (0 - 100)": 100.0,
+      "HEX": "#FFFFFF"
+    },
+    "Panel Background": {
+      "Sprite": "",
+      "Material": "",
+      "Image": "",
+      "Color": {
+        "Opacity (0 - 100)": 100.0,
+        "HEX": "#2C2C2C"
+      },
+      "AnchorMin": "0 0",
+      "AnchorMax": "1 1",
+      "OffsetMin": "50 50",
+      "OffsetMax": "200 80"
+    },
+    "Panel Cancel Button": {
+      "Button Color": {
+        "Opacity (0 - 100)": 0.0,
+        "HEX": "#000000"
+      },
+      "Sprite": "",
+      "Material": "",
+      "Image": "",
+      "Image Color": {
+        "Opacity (0 - 100)": 100.0,
+        "HEX": "#FFFFFF"
+      },
+      "Font Size": 14,
+      "Is Bold?": false,
+      "Align": "MiddleCenter",
+      "Color": {
+        "Opacity (0 - 100)": 100.0,
+        "HEX": "#FFFFFF"
+      },
+      "AnchorMin": "0 0",
+      "AnchorMax": "0 0",
+      "OffsetMin": "5 5",
+      "OffsetMax": "25 25"
+    },
+    "Panel Settings Background": {
+      "Sprite": "",
+      "Material": "",
+      "Image": "",
+      "Color": {
+        "Opacity (0 - 100)": 100.0,
+        "HEX": "#2C2C2C"
+      },
+      "AnchorMin": "0 0",
+      "AnchorMax": "1 1",
+      "OffsetMin": "15 50",
+      "OffsetMax": "45 80"
+    },
+    "Panel Settings Icon": {
+      "Sprite": "assets/icons/gear.png",
+      "Material": "",
+      "Image": "",
+      "Color": {
+        "Opacity (0 - 100)": 100.0,
+        "HEX": "#FFFFFF"
+      },
+      "AnchorMin": "0 0",
+      "AnchorMax": "1 1",
+      "OffsetMin": "5 5",
+      "OffsetMax": "-5 -5"
+    },
+    "Skins": {
+      "Tab Up Indent": 15.0,
+      "Tab Height": 20.0,
+      "Tab Width": 80.0,
+      "Tab Margin": 5.0,
+      "Image Left Indent": -22.5,
+      "Image Up Indent": 60.0,
+      "Image Height": 190.0,
+      "Image Width": 190.0,
+      "Mode Up Indent": 60.0,
+      "Mode Height": 40.0,
+      "Mode Width": 130.0,
+      "Mode Margin": 15.0,
+      "Skin Button Left Indent": -167.5,
+      "Settings Modal Background": {
+        "Sprite": "",
+        "Material": "",
+        "Image": "",
+        "Color": {
+          "Opacity (0 - 100)": 100.0,
+          "HEX": "#0E0E10"
+        },
+        "AnchorMin": "0 0",
+        "AnchorMax": "1 1",
+        "OffsetMin": "-210 -167.5",
+        "OffsetMax": "210 167.5"
+      },
+      "Select Color Button": {
+        "Button Color": {
+          "Opacity (0 - 100)": 100.0,
+          "HEX": "#FF4B4B"
+        },
+        "Sprite": "",
+        "Material": "",
+        "Image": "",
+        "Image Color": {
+          "Opacity (0 - 100)": 100.0,
+          "HEX": "#FFFFFF"
+        },
+        "Font Size": 14,
+        "Is Bold?": true,
+        "Align": "MiddleCenter",
+        "Color": {
+          "Opacity (0 - 100)": 100.0,
+          "HEX": "#FFFFFF"
+        },
+        "AnchorMin": "0.5 1",
+        "AnchorMax": "0.5 1",
+        "OffsetMin": "-22.5 -280",
+        "OffsetMax": "167.5 -255"
+      }
+    },
+    "Select Item Image": "https://i.ibb.co/pJF7XJN/search.png"
+  },
+  "Active Item Settings": {
+    "Enabled": false,
+    "Items": {
+      "hammer": {
+        "Enabled": true,
+        "Default Mode": "Remove",
+        "Ignored Skins": [
+          1196009619
+        ],
+        "Save the selected mode when closing?": false
+      },
+      "toolgun": {
+        "Enabled": true,
+        "Default Mode": "Remove",
+        "Ignored Skins": [],
+        "Save the selected mode when closing?": false
+      },
+      "building.planner": {
+        "Enabled": true,
+        "Default Mode": "Stone",
+        "Ignored Skins": [
+          1195976254
+        ],
+        "Save the selected mode when closing?": false
+      }
+    }
+  },
+  "Binds Settings": {
+    "Enabled": false,
+    "Buttons": {
+      "RELOAD": {
+        "Enabled": false,
+        "Action": "OpenOrChangeMode",
+        "Mode": "Remove",
+        "Required items in hand": [
+          "hammer",
+          "toolgun"
+        ]
+      },
+      "USE": {
+        "Enabled": false,
+        "Action": "OpenOrChangeMode",
+        "Mode": "Stone",
+        "Required items in hand": [
+          "hammer",
+          "toolgun",
+          "building.planner"
+        ]
+      },
+      "FIRE_THIRD": {
+        "Enabled": false,
+        "Action": "ChangeModeToNext",
+        "Mode": "None",
+        "Required items in hand": [
+          "hammer",
+          "toolgun",
+          "building.planner"
+        ]
+      }
+    }
+  },
+  "Version": {
+    "Major": 1,
+    "Minor": 5,
+    "Patch": 30
+  }
+}
