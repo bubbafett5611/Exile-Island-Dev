@@ -23,7 +23,7 @@
     "Patrol Heli Can Hurt Player": true,
     "Patrol Heli Can Hurt Buildings": true,
     "Player SamSite Ignore Players": true,
-    "Npc SamSite Ignore Players": true,
+    "Npc SamSite Ignore Players": false,
     "Bradley Can Hurt Players": true
   },
   "Entity Rules": {
@@ -39,12 +39,12 @@
     "Admin Can Loot All": true,
     "Teams Can Access Loot": true,
     "Player can loot other player in PVP Zones": false,
-    "Anyone can open Player called SupplyDrops": false
+    "Anyone can open Player called SupplyDrops": true
   },
   "Zone Rules": {
-    "Use ZoneManager": true,
-    "Disable PVE Rules In Zones": true,
-    "Enable PVP Delay from ZoneManager": true
+    "Use ZoneManager": false,
+    "Disable PVE Rules In Zones": false,
+    "Enable PVP Delay from ZoneManager": false
   },
   "Notifications": {
     "Prefix": "<color=#00ffff>[SimplePVE]</color>: ",
@@ -52,7 +52,7 @@
     "Show PVE Icon Overlay": false,
     "Show PVE Warning Messages": true,
     "PVE Warning Type(Chat/UI/Both)": "Chat",
-    "PVE Warning Chat Message": "You can't do damage to that!",
+    "PVE Warning Chat Message": "PVE enabled on this server, blocking damage.",
     "PVE Warning UI Settings": {
       "Anchor Min": "0.786 0.722",
       "Anchor Max": "0.99 0.815",
@@ -60,7 +60,7 @@
     },
     "Show Loot Protection Messages": true,
     "Loot Protection Type(Chat/UI/Both)": "Chat",
-    "Loot Protection Chat Message": "You can't loot that!",
+    "Loot Protection Chat Message": "This entity is protected!",
     "Loot Protection UI Settings": {
       "Anchor Min": "0.786 0.722",
       "Anchor Max": "0.99 0.815",

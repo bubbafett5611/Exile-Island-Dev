@@ -1,0 +1,5499 @@
+{
+  "default": {
+    "position": {
+      "x": "1305.176",
+      "y": "0.4266585",
+      "z": "631.1588"
+    },
+    "rotationdiff": "4.699926",
+    "rotationy": "88.22439"
+  },
+  "entities": [
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.712991",
+        "y": "2.944834",
+        "z": "1.553469"
+      },
+      "prefabname": "assets/prefabs/deployable/rug/rug.bear.deployed.prefab",
+      "rot": {
+        "x": "4.235666E-07",
+        "y": "1.55899",
+        "z": "1.693171E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 3391984,
+        "outputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Has Target",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Low Ammo",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "No Ammo",
+            "type": 0
+          }
+        ]
+      },
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.624777",
+        "y": "1.444833",
+        "z": "0.7395635"
+      },
+      "prefabname": "assets/prefabs/npc/autoturret/autoturret_deployed.prefab",
+      "rot": {
+        "x": "3.515165E-05",
+        "y": "-0.01767683",
+        "z": "-5.868405E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.533173",
+        "y": "1.87929",
+        "z": "-0.08051445"
+      },
+      "prefabname": "assets/prefabs/deployable/tuna can wall lamp/tunalight.deployed.prefab",
+      "rot": {
+        "x": "-3.49246E-09",
+        "y": "-3.160121",
+        "z": "6.28008"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.4298519",
+        "y": "-0.1551666",
+        "z": "1.483255"
+      },
+      "prefabname": "assets/prefabs/building core/roof/roof.prefab",
+      "rot": {
+        "x": "0",
+        "y": "-3.16012",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "3.423336",
+        "y": "-0.05516684",
+        "z": "1.041159"
+      },
+      "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+      "rot": {
+        "x": "1.185802E-07",
+        "y": "1.572732",
+        "z": "4.875232E-08"
+      },
+      "skinid": 2915569498
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.597369",
+        "y": "-0.1551669",
+        "z": "0.03916709"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-5.867393E-08",
+        "y": "1.552268",
+        "z": "6.052105E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.884319",
+        "y": "-0.05516648",
+        "z": "1.348204"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "1.181089E-07",
+        "y": "1.564882",
+        "z": "4.828782E-08"
+      },
+      "skinid": 2000024196
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.57067",
+        "y": "-0.05516672",
+        "z": "1.335011"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "1.776942E-07",
+        "y": "1.570774",
+        "z": "-1.133928E-08"
+      },
+      "skinid": 2000024196
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.2538334",
+        "y": "-0.0551666",
+        "z": "1.589346"
+      },
+      "prefabname": "assets/prefabs/deployable/repair bench/repairbench_deployed.prefab",
+      "rot": {
+        "x": "1.685874E-07",
+        "y": "-0.03036737",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 2473763,
+            "connectedToSlot": 1,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 3412976,
+        "outputs": [
+          {
+            "connectedID": 3419451,
+            "connectedToSlot": 1,
+            "linePoints": [
+              {
+                "x": -6.637817,
+                "y": 0.7288012,
+                "z": 3.82830954
+              },
+              {
+                "x": -6.77744961,
+                "y": -0.302610457,
+                "z": 3.76528978
+              },
+              {
+                "x": -5.95802,
+                "y": -0.259702235,
+                "z": 1.56403577
+              },
+              {
+                "x": -3.414082,
+                "y": -0.1844192,
+                "z": 0.0952210054
+              },
+              {
+                "x": -3.28009963,
+                "y": -0.279083937,
+                "z": -0.115812659
+              },
+              {
+                "x": 0.0163516551,
+                "y": -0.272185355,
+                "z": 0.00482339831
+              },
+              {
+                "x": -0.0100144371,
+                "y": -3.559845E-08,
+                "z": 5.118448E-06
+              }
+            ],
+            "niceName": "Power Out",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.851286",
+        "y": "0.2370521",
+        "z": "2.599112"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/detectors/laserdetector/laserdetector.prefab",
+      "rot": {
+        "x": "8.2935E-08",
+        "y": "1.552269",
+        "z": "6.281093"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.069818",
+        "y": "-0.1551666",
+        "z": "1.511077"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-8.690661E-08",
+        "y": "-3.16012",
+        "z": "-8.295704E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.597369",
+        "y": "1.344833",
+        "z": "0.03916709"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "3.303132E-08",
+        "y": "-0.01852846",
+        "z": "2.081294E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.569549",
+        "y": "-0.1551667",
+        "z": "1.538898"
+      },
+      "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
+      "rot": {
+        "x": "8.742278E-08",
+        "y": "1.552268",
+        "z": "-8.742278E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.389192",
+        "y": "6.69439",
+        "z": "0.04662411"
+      },
+      "prefabname": "assets/prefabs/deployable/single shot trap/guntrap.deployed.prefab",
+      "rot": {
+        "x": "1.570796",
+        "y": "-0.01817274",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved3": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 806849,
+        "outputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Has Target",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Low Ammo",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "No Ammo",
+            "type": 0
+          }
+        ]
+      },
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "dataInt": 0,
+          "id": 1588298435,
+          "items": [],
+          "magazine": {
+            "-1211166256": 2
+          },
+          "position": 0,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.4703928",
+        "y": "5.944832",
+        "z": "3.80877"
+      },
+      "prefabname": "assets/prefabs/npc/autoturret/autoturret_deployed.prefab",
+      "rot": {
+        "x": "7.046815E-07",
+        "y": "-3.140508",
+        "z": "-6.265554E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "0.3472064",
+        "y": "0.1308333",
+        "z": "1.62202"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "3.342436E-08",
+        "y": "1.534522",
+        "z": "3.168286E-07"
+      },
+      "skinid": 2000024196
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.4299129",
+        "y": "-0.1551666",
+        "z": "1.483256"
+      },
+      "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
+      "rot": {
+        "x": "0",
+        "y": "-0.01852798",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.199548",
+        "y": "1.914783",
+        "z": "-0.1498463"
+      },
+      "prefabname": "assets/prefabs/deployable/tuna can wall lamp/tunalight.deployed.prefab",
+      "rot": {
+        "x": "1.743829E-07",
+        "y": "-3.160121",
+        "z": "-6.843595E-05"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.8685497",
+        "y": "0.1308335",
+        "z": "1.585776"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "-8.60233E-08",
+        "y": "1.558081",
+        "z": "4.379126E-07"
+      },
+      "skinid": 2000024196
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.360832",
+        "y": "1.444832",
+        "z": "0.5442342"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "2.689637E-06",
+        "y": "1.496233",
+        "z": "3.46401E-05"
+      },
+      "skinid": 2000024196
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.492912",
+        "y": "-0.0551666",
+        "z": "2.014378"
+      },
+      "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
+      "rot": {
+        "x": "-8.616659E-08",
+        "y": "-3.143563",
+        "z": "-3.365574E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.435922",
+        "y": "-0.05516666",
+        "z": "2.022458"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "1.677221E-07",
+        "y": "-1.578704",
+        "z": "-8.494784E-08"
+      },
+      "skinid": 1212709764
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.929644",
+        "y": "-0.1551666",
+        "z": "1.455435"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-8.69066E-08",
+        "y": "-0.01852798",
+        "z": "-8.295705E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.401553",
+        "y": "-0.1551666",
+        "z": "-0.07211643"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "5.867393E-08",
+        "y": "1.552268",
+        "z": "-6.052105E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.371306",
+        "y": "1.087823",
+        "z": "0.02846657"
+      },
+      "prefabname": "assets/prefabs/deployable/rug/rug.bear.deployed.prefab",
+      "rot": {
+        "x": "1.569332",
+        "y": "-0.02002382",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.401736",
+        "y": "1.344832",
+        "z": "-0.07211415"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "-2.090529E-07",
+        "y": "-0.01852655",
+        "z": "-2.656652E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 3422137,
+            "connectedToSlot": 1,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 3396786,
+        "outputs": []
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.475036",
+        "y": "2.644578",
+        "z": "0.02658531"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/teslacoil/teslacoil.deployed.prefab",
+      "rot": {
+        "x": "1.570796",
+        "y": "-0.01828146",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.429374",
+        "y": "-0.1551667",
+        "z": "1.427614"
+      },
+      "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
+      "rot": {
+        "x": "8.742278E-08",
+        "y": "-1.589324",
+        "z": "-8.742278E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 3422137,
+            "connectedToSlot": 2,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 3396751,
+        "outputs": []
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.36197",
+        "y": "-0.05516672",
+        "z": "0.1506742"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/teslacoil/teslacoil.deployed.prefab",
+      "rot": {
+        "x": "1.233872E-07",
+        "y": "-0.05892038",
+        "z": "1.148795E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.4577338",
+        "y": "-0.1551666",
+        "z": "2.982987"
+      },
+      "prefabname": "assets/prefabs/building/door.double.hinged/door.double.hinged.metal.prefab",
+      "rot": {
+        "x": "-9.078157E-08",
+        "y": "1.552268",
+        "z": "-8.80109E-08"
+      },
+      "skinid": 2869129241
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.4855546",
+        "y": "-0.1551667",
+        "z": "4.482718"
+      },
+      "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
+      "rot": {
+        "x": "8.742278E-08",
+        "y": "-0.01852798",
+        "z": "-8.742277E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved2": true,
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 2473718,
+            "connectedToSlot": 1,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 2470558,
+        "outputs": [
+          {
+            "connectedID": 2478683,
+            "connectedToSlot": 1,
+            "linePoints": [
+              {
+                "x": -0.10387776,
+                "y": -1.98434269,
+                "z": -1.49642467
+              },
+              {
+                "x": -0.0489619821,
+                "y": -2.56410575,
+                "z": -1.49555755
+              },
+              {
+                "x": 0.7736022,
+                "y": -2.519001,
+                "z": -0.140239
+              },
+              {
+                "x": 0.6596713,
+                "y": 0.03925091,
+                "z": -0.165945113
+              },
+              {
+                "x": 0.363172948,
+                "y": 0.0357330665,
+                "z": 0.0172091126
+              },
+              {
+                "x": -0.08000821,
+                "y": -1.816079E-08,
+                "z": 0.100034378
+              }
+            ],
+            "niceName": "Power Out",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.526837",
+        "y": "2.511004",
+        "z": "5.863599"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/detectors/hbhfsensor/hbhfsensor.deployed.prefab",
+      "rot": {
+        "x": "0.009287274",
+        "y": "-3.16012",
+        "z": "6.243687"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved3": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 815410,
+        "outputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Has Target",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Low Ammo",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "No Ammo",
+            "type": 0
+          }
+        ]
+      },
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "dataInt": 0,
+          "id": 1588298435,
+          "items": [],
+          "magazine": {
+            "-1211166256": 2
+          },
+          "position": 0,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.5337026",
+        "y": "5.944833",
+        "z": "7.294937"
+      },
+      "prefabname": "assets/prefabs/npc/autoturret/autoturret_deployed.prefab",
+      "rot": {
+        "x": "-1.581228E-05",
+        "y": "-0.04032469",
+        "z": "3.044328E-05"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 847800,
+        "outputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Has Target",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Low Ammo",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "No Ammo",
+            "type": 0
+          }
+        ]
+      },
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.6501147",
+        "y": "1.444831",
+        "z": "12.22609"
+      },
+      "prefabname": "assets/prefabs/npc/autoturret/autoturret_deployed.prefab",
+      "rot": {
+        "x": "-3.464225E-05",
+        "y": "-3.144428",
+        "z": "-9.137329E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 847779,
+        "outputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Has Target",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Low Ammo",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "No Ammo",
+            "type": 0
+          }
+        ]
+      },
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.6586912",
+        "y": "-0.05516899",
+        "z": "12.2334"
+      },
+      "prefabname": "assets/prefabs/npc/autoturret/autoturret_deployed.prefab",
+      "rot": {
+        "x": "-2.741334E-07",
+        "y": "-3.148339",
+        "z": "4.513076E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved3": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 828185,
+        "outputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Has Target",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Low Ammo",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "No Ammo",
+            "type": 0
+          }
+        ]
+      },
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "dataInt": 0,
+          "id": 1588298435,
+          "items": [],
+          "magazine": {
+            "-1211166256": 2
+          },
+          "position": 0,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.6558635",
+        "y": "2.944829",
+        "z": "12.30356"
+      },
+      "prefabname": "assets/prefabs/npc/autoturret/autoturret_deployed.prefab",
+      "rot": {
+        "x": "-1.531123E-05",
+        "y": "-0.06601667",
+        "z": "3.189445E-05"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "0.9246848",
+        "y": "2.844831",
+        "z": "9.476151"
+      },
+      "prefabname": "assets/prefabs/building core/roof.triangle/roof.triangle.prefab",
+      "rot": {
+        "x": "-3.127565E-07",
+        "y": "1.028668",
+        "z": "1.3284E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.5928086",
+        "y": "2.84483",
+        "z": "10.3152"
+      },
+      "prefabname": "assets/prefabs/building core/roof.triangle/roof.triangle.prefab",
+      "rot": {
+        "x": "-8.43166E-08",
+        "y": "-0.01852989",
+        "z": "3.291716E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.181448",
+        "y": "-0.05516899",
+        "z": "9.615662"
+      },
+      "prefabname": "assets/prefabs/deployable/mixingtable/mixingtable.deployed.prefab",
+      "rot": {
+        "x": "-4.230954E-07",
+        "y": "-2.097029",
+        "z": "5.121302E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.666517",
+        "y": "-0.1551694",
+        "z": "9.922995"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "1.12572E-07",
+        "y": "-0.5421281",
+        "z": "3.185255E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.02136071",
+        "y": "-0.05516839",
+        "z": "9.344864"
+      },
+      "prefabname": "assets/prefabs/deployable/rug/rug.deployed.prefab",
+      "rot": {
+        "x": "2.712637E-07",
+        "y": "-3.654078",
+        "z": "4.970204E-07"
+      },
+      "skinid": 907327964
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "0.1177522",
+        "y": "-0.1551696",
+        "z": "12.49425"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-6.703598E-08",
+        "y": "-0.5421286",
+        "z": "4.572888E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "On": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 2471189,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 848713,
+        "outputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Passthrough",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.1212748",
+        "y": "1.66248",
+        "z": "11.28986"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/doormanipulators/doorcontroller.deployed.prefab",
+      "rot": {
+        "x": "-1.41561E-07",
+        "y": "-0.01852989",
+        "z": "6.221067"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.076486",
+        "y": "2.844832",
+        "z": "9.42053"
+      },
+      "prefabname": "assets/prefabs/building core/roof.triangle/roof.triangle.prefab",
+      "rot": {
+        "x": "4.082885E-07",
+        "y": "-1.065728",
+        "z": "4.503141E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.060432",
+        "y": "2.844833",
+        "z": "8.553685"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "-2.09053E-07",
+        "y": "-0.01852751",
+        "z": "-2.656638E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.334653",
+        "y": "2.844833",
+        "z": "9.867374"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "1.942622E-07",
+        "y": "-3.683718",
+        "z": "-3.182171E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "lock": {
+        "code": "1983",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.6080263",
+        "y": "-0.1551688",
+        "z": "11.18056"
+      },
+      "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
+      "rot": {
+        "x": "3.896928E-07",
+        "y": "-1.589326",
+        "z": "1.429903E-07"
+      },
+      "skinid": 2289421450
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.333793",
+        "y": "-0.1551681",
+        "z": "9.867852"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "1.807749E-08",
+        "y": "-0.5421281",
+        "z": "-7.062785E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.36801",
+        "y": "1.444833",
+        "z": "9.303183"
+      },
+      "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+      "rot": {
+        "x": "-1.729339E-05",
+        "y": "-4.184027",
+        "z": "3.009788E-05"
+      },
+      "skinid": 2915569498
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.834384",
+        "y": "-0.1551676",
+        "z": "9.839554"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "4.501989E-07",
+        "y": "-2.636524",
+        "z": "-3.214006E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.060432",
+        "y": "1.344832",
+        "z": "8.553685"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "-1.839369E-07",
+        "y": "-0.01852798",
+        "z": "-4.624334E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "0.1177522",
+        "y": "2.844831",
+        "z": "12.49425"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "4.572888E-07",
+        "y": "-2.112926",
+        "z": "6.703582E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.6080263",
+        "y": "-0.1551688",
+        "z": "11.18056"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "3.896928E-07",
+        "y": "-1.589326",
+        "z": "1.429903E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 3419451,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 3422137,
+        "outputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Power Out 1",
+            "type": 0
+          },
+          {
+            "connectedID": 3396786,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": -7.504067,
+                "y": 2.68057418,
+                "z": 6.796872
+              },
+              {
+                "x": -7.56713438,
+                "y": 3.02387476,
+                "z": 6.758514
+              },
+              {
+                "x": -6.87179852,
+                "y": 3.01769018,
+                "z": 7.934747
+              },
+              {
+                "x": -6.9234314,
+                "y": 2.84283614,
+                "z": 8.156394
+              },
+              {
+                "x": -6.830478,
+                "y": 0.0192988366,
+                "z": 8.140389
+              },
+              {
+                "x": -4.21505833,
+                "y": 0.0965449661,
+                "z": 6.58126163
+              },
+              {
+                "x": -1.56458867,
+                "y": 0.17257005,
+                "z": 4.96829033
+              },
+              {
+                "x": -0.262869,
+                "y": 0.21045889,
+                "z": 2.675501
+              },
+              {
+                "x": -0.15808332,
+                "y": 0.213509977,
+                "z": 2.352601
+              },
+              {
+                "x": -0.211226225,
+                "y": 0.896549642,
+                "z": 2.378438
+              },
+              {
+                "x": 1.15942276,
+                "y": 0.855471969,
+                "z": 0.007489443
+              },
+              {
+                "x": 4.46904451E-05,
+                "y": 0.8000013,
+                "z": 0.0299973078
+              }
+            ],
+            "niceName": "Power Out 2",
+            "type": 0
+          },
+          {
+            "connectedID": 3396751,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": -7.40445471,
+                "y": 0.0125979837,
+                "z": 6.651026
+              },
+              {
+                "x": -7.641356,
+                "y": -0.004301317,
+                "z": 6.67524242
+              },
+              {
+                "x": -6.84428167,
+                "y": 0.02571806,
+                "z": 8.14925
+              },
+              {
+                "x": -1.58895266,
+                "y": 0.1796638,
+                "z": 4.93162632
+              },
+              {
+                "x": -0.15963912,
+                "y": 0.2134647,
+                "z": 2.34545231
+              },
+              {
+                "x": -0.211997986,
+                "y": 0.889701962,
+                "z": 2.38011622
+              },
+              {
+                "x": 1.15352237,
+                "y": 0.867218435,
+                "z": 0.0135874748
+              },
+              {
+                "x": -0.11199443,
+                "y": 0.8000002,
+                "z": 0.0300141871
+              }
+            ],
+            "niceName": "Power Out 3",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.483214",
+        "y": "-0.2531874",
+        "z": "9.922087"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/splitter/splitter.prefab",
+      "rot": {
+        "x": "-7.068738E-07",
+        "y": "-2.112924",
+        "z": "6.254087"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.381979",
+        "y": "-0.1551689",
+        "z": "12.46643"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "5.525013E-07",
+        "y": "-2.636524",
+        "z": "-3.825976E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.6080263",
+        "y": "-0.1551688",
+        "z": "11.18056"
+      },
+      "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+      "rot": {
+        "x": "3.731152E-07",
+        "y": "-0.01853037",
+        "z": "-5.011124E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.6080263",
+        "y": "1.344831",
+        "z": "11.18056"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "-1.429901E-07",
+        "y": "-0.01853037",
+        "z": "3.896927E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "0.2141118",
+        "y": "2.844832",
+        "z": "7.296116"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "-1.817991E-07",
+        "y": "-0.5421267",
+        "z": "-5.617464E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "0.2141118",
+        "y": "-0.1551685",
+        "z": "7.296116"
+      },
+      "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+      "rot": {
+        "x": "3.496912E-07",
+        "y": "1.028668",
+        "z": "-1.10848E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "0.2141118",
+        "y": "-0.1551685",
+        "z": "7.296116"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-9.791829E-08",
+        "y": "-0.5421281",
+        "z": "-4.979797E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.088712",
+        "y": "-0.05516887",
+        "z": "9.761238"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "-2.547552E-07",
+        "y": "-2.087173",
+        "z": "4.912739E-08"
+      },
+      "skinid": 2000024196
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "0.9407387",
+        "y": "-0.1551688",
+        "z": "8.609306"
+      },
+      "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+      "rot": {
+        "x": "1.662711E-07",
+        "y": "-0.01852989",
+        "z": "-4.456884E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "0.6685206",
+        "y": "2.804832",
+        "z": "4.697722"
+      },
+      "prefabname": "assets/prefabs/deployable/single shot trap/guntrap.deployed.prefab",
+      "rot": {
+        "x": "-5.283125E-07",
+        "y": "0.454649",
+        "z": "3.141593"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.286467",
+        "y": "-0.1551681",
+        "z": "7.268794"
+      },
+      "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+      "rot": {
+        "x": "1.51421E-07",
+        "y": "-4.207319",
+        "z": "2.154186E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.286467",
+        "y": "2.844832",
+        "z": "7.268794"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "-2.961702E-07",
+        "y": "-4.207319",
+        "z": "-2.048348E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "0.743394",
+        "y": "-0.05516684",
+        "z": "4.828146"
+      },
+      "prefabname": "assets/prefabs/deployable/single shot trap/guntrap.deployed.prefab",
+      "rot": {
+        "x": "3.334711E-07",
+        "y": "0.4507256",
+        "z": "-5.487649E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.286467",
+        "y": "2.844832",
+        "z": "7.268794"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "-2.046047E-07",
+        "y": "-2.636523",
+        "z": "1.223944E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.509621",
+        "y": "2.944833",
+        "z": "8.611401"
+      },
+      "prefabname": "assets/prefabs/deployable/furnace/furnace.prefab",
+      "rot": {
+        "x": "-3.252998E-05",
+        "y": "-3.483069",
+        "z": "1.184231E-05"
+      },
+      "skinid": 1408433814
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.787059",
+        "y": "2.844833",
+        "z": "7.240496"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "-8.151939E-08",
+        "y": "1.02867",
+        "z": "-1.943283E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.615236",
+        "y": "1.444832",
+        "z": "7.968502"
+      },
+      "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+      "rot": {
+        "x": "1.914579E-05",
+        "y": "-4.238944",
+        "z": "2.912204E-05"
+      },
+      "skinid": 2915569498
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.286467",
+        "y": "-0.1551681",
+        "z": "7.268794"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "2.048349E-07",
+        "y": "-2.636523",
+        "z": "-2.961702E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 2473655,
+            "connectedToSlot": 1,
+            "niceName": "Electric Input",
+            "type": 0
+          },
+          {
+            "connectedID": 2478490,
+            "connectedToSlot": 1,
+            "niceName": "Toggle On",
+            "type": 0
+          }
+        ],
+        "oldID": 2471189,
+        "outputs": [
+          {
+            "connectedID": 848713,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": 2.920643,
+                "y": 2.7216692,
+                "z": 0.7890025
+              },
+              {
+                "x": 2.01177454,
+                "y": 2.90178275,
+                "z": 2.38498831
+              },
+              {
+                "x": 1.95487738,
+                "y": 1.40613389,
+                "z": 2.446102
+              },
+              {
+                "x": 1.56821108,
+                "y": 1.43017793,
+                "z": 2.38498354
+              },
+              {
+                "x": 0.227156088,
+                "y": 1.44492221,
+                "z": 0.0249769427
+              },
+              {
+                "x": -5.81442364E-05,
+                "y": 1.28999984,
+                "z": 0.0299806967
+              }
+            ],
+            "niceName": "Output",
+            "type": 0
+          }
+        ],
+        "timerLength": 10000.0
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.784814",
+        "y": "-0.135287",
+        "z": "8.382746"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/timers/timer.prefab",
+      "rot": {
+        "x": "3.004388E-07",
+        "y": "-1.06573",
+        "z": "0.001474832"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 2473660,
+            "connectedToSlot": 1,
+            "niceName": "Electric Input",
+            "type": 0
+          },
+          {
+            "connectedID": 2480128,
+            "connectedToSlot": 1,
+            "niceName": "Toggle On",
+            "type": 0
+          }
+        ],
+        "oldID": 2471202,
+        "outputs": [
+          {
+            "connectedID": 839194,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": -2.34787178,
+                "y": 2.479372,
+                "z": -6.89296436
+              },
+              {
+                "x": -2.1660378,
+                "y": 2.49862957,
+                "z": -6.802222
+              },
+              {
+                "x": -2.14058614,
+                "y": 0.143998429,
+                "z": -6.79733372
+              },
+              {
+                "x": -5.06642342,
+                "y": 0.09933324,
+                "z": -1.57106376
+              },
+              {
+                "x": -4.929406,
+                "y": 0.100321934,
+                "z": -1.3379879
+              },
+              {
+                "x": -2.34351468,
+                "y": 0.118982747,
+                "z": 0.107350178
+              },
+              {
+                "x": -2.35680628,
+                "y": 1.286932,
+                "z": 0.0782088
+              },
+              {
+                "x": -4.62643075E-05,
+                "y": 1.28999984,
+                "z": 0.029978117
+              }
+            ],
+            "niceName": "Output",
+            "type": 0
+          }
+        ],
+        "timerLength": 10.0
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.981836",
+        "y": "-0.1710583",
+        "z": "8.026409"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/timers/timer.prefab",
+      "rot": {
+        "x": "2.752058E-07",
+        "y": "-1.06573",
+        "z": "6.275969"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 2473734,
+            "connectedToSlot": 1,
+            "niceName": "Electric Input",
+            "type": 0
+          },
+          {
+            "connectedID": 2480128,
+            "connectedToSlot": 0,
+            "niceName": "Toggle On",
+            "type": 0
+          }
+        ],
+        "oldID": 2480063,
+        "outputs": [
+          {
+            "connectedID": 3361794,
+            "connectedToSlot": 1,
+            "linePoints": [
+              {
+                "x": 0.701184452,
+                "y": 0.35077545,
+                "z": 1.85929251
+              },
+              {
+                "x": 0.677819,
+                "y": 0.1407786,
+                "z": 1.82162237
+              },
+              {
+                "x": 1.25125492,
+                "y": 0.177477658,
+                "z": 0.0136171356
+              },
+              {
+                "x": 1.14355767,
+                "y": 1.257689,
+                "z": 0.0135869766
+              },
+              {
+                "x": -3.26763329E-05,
+                "y": 1.29,
+                "z": 0.03000674
+              }
+            ],
+            "niceName": "Output",
+            "type": 0
+          }
+        ],
+        "timerLength": 10000.0
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.8275991",
+        "y": "-0.1760473",
+        "z": "8.833632"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/timers/timer.prefab",
+      "rot": {
+        "x": "-7.058406E-07",
+        "y": "-2.112927",
+        "z": "0.0001480924"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.787059",
+        "y": "1.344832",
+        "z": "7.240496"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "-5.192059E-08",
+        "y": "1.028669",
+        "z": "-1.824156E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.736778",
+        "y": "-0.05516803",
+        "z": "8.124326"
+      },
+      "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+      "rot": {
+        "x": "-5.368136E-08",
+        "y": "-1.036583",
+        "z": "-9.251143E-08"
+      },
+      "skinid": 2915569498
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.787059",
+        "y": "-0.1551678",
+        "z": "7.240496"
+      },
+      "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+      "rot": {
+        "x": "2.942674E-07",
+        "y": "1.028669",
+        "z": "9.59967E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.333793",
+        "y": "-0.1551681",
+        "z": "9.867852"
+      },
+      "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+      "rot": {
+        "x": "-4.136892E-07",
+        "y": "-2.112926",
+        "z": "-1.279949E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "0.1667864",
+        "y": "-0.1551687",
+        "z": "9.895174"
+      },
+      "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+      "rot": {
+        "x": "-2.154193E-07",
+        "y": "-1.065728",
+        "z": "-4.542618E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 2460771,
+            "connectedToSlot": 0,
+            "niceName": "Electric Input",
+            "type": 0
+          },
+          {
+            "connectedID": 3412976,
+            "connectedToSlot": 0,
+            "niceName": "Toggle On",
+            "type": 0
+          }
+        ],
+        "oldID": 3419451,
+        "outputs": [
+          {
+            "connectedID": 3422137,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": 0.592332244,
+                "y": 1.25233185,
+                "z": 0.0301039927
+              },
+              {
+                "x": 5.34690043E-05,
+                "y": 1.29000044,
+                "z": 0.0299840048
+              }
+            ],
+            "niceName": "Output",
+            "type": 0
+          }
+        ],
+        "timerLength": 10.0
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.194007",
+        "y": "-0.06141043",
+        "z": "9.442127"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/timers/timer.prefab",
+      "rot": {
+        "x": "-7.292256E-07",
+        "y": "-2.112927",
+        "z": "6.275285"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "branchAmount": 2,
+        "inputs": [
+          {
+            "connectedID": 2473682,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 2473718,
+        "outputs": [
+          {
+            "connectedID": 2473734,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": -0.19376348,
+                "y": -0.125339881,
+                "z": 0.0300472584
+              },
+              {
+                "x": -0.02996181,
+                "y": 0.130000025,
+                "z": 0.030047344
+              }
+            ],
+            "niceName": "Power Out",
+            "type": 0
+          },
+          {
+            "connectedID": 2470558,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": 2.481536,
+                "y": 1.59177208,
+                "z": 2.948955
+              },
+              {
+                "x": 2.55362153,
+                "y": 1.62255776,
+                "z": 2.672893
+              },
+              {
+                "x": 2.560491,
+                "y": -0.829721153,
+                "z": 2.66658187
+              },
+              {
+                "x": 2.41111612,
+                "y": -0.950377,
+                "z": 2.2972095
+              },
+              {
+                "x": 0.8940187,
+                "y": -0.951758564,
+                "z": 0.0343907662
+              },
+              {
+                "x": 0.9209501,
+                "y": 0.120417409,
+                "z": 0.0136268176
+              },
+              {
+                "x": 0.0300324187,
+                "y": 0.13,
+                "z": 0.0300374888
+              }
+            ],
+            "niceName": "Branch Out",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.984207",
+        "y": "0.9174062",
+        "z": "9.362014"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/gates/branch/electrical.branch.deployed.prefab",
+      "rot": {
+        "x": "-3.214082E-07",
+        "y": "-4.207321",
+        "z": "6.282274"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "branchAmount": 3,
+        "inputs": [
+          {
+            "connectedID": 2473718,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 2473734,
+        "outputs": [
+          {
+            "connectedID": 2473751,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": -0.191912577,
+                "y": -0.123496279,
+                "z": 0.0299950019
+              },
+              {
+                "x": -0.0299770441,
+                "y": 0.13000001,
+                "z": 0.03004339
+              }
+            ],
+            "niceName": "Power Out",
+            "type": 0
+          },
+          {
+            "connectedID": 2480063,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": -0.3612342,
+                "y": -0.288283527,
+                "z": 2.128018
+              },
+              {
+                "x": -0.4693746,
+                "y": -0.287273556,
+                "z": 1.97354913
+              },
+              {
+                "x": -0.468428969,
+                "y": 0.161897138,
+                "z": 1.97516
+              },
+              {
+                "x": -1.61347723,
+                "y": 0.157858834,
+                "z": -0.008233413
+              },
+              {
+                "x": 0.0300171636,
+                "y": 0.129999965,
+                "z": 0.03003354
+              }
+            ],
+            "niceName": "Branch Out",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.89035",
+        "y": "0.912243",
+        "z": "9.531633"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/gates/branch/electrical.branch.deployed.prefab",
+      "rot": {
+        "x": "-3.214004E-07",
+        "y": "-4.207321",
+        "z": "2.060168E-05"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "branchAmount": 25,
+        "inputs": [
+          {
+            "connectedID": 2473734,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 2473751,
+        "outputs": [
+          {
+            "connectedID": 2473763,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": -0.193275645,
+                "y": -0.1214754,
+                "z": 0.03001715
+              },
+              {
+                "x": -0.029990457,
+                "y": 0.129999936,
+                "z": 0.0300354827
+              }
+            ],
+            "niceName": "Power Out",
+            "type": 0
+          },
+          {
+            "connectedID": 3361794,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": 1.06381011,
+                "y": -0.366055578,
+                "z": 0.6060895
+              },
+              {
+                "x": 1.28328443,
+                "y": -0.9464993,
+                "z": 0.059236683
+              },
+              {
+                "x": 1.28808761,
+                "y": 0.1289815,
+                "z": 0.0135464445
+              },
+              {
+                "x": 0.03000387,
+                "y": 0.129999936,
+                "z": 0.0300256424
+              }
+            ],
+            "niceName": "Branch Out",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.797365",
+        "y": "0.9087425",
+        "z": "9.6998"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/gates/branch/electrical.branch.deployed.prefab",
+      "rot": {
+        "x": "-3.214518E-07",
+        "y": "-4.207321",
+        "z": "0.002016697"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "branchAmount": 2,
+        "inputs": [
+          {
+            "connectedID": 2473751,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 2473763,
+        "outputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Power Out",
+            "type": 0
+          },
+          {
+            "connectedID": 3412976,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": 7.402323,
+                "y": -0.7608726,
+                "z": 1.64333069
+              },
+              {
+                "x": 7.390433,
+                "y": -1.00554323,
+                "z": 1.65394163
+              },
+              {
+                "x": 4.741901,
+                "y": -0.968201458,
+                "z": 0.124582052
+              },
+              {
+                "x": 4.40062237,
+                "y": -0.9693741,
+                "z": 0.0136063248
+              },
+              {
+                "x": 1.45607054,
+                "y": -0.960003555,
+                "z": -0.0008485317
+              },
+              {
+                "x": 1.50431991,
+                "y": 0.113376133,
+                "z": 0.0136023238
+              },
+              {
+                "x": 0.02997744,
+                "y": 0.130000308,
+                "z": 0.0299861245
+              }
+            ],
+            "niceName": "Branch Out",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.703257",
+        "y": "0.9068686",
+        "z": "9.870027"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/gates/branch/electrical.branch.deployed.prefab",
+      "rot": {
+        "x": "-3.210735E-07",
+        "y": "-4.207321",
+        "z": "0.01229067"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "IOEntity": {
+        "inputs": [],
+        "oldID": 2460771,
+        "outputs": [
+          {
+            "connectedID": 3419451,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": -0.9668153,
+                "y": 0.793732345,
+                "z": -0.6079762
+              },
+              {
+                "x": -0.11468035,
+                "y": 0.739679754,
+                "z": -1.09453845
+              },
+              {
+                "x": 1.18926273E-07,
+                "y": 0.75000006,
+                "z": 3.06503125E-07
+              }
+            ],
+            "niceName": "Power Output 1",
+            "type": 0
+          },
+          {
+            "connectedID": 2473655,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": 0.478076816,
+                "y": 0.84213,
+                "z": 0.9272489
+              },
+              {
+                "x": 1.744926E-05,
+                "y": 0.75,
+                "z": 0.399953961
+              }
+            ],
+            "niceName": "Power Output 2",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Power Output 3",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.364336",
+        "y": "-0.05516738",
+        "z": "9.392255"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/generators/generator.small.prefab",
+      "rot": {
+        "x": "-4.086708E-07",
+        "y": "-2.615138",
+        "z": "1.585683E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.8601307",
+        "y": "2.804832",
+        "z": "7.237233"
+      },
+      "prefabname": "assets/prefabs/deployable/single shot trap/guntrap.deployed.prefab",
+      "rot": {
+        "x": "5.459524E-06",
+        "y": "-2.769483",
+        "z": "3.141627"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.948374",
+        "y": "-0.05516762",
+        "z": "6.810588"
+      },
+      "prefabname": "assets/prefabs/deployable/single shot trap/guntrap.deployed.prefab",
+      "rot": {
+        "x": "1.305132E-07",
+        "y": "-3.769774",
+        "z": "2.638269E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.3657989",
+        "y": "2.804832",
+        "z": "7.543353"
+      },
+      "prefabname": "assets/prefabs/deployable/single shot trap/guntrap.deployed.prefab",
+      "rot": {
+        "x": "2.815285E-05",
+        "y": "-3.566605",
+        "z": "3.141613"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.400578",
+        "y": "-0.05516851",
+        "z": "6.94622"
+      },
+      "prefabname": "assets/prefabs/deployable/rug/rug.deployed.prefab",
+      "rot": {
+        "x": "3.166841E-07",
+        "y": "-3.669773",
+        "z": "4.228424E-07"
+      },
+      "skinid": 907327964
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 497,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "dataInt": 0,
+          "id": 317398316,
+          "position": 0,
+          "skinid": 0
+        },
+        {
+          "amount": 272,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "dataInt": 0,
+          "id": 69511070,
+          "position": 1,
+          "skinid": 0
+        },
+        {
+          "amount": 4640,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "dataInt": 0,
+          "id": 69511070,
+          "position": 2,
+          "skinid": 0
+        },
+        {
+          "amount": 3235,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "dataInt": 0,
+          "id": -151838493,
+          "position": 6,
+          "skinid": 0
+        },
+        {
+          "amount": 931,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "dataInt": 0,
+          "id": 317398316,
+          "position": 3,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.5420558",
+        "y": "-0.05516803",
+        "z": "6.786335"
+      },
+      "prefabname": "assets/prefabs/deployable/tool cupboard/cupboard.tool.deployed.prefab",
+      "rot": {
+        "x": "1.171351E-07",
+        "y": "-3.183697",
+        "z": "2.995383E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.980917",
+        "y": "2.804832",
+        "z": "6.863732"
+      },
+      "prefabname": "assets/prefabs/deployable/single shot trap/guntrap.deployed.prefab",
+      "rot": {
+        "x": "-2.805465E-05",
+        "y": "-3.77177",
+        "z": "3.141613"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.787059",
+        "y": "-0.1551678",
+        "z": "7.240496"
+      },
+      "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
+      "rot": {
+        "x": "1.621473E-07",
+        "y": "-3.683719",
+        "z": "-4.615157E-08"
+      },
+      "skinid": 2289421450
+    },
+    {
+      "flags": {},
+      "IOEntity": {
+        "branchAmount": 2,
+        "inputs": [
+          {
+            "connectedID": 2478490,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 2480128,
+        "outputs": [
+          {
+            "connectedID": 2480063,
+            "connectedToSlot": 1,
+            "linePoints": [
+              {
+                "x": 0.869007647,
+                "y": 0.337280422,
+                "z": 0.140522
+              },
+              {
+                "x": 0.8732748,
+                "y": 0.354466528,
+                "z": 0.115419567
+              },
+              {
+                "x": 0.8829719,
+                "y": 0.105835751,
+                "z": 0.12730366
+              },
+              {
+                "x": 0.781663,
+                "y": 0.122826681,
+                "z": 0.0268335342
+              },
+              {
+                "x": -0.0299756322,
+                "y": 0.130000219,
+                "z": 0.03003297
+              }
+            ],
+            "niceName": "Power Out",
+            "type": 0
+          },
+          {
+            "connectedID": 2471202,
+            "connectedToSlot": 1,
+            "linePoints": [
+              {
+                "x": 0.0465076454,
+                "y": 0.3337088,
+                "z": 0.02996901
+              },
+              {
+                "x": 0.0300226919,
+                "y": 0.130000308,
+                "z": 0.0300231874
+              }
+            ],
+            "niceName": "Branch Out",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.075194",
+        "y": "0.5368561",
+        "z": "7.857637"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/gates/branch/electrical.branch.deployed.prefab",
+      "rot": {
+        "x": "2.954621E-07",
+        "y": "-1.065727",
+        "z": "6.271467"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "IOEntity": {
+        "branchAmount": 2,
+        "inputs": [
+          {
+            "connectedID": 2478683,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 2478490,
+        "outputs": [
+          {
+            "connectedID": 2480128,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": 0.195498675,
+                "y": -0.14443402,
+                "z": 0.0300693512
+              },
+              {
+                "x": 0.202029452,
+                "y": -0.21137391,
+                "z": 0.0268694609
+              },
+              {
+                "x": -0.0300141517,
+                "y": 0.129999951,
+                "z": 0.0299934521
+              }
+            ],
+            "niceName": "Power Out",
+            "type": 0
+          },
+          {
+            "connectedID": 2471189,
+            "connectedToSlot": 1,
+            "linePoints": [
+              {
+                "x": 0.644637644,
+                "y": 0.343882471,
+                "z": 0.0299938321
+              },
+              {
+                "x": 0.6538639,
+                "y": 0.120758854,
+                "z": 0.0268651247
+              },
+              {
+                "x": 0.0299801342,
+                "y": 0.129999951,
+                "z": 0.02998367
+              }
+            ],
+            "niceName": "Branch Out",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.170304",
+        "y": "0.5615984",
+        "z": "7.68547"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/gates/branch/electrical.branch.deployed.prefab",
+      "rot": {
+        "x": "2.961315E-07",
+        "y": "-1.065727",
+        "z": "6.28165"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved1": true,
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 2473682,
+            "connectedToSlot": 1,
+            "niceName": "Input A",
+            "type": 0
+          },
+          {
+            "connectedID": 2470558,
+            "connectedToSlot": 0,
+            "niceName": "Input B",
+            "type": 0
+          }
+        ],
+        "oldID": 2478683,
+        "outputs": [
+          {
+            "connectedID": 2478490,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": 0.338888019,
+                "y": 0.715290368,
+                "z": 0.02996844
+              },
+              {
+                "x": 2.75354832E-05,
+                "y": 1.3,
+                "z": 0.0299822856
+              }
+            ],
+            "niceName": "Power Out",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.334414",
+        "y": "-0.2737046",
+        "z": "7.388786"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/gates/andswitch/andswitch.entity.prefab",
+      "rot": {
+        "x": "2.961688E-07",
+        "y": "-1.065727",
+        "z": "3.810422E-05"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.787059",
+        "y": "-0.1551678",
+        "z": "7.240496"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "-1.824158E-07",
+        "y": "-0.5421267",
+        "z": "5.192054E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.872431",
+        "y": "-0.04416767",
+        "z": "7.042825"
+      },
+      "prefabname": "assets/prefabs/deployable/locker/locker.deployed.prefab",
+      "rot": {
+        "x": "1.546822E-08",
+        "y": "-4.211568",
+        "z": "2.658974E-07"
+      },
+      "skinid": 2424318310
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.286789",
+        "y": "-0.1551677",
+        "z": "7.212675"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "2.454796E-07",
+        "y": "-2.636521",
+        "z": "-1.121179E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.512837",
+        "y": "-0.1551674",
+        "z": "5.926806"
+      },
+      "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+      "rot": {
+        "x": "2.622683E-07",
+        "y": "-0.01852846",
+        "z": "-8.742287E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "branchAmount": 2,
+        "inputs": [
+          {
+            "connectedID": 2473655,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 2473660,
+        "outputs": [
+          {
+            "connectedID": 2473682,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": -0.199092537,
+                "y": -0.11589817,
+                "z": 0.0299508534
+              },
+              {
+                "x": -0.0299774818,
+                "y": 0.130000025,
+                "z": 0.03004339
+              }
+            ],
+            "niceName": "Power Out",
+            "type": 0
+          },
+          {
+            "connectedID": 2471202,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": -0.197749615,
+                "y": -0.27818796,
+                "z": 2.36857843
+              },
+              {
+                "x": -0.240588069,
+                "y": -0.9422763,
+                "z": 2.37738681
+              },
+              {
+                "x": -0.79573,
+                "y": -0.9422663,
+                "z": 2.36654949
+              },
+              {
+                "x": 0.504116058,
+                "y": -0.9422871,
+                "z": 0.0834167153
+              },
+              {
+                "x": 0.5291503,
+                "y": 0.138661072,
+                "z": 0.0135798678
+              },
+              {
+                "x": 0.0300167259,
+                "y": 0.130000055,
+                "z": 0.03003354
+              }
+            ],
+            "niceName": "Branch Out",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.173799",
+        "y": "0.9071115",
+        "z": "9.019012"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/gates/branch/electrical.branch.deployed.prefab",
+      "rot": {
+        "x": "-3.214004E-07",
+        "y": "-4.207321",
+        "z": "1.72351E-05"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "branchAmount": 2,
+        "inputs": [
+          {
+            "connectedID": 2460771,
+            "connectedToSlot": 1,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 2473655,
+        "outputs": [
+          {
+            "connectedID": 2473660,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": -0.19852379,
+                "y": -0.119886622,
+                "z": 0.0299666636
+              },
+              {
+                "x": -0.0299737081,
+                "y": 0.129999965,
+                "z": 0.0299896114
+              }
+            ],
+            "niceName": "Power Out",
+            "type": 0
+          },
+          {
+            "connectedID": 2471189,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": -0.7964663,
+                "y": -0.242391914,
+                "z": 2.3685472
+              },
+              {
+                "x": -0.8063491,
+                "y": -0.9306911,
+                "z": 2.371698
+              },
+              {
+                "x": -1.041077,
+                "y": -0.9423147,
+                "z": 2.37254453
+              },
+              {
+                "x": 0.00242269039,
+                "y": -0.9564027,
+                "z": 0.0136093711
+              },
+              {
+                "x": 0.0300205,
+                "y": 0.130000025,
+                "z": 0.0299797617
+              }
+            ],
+            "niceName": "Branch Out",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.269843",
+        "y": "0.9069632",
+        "z": "8.845269"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/gates/branch/electrical.branch.deployed.prefab",
+      "rot": {
+        "x": "-3.214045E-07",
+        "y": "-4.207321",
+        "z": "6.28301"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "branchAmount": 8,
+        "inputs": [
+          {
+            "connectedID": 2473660,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 2473682,
+        "outputs": [
+          {
+            "connectedID": 2473718,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": -0.19294259,
+                "y": -0.113672,
+                "z": 0.029967349
+              },
+              {
+                "x": -0.0299985744,
+                "y": 0.13,
+                "z": 0.0299856625
+              }
+            ],
+            "niceName": "Power Out",
+            "type": 0
+          },
+          {
+            "connectedID": 2478683,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": 0.710707843,
+                "y": -0.36539945,
+                "z": 2.368576
+              },
+              {
+                "x": 0.6688746,
+                "y": -0.9091235,
+                "z": 2.37174416
+              },
+              {
+                "x": 0.7107731,
+                "y": -0.946862042,
+                "z": 0.0278706253
+              },
+              {
+                "x": 0.729011953,
+                "y": 0.1236693,
+                "z": 0.0135776028
+              },
+              {
+                "x": 0.0299956445,
+                "y": 0.13000004,
+                "z": 0.0299758129
+              }
+            ],
+            "niceName": "Branch Out",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.077441",
+        "y": "0.9112099",
+        "z": "9.193362"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/gates/branch/electrical.branch.deployed.prefab",
+      "rot": {
+        "x": "-3.213645E-07",
+        "y": "-4.207321",
+        "z": "0.0006823755"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 2473751,
+            "connectedToSlot": 1,
+            "niceName": "Power",
+            "type": 0
+          },
+          {
+            "connectedID": 2480063,
+            "connectedToSlot": 0,
+            "niceName": "Toggle Play",
+            "type": 0
+          }
+        ],
+        "oldID": 3361794,
+        "outputs": [
+          {
+            "connectedID": 2491887,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": 0.3933978,
+                "y": 2.5806675,
+                "z": 1.72499824
+              },
+              {
+                "x": 0.3814165,
+                "y": 2.729855,
+                "z": 0.3996644
+              },
+              {
+                "x": 0.3830918,
+                "y": 0.7540527,
+                "z": 0.40623647
+              },
+              {
+                "x": 0.422868,
+                "y": 0.7037323,
+                "z": 0.249204129
+              },
+              {
+                "x": 0.159958959,
+                "y": 0.669999957,
+                "z": 1.74343586E-05
+              }
+            ],
+            "niceName": "Audio Out",
+            "type": 0
+          }
+        ]
+      },
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.930942",
+        "y": "-0.05516672",
+        "z": "8.556966"
+      },
+      "prefabname": "assets/prefabs/voiceaudio/boombox/boombox.deployed.prefab",
+      "rot": {
+        "x": "-1.639708E-07",
+        "y": "-2.637897",
+        "z": "1.009817E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.985285",
+        "y": "-0.1551666",
+        "z": "4.454896"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "8.69391E-08",
+        "y": "-3.16012",
+        "z": "-1.699549E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.985285",
+        "y": "-0.1551666",
+        "z": "4.454896"
+      },
+      "prefabname": "assets/prefabs/building/door.double.hinged/door.double.hinged.metal.prefab",
+      "rot": {
+        "x": "8.693911E-08",
+        "y": "-3.16012",
+        "z": "-1.699549E-07"
+      },
+      "skinid": 2869129241
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.805003",
+        "y": "3.785992",
+        "z": "5.839854"
+      },
+      "prefabname": "assets/prefabs/deployable/single shot trap/guntrap.deployed.prefab",
+      "rot": {
+        "x": "1.061021",
+        "y": "1.552268",
+        "z": "4.712388"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.484872",
+        "y": "-0.05516732",
+        "z": "4.508512"
+      },
+      "prefabname": "assets/prefabs/deployable/tier 3 workbench/workbench3.deployed.prefab",
+      "rot": {
+        "x": "8.737132E-08",
+        "y": "1.548266",
+        "z": "1.766208E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.485016",
+        "y": "-0.1551671",
+        "z": "4.427076"
+      },
+      "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
+      "rot": {
+        "x": "1.748456E-07",
+        "y": "-0.01852798",
+        "z": "7.105427E-15"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.5133755",
+        "y": "0.8448331",
+        "z": "5.982448"
+      },
+      "prefabname": "assets/prefabs/building/wall.window.bars/wall.window.bars.toptier.prefab",
+      "rot": {
+        "x": "1.503862E-07",
+        "y": "1.552268",
+        "z": "2.668249E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.5133755",
+        "y": "-0.1551669",
+        "z": "5.982448"
+      },
+      "prefabname": "assets/prefabs/building core/wall.window/wall.window.prefab",
+      "rot": {
+        "x": "9.078153E-08",
+        "y": "1.552268",
+        "z": "8.80109E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.512837",
+        "y": "-0.1551675",
+        "z": "5.926806"
+      },
+      "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
+      "rot": {
+        "x": "2.656637E-08",
+        "y": "1.552268",
+        "z": "-2.09053E-07"
+      },
+      "skinid": 2289421450
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.512837",
+        "y": "-0.1551674",
+        "z": "5.926806"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "-2.656636E-08",
+        "y": "-1.589324",
+        "z": "2.090529E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.528891",
+        "y": "2.844832",
+        "z": "6.793651"
+      },
+      "prefabname": "assets/prefabs/building core/roof.triangle/roof.triangle.prefab",
+      "rot": {
+        "x": "1.938675E-07",
+        "y": "-1.065725",
+        "z": "2.660322E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.512837",
+        "y": "2.844832",
+        "z": "5.926806"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "-2.09053E-07",
+        "y": "-0.01852751",
+        "z": "-2.656628E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.485077",
+        "y": "5.844832",
+        "z": "4.427076"
+      },
+      "prefabname": "assets/prefabs/building core/roof/roof.prefab",
+      "rot": {
+        "x": "-2.09053E-07",
+        "y": "-0.01852703",
+        "z": "-2.656643E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.083793",
+        "y": "4.574664",
+        "z": "4.465525"
+      },
+      "prefabname": "assets/prefabs/deployable/rug/rug.bear.deployed.prefab",
+      "rot": {
+        "x": "4.715041",
+        "y": "-0.01876163",
+        "z": "1.571032"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.5132535",
+        "y": "4.344833",
+        "z": "5.982447"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "-6.421531E-08",
+        "y": "-1.589324",
+        "z": "-2.970638E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.4854326",
+        "y": "4.344833",
+        "z": "4.482716"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "-8.692827E-08",
+        "y": "-0.01852798",
+        "z": "8.565095E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.984747",
+        "y": "2.844833",
+        "z": "4.399255"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "1.738349E-07",
+        "y": "-3.16012",
+        "z": "-2.693845E-09"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.884359",
+        "y": "4.464832",
+        "z": "4.377861"
+      },
+      "prefabname": "assets/prefabs/deployable/rug/rug.bear.deployed.prefab",
+      "rot": {
+        "x": "4.714806",
+        "y": "-0.01832676",
+        "z": "4.712188"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.512837",
+        "y": "5.844832",
+        "z": "5.926806"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "2.09053E-07",
+        "y": "-3.16012",
+        "z": "2.65663E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.512837",
+        "y": "2.844832",
+        "z": "5.926806"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-2.656637E-08",
+        "y": "-1.589324",
+        "z": "2.09053E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.983625",
+        "y": "2.844831",
+        "z": "4.455853"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "3.026776E-08",
+        "y": "-0.01852846",
+        "z": "1.681386E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.429374",
+        "y": "2.844834",
+        "z": "1.427614"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "-8.295705E-08",
+        "y": "-1.589324",
+        "z": "8.690662E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.4838946",
+        "y": "2.844832",
+        "z": "4.483674"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "2.93072E-08",
+        "y": "-3.160121",
+        "z": "-3.589083E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.243477",
+        "y": "2.944833",
+        "z": "6.366843"
+      },
+      "prefabname": "assets/prefabs/deployable/single shot trap/guntrap.deployed.prefab",
+      "rot": {
+        "x": "-4.540652E-06",
+        "y": "-4.56889",
+        "z": "3.443662E-05"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.485016",
+        "y": "2.744834",
+        "z": "4.427076"
+      },
+      "prefabname": "assets/prefabs/building/floor.ladder.hatch/floor.ladder.hatch.prefab",
+      "rot": {
+        "x": "8.524026E-08",
+        "y": "1.552268",
+        "z": "-2.69574E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.485016",
+        "y": "2.844834",
+        "z": "4.427076"
+      },
+      "prefabname": "assets/prefabs/building core/floor.frame/floor.frame.prefab",
+      "rot": {
+        "x": "-8.690664E-08",
+        "y": "-0.01852798",
+        "z": "-8.295705E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 2491887,
+            "connectedToSlot": 0,
+            "niceName": "Power/Audio In",
+            "type": 0
+          }
+        ],
+        "oldID": 2491875,
+        "outputs": [
+          {
+            "connectedID": 2491947,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": 6.06932449,
+                "y": 2.02605677,
+                "z": 3.238432
+              },
+              {
+                "x": 5.682954,
+                "y": 2.52969027,
+                "z": 3.1097765
+              },
+              {
+                "x": 6.36800337,
+                "y": 2.68634462,
+                "z": 1.68625832
+              },
+              {
+                "x": 5.808663,
+                "y": 3.016352,
+                "z": 1.67857981
+              },
+              {
+                "x": 5.86231041,
+                "y": 0.2773548,
+                "z": 1.59879351
+              },
+              {
+                "x": 5.89149666,
+                "y": 0.2557219,
+                "z": 1.35812855
+              },
+              {
+                "x": 2.59474421,
+                "y": 0.216265455,
+                "z": 1.41273475
+              },
+              {
+                "x": -0.0648649,
+                "y": 0.2555589,
+                "z": 1.4425118
+              },
+              {
+                "x": -0.0648677051,
+                "y": 0.0526757874,
+                "z": 1.43614137
+              },
+              {
+                "x": -0.08998584,
+                "y": 1.296612E-07,
+                "z": -0.08001918
+              }
+            ],
+            "niceName": "Audio Passthrough",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.750234",
+        "y": "2.405684",
+        "z": "4.428439"
+      },
+      "prefabname": "assets/prefabs/voiceaudio/hornspeaker/connectedspeaker.deployed.prefab",
+      "rot": {
+        "x": "6.271653",
+        "y": "-0.01852751",
+        "z": "9.313845E-10"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.457195",
+        "y": "-0.1551669",
+        "z": "2.927345"
+      },
+      "prefabname": "assets/prefabs/building/door.double.hinged/door.double.hinged.metal.prefab",
+      "rot": {
+        "x": "2.656627E-08",
+        "y": "1.552268",
+        "z": "-2.09053E-07"
+      },
+      "skinid": 2869129241
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.457195",
+        "y": "-0.1551669",
+        "z": "2.927345"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "2.65663E-08",
+        "y": "1.552268",
+        "z": "-2.09053E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved1": true
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.568999",
+        "y": "0.8085579",
+        "z": "4.522135"
+      },
+      "prefabname": "assets/prefabs/misc/easter/faberge_egg_a/rustigeegg_a.deployed.prefab",
+      "rot": {
+        "x": "6.282916",
+        "y": "1.185871",
+        "z": "0.0003564891"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.984747",
+        "y": "-0.1551671",
+        "z": "4.399255"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "1.738348E-07",
+        "y": "-3.16012",
+        "z": "-2.693831E-09"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.458864",
+        "y": "-0.05516744",
+        "z": "4.753813"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "2.569827E-07",
+        "y": "1.536514",
+        "z": "1.744718E-07"
+      },
+      "skinid": 2000024196
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.286467",
+        "y": "2.844831",
+        "z": "7.268794"
+      },
+      "prefabname": "assets/prefabs/building/door.double.hinged/door.double.hinged.metal.prefab",
+      "rot": {
+        "x": "-2.251572E-07",
+        "y": "-2.636523",
+        "z": "2.041441E-07"
+      },
+      "skinid": 2869129241
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.31479",
+        "y": "2.944833",
+        "z": "6.824421"
+      },
+      "prefabname": "assets/prefabs/deployable/furnace/furnace.prefab",
+      "rot": {
+        "x": "2.155387E-05",
+        "y": "-4.317585",
+        "z": "2.747064E-05"
+      },
+      "skinid": 1408433814
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.012644",
+        "y": "2.944833",
+        "z": "7.749927"
+      },
+      "prefabname": "assets/prefabs/deployable/furnace/furnace.prefab",
+      "rot": {
+        "x": "1.761453E-05",
+        "y": "-4.180153",
+        "z": "3.017333E-05"
+      },
+      "skinid": 1408433814
+    },
+    {
+      "flags": {},
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 3361794,
+            "connectedToSlot": 0,
+            "niceName": "Power/Audio In",
+            "type": 0
+          }
+        ],
+        "oldID": 2491887,
+        "outputs": [
+          {
+            "connectedID": 2491875,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": 0.588679552,
+                "y": -0.15951,
+                "z": -2.6614604
+              },
+              {
+                "x": -0.0852521658,
+                "y": -0.008454548,
+                "z": -1.44604373
+              },
+              {
+                "x": -0.08998013,
+                "y": -4.240428E-07,
+                "z": -0.0800313652
+              }
+            ],
+            "niceName": "Audio Passthrough",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.068047",
+        "y": "2.526687",
+        "z": "7.122539"
+      },
+      "prefabname": "assets/prefabs/voiceaudio/hornspeaker/connectedspeaker.deployed.prefab",
+      "rot": {
+        "x": "0.01480894",
+        "y": "0.5050716",
+        "z": "1.136338E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "0.2141118",
+        "y": "2.844832",
+        "z": "7.296116"
+      },
+      "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
+      "rot": {
+        "x": "2.020673E-07",
+        "y": "-3.683719",
+        "z": "5.559776E-07"
+      },
+      "skinid": 2289421450
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "0.3845425",
+        "y": "1.417346",
+        "z": "7.330982"
+      },
+      "prefabname": "assets/prefabs/building/ladder.wall.wood/ladder.wooden.wall.prefab",
+      "rot": {
+        "x": "4.980539E-07",
+        "y": "1.028668",
+        "z": "0.001665445"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.486086",
+        "y": "2.844833",
+        "z": "6.03809"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "2.081295E-07",
+        "y": "-1.589324",
+        "z": "-3.303112E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.513907",
+        "y": "2.844833",
+        "z": "4.538359"
+      },
+      "prefabname": "assets/prefabs/building core/floor.frame/floor.frame.prefab",
+      "rot": {
+        "x": "3.303118E-08",
+        "y": "-0.01852798",
+        "z": "2.081294E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.513907",
+        "y": "2.744833",
+        "z": "4.538359"
+      },
+      "prefabname": "assets/prefabs/building/floor.ladder.hatch/floor.ladder.hatch.prefab",
+      "rot": {
+        "x": "-2.40237E-07",
+        "y": "1.552268",
+        "z": "-1.155008E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "3.863401",
+        "y": "4.131797",
+        "z": "5.255362"
+      },
+      "prefabname": "assets/prefabs/deployable/single shot trap/guntrap.deployed.prefab",
+      "rot": {
+        "x": "1.182812",
+        "y": "-0.01599932",
+        "z": "1.572399"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.139543",
+        "y": "3.908386",
+        "z": "5.254273"
+      },
+      "prefabname": "assets/prefabs/deployable/single shot trap/guntrap.deployed.prefab",
+      "rot": {
+        "x": "1.145219",
+        "y": "-0.02166748",
+        "z": "4.710655"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.11513",
+        "y": "4.490475",
+        "z": "4.549201"
+      },
+      "prefabname": "assets/prefabs/deployable/rug/rug.bear.deployed.prefab",
+      "rot": {
+        "x": "4.712734",
+        "y": "-1.589748",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.015836",
+        "y": "2.844832",
+        "z": "4.511494"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-3.022446E-08",
+        "y": "-3.160121",
+        "z": "-5.053545E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.603356",
+        "y": "-0.05516922",
+        "z": "7.248759"
+      },
+      "prefabname": "assets/prefabs/deployable/mixingtable/mixingtable.deployed.prefab",
+      "rot": {
+        "x": "-3.72397E-07",
+        "y": "-2.098985",
+        "z": "2.343999E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.513907",
+        "y": "-0.1551666",
+        "z": "4.538359"
+      },
+      "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
+      "rot": {
+        "x": "7.105427E-15",
+        "y": "-0.01852798",
+        "z": "-1.748456E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.486086",
+        "y": "-0.1551666",
+        "z": "6.03809"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "2.081294E-07",
+        "y": "-1.589324",
+        "z": "-3.303113E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.47345",
+        "y": "2.844831",
+        "z": "6.904892"
+      },
+      "prefabname": "assets/prefabs/building core/roof.triangle/roof.triangle.prefab",
+      "rot": {
+        "x": "-1.159957E-07",
+        "y": "1.028669",
+        "z": "2.082987E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "3.215282",
+        "y": "-0.1551696",
+        "z": "7.351737"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "2.082989E-07",
+        "y": "-0.5421276",
+        "z": "1.159955E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.546396",
+        "y": "-0.05516922",
+        "z": "7.404754"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "-1.23823E-07",
+        "y": "-2.087178",
+        "z": "2.101671E-07"
+      },
+      "skinid": 2000024196
+    },
+    {
+      "flags": {},
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 2491875,
+            "connectedToSlot": 0,
+            "niceName": "Power/Audio In",
+            "type": 0
+          }
+        ],
+        "oldID": 2491947,
+        "outputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Audio Passthrough",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.158983",
+        "y": "4.409989",
+        "z": "7.788651"
+      },
+      "prefabname": "assets/prefabs/voiceaudio/hornspeaker/connectedspeaker.deployed.prefab",
+      "rot": {
+        "x": "6.282617",
+        "y": "-3.683228",
+        "z": "5.569475"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.714703",
+        "y": "-0.155169",
+        "z": "7.324414"
+      },
+      "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+      "rot": {
+        "x": "3.582656E-07",
+        "y": "-4.20732",
+        "z": "1.599946E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "3.914031",
+        "y": "1.52918",
+        "z": "4.542517"
+      },
+      "prefabname": "assets/prefabs/deployable/rug/rug.bear.deployed.prefab",
+      "rot": {
+        "x": "4.712389",
+        "y": "1.552269",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "4.013638",
+        "y": "-0.1551669",
+        "z": "4.56618"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-2.16076E-11",
+        "y": "-0.01852798",
+        "z": "1.68608E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "3.404485",
+        "y": "-0.03496683",
+        "z": "4.48502"
+      },
+      "prefabname": "assets/prefabs/deployable/fridge/fridge.deployed.prefab",
+      "rot": {
+        "x": "-8.431441E-08",
+        "y": "-1.568838",
+        "z": "-3.28162E-09"
+      },
+      "skinid": 2424221629
+    },
+    {
+      "flags": {
+        "On": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 2471202,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 839194,
+        "outputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Passthrough",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "3.949304",
+        "y": "1.395213",
+        "z": "2.646545"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/doormanipulators/doorcontroller.deployed.prefab",
+      "rot": {
+        "x": "3.48613E-07",
+        "y": "-1.589324",
+        "z": "6.276681"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "4.013638",
+        "y": "2.844833",
+        "z": "4.56618"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-2.162892E-11",
+        "y": "-0.01852751",
+        "z": "1.68608E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "3.912734",
+        "y": "4.540563",
+        "z": "4.614805"
+      },
+      "prefabname": "assets/prefabs/deployable/rug/rug.bear.deployed.prefab",
+      "rot": {
+        "x": "4.712877",
+        "y": "1.552863",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "lock": {
+        "code": "1983",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.541728",
+        "y": "-0.1551666",
+        "z": "3.038629"
+      },
+      "prefabname": "assets/prefabs/building/door.double.hinged/door.double.hinged.metal.prefab",
+      "rot": {
+        "x": "-2.081295E-07",
+        "y": "1.552268",
+        "z": "3.303117E-08"
+      },
+      "skinid": 2869129241
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "4.069279",
+        "y": "-0.1551669",
+        "z": "1.566719"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "8.822351E-08",
+        "y": "-0.01852703",
+        "z": "8.293667E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.541728",
+        "y": "-0.1551666",
+        "z": "3.038629"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "-2.081294E-07",
+        "y": "1.552268",
+        "z": "3.303118E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.4577338",
+        "y": "-0.1551666",
+        "z": "2.982987"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "-9.078157E-08",
+        "y": "1.552268",
+        "z": "-8.80109E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.569549",
+        "y": "2.844834",
+        "z": "1.538898"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "-8.295705E-08",
+        "y": "1.552268",
+        "z": "8.690662E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.597369",
+        "y": "5.844834",
+        "z": "0.03916709"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "2.402372E-07",
+        "y": "-0.01852846",
+        "z": "1.155007E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.597369",
+        "y": "2.844834",
+        "z": "0.03916709"
+      },
+      "prefabname": "assets/prefabs/building/wall.frame.shopfront/wall.frame.shopfront.metal.prefab",
+      "rot": {
+        "x": "-1.155007E-07",
+        "y": "1.552268",
+        "z": "2.402371E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.069818",
+        "y": "4.344833",
+        "z": "1.511077"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "8.695002E-08",
+        "y": "-3.16012",
+        "z": "-2.542589E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "4.069279",
+        "y": "2.844834",
+        "z": "1.566719"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-8.688501E-08",
+        "y": "-0.01852798",
+        "z": "-2.51565E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.556273",
+        "y": "2.982334",
+        "z": "0.7626358"
+      },
+      "prefabname": "assets/prefabs/deployable/sleeping bag/sleepingbag_leather_deployed.prefab",
+      "rot": {
+        "x": "3.889228E-07",
+        "y": "1.562956",
+        "z": "3.136586E-07"
+      },
+      "skinid": 2834082713
+    },
+    {
+      "flags": {
+        "On": true
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "3.211209",
+        "y": "2.982334",
+        "z": "1.471082"
+      },
+      "prefabname": "assets/prefabs/deployable/bear trap/beartrap.prefab",
+      "rot": {
+        "x": "2.579354E-07",
+        "y": "-0.1118984",
+        "z": "-4.833233E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.535285",
+        "y": "2.993334",
+        "z": "1.739425"
+      },
+      "prefabname": "assets/prefabs/deployable/locker/locker.deployed.prefab",
+      "rot": {
+        "x": "6.747612E-07",
+        "y": "1.578635",
+        "z": "1.774605E-07"
+      },
+      "skinid": 2424318310
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.597369",
+        "y": "2.844834",
+        "z": "0.03916709"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "1.155008E-07",
+        "y": "-1.589324",
+        "z": "-2.402371E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.069818",
+        "y": "2.844833",
+        "z": "1.511077"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "8.692828E-08",
+        "y": "-3.16012",
+        "z": "-8.565093E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.402153",
+        "y": "4.344833",
+        "z": "-0.01647391"
+      },
+      "prefabname": "assets/prefabs/building core/wall.window/wall.window.prefab",
+      "rot": {
+        "x": "2.841341E-08",
+        "y": "1.552268",
+        "z": "-8.985802E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.4299129",
+        "y": "4.344833",
+        "z": "1.483256"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "8.565093E-08",
+        "y": "-1.589324",
+        "z": "8.692827E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "On": true
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "0.2591457",
+        "y": "4.444834",
+        "z": "2.906786"
+      },
+      "prefabname": "assets/prefabs/deployable/landmine/landmine.prefab",
+      "rot": {
+        "x": "-1.190713E-07",
+        "y": "-2.629971",
+        "z": "-3.193643E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.069818",
+        "y": "7.344833",
+        "z": "1.511077"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "8.826688E-08",
+        "y": "-3.16012",
+        "z": "-2.542793E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "1.015836",
+        "y": "5.844832",
+        "z": "4.511494"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-3.024628E-08",
+        "y": "-3.160122",
+        "z": "-3.367465E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.402153",
+        "y": "5.344833",
+        "z": "-0.01647391"
+      },
+      "prefabname": "assets/prefabs/building/wall.window.embrasure/shutter.metal.embrasure.b.prefab",
+      "rot": {
+        "x": "3.119125E-08",
+        "y": "-1.589324",
+        "z": "2.686719E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.051565",
+        "y": "5.944833",
+        "z": "1.577214"
+      },
+      "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+      "rot": {
+        "x": "3.536354E-05",
+        "y": "0.0215826",
+        "z": "4.287231E-07"
+      },
+      "skinid": 2915569498
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.983625",
+        "y": "5.844831",
+        "z": "4.455853"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "3.028941E-08",
+        "y": "-0.01852846",
+        "z": "-4.693916E-10"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.929644",
+        "y": "4.344833",
+        "z": "1.455435"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-8.690664E-08",
+        "y": "-0.01852798",
+        "z": "-8.295707E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "On": true
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.4333785",
+        "y": "4.444834",
+        "z": "2.787112"
+      },
+      "prefabname": "assets/prefabs/deployable/bear trap/beartrap.prefab",
+      "rot": {
+        "x": "-2.918823E-07",
+        "y": "-3.344678",
+        "z": "-1.000616E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "On": true
+      },
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.123329",
+        "y": "4.444834",
+        "z": "2.888613"
+      },
+      "prefabname": "assets/prefabs/deployable/landmine/landmine.prefab",
+      "rot": {
+        "x": "-2.528618E-07",
+        "y": "-3.393792",
+        "z": "-4.031818E-09"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.4838946",
+        "y": "5.844832",
+        "z": "4.483674"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "-1.681387E-07",
+        "y": "1.552268",
+        "z": "3.026777E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.929644",
+        "y": "2.844833",
+        "z": "1.455435"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "8.692828E-08",
+        "y": "-0.01852751",
+        "z": "-8.565092E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.501326",
+        "y": "2.804833",
+        "z": "0.9978135"
+      },
+      "prefabname": "assets/prefabs/deployable/rug/rug.bear.deployed.prefab",
+      "rot": {
+        "x": "1.072899E-07",
+        "y": "-3.186771",
+        "z": "3.141593"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-2.860467",
+        "y": "2.944834",
+        "z": "1.389638"
+      },
+      "prefabname": "assets/prefabs/deployable/sleeping bag/sleepingbag_leather_deployed.prefab",
+      "rot": {
+        "x": "5.848747E-07",
+        "y": "-0.01767063",
+        "z": "-6.588385E-08"
+      },
+      "skinid": 2834082713
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.401553",
+        "y": "5.844833",
+        "z": "-0.07211643"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "1.173479E-07",
+        "y": "-0.01852798",
+        "z": "-1.210421E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.401553",
+        "y": "2.844833",
+        "z": "-0.07211643"
+      },
+      "prefabname": "assets/prefabs/building/wall.frame.shopfront/wall.frame.shopfront.metal.prefab",
+      "rot": {
+        "x": "1.210421E-07",
+        "y": "1.552268",
+        "z": "1.173479E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.401553",
+        "y": "2.844833",
+        "z": "-0.07211643"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "-1.210421E-07",
+        "y": "-1.589324",
+        "z": "-1.173479E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.929105",
+        "y": "2.844834",
+        "z": "1.399793"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-8.688501E-08",
+        "y": "-3.160121",
+        "z": "-2.51565E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.290352",
+        "y": "2.944834",
+        "z": "0.3542763"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "2.922704E-08",
+        "y": "-0.02553272",
+        "z": "5.093788E-07"
+      },
+      "skinid": 2000024196
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 501,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "dataInt": 0,
+          "id": -932201673,
+          "position": 1,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.281",
+        "y": "2.944834",
+        "z": "1.707048"
+      },
+      "prefabname": "assets/prefabs/deployable/research table/researchtable_deployed.prefab",
+      "rot": {
+        "x": "-2.563794E-07",
+        "y": "1.541309",
+        "z": "-1.623444E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.285121",
+        "y": "2.944834",
+        "z": "1.679998"
+      },
+      "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+      "rot": {
+        "x": "-4.217102E-07",
+        "y": "1.580608",
+        "z": "-1.81964E-07"
+      },
+      "skinid": 2915569498
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.221073",
+        "y": "1.444832",
+        "z": "0.465471"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "3.493814E-05",
+        "y": "-0.01966858",
+        "z": "-8.865062E-07"
+      },
+      "skinid": 2000024196
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.251087",
+        "y": "1.444833",
+        "z": "0.9138891"
+      },
+      "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+      "rot": {
+        "x": "1.141926E-06",
+        "y": "1.543291",
+        "z": "3.493202E-05"
+      },
+      "skinid": 2915569498
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.929105",
+        "y": "-0.1551669",
+        "z": "1.399793"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "8.822354E-08",
+        "y": "-3.16012",
+        "z": "8.293669E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.329806",
+        "y": "-0.0551666",
+        "z": "0.337799"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "3.493854E-07",
+        "y": "-0.00985384",
+        "z": "1.768076E-07"
+      },
+      "skinid": 2000024196
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.401247",
+        "y": "-0.05516702",
+        "z": "2.226287"
+      },
+      "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
+      "rot": {
+        "x": "8.679048E-08",
+        "y": "-0.0157299",
+        "z": "-8.550882E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.365541",
+        "y": "-0.05516672",
+        "z": "2.235853"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "-6.267617E-10",
+        "y": "-4.684943",
+        "z": "8.302835E-08"
+      },
+      "skinid": 1212709764
+    },
+    {
+      "flags": {},
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "niceName": "Toggle",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "niceName": "Turn On",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "niceName": "Turn Off",
+            "type": 0
+          }
+        ],
+        "oldID": 3418053,
+        "outputs": []
+      },
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-4.514568",
+        "y": "-0.05516696",
+        "z": "3.257198"
+      },
+      "prefabname": "assets/content/props/fog machine/fogmachine.prefab",
+      "rot": {
+        "x": "1.03238E-07",
+        "y": "1.376399",
+        "z": "1.868698E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.429374",
+        "y": "5.844834",
+        "z": "1.427614"
+      },
+      "prefabname": "assets/prefabs/building core/roof/roof.prefab",
+      "rot": {
+        "x": "2.515448E-07",
+        "y": "-1.589324",
+        "z": "-8.820206E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.3760482",
+        "y": "7.703616",
+        "z": "-0.1160501"
+      },
+      "prefabname": "assets/prefabs/deployable/rug/rug.deployed.prefab",
+      "rot": {
+        "x": "6.282897",
+        "y": "-1.589324",
+        "z": "1.570797"
+      },
+      "skinid": 2938478551
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.402153",
+        "y": "7.344833",
+        "z": "-0.01647391"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "2.841342E-08",
+        "y": "1.552268",
+        "z": "-8.985801E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.401553",
+        "y": "5.844833",
+        "z": "-0.07211643"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-1.210421E-07",
+        "y": "1.552268",
+        "z": "-1.173479E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-1.929644",
+        "y": "7.344833",
+        "z": "1.455435"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "-8.822356E-08",
+        "y": "-0.01852798",
+        "z": "-8.293664E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.485016",
+        "y": "5.844832",
+        "z": "4.427076"
+      },
+      "prefabname": "assets/prefabs/building core/roof/roof.prefab",
+      "rot": {
+        "x": "2.693782E-09",
+        "y": "-1.589324",
+        "z": "1.738349E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-3.157145",
+        "y": "5.944832",
+        "z": "4.448748"
+      },
+      "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+      "rot": {
+        "x": "3.528959E-05",
+        "y": "-3.169076",
+        "z": "-1.148683E-06"
+      },
+      "skinid": 2915569498
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.4847552",
+        "y": "5.844833",
+        "z": "4.483196"
+      },
+      "prefabname": "assets/prefabs/building core/roof/roof.prefab",
+      "rot": {
+        "x": "2.584918E-07",
+        "y": "-0.01852751",
+        "z": "-6.299296E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "0.2141118",
+        "y": "5.844832",
+        "z": "7.296116"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "-5.617464E-07",
+        "y": "-2.112924",
+        "z": "1.817992E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.513846",
+        "y": "5.844833",
+        "z": "4.53836"
+      },
+      "prefabname": "assets/prefabs/building core/roof/roof.prefab",
+      "rot": {
+        "x": "3.303101E-08",
+        "y": "-0.01852703",
+        "z": "2.081294E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.569549",
+        "y": "5.844834",
+        "z": "1.538898"
+      },
+      "prefabname": "assets/prefabs/building core/roof/roof.prefab",
+      "rot": {
+        "x": "2.515447E-07",
+        "y": "1.552268",
+        "z": "-8.820202E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.513907",
+        "y": "5.844832",
+        "z": "4.538359"
+      },
+      "prefabname": "assets/prefabs/building core/roof/roof.prefab",
+      "rot": {
+        "x": "-1.68608E-07",
+        "y": "1.552268",
+        "z": "-2.171774E-11"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "2.597369",
+        "y": "5.844834",
+        "z": "0.03916709"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "1.155007E-07",
+        "y": "1.552268",
+        "z": "-2.402371E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 815335,
+        "outputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Has Target",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Low Ammo",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "No Ammo",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Passthrough",
+            "type": 0
+          }
+        ]
+      },
+      "items": [],
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.451997",
+        "y": "8.944834",
+        "z": "1.616476"
+      },
+      "prefabname": "assets/prefabs/npc/sam_site_turret/sam_site_turret_deployed.prefab",
+      "rot": {
+        "x": "0",
+        "y": "0.02466106",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 3,
+      "ownerid": 76561199012605551,
+      "pos": {
+        "x": "-0.4299129",
+        "y": "8.844834",
+        "z": "1.483256"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "-2.515448E-07",
+        "y": "1.552268",
+        "z": "8.820206E-08"
+      },
+      "skinid": 0
+    }
+  ],
+  "protocol": {
+    "items": 2,
+    "version": {
+      "Major": 4,
+      "Minor": 1,
+      "Patch": 33
+    }
+  }
+}

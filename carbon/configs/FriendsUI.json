@@ -1,0 +1,48 @@
+{
+  "Menu chat command": "fmenu",
+  "Friend chat commands": [
+    {
+      "Name": "TPR",
+      "Command": "/tpr {playerName}"
+    },
+    {
+      "Name": "TRADE",
+      "Command": "/trade {playerId}"
+    }
+  ],
+  "UI Colors": {
+    "Background": {
+      "Hex": "151515",
+      "Alpha": 0.94
+    },
+    "Panel": {
+      "Hex": "FFFFFF",
+      "Alpha": 0.165
+    },
+    "Header": {
+      "Hex": "C4FF00",
+      "Alpha": 0.314
+    },
+    "Button": {
+      "Hex": "2A2E32",
+      "Alpha": 1.0
+    },
+    "Highlight1": {
+      "Hex": "C4FF00",
+      "Alpha": 1.0
+    },
+    "Highlight3": {
+      "Hex": "CE422B",
+      "Alpha": 1.0
+    },
+    "Close": {
+      "Hex": "CE422B",
+      "Alpha": 1.0
+    }
+  },
+  "Version": {
+    "Major": 2,
+    "Minor": 0,
+    "Patch": 2
+  }
+}

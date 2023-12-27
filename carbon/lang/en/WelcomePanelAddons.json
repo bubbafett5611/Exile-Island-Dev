@@ -1,0 +1,22 @@
+{
+  "claim_button": "CLAIM KIT",
+  "claim_button_2": "CLAIM KIT",
+  "view_button": "VIEW",
+  "back_button": "BACK",
+  "no_perms_button": "NO PERMISSIONS",
+  "no_uses_button": "NO USES LEFT",
+  "on_cooldown_button": "{kit_cooldown}",
+  "paid_kit_button": "{kit_price} {kit_currency}",
+  "kit_title_format": "<b><size=16>{kit_title}</size></b>\n{kit_description}",
+  "kit_title_format_view": "{kit_title}",
+  "cooldown_title": "COOLDOWN ON USE <color=#ffffffcd>{kit_cooldown}</color>",
+  "cooldown_title_none": "<color=#ffffffcd>NONE</color>",
+  "uses_title": "USES LEFT <color=#ffffffcd>{kit_uses}</color>",
+  "uses_title_unlimited": "<color=#ffffffcd>UNLIMITED</color>",
+  "price_title": "PRICE <color=#ffffffcd>{kit_price} {kit_currency}</color>",
+  "price_title_free": "PRICE <color=#ffffffcd>FREE</color>",
+  "perms_title_yes": "REQUIRES VIP <color=#ffffffcd>YES</color>",
+  "perms_title_no": "REQUIRES VIP <color=#ffffffcd>NO</color>",
+  "notification_kitclaim_success": "<size=14>You successfuly claimed <b>{kitname}</b>.</size>",
+  "notification_success_stripe_color": "0.482 0.675 0.251 1.00"
+}

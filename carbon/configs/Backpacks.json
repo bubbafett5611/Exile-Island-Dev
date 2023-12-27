@@ -1,6 +1,6 @@
 {
   "Backpack size": {
-    "Default size": 6,
+    "Default size": 48,
     "Max size per page": 48,
     "Enable legacy backpacks.use.1-8 row permissions": false,
     "Permission sizes": [
@@ -12,7 +12,9 @@
       36,
       42,
       48,
+      72,
       96,
+      120,
       144
     ],
     "Dynamic Size (EXPERIMENTAL)": {
@@ -36,14 +38,14 @@
       ]
     }
   },
-  "Drop on Death (true/false)": true,
+  "Drop on Death (true/false)": false,
   "Erase on Death (true/false)": false,
   "Minimum Despawn Time (Seconds)": 300.0,
   "GUI Button": {
     "Enabled": false,
     "Enabled by default (for players with permission)": true,
-    "Skin Id": 3050418770,
-    "Image": "",
+    "Skin Id": 0,
+    "Image": "https://i.imgur.com/6ls274K.png",
     "Background Color": "0.969 0.922 0.882 0.035",
     "GUI Button Position": {
       "Anchors Min": "0.5 0.0",
@@ -53,7 +55,7 @@
     }
   },
   "Container UI": {
-    "Show page buttons on container bar": false,
+    "Show page buttons on container bar": true,
     "Max page buttons to show": 8
   },
   "Softcore": {
@@ -88,7 +90,7 @@
     ]
   },
   "Clear on wipe": {
-    "Enabled": false,
+    "Enabled": true,
     "Enable legacy keeponwipe permission": false,
     "Default ruleset": {
       "Max slots to keep": 0,

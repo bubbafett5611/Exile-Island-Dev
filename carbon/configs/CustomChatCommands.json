@@ -1,0 +1,175 @@
+{
+  "Reset Cooldowns On New Map": true,
+  "Reset Max Uses On New Map": true,
+  "Reset Max Uses At Midnight": true,
+  "Commands": [
+    {
+      "Command": "discord",
+      "Messages": [
+        "PvExile Island <color=purple>Discord</color>.ExileIsland.Net",
+		"or use invite code: <color=orange>JuyguE2U6R</color>"
+      ],
+      "Permission": "",
+      "ConsoleCmd": null,
+      "UserID": 0,
+      "Broadcast": true,
+      "RconCmd": null,
+      "Cooldown": 10.0,
+      "MaxUses": 0
+    },
+	{
+      "Command": "bgrade",
+      "Messages": [
+        "<color=yellow>BGrade has been disabled!</color> Use <color=red>/up</color> for auto-upgrading! Use your hammer to upgrade structures. \nYou can select a material by typing 1|2|3|4 after <color=red>/up</color> to choose a grade.\nSee discord for more info."
+      ],
+      "Permission": "",
+      "ConsoleCmd": null,
+      "UserID": 0,
+      "Broadcast": false,
+      "RconCmd": null,
+      "Cooldown": 10.0,
+      "MaxUses": 0
+    },
+    {
+      "Command": "tpm.on",
+      "Messages": [
+        ""
+      ],
+      "Permission": "customchatcommands.moderator",
+      "ConsoleCmd": [""],
+      "UserID": 0,
+      "Broadcast": true,
+      "RconCmd": ["o.grant user {player.name} NTeleportation.tpmarker"],
+      "Cooldown": 0.0,
+      "MaxUses": 0
+    },
+	    {
+      "Command": "tpm.off",
+      "Messages": [
+        ""
+      ],
+      "Permission": "customchatcommands.moderator",
+      "ConsoleCmd": [""],
+      "UserID": 0,
+      "Broadcast": true,
+      "RconCmd": ["o.revoke user {player.name} NTeleportation.tpmarker"],
+      "Cooldown": 0.0,
+      "MaxUses": 0
+    },
+    {
+      "Command": "tpm",
+      "Messages": [
+        ""
+      ],
+      "Permission": "customchatcommands.admin",
+      "ConsoleCmd": ["teleport2marker"],
+      "UserID": 0,
+      "Broadcast": false,
+      "RconCmd": null,
+      "Cooldown": 0.0,
+      "MaxUses": 0
+    },
+    {
+      "Command": "help",
+      "Messages": [
+	    "You can use /info to learn more about the server!",
+        "Having an issue? Reach out on Discord",
+		"Go to discord.ExileIsland.net",
+        "or use our Invite Code: JuyguE2U6R"
+      ],
+      "Permission": "",
+      "ConsoleCmd": null,
+      "UserID": 0,
+      "Broadcast": false,
+      "RconCmd": null,
+      "Cooldown": 0.0,
+      "MaxUses": 0
+    },
+    {
+      "Command": "noclip",
+      "Messages": [
+        "NoClip toggled."
+      ],
+      "Permission": "customchatcommands.moderator",
+      "ConsoleCmd": [
+        "noclip"
+      ],
+      "UserID": 0,
+      "Broadcast": false,
+      "RconCmd": null,
+      "Cooldown": 0.0,
+      "MaxUses": 0
+    },
+    {
+      "Command": "skipnight",
+      "Messages": [
+        "Skipping night..."
+      ],
+      "Permission": "customchatcommands.admin",
+      "ConsoleCmd": [
+        "env.time 8"
+      ],
+      "UserID": 0,
+      "Broadcast": true,
+      "RconCmd": null,
+      "Cooldown": 0.0,
+      "MaxUses": 0
+    },
+    {
+      "Command": "GiveRec",
+      "Messages": [
+        "Created Recycler"
+      ],
+      "Permission": "customchatcommands.admin",
+      "ConsoleCmd": [
+        ""
+      ],
+      "UserID": 0,
+      "Broadcast": false,
+      "RconCmd": [
+        "recycler.give {player.id}"
+      ],
+      "Cooldown": 0.0,
+      "MaxUses": 0
+    },
+    {
+      "Command": "MyDrop",
+      "Messages": [
+        "You have claimed your Daily Drop!"
+      ],
+      "Permission": "customchatcommands.DailyDrop",
+      "ConsoleCmd": [],
+      "UserID": 0,
+      "Broadcast": false,
+      "RconCmd": ["inventory.giveto {player.id} supply.signal"],
+      "Cooldown": 86400.0,
+      "MaxUses": 0
+    },
+	{
+      "Command": "VIPDrop",
+      "Messages": [
+        "You have claimed your VIP airdrops!"
+      ],
+      "Permission": "customchatcommands.DailyDropVIP",
+      "ConsoleCmd": [],
+      "UserID": 0,
+      "Broadcast": false,
+      "RconCmd": ["inventory.giveto {player.id} supply.signal 3"],
+      "Cooldown": 86400.0,
+      "MaxUses": 0
+    },
+	{
+      "Command": "abusiveadmin",
+      "Messages": [
+        "Yes. Sorry, I'm definitely a POS."
+      ],
+      "Permission": "",
+      "ConsoleCmd": [],
+      "UserID": 0,
+      "Broadcast": false,
+      "RconCmd": null,
+      "Cooldown": 0,
+      "MaxUses": 1
+    }
+  ]
+}

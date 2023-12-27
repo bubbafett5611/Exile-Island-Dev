@@ -1,0 +1,7598 @@
+{
+  "default": {
+    "position": {
+      "x": "-319.2507",
+      "y": "53.98891",
+      "z": "689.2126"
+    },
+    "rotationdiff": "5.855768",
+    "rotationy": "192.0497"
+  },
+  "entities": [
+    {
+      "flags": {},
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 7027681,
+        "outputs": []
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.049241",
+        "y": "3.566986",
+        "z": "0.030513"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/teslacoil/teslacoil.deployed.prefab",
+      "rot": {
+        "x": "1.51463E-05",
+        "y": "-5.540944",
+        "z": "3.141624"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.905947",
+        "y": "2.405434",
+        "z": "4.46085"
+      },
+      "prefabname": "assets/prefabs/deployable/single shot trap/guntrap.deployed.prefab",
+      "rot": {
+        "x": "6.282793",
+        "y": "-2.497612",
+        "z": "4.722046"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.142396",
+        "y": "0.6643105",
+        "z": "1.896157"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "1.251222E-08",
+        "y": "-5.64546",
+        "z": "-1.185508E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.636653",
+        "y": "0.7643089",
+        "z": "2.099694"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "1.030178E-07",
+        "y": "-0.9316335",
+        "z": "5.297217E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.79454",
+        "y": "0.7643089",
+        "z": "2.291492"
+      },
+      "prefabname": "assets/prefabs/deployable/tier 3 workbench/workbench3.deployed.prefab",
+      "rot": {
+        "x": "1.030591E-07",
+        "y": "-0.9331913",
+        "z": "5.302324E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.9372057",
+        "y": "0.6643105",
+        "z": "2.789182"
+      },
+      "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
+      "rot": {
+        "x": "8.742277E-08",
+        "y": "-2.503868",
+        "z": "8.742278E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.142371",
+        "y": "0.6643105",
+        "z": "1.896101"
+      },
+      "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+      "rot": {
+        "x": "1.748455E-07",
+        "y": "-4.074664",
+        "z": "-1.748456E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 100,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -151838493,
+          "position": 0,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.9411",
+        "y": "-1.423405",
+        "z": "-0.9092884"
+      },
+      "prefabname": "assets/prefabs/deployable/oil refinery/refinery_small_deployed.prefab",
+      "rot": {
+        "x": "9.313226E-10",
+        "y": "0.3506503",
+        "z": "5.890853"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.740315",
+        "y": "0.6643105",
+        "z": "0.5195187"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-6.24462E-08",
+        "y": "-4.598263",
+        "z": "9.862728E-09"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.04413961",
+        "y": "0.6643105",
+        "z": "1.583977"
+      },
+      "prefabname": "assets/prefabs/building/door.hinged/door.hinged.toptier.prefab",
+      "rot": {
+        "x": "-8.70902E-08",
+        "y": "-4.074664",
+        "z": "-1.787155E-07"
+      },
+      "skinid": 840336069
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.04413961",
+        "y": "0.6643105",
+        "z": "1.583977"
+      },
+      "prefabname": "assets/prefabs/building core/wall.doorway/wall.doorway.prefab",
+      "rot": {
+        "x": "-8.545917E-08",
+        "y": "-4.074664",
+        "z": "-9.378149E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.1272372",
+        "y": "0.6643105",
+        "z": "0.09296628"
+      },
+      "prefabname": "assets/prefabs/building/door.hinged/door.hinged.metal.prefab",
+      "rot": {
+        "x": "-1.155315E-07",
+        "y": "-1.980268",
+        "z": "5.137787E-08"
+      },
+      "skinid": 1631261352
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.1272372",
+        "y": "0.6643105",
+        "z": "0.09296628"
+      },
+      "prefabname": "assets/prefabs/building core/wall.doorway/wall.doorway.prefab",
+      "rot": {
+        "x": "1.54042E-07",
+        "y": "-5.121861",
+        "z": "-6.850379E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.03829155",
+        "y": "-0.7449379",
+        "z": "-1.163445"
+      },
+      "prefabname": "assets/prefabs/plants/pumpkin/pumpkin.entity.prefab",
+      "rot": {
+        "x": "0.3299946",
+        "y": "-3.444604",
+        "z": "0.1056095"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.04413961",
+        "y": "0.6643105",
+        "z": "1.583977"
+      },
+      "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+      "rot": {
+        "x": "1.748456E-07",
+        "y": "-2.503868",
+        "z": "-4.618527E-14"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.8292742",
+        "y": "-0.7420731",
+        "z": "-1.797908"
+      },
+      "prefabname": "assets/prefabs/plants/corn/corn.entity.prefab",
+      "rot": {
+        "x": "6.258704",
+        "y": "-2.21141",
+        "z": "0.396405"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.4506316",
+        "y": "2.241024",
+        "z": "3.267754"
+      },
+      "prefabname": "assets/prefabs/deployable/rug/rug.deployed.prefab",
+      "rot": {
+        "x": "1.56605",
+        "y": "-5.645474",
+        "z": "4.712373"
+      },
+      "skinid": 871072156
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.2679847",
+        "y": "0.6643105",
+        "z": "3.682208"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-2.502442E-08",
+        "y": "-5.64546",
+        "z": "2.371017E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1877339384,
+          "position": 0,
+          "skinid": 861551572
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 602741290,
+          "position": 1,
+          "skinid": 882451685
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1366282552,
+          "position": 2,
+          "skinid": 814465458
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1992974553,
+          "position": 3,
+          "skinid": 1380047706
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1549739227,
+          "position": 4,
+          "skinid": 1962375417
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "200",
+          "id": -803263829,
+          "position": 12,
+          "skinid": 1962464683
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1751045826,
+          "position": 13,
+          "skinid": 1108970136
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -2002277461,
+          "position": 14,
+          "skinid": 1962514307
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 237239288,
+          "position": 15,
+          "skinid": 1108979487
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1850456855,
+          "position": 16,
+          "skinid": 1962349822
+        },
+        {
+          "amount": 38,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 588596902,
+          "position": 25,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 237239288,
+          "position": 7,
+          "skinid": 960252273
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 818877484,
+          "items": [
+            {
+              "amount": 2,
+              "id": -855748505
+            }
+          ],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 6,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [
+            {
+              "amount": 1,
+              "id": 442289265
+            },
+            {
+              "amount": 1,
+              "id": 952603248
+            },
+            {
+              "amount": 6,
+              "id": -1850571427
+            }
+          ],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 5,
+          "skinid": 0
+        },
+        {
+          "amount": 10,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1266491000,
+          "position": 8,
+          "skinid": 0
+        },
+        {
+          "amount": 191,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1685290200,
+          "position": 27,
+          "skinid": 0
+        },
+        {
+          "amount": 96,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -727717969,
+          "position": 28,
+          "skinid": 0
+        },
+        {
+          "amount": 1498,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 605467368,
+          "position": 29,
+          "skinid": 0
+        },
+        {
+          "amount": 71,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1036635990,
+          "position": 22,
+          "skinid": 0
+        },
+        {
+          "amount": 1200,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 51984655,
+          "position": 23,
+          "skinid": 0
+        },
+        {
+          "amount": 920,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1691396643,
+          "position": 21,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "500",
+          "id": -2069578888,
+          "items": [
+            {
+              "amount": 10,
+              "id": 442289265
+            },
+            {
+              "amount": 10,
+              "id": 952603248
+            }
+          ],
+          "magazine": {
+            "-1321651331": 0
+          },
+          "position": 17,
+          "skinid": 1960257468
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 818877484,
+          "items": [
+            {
+              "amount": 1,
+              "id": -855748505
+            },
+            {
+              "amount": 1,
+              "id": 952603248
+            }
+          ],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 11,
+          "skinid": 1175728272
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1252059217,
+          "position": 10,
+          "skinid": 877348466
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1367281941,
+          "items": [
+            {
+              "amount": 1,
+              "id": -855748505
+            }
+          ],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 9,
+          "skinid": 1626673551
+        },
+        {
+          "amount": 10,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1266491000,
+          "position": 20,
+          "skinid": 0
+        },
+        {
+          "amount": 4,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1211166256,
+          "position": 18,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 19,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1758372725,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 24,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1758372725,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 26,
+          "skinid": 0
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.081826",
+        "y": "0.7643089",
+        "z": "3.653652"
+      },
+      "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+      "rot": {
+        "x": "8.682342E-09",
+        "y": "-4.078603",
+        "z": "8.474206E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.332428",
+        "y": "0.6643105",
+        "z": "0.985992"
+      },
+      "prefabname": "assets/prefabs/building/wall.frame.shopfront/wall.frame.shopfront.metal.prefab",
+      "rot": {
+        "x": "-1.859233E-07",
+        "y": "-3.027466",
+        "z": "-3.097884E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.332428",
+        "y": "0.6643105",
+        "z": "0.985992"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "-1.36347E-07",
+        "y": "-3.027466",
+        "z": "-9.915235E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.366216",
+        "y": "0.6643105",
+        "z": "3.370084"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-3.26208E-09",
+        "y": "-4.074664",
+        "z": "-1.698681E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.537593",
+        "y": "0.6643105",
+        "z": "1.879073"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "1.240487E-07",
+        "y": "-5.121861",
+        "z": "-2.396717E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Open": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 7035292,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 7035985,
+        "outputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Has Target",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Low Ammo",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "No Ammo",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.333025",
+        "y": "0.7643089",
+        "z": "5.354613"
+      },
+      "prefabname": "assets/prefabs/npc/autoturret/autoturret_deployed.prefab",
+      "rot": {
+        "x": "-6.331484E-08",
+        "y": "-2.97207",
+        "z": "1.563483E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.47315",
+        "y": "0.6643105",
+        "z": "4.575289"
+      },
+      "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
+      "rot": {
+        "x": "0",
+        "y": "-5.64546",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.003137",
+        "y": "-0.08770752",
+        "z": "-0.6335737"
+      },
+      "prefabname": "assets/prefabs/plants/corn/corn.entity.prefab",
+      "rot": {
+        "x": "0.1085082",
+        "y": "-2.605415",
+        "z": "0.3431645"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.366216",
+        "y": "0.6643105",
+        "z": "3.370084"
+      },
+      "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+      "rot": {
+        "x": "8.742275E-08",
+        "y": "-2.503868",
+        "z": "-8.742281E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.3129823",
+        "y": "0.6643105",
+        "z": "6.9857"
+      },
+      "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
+      "rot": {
+        "x": "8.742276E-08",
+        "y": "-5.64546",
+        "z": "-8.742277E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.473175",
+        "y": "3.66431",
+        "z": "4.575233"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "8.545916E-08",
+        "y": "-0.9330716",
+        "z": "9.378152E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "500",
+          "id": -262590403,
+          "position": 0,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "300",
+          "id": 1326180354,
+          "position": 1,
+          "skinid": 1212723513
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1302129395,
+          "position": 2,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "139",
+          "id": -1978999529,
+          "position": 3,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "10",
+          "id": -765183617,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 4,
+          "skinid": 1341524782
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "300",
+          "id": 1326180354,
+          "position": 5,
+          "skinid": 1535765451
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -1966748496,
+          "position": 6,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "500",
+          "id": -1780802565,
+          "position": 7,
+          "skinid": 933760454
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1302129395,
+          "position": 8,
+          "skinid": 904296143
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 2040726127,
+          "position": 9,
+          "skinid": 1736201748
+        },
+        {
+          "amount": 827,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1712070256,
+          "position": 10,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1397052267,
+          "position": 11,
+          "skinid": 0
+        }
+      ],
+      "lock": {
+        "code": "25115",
+        "flags": {},
+        "ownerId": "76561198799243242",
+        "prefabname": "assets/prefabs/locks/keylock/lock.key.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.3128628",
+        "y": "2.26432",
+        "z": "4.641545"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "7.554994E-07",
+        "y": "-2.525148",
+        "z": "7.701598E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1367281941,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 0,
+          "skinid": 1219492103
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 649912614,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 2,
+          "skinid": 855087726
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1302129395,
+          "position": 3,
+          "skinid": 1298797381
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1252059217,
+          "position": 4,
+          "skinid": 1911293067
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 935692442,
+          "position": 11,
+          "skinid": 10051
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "200",
+          "id": -803263829,
+          "position": 7,
+          "skinid": 955675586
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1751045826,
+          "position": 8,
+          "skinid": 919353761
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 2040726127,
+          "position": 1,
+          "skinid": 1719795241
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 237239288,
+          "position": 10,
+          "skinid": 1274163146
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 237239288,
+          "position": 9,
+          "skinid": 1448346336
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 5,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1588298435,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 6,
+          "skinid": 0
+        }
+      ],
+      "lock": {
+        "code": "48178",
+        "flags": {},
+        "ownerId": "76561198799243242",
+        "prefabname": "assets/prefabs/locks/keylock/lock.key.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.742322",
+        "y": "2.26432",
+        "z": "5.677636"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "-3.520129E-08",
+        "y": "-2.536941",
+        "z": "-5.487943E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1366282552,
+          "position": 0,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1366282552,
+          "position": 1,
+          "skinid": 1100928373
+        },
+        {
+          "amount": 4,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1262185308,
+          "position": 2,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1751045826,
+          "position": 7,
+          "skinid": 803249256
+        },
+        {
+          "amount": 3,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1079279582,
+          "position": 8,
+          "skinid": 0
+        },
+        {
+          "amount": 4,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 254522515,
+          "position": 9,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1796682209,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 4,
+          "skinid": 0
+        },
+        {
+          "amount": 3,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 567235583,
+          "position": 5,
+          "skinid": 0
+        },
+        {
+          "amount": 3,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -132516482,
+          "position": 6,
+          "skinid": 0
+        },
+        {
+          "amount": 1896,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 785728077,
+          "position": 10,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1588298435,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 11,
+          "skinid": 1852284996
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 818877484,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 3,
+          "skinid": 0
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.2980967",
+        "y": "0.7643089",
+        "z": "4.623753"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "-1.685874E-07",
+        "y": "-2.498377",
+        "z": "-1.421085E-14"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "172",
+          "id": -803263829,
+          "position": 0,
+          "skinid": 1962464683
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1751045826,
+          "position": 1,
+          "skinid": 1108970136
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "121.669",
+          "id": -2002277461,
+          "position": 2,
+          "skinid": 1962514307
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 237239288,
+          "position": 3,
+          "skinid": 1108979487
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "142.5766",
+          "id": 1850456855,
+          "position": 4,
+          "skinid": 1962349822
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1549739227,
+          "position": 5,
+          "skinid": 1962375417
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "500",
+          "id": -1780802565,
+          "position": 7,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "500",
+          "id": -1780802565,
+          "position": 8,
+          "skinid": 0
+        },
+        {
+          "amount": 6,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 915408809,
+          "position": 11,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "500",
+          "id": -1780802565,
+          "position": 9,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1101924344,
+          "position": 18,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -1978999529,
+          "position": 14,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -702051347,
+          "position": 15,
+          "skinid": 10062
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -2025184684,
+          "position": 16,
+          "skinid": 797241160
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1878475007,
+          "position": 17,
+          "skinid": 908893157
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -48090175,
+          "position": 19,
+          "skinid": 10112
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1108136649,
+          "position": 20,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1549739227,
+          "position": 21,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1549739227,
+          "position": 22,
+          "skinid": 962503020
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "1000",
+          "id": 1181207482,
+          "position": 23,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "500",
+          "id": -1780802565,
+          "position": 24,
+          "skinid": 911446362
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 935692442,
+          "position": 26,
+          "skinid": 10118
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "500",
+          "id": -1506397857,
+          "position": 27,
+          "skinid": 0
+        },
+        {
+          "amount": 34,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 143803535,
+          "position": 28,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "99.75",
+          "id": -1367281941,
+          "items": [
+            {
+              "amount": 1,
+              "id": -855748505
+            },
+            {
+              "amount": 1,
+              "id": -132516482
+            }
+          ],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 6,
+          "skinid": 1626673551
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1373971859,
+          "items": [
+            {
+              "amount": 1,
+              "id": 952603248
+            }
+          ],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 12,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "98.5",
+          "id": 818877484,
+          "items": [
+            {
+              "amount": 1,
+              "id": -855748505
+            },
+            {
+              "amount": 1,
+              "id": 952603248
+            }
+          ],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 13,
+          "skinid": 1175728272
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "11.34122",
+          "id": -904863145,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 25,
+          "skinid": 1652791742
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1588298435,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 29,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 671063303,
+          "position": 10,
+          "skinid": 937863435
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.047054",
+        "y": "2.26432",
+        "z": "3.655117"
+      },
+      "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+      "rot": {
+        "x": "7.500022E-08",
+        "y": "-4.081801",
+        "z": "-6.710724E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "200",
+          "id": -803263829,
+          "position": 0,
+          "skinid": 1248435433
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -2002277461,
+          "position": 1,
+          "skinid": 1248434418
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1850456855,
+          "position": 2,
+          "skinid": 810193319
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1549739227,
+          "position": 3,
+          "skinid": 10034
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 818877484,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 5,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 935692442,
+          "position": 6,
+          "skinid": 880736557
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1751045826,
+          "position": 7,
+          "skinid": 1371314541
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 237239288,
+          "position": 8,
+          "skinid": 1371313777
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 237239288,
+          "position": 9,
+          "skinid": 798690647
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1252059217,
+          "position": 4,
+          "skinid": 1435214632
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1252059217,
+          "position": 10,
+          "skinid": 1171956705
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1252059217,
+          "position": 11,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.897057",
+        "y": "2.26432",
+        "z": "3.998027"
+      },
+      "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
+      "rot": {
+        "x": "-6.711599E-07",
+        "y": "-5.654943",
+        "z": "-7.401524E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -48090175,
+          "position": 0,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 935692442,
+          "position": 1,
+          "skinid": 1416787006
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "500",
+          "id": -1506397857,
+          "position": 2,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -1978999529,
+          "position": 3,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "300",
+          "id": 1326180354,
+          "position": 4,
+          "skinid": 1624719255
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1252059217,
+          "position": 5,
+          "skinid": 1076337199
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1252059217,
+          "position": 6,
+          "skinid": 1407875352
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "500",
+          "id": -1506397857,
+          "position": 9,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "10",
+          "id": -765183617,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 7,
+          "skinid": 1213074188
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "67.18694",
+          "id": -1367281941,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 8,
+          "skinid": 1209128595
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "373.25",
+          "id": -2069578888,
+          "items": [
+            {
+              "amount": 1,
+              "id": 952603248
+            },
+            {
+              "amount": 1,
+              "id": 442289265
+            },
+            {
+              "amount": 1,
+              "id": 1478091698
+            }
+          ],
+          "magazine": {
+            "-1321651331": 0
+          },
+          "position": 11,
+          "skinid": 1712378771
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1796682209,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 10,
+          "skinid": 816728172
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.881091",
+        "y": "2.26432",
+        "z": "3.987066"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "7.401044E-08",
+        "y": "-4.084159",
+        "z": "-6.711603E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "300",
+          "id": 1326180354,
+          "position": 18,
+          "skinid": 950134503
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 2040726127,
+          "position": 20,
+          "skinid": 1706692846
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "300",
+          "id": 1326180354,
+          "position": 21,
+          "skinid": 828885909
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "300",
+          "id": 1326180354,
+          "position": 22,
+          "skinid": 1154175800
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -1978999529,
+          "position": 26,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 237239288,
+          "position": 27,
+          "skinid": 1274163146
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -1978999529,
+          "position": 28,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 0,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 1,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 2,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -765183617,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 3,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 818877484,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 4,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1758372725,
+          "items": [
+            {
+              "amount": 1,
+              "id": -1850571427
+            },
+            {
+              "amount": 1,
+              "id": -132516482
+            }
+          ],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 5,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 6,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 7,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1758372725,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 8,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "147.75",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 9,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1588298435,
+          "items": [
+            {
+              "amount": 1,
+              "id": 567235583
+            }
+          ],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 12,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -765183617,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 13,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "99",
+          "id": -852563019,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 14,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -1966748496,
+          "position": 23,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "422.651",
+          "id": -1780802565,
+          "position": 24,
+          "skinid": 1276627079
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "391",
+          "id": -1252059217,
+          "position": 25,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "300",
+          "id": 1326180354,
+          "position": 19,
+          "skinid": 893871715
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -2025184684,
+          "position": 29,
+          "skinid": 885078753
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 10,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 11,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -765183617,
+          "items": [],
+          "magazine": {
+            "588596902": 1
+          },
+          "position": 15,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 818877484,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 16,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 818877484,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 17,
+          "skinid": 0
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.466698",
+        "y": "2.26432",
+        "z": "4.685665"
+      },
+      "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+      "rot": {
+        "x": "-5.375074E-07",
+        "y": "-4.095927",
+        "z": "3.295742E-08"
+      },
+      "skinid": 808375730
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -1469578201,
+          "position": 4,
+          "skinid": 855009078
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -48090175,
+          "position": 6,
+          "skinid": 530159711
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -765183617,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 5,
+          "skinid": 948113632
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [
+            {
+              "amount": 2,
+              "id": 952603248
+            }
+          ],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 0,
+          "skinid": 1870705926
+        },
+        {
+          "amount": 4,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1840822026,
+          "position": 9,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 935692442,
+          "position": 7,
+          "skinid": 566893368
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1163532624,
+          "position": 8,
+          "skinid": 10014
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1758372725,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 2,
+          "skinid": 1689944021
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -41440462,
+          "items": [
+            {
+              "amount": 1,
+              "id": -855748505
+            }
+          ],
+          "magazine": {
+            "-1685290200": 0
+          },
+          "position": 3,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -1966748496,
+          "position": 10,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -1966748496,
+          "position": 11,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.94696",
+        "y": "0.7643089",
+        "z": "3.996546"
+      },
+      "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
+      "rot": {
+        "x": "1.685874E-07",
+        "y": "-5.621135",
+        "z": "-3.552713E-15"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.47315",
+        "y": "2.16431",
+        "z": "4.575289"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "1.698681E-07",
+        "y": "-2.503868",
+        "z": "-3.262121E-09"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 935692442,
+          "position": 4,
+          "skinid": 10047
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 2040726127,
+          "position": 5,
+          "skinid": 1719795241
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1252059217,
+          "position": 6,
+          "skinid": 953186726
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "1000",
+          "id": -1102429027,
+          "position": 7,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "50",
+          "id": -196667575,
+          "position": 8,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 671063303,
+          "position": 10,
+          "skinid": 930563894
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 935692442,
+          "position": 11,
+          "skinid": 808300545
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 9,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 1,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "300",
+          "id": 1488979457,
+          "position": 2,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "1000",
+          "id": 1181207482,
+          "position": 0,
+          "skinid": 0
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.942946",
+        "y": "0.7643089",
+        "z": "3.988279"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "-1.035979E-08",
+        "y": "-4.038546",
+        "z": "2.52242E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 386,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1414245522,
+          "position": 0,
+          "skinid": 0
+        },
+        {
+          "amount": 135,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1882709339,
+          "position": 1,
+          "skinid": 0
+        },
+        {
+          "amount": 300,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 95950017,
+          "position": 2,
+          "skinid": 0
+        },
+        {
+          "amount": 84,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 2019042823,
+          "position": 3,
+          "skinid": 0
+        },
+        {
+          "amount": 4830,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -858312878,
+          "position": 4,
+          "skinid": 0
+        },
+        {
+          "amount": 72,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1994909036,
+          "position": 5,
+          "skinid": 0
+        },
+        {
+          "amount": 100,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 573926264,
+          "position": 6,
+          "skinid": 0
+        },
+        {
+          "amount": 121,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1234880403,
+          "position": 8,
+          "skinid": 0
+        },
+        {
+          "amount": 3264,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1381010055,
+          "position": 9,
+          "skinid": 0
+        },
+        {
+          "amount": 1013,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1018587433,
+          "position": 10,
+          "skinid": 0
+        },
+        {
+          "amount": 20,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 2048317869,
+          "position": 11,
+          "skinid": 0
+        },
+        {
+          "amount": 4017,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1719978075,
+          "position": 12,
+          "skinid": 0
+        },
+        {
+          "amount": 210,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 479143914,
+          "position": 13,
+          "skinid": 0
+        },
+        {
+          "amount": 31,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 176787552,
+          "position": 18,
+          "skinid": 0
+        },
+        {
+          "amount": 96,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1021495308,
+          "position": 19,
+          "skinid": 0
+        },
+        {
+          "amount": 3,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -295829489,
+          "position": 20,
+          "skinid": 0
+        },
+        {
+          "amount": 21,
+          "blueprintTarget": 0,
+          "condition": "200",
+          "id": -629028935,
+          "position": 21,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1519126340,
+          "position": 22,
+          "skinid": 0
+        },
+        {
+          "amount": 3,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -295829489,
+          "position": 23,
+          "skinid": 0
+        },
+        {
+          "amount": 48,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 573926264,
+          "position": 24,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1655650836,
+          "position": 26,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -967648160,
+          "position": 27,
+          "skinid": 0
+        },
+        {
+          "amount": 270,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1199391518,
+          "position": 7,
+          "skinid": 0
+        },
+        {
+          "amount": 182,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 73681876,
+          "position": 17,
+          "skinid": 0
+        },
+        {
+          "amount": 50,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1523195708,
+          "position": 16,
+          "skinid": 0
+        },
+        {
+          "amount": 37,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1230323789,
+          "position": 14,
+          "skinid": 0
+        },
+        {
+          "amount": 52,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 634478325,
+          "position": 15,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1523195708,
+          "position": 28,
+          "skinid": 0
+        },
+        {
+          "amount": 128,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 95950017,
+          "position": 29,
+          "skinid": 0
+        },
+        {
+          "amount": 3,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -295829489,
+          "position": 25,
+          "skinid": 0
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.305989",
+        "y": "0.7643089",
+        "z": "4.923929"
+      },
+      "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+      "rot": {
+        "x": "0",
+        "y": "-4.052688",
+        "z": "1.685874E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-3.742783",
+        "y": "0.6643105",
+        "z": "2.772099"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "1.859733E-08",
+        "y": "-3.027466",
+        "z": "1.177497E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.67834",
+        "y": "0.6643105",
+        "z": "5.468315"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-4.050709E-08",
+        "y": "-2.503868",
+        "z": "-1.840824E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.67834",
+        "y": "0.6643105",
+        "z": "5.468315"
+      },
+      "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+      "rot": {
+        "x": "8.742275E-08",
+        "y": "-0.9330716",
+        "z": "-8.74228E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-4.694744",
+        "y": "0.8757629",
+        "z": "4.391424"
+      },
+      "prefabname": "assets/prefabs/deployable/repair bench/repairbench_deployed.prefab",
+      "rot": {
+        "x": "6.086961",
+        "y": "-1.831378",
+        "z": "0.1179428"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-4.169351",
+        "y": "0.6643105",
+        "z": "5.639691"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-9.072699E-08",
+        "y": "-3.551065",
+        "z": "2.360455E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.8922082",
+        "y": "0.6643105",
+        "z": "7.878726"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-2.799486E-08",
+        "y": "-2.503867",
+        "z": "-3.026331E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "lock": {
+        "code": "4245",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.5800838",
+        "y": "0.6643105",
+        "z": "5.780495"
+      },
+      "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
+      "rot": {
+        "x": "-6.939523E-08",
+        "y": "-4.074664",
+        "z": "-3.463717E-07"
+      },
+      "skinid": 1557625090
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.5800838",
+        "y": "0.6643105",
+        "z": "5.780495"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "-7.824272E-08",
+        "y": "-4.074664",
+        "z": "-2.625436E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.8922082",
+        "y": "0.6643105",
+        "z": "7.878726"
+      },
+      "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+      "rot": {
+        "x": "-5.684342E-14",
+        "y": "-0.9330716",
+        "z": "-1.748455E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.383219",
+        "y": "0.6643105",
+        "z": "8.050102"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-8.162839E-08",
+        "y": "-3.551065",
+        "z": "3.298484E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-3.276285",
+        "y": "0.6643105",
+        "z": "6.844897"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-1.04077E-08",
+        "y": "-1.45667",
+        "z": "1.643787E-09"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 8,
+          "blueprintTarget": 0,
+          "condition": "4",
+          "id": -144417939,
+          "position": 5,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.156997",
+        "y": "2.677273",
+        "z": "7.269361"
+      },
+      "prefabname": "assets/prefabs/misc/xmas/stockings/stocking_large_deployed.prefab",
+      "rot": {
+        "x": "-4.19328E-07",
+        "y": "-4.074664",
+        "z": "6.278307"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.6130412",
+        "y": "0.7643089",
+        "z": "6.753853"
+      },
+      "prefabname": "assets/prefabs/deployable/bed/bed_deployed.prefab",
+      "rot": {
+        "x": "-1.358173E-07",
+        "y": "-4.06405",
+        "z": "1.811911E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 32,
+          "blueprintTarget": 0,
+          "condition": "200",
+          "id": -582782051,
+          "position": 5,
+          "skinid": 0
+        },
+        {
+          "amount": 32,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1663759755,
+          "position": 4,
+          "skinid": 0
+        },
+        {
+          "amount": 9,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -2139580305,
+          "position": 3,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "4",
+          "id": 37122747,
+          "position": 9,
+          "skinid": 0
+        },
+        {
+          "amount": 5,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1397052267,
+          "position": 7,
+          "skinid": 0
+        },
+        {
+          "amount": 5,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1397052267,
+          "position": 6,
+          "skinid": 0
+        },
+        {
+          "amount": 5,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1397052267,
+          "position": 8,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "4",
+          "id": -1880870149,
+          "position": 10,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1525520776,
+          "position": 0,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "4",
+          "id": -1880870149,
+          "position": 11,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 200773292,
+          "position": 1,
+          "skinid": 833423263
+        },
+        {
+          "amount": 3,
+          "blueprintTarget": 0,
+          "condition": "200",
+          "id": -629028935,
+          "position": 2,
+          "skinid": 0
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.3314067",
+        "y": "0.7643089",
+        "z": "7.648969"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "-8.59809E-09",
+        "y": "-2.514869",
+        "z": "7.758747E-08"
+      },
+      "skinid": 1818868472
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.490152",
+        "y": "0.6643105",
+        "z": "9.255308"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "1.04077E-07",
+        "y": "-1.45667",
+        "z": "-1.643787E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.2988126",
+        "y": "3.564312",
+        "z": "7.659273"
+      },
+      "prefabname": "assets/prefabs/deployable/single shot trap/guntrap.deployed.prefab",
+      "rot": {
+        "x": "-1.685874E-07",
+        "y": "-4.089982",
+        "z": "3.141593"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.206048",
+        "y": "0.6643105",
+        "z": "8.190906"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "8.219705E-08",
+        "y": "-0.9330716",
+        "z": "-7.608659E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 17569,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -932201673,
+          "position": 2,
+          "skinid": 0
+        },
+        {
+          "amount": 2794,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 317398316,
+          "position": 4,
+          "skinid": 0
+        },
+        {
+          "amount": 29489,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 69511070,
+          "position": 3,
+          "skinid": 0
+        },
+        {
+          "amount": 75065,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -2099697608,
+          "position": 1,
+          "skinid": 0
+        },
+        {
+          "amount": 91860,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -151838493,
+          "position": 0,
+          "skinid": 0
+        },
+        {
+          "amount": 1958,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -321733511,
+          "position": 8,
+          "skinid": 0
+        },
+        {
+          "amount": 65,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -592016202,
+          "position": 5,
+          "skinid": 0
+        },
+        {
+          "amount": 10000,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -946369541,
+          "position": 6,
+          "skinid": 0
+        },
+        {
+          "amount": 2095,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -946369541,
+          "position": 7,
+          "skinid": 0
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.2469482",
+        "y": "0.7643127",
+        "z": "8.240855"
+      },
+      "prefabname": "assets/prefabs/deployable/tool cupboard/cupboard.tool.deployed.prefab",
+      "rot": {
+        "x": "-4.340529E-07",
+        "y": "-2.495229",
+        "z": "8.21647E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.616404",
+        "y": "0.6643105",
+        "z": "6.404799"
+      },
+      "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+      "rot": {
+        "x": "8.742269E-08",
+        "y": "-5.645461",
+        "z": "-2.622684E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.787781",
+        "y": "0.6643105",
+        "z": "7.895809"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-1.710764E-07",
+        "y": "-1.980268",
+        "z": "4.450915E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.616404",
+        "y": "0.6643105",
+        "z": "6.404799"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "1.120016E-07",
+        "y": "-0.9330711",
+        "z": "-1.577028E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 290,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -567909622,
+          "position": 0,
+          "skinid": 0
+        },
+        {
+          "amount": 216,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1511285251,
+          "position": 1,
+          "skinid": 0
+        },
+        {
+          "amount": 137,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1367190888,
+          "position": 2,
+          "skinid": 0
+        },
+        {
+          "amount": 157,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 998894949,
+          "position": 3,
+          "skinid": 0
+        },
+        {
+          "amount": 20,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -586342290,
+          "position": 4,
+          "skinid": 0
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.344831",
+        "y": "0.7845078",
+        "z": "6.426994"
+      },
+      "prefabname": "assets/prefabs/deployable/fridge/fridge.deployed.prefab",
+      "rot": {
+        "x": "6.713773E-08",
+        "y": "-2.504791",
+        "z": "1.588556E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.723338",
+        "y": "0.6643105",
+        "z": "5.199594"
+      },
+      "prefabname": "assets/prefabs/building core/foundation/foundation.prefab",
+      "rot": {
+        "x": "1.748456E-07",
+        "y": "-4.074664",
+        "z": "-7.105427E-15"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -946369541,
+          "position": 0,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.809983",
+        "y": "3.038044",
+        "z": "7.618901"
+      },
+      "prefabname": "assets/prefabs/deployable/tuna can wall lamp/tunalight.deployed.prefab",
+      "rot": {
+        "x": "-1.928129E-07",
+        "y": "-2.503868",
+        "z": "0.003048323"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "lock": {
+        "code": "4245",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.518173",
+        "y": "0.6643105",
+        "z": "6.092675"
+      },
+      "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
+      "rot": {
+        "x": "1.548267E-08",
+        "y": "-5.64546",
+        "z": "4.21184E-07"
+      },
+      "skinid": 1398568170
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.518173",
+        "y": "0.6643105",
+        "z": "6.092675"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "-1.548269E-08",
+        "y": "-2.503868",
+        "z": "-4.21184E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.206023",
+        "y": "3.66431",
+        "z": "8.19085"
+      },
+      "prefabname": "assets/prefabs/building core/wall.window/wall.window.prefab",
+      "rot": {
+        "x": "-8.872129E-08",
+        "y": "-0.9330716",
+        "z": "-2.636496E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.8922334",
+        "y": "3.66431",
+        "z": "7.87867"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-1.715702E-07",
+        "y": "-2.503868",
+        "z": "-7.804372E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.312957",
+        "y": "3.66431",
+        "z": "6.985645"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "-9.378149E-08",
+        "y": "-5.645461",
+        "z": "8.545916E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.616404",
+        "y": "5.16431",
+        "z": "6.404799"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "1.120016E-07",
+        "y": "-0.9330711",
+        "z": "-1.577028E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.787781",
+        "y": "3.66431",
+        "z": "7.895809"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-1.710765E-07",
+        "y": "-1.980268",
+        "z": "4.450916E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -946369541,
+          "position": 0,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.746427",
+        "y": "2.711128",
+        "z": "6.925016"
+      },
+      "prefabname": "assets/prefabs/deployable/tuna can wall lamp/tunalight.deployed.prefab",
+      "rot": {
+        "x": "-1.055305E-07",
+        "y": "-2.503867",
+        "z": "0.002776404"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.616404",
+        "y": "3.66431",
+        "z": "6.404799"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "-1.152636E-07",
+        "y": "-0.9330711",
+        "z": "-1.216528E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "498.25",
+          "id": -2069578888,
+          "items": [
+            {
+              "amount": 1,
+              "id": 567235583
+            },
+            {
+              "amount": 1,
+              "id": -132516482
+            },
+            {
+              "amount": 1,
+              "id": -1850571427
+            }
+          ],
+          "magazine": {
+            "-1321651331": 0
+          },
+          "position": 0,
+          "skinid": 1831294069
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "499",
+          "id": -2069578888,
+          "items": [
+            {
+              "amount": 4,
+              "id": 442289265
+            },
+            {
+              "amount": 1,
+              "id": -132516482
+            }
+          ],
+          "magazine": {
+            "1712070256": 0
+          },
+          "position": 1,
+          "skinid": 1707973294
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "98.5",
+          "id": 1796682209,
+          "items": [
+            {
+              "amount": 1,
+              "id": -1850571427
+            },
+            {
+              "amount": 6,
+              "id": 952603248
+            },
+            {
+              "amount": 4,
+              "id": 442289265
+            }
+          ],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 2,
+          "skinid": 866745136
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 818877484,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 3,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 4,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 5,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1588298435,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 6,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 7,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1758372725,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 8,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [
+            {
+              "amount": 1,
+              "id": 952603248
+            },
+            {
+              "amount": 1,
+              "id": -1850571427
+            },
+            {
+              "amount": 2,
+              "id": 442289265
+            }
+          ],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 9,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 818877484,
+          "items": [
+            {
+              "amount": 1,
+              "id": 952603248
+            },
+            {
+              "amount": 1,
+              "id": -855748505
+            },
+            {
+              "amount": 4,
+              "id": -1850571427
+            }
+          ],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 10,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "498.5",
+          "id": -2069578888,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 11,
+          "skinid": 1707973294
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "498.5",
+          "id": -2069578888,
+          "items": [
+            {
+              "amount": 1,
+              "id": -1850571427
+            },
+            {
+              "amount": 2,
+              "id": 442289265
+            },
+            {
+              "amount": 4,
+              "id": 952603248
+            }
+          ],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 12,
+          "skinid": 1831294069
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "132",
+          "id": -1966748496,
+          "position": 14,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "282.8281",
+          "id": -1215753368,
+          "position": 15,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "48.25",
+          "id": 884424049,
+          "magazine": {
+            "-1023065463": 0
+          },
+          "position": 16,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -765183617,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 18,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -765183617,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 19,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -765183617,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 20,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -765183617,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 21,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 935692442,
+          "position": 22,
+          "skinid": 10036
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "200",
+          "id": 850280505,
+          "position": 23,
+          "skinid": 964461549
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 24,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 25,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 26,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 27,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 28,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1588298435,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 29,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 17,
+          "skinid": 0
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.344408",
+        "y": "5.264313",
+        "z": "6.118402"
+      },
+      "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+      "rot": {
+        "x": "4.172979E-07",
+        "y": "-0.9432039",
+        "z": "1.25776E-07"
+      },
+      "skinid": 1499104921
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1478212975,
+          "position": 0,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1366282552,
+          "position": 1,
+          "skinid": 1406800025
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 794356786,
+          "position": 2,
+          "skinid": 0
+        },
+        {
+          "amount": 7,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1266491000,
+          "position": 5,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -1469578201,
+          "position": 6,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -1978999529,
+          "position": 8,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "280",
+          "id": 1326180354,
+          "position": 7,
+          "skinid": 828885909
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 935692442,
+          "position": 9,
+          "skinid": 10106
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1252059217,
+          "position": 10,
+          "skinid": 824552943
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1302129395,
+          "position": 11,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1055319033,
+          "position": 3,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -1812555177,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 4,
+          "skinid": 0
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.6116",
+        "y": "5.264313",
+        "z": "5.12846"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "1.233187E-07",
+        "y": "-2.525781",
+        "z": "-4.170384E-07"
+      },
+      "skinid": 1679876778
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.723338",
+        "y": "5.16431",
+        "z": "5.199594"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "-1.216528E-08",
+        "y": "-2.503867",
+        "z": "1.152636E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "lock": {
+        "code": "4245",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.723338",
+        "y": "3.564312",
+        "z": "5.199594"
+      },
+      "prefabname": "assets/prefabs/building/floor.ladder.hatch/floor.ladder.hatch.prefab",
+      "rot": {
+        "x": "1.19218E-07",
+        "y": "-0.9330711",
+        "z": "-3.264649E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.723338",
+        "y": "3.66431",
+        "z": "5.199594"
+      },
+      "prefabname": "assets/prefabs/building core/floor.frame/floor.frame.prefab",
+      "rot": {
+        "x": "-1.577028E-07",
+        "y": "-2.503867",
+        "z": "-1.120016E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.830272",
+        "y": "0.6643105",
+        "z": "3.994388"
+      },
+      "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
+      "rot": {
+        "x": "-9.8261E-08",
+        "y": "-4.074664",
+        "z": "3.286768E-07"
+      },
+      "skinid": 1575268855
+    },
+    {
+      "flags": {},
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.830272",
+        "y": "3.66431",
+        "z": "3.994388"
+      },
+      "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
+      "rot": {
+        "x": "-9.919982E-08",
+        "y": "-0.9330721",
+        "z": "-2.647555E-07"
+      },
+      "skinid": 1553621681
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.830272",
+        "y": "3.66431",
+        "z": "3.994388"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "-8.87213E-08",
+        "y": "-0.9330721",
+        "z": "-2.636496E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.9372057",
+        "y": "3.66431",
+        "z": "2.789182"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "-9.378147E-08",
+        "y": "-5.645461",
+        "z": "8.545915E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.830272",
+        "y": "0.6643105",
+        "z": "3.994388"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "8.941348E-08",
+        "y": "-0.9330711",
+        "z": "-2.448487E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.518173",
+        "y": "5.16431",
+        "z": "6.092675"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "9.055595E-08",
+        "y": "-2.503867",
+        "z": "-2.901209E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.312957",
+        "y": "6.66431",
+        "z": "6.985645"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "-8.161621E-08",
+        "y": "-5.64546",
+        "z": "-2.980453E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.518147",
+        "y": "3.66431",
+        "z": "6.092619"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "1.233216E-07",
+        "y": "-2.503868",
+        "z": "-3.166306E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.206023",
+        "y": "4.66431",
+        "z": "8.19085"
+      },
+      "prefabname": "assets/prefabs/building/wall.window.embrasure/shutter.metal.embrasure.a.prefab",
+      "rot": {
+        "x": "-3.959517E-08",
+        "y": "-0.9330721",
+        "z": "-8.594152E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.5801091",
+        "y": "3.66431",
+        "z": "5.780439"
+      },
+      "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
+      "rot": {
+        "x": "9.267556E-08",
+        "y": "-0.9330716",
+        "z": "-7.498064E-08"
+      },
+      "skinid": 1557625090
+    },
+    {
+      "flags": {},
+      "items": [],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.391978",
+        "y": "3.764309",
+        "z": "4.853704"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "1.390944E-09",
+        "y": "-4.080739",
+        "z": "4.622011E-07"
+      },
+      "skinid": 1818868472
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.5801091",
+        "y": "3.66431",
+        "z": "5.780439"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "8.219705E-08",
+        "y": "-0.9330716",
+        "z": "-7.608659E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 236,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1234735557,
+          "position": 0,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "32.09542",
+          "id": 1965232394,
+          "items": [],
+          "magazine": {
+            "-1234735557": 0
+          },
+          "position": 1,
+          "skinid": 1328219905
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "200",
+          "id": -803263829,
+          "position": 2,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.1487",
+        "y": "3.764309",
+        "z": "5.091518"
+      },
+      "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
+      "rot": {
+        "x": "-5.574045E-07",
+        "y": "-4.080786",
+        "z": "-2.241688E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.376706",
+        "y": "3.764309",
+        "z": "5.58132"
+      },
+      "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+      "rot": {
+        "x": "-4.088638E-07",
+        "y": "-2.507605",
+        "z": "6.628316E-08"
+      },
+      "skinid": 1603754136
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "177.2435",
+          "id": -803263829,
+          "position": 0,
+          "skinid": 1962464683
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1751045826,
+          "position": 1,
+          "skinid": 1108970136
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "142.7879",
+          "id": -2002277461,
+          "position": 2,
+          "skinid": 1962514307
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1366282552,
+          "position": 3,
+          "skinid": 874488180
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 237239288,
+          "position": 4,
+          "skinid": 1108979487
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1549739227,
+          "position": 5,
+          "skinid": 1962375417
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "200",
+          "id": -803263829,
+          "position": 6,
+          "skinid": 1759479029
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 237239288,
+          "position": 7,
+          "skinid": 961084105
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1302129395,
+          "position": 8,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1878475007,
+          "position": 9,
+          "skinid": 1710383765
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "19.84378",
+          "id": 649912614,
+          "items": [
+            {
+              "amount": 1,
+              "id": -1850571427
+            }
+          ],
+          "magazine": {
+            "785728077": 4
+          },
+          "position": 10,
+          "skinid": 873242795
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1588298435,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 11,
+          "skinid": 0
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.150286",
+        "y": "3.764309",
+        "z": "5.079497"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "1.499615E-07",
+        "y": "-2.479356",
+        "z": "-5.939563E-07"
+      },
+      "skinid": 1529745641
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.473175",
+        "y": "5.16431",
+        "z": "4.575233"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "7.804374E-08",
+        "y": "-0.9330711",
+        "z": "-1.715702E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -946369541,
+          "position": 0,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.3872611",
+        "y": "3.011795",
+        "z": "4.734441"
+      },
+      "prefabname": "assets/prefabs/deployable/tuna can wall lamp/tunalight.deployed.prefab",
+      "rot": {
+        "x": "2.905726E-07",
+        "y": "-0.9330711",
+        "z": "0.0817009"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -946369541,
+          "position": 0,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.3387697",
+        "y": "3.10696",
+        "z": "4.333056"
+      },
+      "prefabname": "assets/prefabs/deployable/tuna can wall lamp/tunalight.deployed.prefab",
+      "rot": {
+        "x": "-2.8871E-07",
+        "y": "-4.074664",
+        "z": "6.266168"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.383219",
+        "y": "3.66431",
+        "z": "8.050102"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-1.204517E-08",
+        "y": "-3.551065",
+        "z": "2.662878E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.490152",
+        "y": "3.66431",
+        "z": "9.255308"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "1.04077E-07",
+        "y": "-1.45667",
+        "z": "-1.643787E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.678366",
+        "y": "3.66431",
+        "z": "5.468259"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-1.060387E-07",
+        "y": "-2.503868",
+        "z": "-1.31063E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-3.276285",
+        "y": "3.66431",
+        "z": "6.844897"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "0",
+        "y": "-1.45667",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1104520648,
+          "position": 0,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "10",
+          "id": -765183617,
+          "items": [],
+          "magazine": {
+            "588596902": 1
+          },
+          "position": 1,
+          "skinid": 916790605
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 2,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 3,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -1812555177,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 4,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 237239288,
+          "position": 5,
+          "skinid": 1170988006
+        },
+        {
+          "amount": 4,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 254522515,
+          "position": 6,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -1978999529,
+          "position": 7,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 8,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "353",
+          "id": 1110385766,
+          "position": 9,
+          "skinid": 832233112
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1878475007,
+          "position": 10,
+          "skinid": 1586074827
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "277.4",
+          "id": 1326180354,
+          "position": 11,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "200",
+          "id": 850280505,
+          "position": 12,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 649912614,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 13,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 14,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 15,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": -1812555177,
+          "items": [
+            {
+              "amount": 2,
+              "id": 442289265
+            }
+          ],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 16,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1588298435,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 17,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "373.9977",
+          "id": -1252059217,
+          "position": 18,
+          "skinid": 1247701169
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 237239288,
+          "position": 19,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -2025184684,
+          "position": 20,
+          "skinid": 885078753
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1104520648,
+          "position": 21,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "16.53823",
+          "id": 818877484,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 22,
+          "skinid": 936623315
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 649912614,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 23,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 1366282552,
+          "position": 24,
+          "skinid": 962495909
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "385.2",
+          "id": -1302129395,
+          "position": 25,
+          "skinid": 1298797381
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [
+            {
+              "amount": 1,
+              "id": -855748505
+            }
+          ],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 26,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1758372725,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 27,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1758372725,
+          "items": [
+            {
+              "amount": 1,
+              "id": -1405508498
+            }
+          ],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 28,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "10.42668",
+          "id": 649912614,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 29,
+          "skinid": 1787802800
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.410714",
+        "y": "3.764309",
+        "z": "4.180288"
+      },
+      "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+      "rot": {
+        "x": "1.737526E-07",
+        "y": "-2.502902",
+        "z": "-6.221626E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-3.742783",
+        "y": "3.66431",
+        "z": "2.772099"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "1.859733E-08",
+        "y": "-3.027466",
+        "z": "1.177497E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.366241",
+        "y": "3.66431",
+        "z": "3.370028"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "2.98045E-08",
+        "y": "-4.074664",
+        "z": "-8.161624E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-3.276285",
+        "y": "6.66431",
+        "z": "6.844897"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "0",
+        "y": "-3.027467",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-4.169351",
+        "y": "3.66431",
+        "z": "5.639691"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-6.048465E-08",
+        "y": "-3.551065",
+        "z": "1.573637E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.7738144",
+        "y": "8.264309",
+        "z": "6.364124"
+      },
+      "prefabname": "assets/prefabs/deployable/barricades/barricade.wood.prefab",
+      "rot": {
+        "x": "-2.3587E-07",
+        "y": "-0.9355221",
+        "z": "-2.167659E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.3130076",
+        "y": "8.16431",
+        "z": "6.985756"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "-2.654252E-08",
+        "y": "-0.9330711",
+        "z": "2.514842E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.8922082",
+        "y": "6.66431",
+        "z": "7.878726"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "-1.590579E-07",
+        "y": "-2.503867",
+        "z": "-1.965946E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.39038",
+        "y": "8.264301",
+        "z": "4.839531"
+      },
+      "prefabname": "assets/prefabs/deployable/barricades/barricade.wood.prefab",
+      "rot": {
+        "x": "-5.622343E-07",
+        "y": "-5.637706",
+        "z": "4.974916E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.473175",
+        "y": "8.16431",
+        "z": "4.575233"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "2.514843E-07",
+        "y": "-2.503868",
+        "z": "2.654239E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.5801091",
+        "y": "6.66431",
+        "z": "5.780439"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "2.654239E-08",
+        "y": "-4.074664",
+        "z": "-2.514843E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.473175",
+        "y": "6.66431",
+        "z": "4.575233"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "-8.161622E-08",
+        "y": "-5.64546",
+        "z": "-2.98045E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.366241",
+        "y": "6.66431",
+        "z": "3.370028"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "-3.306658E-08",
+        "y": "-4.074664",
+        "z": "-8.825184E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.366241",
+        "y": "6.66431",
+        "z": "3.370028"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "8.161624E-08",
+        "y": "-2.503868",
+        "z": "2.980447E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.490152",
+        "y": "6.66431",
+        "z": "9.255308"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "-1.643791E-08",
+        "y": "-3.027467",
+        "z": "-1.04077E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.67834",
+        "y": "6.66431",
+        "z": "5.468315"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "-1.590579E-07",
+        "y": "-2.503867",
+        "z": "-1.965946E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.9372057",
+        "y": "6.66431",
+        "z": "2.789182"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "-3.166306E-07",
+        "y": "-0.9330721",
+        "z": "-1.233216E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.2679847",
+        "y": "6.66431",
+        "z": "3.682208"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "-8.281439E-08",
+        "y": "-2.503869",
+        "z": "5.007131E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.723338",
+        "y": "8.16431",
+        "z": "5.199594"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "-2.514843E-07",
+        "y": "-5.64546",
+        "z": "-2.654248E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.723338",
+        "y": "6.66431",
+        "z": "5.199594"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "-1.577028E-07",
+        "y": "-2.503867",
+        "z": "-1.120016E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.830272",
+        "y": "6.66431",
+        "z": "3.994388"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "-6.939538E-08",
+        "y": "-4.074665",
+        "z": "-3.463717E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.142396",
+        "y": "6.66431",
+        "z": "1.896157"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "-1.108094E-07",
+        "y": "-5.645461",
+        "z": "1.980799E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.142396",
+        "y": "6.66431",
+        "z": "1.896157"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "3.166307E-07",
+        "y": "-4.074665",
+        "z": "1.233215E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.9372057",
+        "y": "8.16431",
+        "z": "2.789182"
+      },
+      "prefabname": "assets/prefabs/building core/floor/floor.prefab",
+      "rot": {
+        "x": "2.654244E-08",
+        "y": "-4.074664",
+        "z": "-2.514843E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "IOEntity": {
+        "inputs": [],
+        "oldID": 7031365,
+        "outputs": [
+          {
+            "connectedID": 7033812,
+            "connectedToSlot": 1,
+            "linePoints": [
+              {
+                "x": 0.7767812,
+                "y": -0.04904152,
+                "z": 0.9990726
+              },
+              {
+                "x": 0.180000275,
+                "y": -8.52970459E-08,
+                "z": 0.970028
+              }
+            ],
+            "niceName": "Electric Output",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.811792",
+        "y": "8.343307",
+        "z": "3.183226"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/generators/solar_panels_roof/solarpanel.large.deployed.prefab",
+      "rot": {
+        "x": "-1.868621E-07",
+        "y": "-5.623145",
+        "z": "-5.331352E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "7.25",
+          "id": -1758372725,
+          "items": [
+            {
+              "amount": 1,
+              "id": -855748505
+            }
+          ],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 0,
+          "skinid": 1772377862
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1252059217,
+          "position": 1,
+          "skinid": 1572398539
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "136",
+          "id": -1469578201,
+          "position": 2,
+          "skinid": 825169057
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1163532624,
+          "position": 3,
+          "skinid": 10014
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 237239288,
+          "position": 4,
+          "skinid": 1623181884
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [
+            {
+              "amount": 1,
+              "id": 952603248
+            }
+          ],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 6,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 7,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 9,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1588298435,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 10,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 8,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "195.8547",
+          "id": 442886268,
+          "magazine": {
+            "-1841918730": 0
+          },
+          "position": 5,
+          "skinid": 853494512
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "90",
+          "id": -852563019,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 11,
+          "skinid": 0
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.916763",
+        "y": "5.264313",
+        "z": "3.960254"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "8.264724E-07",
+        "y": "-2.5093",
+        "z": "1.947358E-07"
+      },
+      "skinid": 1644263172
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.142396",
+        "y": "3.66431",
+        "z": "1.896157"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "1.233216E-07",
+        "y": "-5.645461",
+        "z": "-3.166306E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.04413961",
+        "y": "6.66431",
+        "z": "1.583977"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "-3.821197E-07",
+        "y": "-4.074664",
+        "z": "-2.946156E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.04413961",
+        "y": "3.66431",
+        "z": "1.583977"
+      },
+      "prefabname": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
+      "rot": {
+        "x": "1.01523E-07",
+        "y": "-4.074664",
+        "z": "-1.588087E-07"
+      },
+      "skinid": 1268613114
+    },
+    {
+      "flags": {},
+      "grade": 4,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.04413961",
+        "y": "6.66431",
+        "z": "1.583977"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "-1.233216E-07",
+        "y": "-2.503869",
+        "z": "3.166307E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "0.04413961",
+        "y": "3.66431",
+        "z": "1.583977"
+      },
+      "prefabname": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+      "rot": {
+        "x": "9.267557E-08",
+        "y": "-4.074664",
+        "z": "-7.498066E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.518173",
+        "y": "6.66431",
+        "z": "6.092675"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "2.168482E-07",
+        "y": "-5.64546",
+        "z": "-6.701671E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.415276",
+        "y": "3.764309",
+        "z": "3.45108"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "-6.611206E-07",
+        "y": "-4.071316",
+        "z": "-8.897456E-08"
+      },
+      "skinid": 787716105
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.332788",
+        "y": "3.66431",
+        "z": "0.9868939"
+      },
+      "prefabname": "assets/prefabs/building core/wall.window/wall.window.prefab",
+      "rot": {
+        "x": "-2.170513E-08",
+        "y": "-3.027465",
+        "z": "-3.28461E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-1.332788",
+        "y": "4.66431",
+        "z": "0.9868939"
+      },
+      "prefabname": "assets/prefabs/building/wall.window.embrasure/shutter.metal.embrasure.b.prefab",
+      "rot": {
+        "x": "3.812749E-09",
+        "y": "-3.027466",
+        "z": "-1.744352E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.537593",
+        "y": "3.66431",
+        "z": "1.879073"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-8.553823E-08",
+        "y": "-5.121861",
+        "z": "2.225458E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.1272372",
+        "y": "4.66431",
+        "z": "0.09296628"
+      },
+      "prefabname": "assets/prefabs/building/wall.window.embrasure/shutter.metal.embrasure.b.prefab",
+      "rot": {
+        "x": "-5.166827E-08",
+        "y": "-5.121861",
+        "z": "1.360449E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.1272372",
+        "y": "3.66431",
+        "z": "0.09296628"
+      },
+      "prefabname": "assets/prefabs/building core/wall.window/wall.window.prefab",
+      "rot": {
+        "x": "-1.112729E-07",
+        "y": "-5.121861",
+        "z": "-4.276908E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-0.1272372",
+        "y": "3.66431",
+        "z": "0.09296628"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "-6.850384E-08",
+        "y": "-0.4094725",
+        "z": "-1.54042E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.740315",
+        "y": "3.66431",
+        "z": "0.5195187"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-6.244621E-08",
+        "y": "-4.598263",
+        "z": "9.862724E-09"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 100,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -151838493,
+          "position": 0,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "6.861346",
+        "y": "-1.717442",
+        "z": "-0.4291752"
+      },
+      "prefabname": "assets/prefabs/deployable/furnace.large/furnace.large.prefab",
+      "rot": {
+        "x": "0",
+        "y": "0.2045984",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.928503",
+        "y": "3.66431",
+        "z": "4.306512"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "-2.323307E-07",
+        "y": "-5.64546",
+        "z": "-3.541673E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.928503",
+        "y": "5.16431",
+        "z": "4.306512"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "-5.301929E-08",
+        "y": "-5.64546",
+        "z": "-6.553152E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "4.526473",
+        "y": "3.66431",
+        "z": "2.929985"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-1.665232E-07",
+        "y": "-4.598263",
+        "z": "2.63006E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.633381",
+        "y": "3.66431",
+        "z": "1.724724"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-1.694088E-07",
+        "y": "-0.4094725",
+        "z": "2.058032E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 5,
+          "blueprintTarget": 0,
+          "condition": "75",
+          "id": 418081930,
+          "position": 1,
+          "skinid": 0
+        },
+        {
+          "amount": 5,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 832133926,
+          "position": 2,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1262185308,
+          "position": 3,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -819720157,
+          "position": 4,
+          "skinid": 0
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1614955425,
+          "position": 5,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -563624462,
+          "position": 6,
+          "skinid": 0
+        },
+        {
+          "amount": 3,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1948067030,
+          "position": 7,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 2090395347,
+          "position": 8,
+          "skinid": 0
+        },
+        {
+          "amount": 4,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -316250604,
+          "position": 9,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 200773292,
+          "position": 0,
+          "skinid": 1120977731
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1861522751,
+          "position": 10,
+          "skinid": 0
+        },
+        {
+          "amount": 7,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1754948969,
+          "position": 11,
+          "skinid": 0
+        }
+      ],
+      "lock": {
+        "code": "88722",
+        "flags": {},
+        "ownerId": "76561198799243242",
+        "prefabname": "assets/prefabs/locks/keylock/lock.key.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.281941",
+        "y": "3.764309",
+        "z": "2.868269"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "-2.256362E-07",
+        "y": "-0.9510922",
+        "z": "5.180251E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "4.526473",
+        "y": "0.6643105",
+        "z": "2.929985"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-1.665232E-07",
+        "y": "-4.598263",
+        "z": "2.63006E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.630895",
+        "y": "2.106354",
+        "z": "4.072859"
+      },
+      "prefabname": "assets/prefabs/deployable/rug/rug.deployed.prefab",
+      "rot": {
+        "x": "1.569105",
+        "y": "-0.9347997",
+        "z": "0"
+      },
+      "skinid": 871072156
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.928503",
+        "y": "0.6643105",
+        "z": "4.306512"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "0",
+        "y": "-5.645461",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 7033812,
+            "connectedToSlot": 0,
+            "niceName": "Power In",
+            "type": 0
+          }
+        ],
+        "oldID": 7034749,
+        "outputs": [
+          {
+            "connectedID": 7035292,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": 0.865159631,
+                "y": 0.7305319,
+                "z": 0.0393274426
+              },
+              {
+                "x": 0.10749311,
+                "y": 0.7999995,
+                "z": 0.02999875
+              }
+            ],
+            "niceName": "Power Out 1",
+            "type": 0
+          },
+          {
+            "connectedID": 7038453,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": 0.868521154,
+                "y": 1.20544267,
+                "z": 0.03848499
+              },
+              {
+                "x": 2.37296335E-05,
+                "y": 0.799999237,
+                "z": 0.0299936682
+              }
+            ],
+            "niceName": "Power Out 2",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Power Out 3",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.731136",
+        "y": "1.12627",
+        "z": "2.85863"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/splitter/splitter.prefab",
+      "rot": {
+        "x": "-6.639664E-08",
+        "y": "-0.9330711",
+        "z": "-2.4606E-06"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.633381",
+        "y": "0.6643105",
+        "z": "1.724724"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-2.389922E-07",
+        "y": "-0.409472",
+        "z": "2.693637E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "5.419538",
+        "y": "0.6643105",
+        "z": "4.135191"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "-2.178483E-07",
+        "y": "-0.4094725",
+        "z": "9.687895E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.928528",
+        "y": "0.6643105",
+        "z": "4.306568"
+      },
+      "prefabname": "assets/prefabs/building core/foundation.triangle/foundation.triangle.prefab",
+      "rot": {
+        "x": "2.622684E-07",
+        "y": "-4.074664",
+        "z": "-8.742288E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 7034749,
+            "connectedToSlot": 1,
+            "niceName": "Electric Input",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "niceName": "Switch On",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "niceName": "Switch Off",
+            "type": 0
+          }
+        ],
+        "oldID": 7038453,
+        "outputs": [
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "linePoints": [],
+            "niceName": "Output",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.228478",
+        "y": "1.551918",
+        "z": "3.546237"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/simpleswitch/switch.prefab",
+      "rot": {
+        "x": "6.281459",
+        "y": "-0.9347997",
+        "z": "6.257502"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 7034749,
+            "connectedToSlot": 0,
+            "niceName": "Electric Input",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "niceName": "Switch On",
+            "type": 0
+          },
+          {
+            "connectedID": 0,
+            "connectedToSlot": 0,
+            "niceName": "Switch Off",
+            "type": 0
+          }
+        ],
+        "oldID": 7035292,
+        "outputs": [
+          {
+            "connectedID": 7035985,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": 0.377323866,
+                "y": 0.281458616,
+                "z": 2.49143672
+              },
+              {
+                "x": 0.5451416,
+                "y": -0.28474614,
+                "z": 2.35659122
+              },
+              {
+                "x": 0.518662035,
+                "y": -0.246941477,
+                "z": 0.008021474
+              },
+              {
+                "x": 6.215647E-06,
+                "y": 1.22,
+                "z": 0.03001124
+              }
+            ],
+            "niceName": "Output",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.227465",
+        "y": "1.076939",
+        "z": "3.546296"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/simpleswitch/switch.prefab",
+      "rot": {
+        "x": "6.281459",
+        "y": "-0.9348001",
+        "z": "6.261132"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "4.992971",
+        "y": "0.6643105",
+        "z": "7.002784"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "5.268411E-08",
+        "y": "0.1141262",
+        "z": "1.425378E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.253984",
+        "y": "0.7643089",
+        "z": "5.981152"
+      },
+      "prefabname": "assets/prefabs/deployable/furnace/furnace.prefab",
+      "rot": {
+        "x": "6.067397E-08",
+        "y": "-2.440823",
+        "z": "1.659686E-07"
+      },
+      "skinid": 1539436979
+    },
+    {
+      "flags": {},
+      "items": [],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.997303",
+        "y": "0.7643089",
+        "z": "5.344249"
+      },
+      "prefabname": "assets/prefabs/deployable/furnace/furnace.prefab",
+      "rot": {
+        "x": "1.747198E-07",
+        "y": "-1.851961",
+        "z": "1.883867E-07"
+      },
+      "skinid": 1350807074
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "4.992971",
+        "y": "3.66431",
+        "z": "7.002784"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "5.26841E-08",
+        "y": "0.1141262",
+        "z": "1.425378E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "5.419538",
+        "y": "3.66431",
+        "z": "4.135191"
+      },
+      "prefabname": "assets/prefabs/building core/wall/wall.prefab",
+      "rot": {
+        "x": "2.571892E-07",
+        "y": "-0.4094725",
+        "z": "-8.175781E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 12,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -2097376851,
+          "position": 0,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1953903201,
+          "magazine": {
+            "-2097376851": 0
+          },
+          "position": 1,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1953903201,
+          "magazine": {
+            "-2097376851": 0
+          },
+          "position": 2,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 649912614,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 3,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 649912614,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 4,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1367281941,
+          "items": [],
+          "magazine": {
+            "588596902": 1
+          },
+          "position": 5,
+          "skinid": 1208453069
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "300",
+          "id": 1326180354,
+          "position": 6,
+          "skinid": 1366123054
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1367281941,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 7,
+          "skinid": 1181616781
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1252059217,
+          "position": 8,
+          "skinid": 1870596204
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "10",
+          "id": -765183617,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 9,
+          "skinid": 1341524782
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 649912614,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 10,
+          "skinid": 1447877728
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1252059217,
+          "position": 11,
+          "skinid": 1076337199
+        }
+      ],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.220272",
+        "y": "5.264313",
+        "z": "5.812538"
+      },
+      "prefabname": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
+      "rot": {
+        "x": "1.263239E-07",
+        "y": "-2.516361",
+        "z": "-4.277323E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "4.527334",
+        "y": "6.66431",
+        "z": "2.930331"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "-5.151551E-08",
+        "y": "0.1141257",
+        "z": "-3.358711E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "200",
+          "id": -803263829,
+          "position": 0,
+          "skinid": 1944168755
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1796682209,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 2,
+          "skinid": 1107572641
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -765183617,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 3,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -765183617,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 4,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -765183617,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 5,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1758372725,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 6,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "500",
+          "id": -2069578888,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 7,
+          "skinid": 1707973294
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1758372725,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 9,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 10,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [
+            {
+              "amount": 1,
+              "id": -1850571427
+            },
+            {
+              "amount": 4,
+              "id": 952603248
+            }
+          ],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 11,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1758372725,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 12,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "150",
+          "id": 1545779598,
+          "items": [
+            {
+              "amount": 4,
+              "id": 442289265
+            },
+            {
+              "amount": 4,
+              "id": -132516482
+            }
+          ],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 13,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -852563019,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 14,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 818877484,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 15,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1588298435,
+          "items": [
+            {
+              "amount": 2,
+              "id": 567235583
+            }
+          ],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 16,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -742865266,
+          "position": 17,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -1758372725,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 18,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1588298435,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 19,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1588298435,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 20,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1588298435,
+          "items": [],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 21,
+          "skinid": 10116
+        },
+        {
+          "amount": 2,
+          "blueprintTarget": 0,
+          "condition": "200",
+          "id": 850280505,
+          "position": 22,
+          "skinid": 784438982
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1588298435,
+          "items": [
+            {
+              "amount": 1,
+              "id": 567235583
+            },
+            {
+              "amount": 2,
+              "id": -132516482
+            }
+          ],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 8,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "183.6856",
+          "id": 442886268,
+          "magazine": {
+            "-1841918730": 0
+          },
+          "position": 24,
+          "skinid": 1137393412
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": 935692442,
+          "position": 23,
+          "skinid": 796006803
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.650914",
+        "y": "5.264313",
+        "z": "4.947035"
+      },
+      "prefabname": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+      "rot": {
+        "x": "-2.051099E-07",
+        "y": "-0.9337721",
+        "z": "9.09841E-07"
+      },
+      "skinid": 808350251
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": -765183617,
+          "items": [],
+          "magazine": {
+            "588596902": 0
+          },
+          "position": 0,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 818877484,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 1,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 818877484,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 2,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "500",
+          "id": -262590403,
+          "position": 3,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1302129395,
+          "position": 4,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1302129395,
+          "position": 5,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "400",
+          "id": -1302129395,
+          "position": 6,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 818877484,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 7,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "100",
+          "id": 1373971859,
+          "items": [],
+          "magazine": {
+            "785728077": 0
+          },
+          "position": 8,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "99.5",
+          "id": -904863145,
+          "items": [
+            {
+              "amount": 1,
+              "id": 1478091698
+            },
+            {
+              "amount": 2,
+              "id": -132516482
+            }
+          ],
+          "magazine": {
+            "-1211166256": 0
+          },
+          "position": 9,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "1000",
+          "id": -1102429027,
+          "position": 10,
+          "skinid": 0
+        },
+        {
+          "amount": 1,
+          "blueprintTarget": 0,
+          "condition": "1000",
+          "id": -1778159885,
+          "position": 11,
+          "skinid": 0
+        }
+      ],
+      "lock": {
+        "code": "7299",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.19617",
+        "y": "5.264313",
+        "z": "5.831699"
+      },
+      "prefabname": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+      "rot": {
+        "x": "4.089709E-07",
+        "y": "-0.9479198",
+        "z": "2.086836E-07"
+      },
+      "skinid": 1818868472
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.616404",
+        "y": "6.66431",
+        "z": "6.404799"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "-1.152636E-07",
+        "y": "-0.9330711",
+        "z": "-1.21653E-08"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.616404",
+        "y": "6.66431",
+        "z": "6.404799"
+      },
+      "prefabname": "assets/prefabs/building core/floor.triangle/floor.triangle.prefab",
+      "rot": {
+        "x": "1.577028E-07",
+        "y": "-5.64546",
+        "z": "1.120015E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.928503",
+        "y": "6.66431",
+        "z": "4.306512"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "-2.323307E-07",
+        "y": "-5.64546",
+        "z": "-3.541673E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "grade": 2,
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.206023",
+        "y": "6.66431",
+        "z": "8.19085"
+      },
+      "prefabname": "assets/prefabs/building core/wall.half/wall.half.prefab",
+      "rot": {
+        "x": "2.654242E-08",
+        "y": "-0.9330711",
+        "z": "-2.514843E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 100,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -151838493,
+          "position": 0,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.476158",
+        "y": "0.3821487",
+        "z": "13.04246"
+      },
+      "prefabname": "assets/prefabs/deployable/furnace.large/furnace.large.prefab",
+      "rot": {
+        "x": "0",
+        "y": "-4.433964",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "IOEntity": {
+        "inputs": [],
+        "oldID": 7031415,
+        "outputs": [
+          {
+            "connectedID": 7033812,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": -0.723154545,
+                "y": -0.0490412,
+                "z": 1.12764359
+              },
+              {
+                "x": 0.180010214,
+                "y": 1.58885314E-07,
+                "z": 0.969971836
+              }
+            ],
+            "niceName": "Electric Output",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.067944",
+        "y": "8.343307",
+        "z": "4.890179"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/generators/solar_panels_roof/solarpanel.large.deployed.prefab",
+      "rot": {
+        "x": "2.357651E-07",
+        "y": "-2.48864",
+        "z": "3.877569E-07"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {
+        "On": true,
+        "Reserved2": true,
+        "Reserved3": true,
+        "Reserved4": true,
+        "Reserved8": true
+      },
+      "IOEntity": {
+        "inputs": [
+          {
+            "connectedID": 7031415,
+            "connectedToSlot": 0,
+            "niceName": "Root Power 1",
+            "type": 0
+          },
+          {
+            "connectedID": 7031365,
+            "connectedToSlot": 0,
+            "niceName": "Root Power 2",
+            "type": 0
+          }
+        ],
+        "oldID": 7033812,
+        "outputs": [
+          {
+            "connectedID": 7034749,
+            "connectedToSlot": 0,
+            "linePoints": [
+              {
+                "x": -0.148569509,
+                "y": -0.817513466,
+                "z": -5.69775772
+              },
+              {
+                "x": -9.387732E-06,
+                "y": 0.130025119,
+                "z": 0.0299996436
+              }
+            ],
+            "niceName": "Combined Power Out",
+            "type": 0
+          }
+        ]
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.068468",
+        "y": "8.264309",
+        "z": "3.622543"
+      },
+      "prefabname": "assets/prefabs/deployable/playerioents/gates/combiner/electrical.combiner.deployed.prefab",
+      "rot": {
+        "x": "4.712734",
+        "y": "-2.510269",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "9.93922",
+        "y": "-1.884266",
+        "z": "1.10794"
+      },
+      "prefabname": "assets/prefabs/building/wall.external.high.wood/wall.external.high.wood.prefab",
+      "rot": {
+        "x": "2.235174E-08",
+        "y": "-4.608452",
+        "z": "6.112296"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "9.82889",
+        "y": "-1.051952",
+        "z": "6.803705"
+      },
+      "prefabname": "assets/prefabs/building/wall.external.high.wood/wall.external.high.wood.prefab",
+      "rot": {
+        "x": "1.862645E-08",
+        "y": "-4.813005",
+        "z": "6.165357"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "items": [
+        {
+          "amount": 537,
+          "blueprintTarget": 0,
+          "condition": "0",
+          "id": -1938052175,
+          "position": 1,
+          "skinid": 0
+        }
+      ],
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "9.571716",
+        "y": "-0.8885651",
+        "z": "3.937564"
+      },
+      "prefabname": "assets/prefabs/deployable/campfire/campfire.prefab",
+      "rot": {
+        "x": "0.1303661",
+        "y": "-2.704621",
+        "z": "0.05012865"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "9.717681",
+        "y": "-0.6485825",
+        "z": "12.39859"
+      },
+      "prefabname": "assets/prefabs/building/wall.external.high.wood/wall.external.high.wood.prefab",
+      "rot": {
+        "x": "5.587935E-09",
+        "y": "-1.525387",
+        "z": "0.02570759"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "7.711554",
+        "y": "0.2061577",
+        "z": "17.39754"
+      },
+      "prefabname": "assets/prefabs/building/wall.external.high.wood/wall.external.high.wood.prefab",
+      "rot": {
+        "x": "3.15588E-05",
+        "y": "-2.459232",
+        "z": "0.1971796"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "3.448668",
+        "y": "0.7233658",
+        "z": "20.28253"
+      },
+      "prefabname": "assets/prefabs/building/wall.external.high.wood/wall.external.high.wood.prefab",
+      "rot": {
+        "x": "0",
+        "y": "-2.60952",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-2.781215",
+        "y": "-0.3893356",
+        "z": "-2.21322"
+      },
+      "prefabname": "assets/prefabs/plants/pumpkin/pumpkin.entity.prefab",
+      "rot": {
+        "x": "0.4304067",
+        "y": "-3.740034",
+        "z": "6.256888"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-5.665831",
+        "y": "0.4348068",
+        "z": "-1.860039"
+      },
+      "prefabname": "assets/prefabs/plants/pumpkin/pumpkin.entity.prefab",
+      "rot": {
+        "x": "0.109782",
+        "y": "-5.083091",
+        "z": "5.887608"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-7.423753",
+        "y": "1.001369",
+        "z": "-1.197268"
+      },
+      "prefabname": "assets/prefabs/deployable/barricades/barricade.stone.prefab",
+      "rot": {
+        "x": "0.05465304",
+        "y": "-5.405829",
+        "z": "5.989967"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-7.748712",
+        "y": "-0.5469246",
+        "z": "-4.930985"
+      },
+      "prefabname": "assets/prefabs/building/wall.external.high.wood/wall.external.high.wood.prefab",
+      "rot": {
+        "x": "6.28252",
+        "y": "-2.482681",
+        "z": "0.02075122"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-9.612348",
+        "y": "1.734531",
+        "z": "-0.3561652"
+      },
+      "prefabname": "assets/prefabs/building/wall.external.high.wood/wall.external.high.wood.prefab",
+      "rot": {
+        "x": "0",
+        "y": "-4.645272",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 0,
+      "pos": {
+        "x": "-11.67053",
+        "y": "2.371197",
+        "z": "0.3630926"
+      },
+      "prefabname": "assets/bundled/prefabs/autospawn/collectable/hemp/hemp-collectable.prefab",
+      "rot": {
+        "x": "0",
+        "y": "-4.395416",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 0,
+      "pos": {
+        "x": "-13.03906",
+        "y": "2.666302",
+        "z": "0.9662719"
+      },
+      "prefabname": "assets/bundled/prefabs/autospawn/collectable/hemp/hemp-collectable.prefab",
+      "rot": {
+        "x": "0",
+        "y": "-1.205748",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "-3.84055",
+        "y": "-2.432865",
+        "z": "-7.88076"
+      },
+      "prefabname": "assets/prefabs/building/wall.external.high.wood/wall.external.high.wood.prefab",
+      "rot": {
+        "x": "3.72529E-09",
+        "y": "-2.452593",
+        "z": "0.1259195"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "1.623778",
+        "y": "-2.358883",
+        "z": "-5.507276"
+      },
+      "prefabname": "assets/prefabs/building/wall.external.high.wood/wall.external.high.wood.prefab",
+      "rot": {
+        "x": "0",
+        "y": "-3.457154",
+        "z": "0"
+      },
+      "skinid": 0
+    },
+    {
+      "flags": {},
+      "lock": {
+        "code": "4245",
+        "flags": {},
+        "prefabname": "assets/prefabs/locks/keypad/lock.code.prefab"
+      },
+      "ownerid": 76561198799243242,
+      "pos": {
+        "x": "2.649897",
+        "y": "-2.841297",
+        "z": "-8.859834"
+      },
+      "prefabname": "assets/prefabs/building/gates.external.high/gates.external.high.wood/gates.external.high.wood.prefab",
+      "rot": {
+        "x": "0",
+        "y": "-0.31322",
+        "z": "0"
+      },
+      "skinid": 0
+    }
+  ],
+  "protocol": {
+    "items": 2,
+    "version": {
+      "Major": 4,
+      "Minor": 1,
+      "Patch": 17
+    }
+  }
+}

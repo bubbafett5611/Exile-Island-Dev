@@ -1,0 +1,15 @@
+{
+  "Setting pings": {
+    "Color index(0-yellow,1-blue,2-green,3-red,4-purple,5-cyan)": 3,
+    "Icon type(Hostile = 0,GoTo = 1,Dollar = 2,Loot = 3,Node = 4,Gun = 5)": 0,
+    "Max distance ping": 250.0,
+    "Duration": 5.0
+  },
+  "Setting sound": {
+    "Enabled?": true,
+    "Effect/sound prefab": "assets/bundled/prefabs/fx/invite_notice.prefab",
+    "Send sound teammates?": true,
+    "Only nearby teammates?": true,
+    "Max distance": 150.0
+  }
+}

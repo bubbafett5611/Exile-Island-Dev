@@ -1,0 +1,133 @@
+{
+  "Clan Options": {
+    "Member limit": 8,
+    "Moderator limit": 2,
+    "Allow friendly fire toggle (clan members)": true,
+    "Enable friendly fire by default (clan members)": false,
+    "Only allow clan owner and council to toggle friendly fire (clan members)": false,
+    "Alliance Options": {
+      "Enable clan alliances": true,
+      "Alliance limit": 2,
+      "Count alliance members as clan members": false,
+      "Allow friendly fire toggle (allied clans)": true,
+      "Enable friendly fire by default (allied clans)": false,
+      "Only allow clan owner and council to toggle friendly fire (allied clans)": false
+    },
+    "Invite Options": {
+      "Maximum allowed member invites at any given time": 8,
+      "Member invite expiry time (seconds)": 86400,
+      "Maximum allowed alliance invites at any given time": 2,
+      "Alliance invite expiry time (seconds)": 86400,
+      "Member invite cooldown time after a member has left the clan (seconds)": 0
+    },
+    "Rust Team Options": {
+      "Automatically create and manage Rust team's for each clan": true,
+      "Allow players to leave their clan by using Rust's leave team button": true,
+      "Allow players to kick members from their clan using Rust's kick member button": true,
+      "Allow players to invite other players to their clan via Rust's team invite system": true,
+      "Allow players to promote other clan members via Rust's team promote button": true
+    }
+  },
+  "Command Options": {
+    "Ally chat command": "a",
+    "Clan chat command": "c",
+    "Clan command": "clan",
+    "Clan info command": "cinfo",
+    "Ally friendly fire command": "aff",
+    "Friendly fire command": "cff",
+    "Clan ally command": "clanally",
+    "Clan help command": "clanhelp",
+    "Required auth-levels to use admin console command": {
+      "Create clan": 2,
+      "Rename clan": 1,
+      "Disband clan": 2,
+      "Invite member to clan": 1,
+      "Kick member from clan": 2,
+      "Promote/Demote member in clan": 1,
+      "Reserve clan tag for member or group": 2
+    },
+    "Clan info options": {
+      "Show online/offline players": true,
+      "Show clan alliances": true,
+      "Show last online time": true,
+      "Show member count": false,
+      "Show alliance count": false
+    }
+  },
+  "Role Colors": {
+    "Clan owner color (hex)": "#a1ff46",
+    "Clan council color (hex)": "#b573ff",
+    "Clan moderator color (hex)": "#74c6ff",
+    "Clan member color (hex)": "#fcf5cb",
+    "General text color (hex)": "#e0e0e0"
+  },
+  "Clan Tag Options": {
+    "Enable clan tags (Display Name)": true,
+    "Enable clan tags (BetterChat)": false,
+    "Tag opening character": "[",
+    "Tag closing character": "]",
+    "Tag color (hex) (BetterChat)": "#aaff55",
+    "Allow clan leaders to set custom tag colors (BetterChat only)": false,
+    "Custom tag color minimum value (hex)": "000000",
+    "Custom tag color maximum value (hex)": "FFFFFF",
+    "Blacklisted tag colors (hex without the # at the start)": [],
+    "Tag size (BetterChat)": 15,
+    "Tag character limits": {
+      "Minimum": 2,
+      "Maximum": 5
+    },
+    "Special characters allowed in tags": "!²³",
+    "Words/characters not allowed in tags": [
+      "admin",
+      "mod",
+      "owner"
+    ],
+    "Enable Oxide group clan tag colors (BetterChat)": false,
+    "Default tag colors per Oxide group (BetterChat)": {
+      "admin": "#aaff55",
+      "default": "#aaff55"
+    },
+    "Reserved clan tags (Tag, List of SteamIDs)": {
+      "example1": [
+        76560000000000000,
+        76560000000000001
+      ],
+      "example2": [
+        76560000000000000,
+        76560000000000001
+      ]
+    }
+  },
+  "Permission Options": {
+    "Use permission for clan info command": false,
+    "Clan info command permission": "clans.claninfo",
+    "Use permission groups": false,
+    "Permission group prefix": "clan_",
+    "Use permission to create a clan": false,
+    "Clan creation permission": "clans.cancreate",
+    "Use permission to join a clan": false,
+    "Clan join permission": "clans.canjoin",
+    "Use permission to leave a clan": false,
+    "Clan leave permission": "clans.canleave",
+    "Use permission to disband a clan": false,
+    "Clan disband permission": "clans.candisband",
+    "Use permission to kick a clan member": false,
+    "Clan kick permission": "clans.cankick"
+  },
+  "Purge Options": {
+    "Enable clan purging": true,
+    "Purge clans that havent been online for x amount of day": 14,
+    "List purged clans in console when purging": true,
+    "Wipe clans on new map save": false
+  },
+  "Settings": {
+    "Block clan/ally chat when muted": false,
+    "Log clan and member changes": false,
+    "Use ProtoBuf data storage": false
+  },
+  "Version": {
+    "Major": 3,
+    "Minor": 0,
+    "Patch": 35
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "Authentication": {
+    "License/Config Key": "1IlsXnWg6UEDeXiesTOiNyotFJ01Vi01pzh1"
+  },
+  "Additional UI Options": {
+    "Close WelcomePanel after claiming kit": false,
+    "Kits UI Colors": {
+      "Claim Button": "0.38 0.51 0.16 0.85",
+      "Cooldown Button": "0.80 0.25 0.16 0.85",
+      "No Permissions Button": "0.14 0.14 0.14 0.9",
+      "No Uses Left Button": "0.14 0.14 0.14 0.6",
+      "Back Button": "0 0 0 0.6",
+      "Main Panel": "0 0 0 0.5",
+      "Secondary Panel": "0 0 0 0.5",
+      "Inventory Item Box": "0 0 0 0.6"
+    },
+    "Previous Page Button": {
+      "Button Color": "0 0 0 0",
+      "Button Text": "<size=60>‹</size>",
+      "Anchor Min": "0.03 0.43",
+      "Anchor Max": "0.07 0.62",
+      "Image": ""
+    },
+    "Next Page Button": {
+      "Button Color": "0 0 0 0",
+      "Button Text": "<size=60>›</size>",
+      "Anchor Min": "0.93 0.43",
+      "Anchor Max": "0.97 0.62",
+      "Image": ""
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "Chat Prefix": "<color=#787FFF>Exile Island</color>: ",
+  "Show Chat Prefix": true,
+  "Bot Icon (SteamID)": 76561199467167450,
+  "Cooldown Between Auto Responses For User": "10s",
+  "Global Cooldown Between Auto Responses": "2s",
+  "Use Default Chat (0), Chat Plus (1), Better Chat (2)": 2,
+  "Debug": false,
+  "Allow Multiple Auto Responses": false,
+  "Minimal Time Between Message And Answer": 1.0,
+  "Maximal Time Between Message And Answer": 3.0,
+  "Welcome Message": [
+    "Welcome, {name}!",
+    "Hello, dear {name}!",
+    "Hello, {name}!"
+  ],
+  "Welcome Message Enabled": false,
+  "Joining Message": [
+    "Welcome, {name}!",
+    "Hello, dear {name}! Welcome!",
+    "{name} has joined the server! Say Hello!"
+  ],
+  "Leaving Message": [
+    "Bye, {name}!",
+    "{name} left the game.",
+    "{name} just left the game!"
+  ],
+  "Joining Message Enabled": false,
+  "Leaving Message Enabled": false,
+  "Show Joining Message To Player That Joined": false,
+  "Show Leaving Message To Player That Left": false,
+  "Auto Messages": [
+    {
+      "Permission": "",
+      "Message Frequency": "15m",
+      "Auto Messages": [
+        {
+          "Is Enabled": true,
+          "Message": "You have so many commands available to you!\nCheck out the #command-list channel in our discord.\nDetails and tutorials are available. Go to https://discord.exileisland.net!"
+        },
+        {
+          "Is Enabled": true,
+          "Message": "Do you like to build?\nWe are hosting a building contest this month! They change month to month!\nGo to https://discord.exileisland.net and look for the #build-contest channel for more info!"
+        },
+        {
+          "Is Enabled": true,
+          "Message": "Remember, PvP is ONLY allowed in the specified areas.\nRaiding a base that doesn't belong to you is against the server rules."
+        },
+        {
+          "Is Enabled": true,
+          "Message": "We always welcome new players. Please don't hesitate to reach out if you need help or are confused about anything!"
+        },
+        {
+          "Is Enabled": true,
+          "Message": "You can use the command /cupshare to control what your friends, team, and clan have access to!"
+        },
+        {
+          "Is Enabled": true,
+          "Message": "Go to https://exileisland.net to authenticate your Discord with the server!\nThis will give you some free perks!"
+        }
+      ]
+    }
+  ],
+  "Auto Responses": [
+    {
+      "Permission": "",
+      "Auto Responses": [
+        {
+          "Is Enabled": false,
+          "Remove Message From Sender": false,
+          "Send Response For Everyone (true) or Only For Sender (false)": true,
+          "Triggers": [
+            {
+              "Percentage Of Contained Words": 0.55,
+              "Regex Enabled": false,
+              "Words": [
+                "when",
+                "is",
+                "does",
+                "server",
+                "wipe"
+              ]
+            }
+          ],
+          "Answers": [
+            "Wipes are monthly - always the first Thursday of each month, along with Force Wipe."
+          ]
+        }
+      ]
+    }
+  ]
+}

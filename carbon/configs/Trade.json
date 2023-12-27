@@ -1,0 +1,35 @@
+{
+  "Disable accepting requests in Block zone": true,
+  "Disable sending requests in Block zone": true,
+  "Disable trading in air": true,
+  "Disable trading in water": true,
+  "Disable trading while wounded": true,
+  "Disable trading in transport": false,
+  "Enable individual trade slot count": false,
+  "Trade request timeout (seconds)": 30.0,
+  "Max distance from trade spot (0 - disabled)": 5.0,
+  "AntiScam trade accept delay (0 - disabled)": 0.0,
+  "Chat icon id": 0,
+  "Allow trade logging": true,
+  "Permissions (first one is always default)": [
+    {
+      "Order": 1,
+      "Name": "default",
+      "Cooldown": 30.0,
+      "MaxDist": 0.0,
+      "TradingSlots": 6,
+      "Banned Items": [
+        "note"
+      ]
+    },
+    {
+      "Order": 2,
+      "Name": "vip_example",
+      "Cooldown": 10.0,
+      "MaxDist": 0.0,
+      "TradingSlots": 12,
+      "Banned Items": null
+    }
+  ],
+  "Config revision (do not edit)": 2
+}
