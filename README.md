@@ -13,13 +13,15 @@ This is the Carbon test branch for the **[US] PvExile Island Survival - Carbon T
 
 #### Target Functionaly
 - [ ] Raidable Bases - Pull from production
-- [ ] Custom Commands - In Progress
-    - [ ] mydrop
-    - [ ] vipdrop
-    - [ ] giverec
-- [ ] Faster Crafting - Built into carbon
-- [ ] Larger Stacks - Built into carbon
-- [ ] Faster Gather Rates - Built into carbon
+- [x] Custom Commands - In Progress
+    - [x] mydrop - customchatcommands.cs
+    - [x] vipdrop - customchatcommands.cs
+    - [x] giverec - customchatcommands.cs
+    - [x] discord - CopyUrl.cs
+    - [x] webstore - CopyUrl.cs
+- [x] Faster Crafting - Built into carbon, increased further by SkillTree.cs
+- [ ] Larger Stacks - Built into carbon, in progress
+- [x] Faster Gather Rates - Built into carbon
 - [ ] Better NPC - Pull from production
 - [ ] Teleport - Pull from production
 - [ ] Skill Tree - Pull from production
@@ -27,10 +29,10 @@ This is the Carbon test branch for the **[US] PvExile Island Survival - Carbon T
 - [ ] PookEvent - Pull from production
 - [ ] ShoppyStock - New Project
 - [ ] Daily Rewards - New Project
-- [ ] Welcome Panel - In progress with v4 of WelcomePanel
+- [x] Welcome Panel - In progress with v4 of WelcomePanel
 - [ ] Virtual Quarries - Test diesel
 - [ ] Timed Messages - Smartchat bot still needed?
-- [ ] Better Chat - Pull from production
+- [x] Better Chat - Pull from production
 
 ---
 
@@ -64,6 +66,7 @@ This is the Carbon test branch for the **[US] PvExile Island Survival - Carbon T
 ``c.saveconfig`` - Saves Carbon config to file.
 
 ``c.wipeui`` - Clears the entire CUI containers and their elements from the caller's client.
+
 ``c.reloadextensions`` - Fully reloads all extensions.
 
 ``c.extensions`` - Prints a list of all currently loaded extensions.
