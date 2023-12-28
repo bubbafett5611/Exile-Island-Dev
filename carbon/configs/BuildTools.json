@@ -15,7 +15,7 @@
     "buildingskin",
     "bsettings"
   ],
-  "Work with Notify?": true,
+  "Work with Notify?": false,
   "Work with PersonalVaultDoor?": true,
   "Work with LangAPI?": true,
   "Use hammer hit actions on entity?": true,
@@ -45,7 +45,7 @@
         },
         {
           "Enabled": true,
-          "Lang Key": "SkinGingerbread",
+          "Lang Key": "Gingerbread Skin",
           "Permission": "",
           "Skin": 2,
           "Enable colors?": false
@@ -94,7 +94,7 @@
           "Lang Key": "SkinContainer",
           "Permission": "",
           "Skin": 10221,
-          "Enable colors?": true
+          "Enable colors?": false
         }
       ]
     },
@@ -103,15 +103,7 @@
       "Icon (assets/url)": "assets/icons/level_top.png",
       "Type (Remove/Wood/Stone/Metal/TopTier)": "TopTier",
       "Permission (ex: buildtools.1)": "",
-      "Enable skins?": false,
-      "Skins": []
-    },
-    {
-      "Enabled": true,
-      "Icon (assets/url)": "assets/icons/demolish.png",
-      "Type (Remove/Wood/Stone/Metal/TopTier)": "Down",
-      "Permission (ex: buildtools.1)": "",
-      "Enable skins?": false,
+      "Enable skins?": true,
       "Skins": []
     }
   ],
@@ -124,9 +116,9 @@
       "Enabled": true,
       "Icon (assets/url)": "assets/icons/gear.png",
       "Image for skins": {
-        "10220": "https://i.ibb.co/GRjNqrq/ty1gZVS.png",
-        "10221": "https://i.ibb.co/N1ZtZ1h/CSTnZ9V.png",
-        "10223": "https://i.ibb.co/6yv2gCp/SGB52rr.png",
+        "10220": "https://i.imgur.com/ty1gZVS.png",
+        "10221": "https://i.imgur.com/CSTnZ9V.png",
+        "10223": "https://i.imgur.com/SGB52rr.png",
         "10225": "https://i.ibb.co/HgjXDCp/512fx512fdpx2x.png",
         "10232": "https://i.ibb.co/zWcN5wR/512fx512f.png",
         "2": "https://i.ibb.co/ZSjMHJt/gingerbread.png"
@@ -134,16 +126,20 @@
     },
     "Upgrade buildings while they are being built?": true,
     "Permission to modify all entities (/command all) ": "buildtools.all",
-    "Time of action": 30,
+    "Time of action": 60,
     "Cooldown (default | 0 - disable)": 0,
     "Cooldowns": {
-      "buildtools.vip": 0,
-      "buildtools.premium": 0
+      "buildtools.lifetime": 0,
+      "buildtools.reject": 0,
+      "buildtools.outcast": 0,
+      "buildtools.exile": 0
     },
     "Block After Wipe (default | 0 - disable)": 0,
     "Block After Wipe": {
-      "buildtools.vip": 0,
-      "buildtools.premium": 0
+      "buildtools.lifetime": 0,
+      "buildtools.reject": 0,
+      "buildtools.outcast": 0,
+      "buildtools.exile": 0
     }
   },
   "Remove Settings": {
@@ -180,26 +176,28 @@
       ]
     },
     "Return Item": true,
-    "Returnable Item Percentage": 100.0,
+    "Returnable Item Percentage": 80.0,
     "Percentages of returnable items (permission – percent)": {
       "buildtools.vip": 100.0,
       "buildtools.premium": 100.0
     },
-    "Can friends remove? (Friends)": true,
+    "Can friends remove? (Friends)": false,
     "Can clanmates remove? (Clans)": true,
     "Can teammates remove?": true,
     "Remove by cupboard? (those who are authorized in the cupboard can remove)": false,
     "Remove container with items?": false,
     "Condition Settings": {
-      "Default (from game)": true,
+      "Default (from game)": false,
       "Use percent?": false,
       "Percent (value)": 0.0
     },
     "Block Cooldown After Spawn Settings": {
-      "Default": 36000.0,
+      "Default": 432000.0,
       "Permissions": {
-        "buildtools.vip": 34000.0,
-        "buildtools.premium": 32000.0
+        "buildtools.lifetime": 604800.0,
+        "buildtools.reject": 1209600.0,
+        "buildtools.outcast": 1814400.0,
+        "buildtools.exile": 2678400.0
       }
     },
     "Amount of remove entities per tick": 5,
@@ -220,16 +218,20 @@
       }
     },
     "Permission to modify all entities (/command all) ": "buildtools.all",
-    "Time of action": 30,
+    "Time of action": 60,
     "Cooldown (default | 0 - disable)": 0,
     "Cooldowns": {
-      "buildtools.vip": 0,
-      "buildtools.premium": 0
+      "buildtools.lifetime": 0,
+      "buildtools.reject": 0,
+      "buildtools.outcast": 0,
+      "buildtools.exile": 0
     },
     "Block After Wipe (default | 0 - disable)": 0,
     "Block After Wipe": {
-      "buildtools.vip": 0,
-      "buildtools.premium": 0
+      "buildtools.lifetime": 0,
+      "buildtools.reject": 0,
+      "buildtools.outcast": 0,
+      "buildtools.exile": 0
     }
   },
   "Downgrade Settings": {
@@ -263,9 +265,9 @@
     }
   },
   "Block Settings": {
-    "Work with NoEscape?": true,
+    "Work with NoEscape?": false,
     "Work with Clans? (clan members will be able to delete/upgrade)": true,
-    "Work with Friends? (friends will be able to delete/upgrade)": true,
+    "Work with Friends? (friends will be able to delete/upgrade)": false,
     "Can those authorized in the cupboard delete/upgrade?": true,
     "Is an upgrade/remove cupboard required?": false
   },
@@ -435,7 +437,7 @@
     "Enabled": false,
     "Items": {
       "hammer": {
-        "Enabled": true,
+        "Enabled": false,
         "Default Mode": "Remove",
         "Ignored Skins": [
           1196009619
@@ -443,13 +445,13 @@
         "Save the selected mode when closing?": false
       },
       "toolgun": {
-        "Enabled": true,
+        "Enabled": false,
         "Default Mode": "Remove",
         "Ignored Skins": [],
         "Save the selected mode when closing?": false
       },
       "building.planner": {
-        "Enabled": true,
+        "Enabled": false,
         "Default Mode": "Stone",
         "Ignored Skins": [
           1195976254

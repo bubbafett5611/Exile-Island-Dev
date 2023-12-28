@@ -1,0 +1,26 @@
+{
+  "Locker Commands": [
+    "plocker",
+    "locker",
+    "pl"
+  ],
+  "NoEscape - Block Escape": false,
+  "NoEscape - Block Combat": false,
+  "NoEscape - Block Raid": false,
+  "Additional Damage Ownership Check": false,
+  "Locker List": {
+    "default": {
+      "Full Set Slot Amount": 1,
+      "Drop On Death": false,
+      "Pop-Up Message Key On Open": "",
+      "Max Stack Per Item": -1,
+      "Required Permission": "portablelockers.use",
+      "Custom Capacity Permission": {
+        "portablelockers.use.2": 2,
+        "portablelockers.use.3": 3
+      },
+      "Item Whitelist": [],
+      "Item Blacklist": []
+    }
+  }
+}

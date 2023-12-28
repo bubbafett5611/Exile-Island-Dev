@@ -1,0 +1,52 @@
+{
+  "Use Permission": false,
+  "Speed Multipliers": {
+    "global": 3,
+    "campfire": 2,
+    "bbq.deployed": 2
+  },
+  "Fuel Usage Speed Multipliers": {
+    "global": 1,
+    "furnace.shortname": 2
+  },
+  "Fuel Usage Multipliers": {
+    "global": 1,
+    "furnace.shortname": 1
+  },
+  "Output Multipliers": {
+    "global": {
+      "global": 1.0
+    },
+    "furnace.shortname": {
+      "item.shortname": 1
+    }
+  },
+  "Whitelist": {
+    "global": [
+      "item.shortname"
+    ],
+    "furnace.shortname": [
+      "item.shortname"
+    ]
+  },
+"Blacklist": {
+"global": [
+"deermeat.cooked",
+"horsemeat.cooked",
+"humanmeat.cooked",
+"bearmeat.cooked",
+"meat.pork.cooked",
+"wolfmeat.cooked",
+"chicken.cooked",
+"fish.cooked"
+    ],
+    "furnace.shortname": [
+      "item.shortname"
+	  ]
+  },
+  "Smelting Frequencies (Smelt items every N smelting ticks)": {
+    "global": 1,
+    "furnace.shortname": 1
+  },
+  "Debug": false
+}

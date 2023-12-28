@@ -1,0 +1,190 @@
+{
+  "Commands": [
+    "market"
+  ],
+  "Quick Sell Commands": {
+    "sell": "economics"
+  },
+  "Quick List Commands": {
+    "list": "economics"
+  },
+  "Currency Deposit Commands": {},
+  "Admin Command": "curr",
+  "Open In Cached Shop": true,
+  "Enable Console Logging": true,
+  "Enable Stock Market Logging": true,
+  "Make All Items Multilingual (will generate a lot of new translations in lang file)": false,
+  "Market UI - Clicking Sound": true,
+  "Market UI - Child-GUI X Marks Close Only Child-GUI": true,
+  "Market UI - Cooldown Between Actions (in seconds)": 0.5,
+  "Market UI - Override Custom Skinned Items With Steam Icons (no URLs needed)": false,
+  "Pop-Ups - Font Size": 16,
+  "Pop-Ups - Display Time": 10.0,
+  "NoEscape - Block Using Shop During Combat": false,
+  "NoEscape - Block Using Shop During Raids": false,
+  "NoEscape - Block Using Shop During Escape": false,
+  "Shops": {
+    "economics": {
+      "Required Permission": "",
+      "Icon URL": "",
+      "Other Currency Plugin": "Economics",
+      "Currency Symbol": "${0}",
+      "Can Transfer": true,
+      "Can Deposit": false,
+      "Count Deposit Item As Currency From Inventory": false,
+      "Format Currency Amount": true,
+      "Take X Percentage Of Player's Balance On Map Wipe (0 to disable)": 0.0,
+      "Config Generation - Generate With All Default Items": false,
+      "Shop Discount Permission (percentage)": {},
+      "Deposit Item": {
+        "Allow Withdraw": false,
+        "Shortname": "",
+        "Skin": 0,
+        "Icon URL (if skin not 0)": "",
+        "Value": 1,
+        "Display Name": ""
+      },
+      "NPC List (and their categories)": {},
+      "Stock Market Configuration": {
+        "Enabled": true,
+        "Wipe Buy Listings Data On Wipe": false,
+        "Wipe Sell Listings Data On Wipe": false,
+        "Wipe Bank Data On Wipe": false,
+        "Enable All Items Category": true,
+        "Enabled Bank": true,
+        "Bank Permission": "shoppystock.bank.econ",
+        "Enable Favourite Tab": true,
+        "Favourite Permission": "",
+        "Max Price Per Item (0, to disable)": 0,
+        "Server Offer Price Update Interval (in minutes)": 30,
+        "Web Price API - Enabled": false,
+        "Web Price API - Link": "",
+        "Default Selected Category": "",
+        "Overwrite Category Order": false,
+        "Category Priority Order": [],
+        "NPC List": [],
+        "Always Run Timer On Hour Minute": [],
+        "Blacklisted Category Item Shortnames": [],
+        "Multiplier Events": {}
+      },
+      "Wipe Currency On Wipe": false
+    }
+  },
+  "Shop - Sum Discount Types": false,
+  "Stock Market - Max Listing Permissions": {
+    "shoppystock.limit.admin": {
+      "Max Sell Listings": 1000,
+      "Max Buy Listings": 1000
+    },
+    "shoppystock.limit.premium": {
+      "Max Sell Listings": 40,
+      "Max Buy Listings": 40
+    },
+    "shoppystock.limit.user": {
+      "Max Sell Listings": 20,
+      "Max Buy Listings": 20
+    }
+  },
+  "Stock Market - Category Icons": {
+    "bank_management": "",
+    "my_listings": "",
+    "Tools": ""
+  },
+  "Stock Market - Ignored Shortnames": [
+    "coal",
+    "habrepair",
+    "mlrs",
+    "minihelicopter.repair",
+    "scraptransportheli.repair",
+    "submarinesolo",
+    "submarineduo",
+    "locomotive",
+    "wagon",
+    "workcart",
+    "door.key",
+    "blueprintbase",
+    "note",
+    "photo",
+    "captainslog",
+    "rhib",
+    "rowboat",
+    "vehicle.chassis",
+    "vehicle.chassis.3mod",
+    "vehicle.chassis.2mod",
+    "vehicle.chassis.4mod",
+    "vehicle.module",
+    "ammo.snowballgun",
+    "apple.spoiled",
+    "wolfmeat.spoiled",
+    "chicken.spoiled",
+    "humanmeat.spoiled",
+    "deermeat.burned",
+    "chicken.burned",
+    "horsemeat.burned",
+    "meat.pork.burned",
+    "humanmeat.burned",
+    "bearmeat.burned",
+    "wolfmeat.burned",
+    "bottle.vodka",
+    "dogtagneutral",
+    "bluedogtags",
+    "reddogtags",
+    "skull.human",
+    "water.salt",
+    "water",
+    "fishing.tackle",
+    "spraycandecal",
+    "snowmobile",
+    "snowmobiletomaha",
+    "door.closer",
+    "wrappedgift"
+  ],
+  "Stock Market - Custom Category Keys": [
+    "CustomTools",
+    "TeaIngredients"
+  ],
+  "Stock Market - Custom Item Info Lang Key": {
+    "eventItem": [
+      1854574567,
+      2156573478
+    ],
+    "teaIngredient": [
+      1964346733,
+      2376545778
+    ]
+  },
+  "Stock Market - Timestamps And Required Permissions (in minutes)": {
+    "10080": "shoppystock.timestamp.7d",
+    "1440": "",
+    "20160": "shoppystock.timestamp.14d",
+    "40320": "shoppystock.timestamp.28d",
+    "4320": "shoppystock.timestamp.72h",
+    "720": ""
+  },
+  "Stock Market - Refund Storage Name": "shop",
+  "Stock Market - Can Refund Only In Safezone": true,
+  "Stock Market - Keep Sell Item Remains": true,
+  "Stock Market - Can Refund When Authed": true,
+  "Stock Market - Broadcast Demands On Chat": false,
+  "Stock Market - Allow All Skins Being Listed": true,
+  "Stock Market - Discord Demand News Channel ID (0 to disable)": "0",
+  "Stock Market - Enable Discord Bank Price Messages": false,
+  "Enable Debug": false,
+  "UI - Color Codes": {
+    "Color #1": "0.145 0.135 0.12 1",
+    "Color #2": "0.185 0.175 0.16 1",
+    "Color #3": "0.25 0.24 0.225 1",
+    "Color #4": "0.225 0.215 0.2 1",
+    "Color #5": "0.252 0.24 0.225 1",
+    "Color #6": "0.35 0.34 0.325 1",
+    "Color #7": "0.91 0.871 0.831 1",
+    "Color #8": "0.765 0.729 0.694 1",
+    "Transparent Color #1": "0.6 0.6 0.6 0.1",
+    "Transparent Color #2": "0.6 0.6 0.6 0.25",
+    "Positive Color - Darker": "0.439 0.538 0.261 1",
+    "Positive Color - Lighter": "0.733 0.851 0.533 1",
+    "Negative Color - Darker": "0.45 0.237 0.194 1",
+    "Negative Color - Lighter": "0.941 0.486 0.302 1",
+    "Text Color": "0.91 0.87 0.83 1"
+  }
+}

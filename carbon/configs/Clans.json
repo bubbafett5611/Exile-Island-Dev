@@ -62,7 +62,7 @@
     "General text color (hex)": "#e0e0e0"
   },
   "Clan Tag Options": {
-    "Enable clan tags (Display Name)": true,
+    "Enable clan tags (Display Name)": false,
     "Enable clan tags (BetterChat)": false,
     "Tag opening character": "[",
     "Tag closing character": "]",
@@ -118,7 +118,7 @@
     "Enable clan purging": true,
     "Purge clans that havent been online for x amount of day": 14,
     "List purged clans in console when purging": true,
-    "Wipe clans on new map save": false
+    "Wipe clans on new map save": true
   },
   "Settings": {
     "Block clan/ally chat when muted": false,

@@ -1,0 +1,75 @@
+{
+  "ButtonConfig": {
+    "Hammer: change object grade": "FIRE_THIRD",
+    "Hammer: get object auth/lock info": "USE",
+    "Hammer: object move/transform": "FIRE_SECONDARY",
+    "Hammer: rotate object cw": "RELOAD",
+    "Hammer: rotation direction ccw (hold)": "SPRINT",
+    "Hammer: toggle object on/off/quarrytype": "FIRE_THIRD",
+    "Planner: change grade activator (hold)": "DUCK",
+    "Planner: choose higher grade": "LEFT",
+    "Planner: choose lower grade": "RIGHT",
+    "Planner: place object/block": "FIRE_PRIMARY",
+    "Planner: rotate before placement": "RELOAD",
+    "Remover: remove all activator (hold)": "FIRE_SECONDARY",
+    "Remover: remove object/block": "FIRE_PRIMARY"
+  },
+  "Commands": {
+    "Plugin toggle by chat": "ubertool",
+    "Plugin toggle by console": "ut.toggle",
+    "Set scale by chat": "uberscale",
+    "Set scale by console": "ut.scale"
+  },
+  "Deployables": {
+    "Set player as deployable owner on placement": true
+  },
+  "Effects": {
+    "Click feedback at foundation placement": true,
+    "Effect on placing Blocks": "assets/bundled/prefabs/fx/build/frame_place.prefab",
+    "Effect on placing Blocks enabled": true,
+    "Effect on promoting Block enabled": true,
+    "Effect on remove Blocks": "assets/bundled/prefabs/fx/item_break.prefab",
+    "Effect on remove Blocks enabled": true,
+    "Gibs on remove building": false
+  },
+  "Formatting": {
+    "colorTextMsg": "#b3cbce",
+    "pluginPrefix": "UberTool",
+    "prefixColor": "#468499",
+    "prefixFormat": "<color={0}>{1}</color>: "
+  },
+  "Options": {
+    "Default scaling for matrix overlay (16:10)": 1.6,
+    "Hide gametips at tool activation": true,
+    "info panel x coordinate": 0.6,
+    "info panel y coordinate": 0.6,
+    "Show hammer info panel": true,
+    "Show planner info panel": true,
+    "Show remover info panel": true
+  },
+  "Permission": {
+    "Grant usage right by IsAdmin check": true,
+    "Plugin usage permission": "ubertool.canuse",
+    "PseudoAdmin permissions": [
+      "fauxadmin.allowed",
+      "fakeadmin.allow"
+    ]
+  },
+  "Tool": {
+    "Check for existing Hammer": true,
+    "Check for existing Planner": true,
+    "Check for existing Remover": true,
+    "Disable deployable ground-missing checks": true,
+    "Enable Hammer CodeLock info": true,
+    "Enable Hammer TC info": true,
+    "Enable perimeter repair": true,
+    "Hammer tool range": 24.0,
+    "Override stability while building": true,
+    "Perimeter repair range": 3.0,
+    "Remove UberTool items when deactivating the tool": false,
+    "Remover pistol can remove full buildings": true,
+    "Remover pistol does shoot every object": false,
+    "Remover pistol range": 24.0,
+    "Temporary disable stability while startup": false
+  }
+}

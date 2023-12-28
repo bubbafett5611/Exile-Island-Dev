@@ -1,0 +1,16 @@
+{
+  "command name": "bguard",
+  "enable auto unlock crates when guards are eliminated": true,
+  "enable auto extinguish crates when guards are eliminated": true,
+  "bradley starting health": 1000.0,
+  "crate spawn amount": 4,
+  "message notification settings": {
+    "enable toast message": false,
+    "enable chat message": true,
+    "enable chat prefix": true,
+    "custom chat message icon (steam64)": 76561199542550973,
+    "enable gui announcements plugin from umod.org": false,
+    "gui announcements text color": "White",
+    "gui announcements background color": "Purple"
+  }
+}

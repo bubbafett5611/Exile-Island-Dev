@@ -1,0 +1,1066 @@
+{
+  "Version": "1.0.14",
+  "RelyOnShoreDistance": true,
+  "PlayerMessagesAsToasts": true,
+  "GlobalOceanLevelCheckBeforePlacing": true,
+  "GlobalOceanLevelBaseline": 0.0,
+  "AdjustInflatableDeploymentHeightToWaterLevel": true,
+  "CargoShipPathHandling": "Warn",
+  "MinDistanceFromCargoShipNode": 40.0,
+  "RestrictBuildingToMapGrid": false,
+  "EnableBarrelEntities": true,
+  "UpkeepMultiplier": 1.0,
+  "UnderwaterNetsCollectJunk": true,
+  "UnderwaterNetsRandomTimerMin": 600.0,
+  "UnderwaterNetsRandomTimerMax": 1200.0,
+  "UnderwaterNetsItemLimit": 10,
+  "CraftingCostSquare": [
+    {
+      "Shortname": "wood",
+      "Amount": 100
+    },
+    {
+      "Shortname": "metal.fragments",
+      "Amount": 200
+    }
+  ],
+  "CraftingCostTriangle": [
+    {
+      "Shortname": "wood",
+      "Amount": 50
+    },
+    {
+      "Shortname": "metal.fragments",
+      "Amount": 100
+    }
+  ],
+  "PermissionProfiles": {
+    "waterbases.admin": {
+      "PermissionRequired": "waterbases.admin",
+      "MaxBuildingGradeGeneric": "TopTier",
+      "MaxBuildingGradeFrames": "TopTier",
+      "MaxBuildingGradeWaterFoundations": "TopTier",
+      "WaterDepthMin": "-Infinity",
+      "WaterDepthMax": "Infinity",
+      "MaxWaterFoundationsPerBuilding": 2147483647,
+      "MinDistanceFromOilrig": "-Infinity",
+      "MinDistanceFromShore": "-Infinity",
+      "MaxDistanceFromShore": "Infinity",
+      "CanDeployWaterFoundations": true,
+      "CanReinforceWaterFoundations": true,
+      "CanExpandWaterFoundations": true,
+      "CanExpandReinforcedFoundations": true,
+      "CanCraftWaterFoundations": true,
+      "RequireMaterialsForCrafting": false,
+      "WorkbenchLevelRequired": 0.0,
+      "CanDeployUnderwaterNets": true,
+      "AllowedTopologies": {
+        "Alt": true,
+        "Beach": true,
+        "Beachside": true,
+        "Building": false,
+        "Cliff": true,
+        "Cliffside": true,
+        "Clutter": true,
+        "Decor": true,
+        "Field": true,
+        "Forest": true,
+        "Forestside": true,
+        "Hilltop": true,
+        "Lake": true,
+        "Lakeside": true,
+        "Mainland": true,
+        "Monument": false,
+        "Mountain": true,
+        "Ocean": true,
+        "Oceanside": true,
+        "Offshore": true,
+        "Plain": true,
+        "Powerline": true,
+        "River": true,
+        "Riverside": true,
+        "Road": true,
+        "Roadside": true,
+        "Summit": true,
+        "Swamp": true,
+        "Tier0": true,
+        "Tier1": true,
+        "Tier2": true
+      }
+    },
+    "default": {
+      "PermissionRequired": "default",
+      "MaxBuildingGradeGeneric": "TopTier",
+      "MaxBuildingGradeFrames": "TopTier",
+      "MaxBuildingGradeWaterFoundations": "TopTier",
+      "WaterDepthMin": 2.0,
+      "WaterDepthMax": 200.0,
+      "MaxWaterFoundationsPerBuilding": 25,
+      "MinDistanceFromOilrig": 200.0,
+      "MinDistanceFromShore": 2.0,
+      "MaxDistanceFromShore": 200.0,
+      "CanDeployWaterFoundations": true,
+      "CanReinforceWaterFoundations": true,
+      "CanExpandWaterFoundations": true,
+      "CanExpandReinforcedFoundations": true,
+      "CanCraftWaterFoundations": true,
+      "RequireMaterialsForCrafting": true,
+      "WorkbenchLevelRequired": 2.0,
+      "CanDeployUnderwaterNets": true,
+      "AllowedTopologies": {
+        "Alt": true,
+        "Beach": true,
+        "Beachside": true,
+        "Building": false,
+        "Cliff": true,
+        "Cliffside": true,
+        "Clutter": true,
+        "Decor": true,
+        "Field": true,
+        "Forest": true,
+        "Forestside": true,
+        "Hilltop": true,
+        "Lake": true,
+        "Lakeside": true,
+        "Mainland": true,
+        "Monument": false,
+        "Mountain": true,
+        "Ocean": true,
+        "Oceanside": true,
+        "Offshore": true,
+        "Plain": true,
+        "Powerline": true,
+        "River": true,
+        "Riverside": true,
+        "Road": true,
+        "Roadside": true,
+        "Summit": true,
+        "Swamp": true,
+        "Tier0": true,
+        "Tier1": true,
+        "Tier2": true
+      }
+    },
+    "waterbases.vip1": {
+      "PermissionRequired": "waterbases.vip1",
+      "MaxBuildingGradeGeneric": "Stone",
+      "MaxBuildingGradeFrames": "Metal",
+      "MaxBuildingGradeWaterFoundations": "TopTier",
+      "WaterDepthMin": 1.0,
+      "WaterDepthMax": 250.0,
+      "MaxWaterFoundationsPerBuilding": 100,
+      "MinDistanceFromOilrig": 100.0,
+      "MinDistanceFromShore": 1.0,
+      "MaxDistanceFromShore": 30.0,
+      "CanDeployWaterFoundations": true,
+      "CanReinforceWaterFoundations": true,
+      "CanExpandWaterFoundations": true,
+      "CanExpandReinforcedFoundations": true,
+      "CanCraftWaterFoundations": true,
+      "RequireMaterialsForCrafting": true,
+      "WorkbenchLevelRequired": 1.0,
+      "CanDeployUnderwaterNets": true,
+      "AllowedTopologies": {
+        "Alt": true,
+        "Beach": true,
+        "Beachside": true,
+        "Building": false,
+        "Cliff": true,
+        "Cliffside": true,
+        "Clutter": true,
+        "Decor": true,
+        "Field": true,
+        "Forest": true,
+        "Forestside": true,
+        "Hilltop": true,
+        "Lake": true,
+        "Lakeside": true,
+        "Mainland": true,
+        "Monument": false,
+        "Mountain": true,
+        "Ocean": true,
+        "Oceanside": true,
+        "Offshore": true,
+        "Plain": true,
+        "Powerline": true,
+        "River": true,
+        "Riverside": true,
+        "Road": true,
+        "Roadside": true,
+        "Summit": true,
+        "Swamp": true,
+        "Tier0": true,
+        "Tier1": true,
+        "Tier2": true
+      }
+    }
+  },
+  "GuiAnchorALeft": 0.645833,
+  "GuiAnchorBBottom": 0.02592,
+  "GuiAnchorCRight": 0.83125,
+  "GuiAnchorDTop": 0.108333,
+  "GuiNEW1AnchorMinX": 0.5,
+  "GuiNEW2AnchorMinY": 0.0,
+  "GuiNEW3AnchorMaxX": 0.5,
+  "GuiNEW4AnchorMaxY": 0.0,
+  "GuiNEW5OffsetMinX": 188.0,
+  "GuiNEW6OffsetMinY": 17.0,
+  "GuiNEW7OffsetMaxX": 424.0,
+  "GuiNEW8OffsetMaxY": 78.0,
+  "GuiTextSize": 14,
+  "GuiButtonColor": "4897ce",
+  "GuiTextColor": "f6eae0",
+  "GuiButtonAlpha": 1.0,
+  "GuiTextAlpha": 1.0,
+  "GuiUseNewPositioning": true,
+  "SharkHarvestingLootEnabled": true,
+  "UnderwaterNetsSpawnSharks": true,
+  "UnderwaterNetsMinWaterDepth": 5.0,
+  "UnderwaterNetsSharkRandomTimerMin": 1800.0,
+  "UnderwaterNetsSharkRandomTimerMax": 3600.0,
+  "UnderwaterNetsSharkTimerShortenByPercent": 8.0,
+  "UnderwaterNetsSharkSpawningMinDistance": 5.0,
+  "UnderwaterNetsSharkSpawningMaxDistance": 30.0,
+  "UnderwaterNetsSharkPopulationLimitLocal": 3,
+  "UnderwaterNetsSharkPopulationLimitGlobal": 30,
+  "UnderwaterNetsSharkSleepDespawnTimer": 600.0,
+  "UnderwaterNetsSharkHealthMultiplier": 1.0,
+  "UnderwaterNetsSharkSpeedMultiplier": 1.0,
+  "UnderwaterNetsSharkAggroRange": 15.0,
+  "SharkHarvestLoot": [
+    {
+      "Shortname": "scrap",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 100
+    },
+    {
+      "Shortname": "metalblade",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "rope",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 10
+    },
+    {
+      "Shortname": "propanetank",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "tarp",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "sewingkit",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 15,
+      "MaxRandomAmount": 20
+    },
+    {
+      "Shortname": "fuse",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "roadsigns",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 10,
+      "MaxRandomAmount": 15
+    },
+    {
+      "Shortname": "sheetmetal",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "metalspring",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "gears",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 10
+    },
+    {
+      "Shortname": "metalpipe",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 20
+    },
+    {
+      "Shortname": "semibody",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "barricade.wood",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "planter.large",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "paddle",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "bucket.water",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "mailbox",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "hat.cap",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "fun.guitar",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "can.tuna.empty",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "fireplace.stone",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "mask.bandana",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "barricade.woodwire",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "sign.wooden.large",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "electric.igniter",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "hat.boonie",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "spinner.wheel",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "rug.bear",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "table",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "shelves",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "water.barrel",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "spikes.floor",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "shirt.tanktop",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "pants.shorts",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "shutter.wood.a",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "barricade.stone",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "tool.binoculars",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "burlap.gloves",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "mask.balaclava",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "sign.wooden.huge",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "hat.beenie",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "rug",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "fish.minnows",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 160
+    },
+    {
+      "Shortname": "fish.troutsmall",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 40
+    },
+    {
+      "Shortname": "innertube",
+      "CustomName": null,
+      "SkinID": 2484982352,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "innertube",
+      "CustomName": null,
+      "SkinID": 2485021365,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "diving.fins",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "diving.mask",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "diving.tank",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "diving.wetsuit",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    },
+    {
+      "Shortname": "smallwaterbottle",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 5,
+      "MaxRandomAmount": 5
+    }
+  ],
+  "UnderwaterLoot": [
+    {
+      "Shortname": "scrap",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 20
+    },
+    {
+      "Shortname": "metalblade",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "rope",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 2
+    },
+    {
+      "Shortname": "propanetank",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "tarp",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "sewingkit",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 3,
+      "MaxRandomAmount": 4
+    },
+    {
+      "Shortname": "fuse",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "roadsigns",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 2,
+      "MaxRandomAmount": 3
+    },
+    {
+      "Shortname": "sheetmetal",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "metalspring",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "gears",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 2
+    },
+    {
+      "Shortname": "metalpipe",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 4
+    },
+    {
+      "Shortname": "semibody",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "barricade.wood",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "planter.large",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "paddle",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "bucket.water",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "mailbox",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "hat.cap",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "fun.guitar",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "can.tuna.empty",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "fireplace.stone",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "mask.bandana",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "barricade.woodwire",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "sign.wooden.large",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "electric.igniter",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "hat.boonie",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "spinner.wheel",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "rug.bear",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "table",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "shelves",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "water.barrel",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "spikes.floor",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "shirt.tanktop",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "pants.shorts",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "shutter.wood.a",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "barricade.stone",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "tool.binoculars",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "burlap.gloves",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "mask.balaclava",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "sign.wooden.huge",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "hat.beenie",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "rug",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "fish.minnows",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 32
+    },
+    {
+      "Shortname": "fish.troutsmall",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 8
+    },
+    {
+      "Shortname": "innertube",
+      "CustomName": null,
+      "SkinID": 2484982352,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "innertube",
+      "CustomName": null,
+      "SkinID": 2485021365,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "diving.fins",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "diving.mask",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "diving.tank",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "diving.wetsuit",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    },
+    {
+      "Shortname": "smallwaterbottle",
+      "CustomName": null,
+      "SkinID": 0,
+      "RandomChanceWeight": 1.0,
+      "MinRandomAmount": 1,
+      "MaxRandomAmount": 1
+    }
+  ]
+}

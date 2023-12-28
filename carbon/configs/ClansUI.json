@@ -1,6 +1,6 @@
 {
-  "Menu chat command": "friends",
-  "Friend chat commands": [
+  "Menu chat command": "clans",
+  "Clan member commands": [
     {
       "Name": "TPR",
       "Command": "/tpr {playerName}"
@@ -19,8 +19,12 @@
       "Hex": "FFFFFF",
       "Alpha": 0.165
     },
-    "Header": {
+    "MembersHeader": {
       "Hex": "C4FF00",
+      "Alpha": 0.314
+    },
+    "AllianceHeader": {
+      "Hex": "FFEC00",
       "Alpha": 0.314
     },
     "Button": {
@@ -41,7 +45,7 @@
     }
   },
   "Version": {
-    "Major": 2,
+    "Major": 3,
     "Minor": 0,
     "Patch": 2
   }

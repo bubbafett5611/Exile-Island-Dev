@@ -1,0 +1,597 @@
+{
+  "NPC Configuration - Sledge": {
+    "Worn items": [
+      {
+        "ShortName": "frankensteins.monster.01.head",
+        "SkinID (0 - default)": 0
+      },
+      {
+        "ShortName": "frankensteins.monster.01.torso",
+        "SkinID (0 - default)": 0
+      },
+      {
+        "ShortName": "frankensteins.monster.01.legs",
+        "SkinID (0 - default)": 0
+      }
+    ],
+    "Weapons": [
+      {
+        "ShortName": "paddle",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "spear.stone",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "bone.club",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "knife.combat",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "longsword",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "pitchfork",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "knife.bone",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "mace",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "salvaged.cleaver",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "knife.butcher",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "machete",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "salvaged.sword",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "spear.wooden",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "stone.pickaxe",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "torch",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "axe.salvaged",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "pickaxe",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "hammer.salvaged",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "hatchet",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "stonehatchet",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "icepick.salvaged",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      },
+      {
+        "ShortName": "sickle",
+        "SkinID (0 - default)": 0,
+        "Probability Percent [0.0-100.0]": 100.0
+      }
+    ],
+    "The probability of the appearance of Beancan Grenades": 15.0,
+    "Health Points": 50.0,
+    "Damage Scale": 0.6,
+    "Speed": 8.0,
+    "NPC damage each second to Barricade or The General": 10.0,
+    "Turret damage scale": 0.25
+  },
+  "NPC Configuration - Blazer": {
+    "Worn items": [
+      {
+        "ShortName": "frankensteins.monster.02.head",
+        "SkinID (0 - default)": 0
+      },
+      {
+        "ShortName": "frankensteins.monster.02.torso",
+        "SkinID (0 - default)": 0
+      },
+      {
+        "ShortName": "frankensteins.monster.02.legs",
+        "SkinID (0 - default)": 0
+      }
+    ],
+    "Weapons": [
+      {
+        "ShortName": "bow.compound",
+        "SkinID (0 - default)": 0,
+        "Mods": [],
+        "Ammo": "arrow.fire",
+        "Probability Percent [0.0-100.0]": 100.0,
+        "Damage Scale": 0.07
+      },
+      {
+        "ShortName": "shotgun.waterpipe",
+        "SkinID (0 - default)": 0,
+        "Mods": [
+          "weapon.mod.small.scope"
+        ],
+        "Ammo": "ammo.shotgun.slug",
+        "Probability Percent [0.0-100.0]": 100.0,
+        "Damage Scale": 0.3
+      }
+    ],
+    "Health Points": 40.0,
+    "Attack Range Multiplier": 10.0,
+    "Aim Cone Scale": 2.0,
+    "Speed": 7.5
+  },
+  "NPC Configuration - Juggernaut": {
+    "Worn items": [
+      {
+        "ShortName": "frankensteins.monster.03.head",
+        "SkinID (0 - default)": 0
+      },
+      {
+        "ShortName": "frankensteins.monster.03.torso",
+        "SkinID (0 - default)": 0
+      },
+      {
+        "ShortName": "frankensteins.monster.03.legs",
+        "SkinID (0 - default)": 0
+      }
+    ],
+    "Weapons": [
+      {
+        "ShortName": "hmlmg",
+        "SkinID (0 - default)": 0,
+        "Mods": [
+          "weapon.mod.holosight",
+          "weapon.mod.flashlight"
+        ],
+        "Ammo": "",
+        "Probability Percent [0.0-100.0]": 100.0,
+        "Damage Scale": 0.4
+      }
+    ],
+    "The probability of the appearance of Beancan Grenades": 15.0,
+    "Health Points": 250.0,
+    "Attack Range Multiplier": 1.0,
+    "Aim Cone Scale": 1.3,
+    "Speed": 5.0,
+    "Turret damage scale": 0.25
+  },
+  "NPC Configuration - Bomber": {
+    "Worn items": [
+      {
+        "ShortName": "scarecrow.suit",
+        "SkinID (0 - default)": 0
+      },
+      {
+        "ShortName": "metal.plate.torso",
+        "SkinID (0 - default)": 860210174
+      }
+    ],
+    "Health Points": 100.0,
+    "Attack Range Multiplier": 1.0,
+    "Speed": 5.5,
+    "NPC damage to Barricade": 200.0,
+    "NPC damage to The General": 60.0,
+    "NPC damage to player": 60.0
+  },
+  "NPC damage multipliers depending on the attacker's weapon": {
+    "grenade.beancan.deployed": 0.5,
+    "grenade.f1.deployed": 0.5,
+    "explosive.satchel.deployed": 0.5,
+    "explosive.timed.deployed": 0.5,
+    "rocket_hv": 0.5,
+    "rocket_basic": 0.5,
+    "40mm_grenade_he": 0.5
+  },
+  "Custom Barricades": [
+    {
+      "Level": 0,
+      "Hit points": 500.0,
+      "Price for repairs (per hammer hit)": {
+        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
+        "Price (if the economy method is 0, 1, 2)": 0.0,
+        "List of items, 3 maximum (if the economy method is 3)": [
+          {
+            "ShortName": "wood",
+            "Amount": 30,
+            "SkinID (0 - default)": 0
+          }
+        ]
+      },
+      "Hit points recovered (per hammer hit)": 50.0
+    },
+    {
+      "Level": 1,
+      "Hit points": 1000.0,
+      "Price for repairs (per hammer hit)": {
+        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
+        "Price (if the economy method is 0, 1, 2)": 0.0,
+        "List of items, 3 maximum (if the economy method is 3)": [
+          {
+            "ShortName": "wood",
+            "Amount": 50,
+            "SkinID (0 - default)": 0
+          }
+        ]
+      },
+      "Hit points recovered (per hammer hit)": 50.0
+    },
+    {
+      "Level": 2,
+      "Hit points": 1500.0,
+      "Price for repairs (per hammer hit)": {
+        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
+        "Price (if the economy method is 0, 1, 2)": 0.0,
+        "List of items, 3 maximum (if the economy method is 3)": [
+          {
+            "ShortName": "wood",
+            "Amount": 50,
+            "SkinID (0 - default)": 0
+          },
+          {
+            "ShortName": "stones",
+            "Amount": 50,
+            "SkinID (0 - default)": 0
+          }
+        ]
+      },
+      "Hit points recovered (per hammer hit)": 75.0
+    },
+    {
+      "Level": 3,
+      "Hit points": 2000.0,
+      "Price for repairs (per hammer hit)": {
+        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
+        "Price (if the economy method is 0, 1, 2)": 0.0,
+        "List of items, 3 maximum (if the economy method is 3)": [
+          {
+            "ShortName": "wood",
+            "Amount": 50,
+            "SkinID (0 - default)": 0
+          },
+          {
+            "ShortName": "metal.fragments",
+            "Amount": 100,
+            "SkinID (0 - default)": 0
+          }
+        ]
+      },
+      "Hit points recovered (per hammer hit)": 100.0
+    },
+    {
+      "Level": 4,
+      "Hit points": 2500.0,
+      "Price for repairs (per hammer hit)": {
+        "Which economy should the plugin use? (0 - Economics; 1 - Server Rewards; 2 - IQEconomic; 3 - custom list of items)": 3,
+        "Price (if the economy method is 0, 1, 2)": 0.0,
+        "List of items, 3 maximum (if the economy method is 3)": [
+          {
+            "ShortName": "wood",
+            "Amount": 50,
+            "SkinID (0 - default)": 0
+          },
+          {
+            "ShortName": "metal.refined",
+            "Amount": 2,
+            "SkinID (0 - default)": 0
+          }
+        ]
+      },
+      "Hit points recovered (per hammer hit)": 100.0
+    }
+  ],
+  "List of paths to GUI images": [
+    {
+      "Name": "Tab_KpucTaJl",
+      "Path": "Images/Tab_KpucTaJl.png"
+    },
+    {
+      "Name": "Clock_KpucTaJl",
+      "Path": "Images/Clock_KpucTaJl.png"
+    },
+    {
+      "Name": "Plus_KpucTaJl",
+      "Path": "Images/Plus_KpucTaJl.png"
+    },
+    {
+      "Name": "Npc_KpucTaJl",
+      "Path": "Images/Npc_KpucTaJl.png"
+    },
+    {
+      "Name": "Bookmark_KpucTaJl",
+      "Path": "Images/Bookmark_KpucTaJl.png"
+    },
+    {
+      "Name": "Tablet_KpucTaJl",
+      "Path": "Images/Tablet_KpucTaJl.png"
+    },
+    {
+      "Name": "Lock_KpucTaJl",
+      "Path": "Images/Lock_KpucTaJl.png"
+    },
+    {
+      "Name": "Economic",
+      "Path": "Images/Economic.png"
+    },
+    {
+      "Name": "2777422016",
+      "Path": "Images/2777422016.png"
+    },
+    {
+      "Name": "2777422268",
+      "Path": "Images/2777422268.png"
+    },
+    {
+      "Name": "2803087918",
+      "Path": "Images/2803087918.png"
+    },
+    {
+      "Name": "2777422630",
+      "Path": "Images/2777422630.png"
+    },
+    {
+      "Name": "2777422812",
+      "Path": "Images/2777422812.png"
+    },
+    {
+      "Name": "autoturret",
+      "Path": "Images/autoturret.png"
+    },
+    {
+      "Name": "flameturret",
+      "Path": "Images/flameturret.png"
+    },
+    {
+      "Name": "guntrap",
+      "Path": "Images/guntrap.png"
+    },
+    {
+      "Name": "ammo.rifle",
+      "Path": "Images/ammo.rifle.png"
+    },
+    {
+      "Name": "ammo.rifle.hv",
+      "Path": "Images/ammo.rifle.hv.png"
+    },
+    {
+      "Name": "ammo.rifle.incendiary",
+      "Path": "Images/ammo.rifle.incendiary.png"
+    },
+    {
+      "Name": "ammo.rifle.explosive",
+      "Path": "Images/ammo.rifle.explosive.png"
+    },
+    {
+      "Name": "lowgradefuel",
+      "Path": "Images/lowgradefuel.png"
+    },
+    {
+      "Name": "ammo.handmade.shell",
+      "Path": "Images/ammo.handmade.shell.png"
+    },
+    {
+      "Name": "blueberries",
+      "Path": "Images/blueberries.png"
+    },
+    {
+      "Name": "cctv.camera",
+      "Path": "Images/cctv.camera.png"
+    },
+    {
+      "Name": "gears",
+      "Path": "Images/gears.png"
+    },
+    {
+      "Name": "grenade.f1",
+      "Path": "Images/grenade.f1.png"
+    },
+    {
+      "Name": "gunpowder",
+      "Path": "Images/gunpowder.png"
+    },
+    {
+      "Name": "largemedkit",
+      "Path": "Images/largemedkit.png"
+    },
+    {
+      "Name": "metal.fragments",
+      "Path": "Images/metal.fragments.png"
+    },
+    {
+      "Name": "metal.refined",
+      "Path": "Images/metal.refined.png"
+    },
+    {
+      "Name": "rope",
+      "Path": "Images/rope.png"
+    },
+    {
+      "Name": "scrap",
+      "Path": "Images/scrap.png"
+    },
+    {
+      "Name": "stones",
+      "Path": "Images/stones.png"
+    },
+    {
+      "Name": "sulfur",
+      "Path": "Images/sulfur.png"
+    },
+    {
+      "Name": "syringe.medical",
+      "Path": "Images/syringe.medical.png"
+    },
+    {
+      "Name": "targeting.computer",
+      "Path": "Images/targeting.computer.png"
+    },
+    {
+      "Name": "wood",
+      "Path": "Images/wood.png"
+    }
+  ],
+  "Minimum time between events [sec.]": 1800.0,
+  "Maximum time between events [sec.]": 1800.0,
+  "Is there a timer to start the event? [true/false]": true,
+  "Time before the starting of the event after receiving a chat message [sec.]": 150.0,
+  "Time of notification signaling the end of the event [sec.]": 300,
+  "The duration of the event, if no one calls The General for help [sec.]": 1200,
+  "Marker configuration on the map": {
+    "Name": "DefendableBases ({wave} wave)",
+    "Radius": 0.4,
+    "Transparency": 0.6,
+    "Marker color": {
+      "r": 0.81,
+      "g": 0.25,
+      "b": 0.15
+    }
+  },
+  "Prefix of chat messages": "[DefendableBases]",
+  "Do you use global chat? [true/false]": true,
+  "GUI Announcements setting": {
+    "Do you use the GUI Announcements plugin? [true/false]": false,
+    "Banner color": "Orange",
+    "Text color": "White",
+    "Adjust Vertical Position": 0.03
+  },
+  "Notify setting": {
+    "Do you use the Notify plugin? [true/false]": false,
+    "Type": "0"
+  },
+  "Discord setting (only for users DiscordMessages plugin)": {
+    "Do you use the Discord Messages plugin? [true/false]": false,
+    "Webhook URL": "https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks",
+    "Embed Color (DECIMAL)": 13516583,
+    "Keys of required messages": [
+      "PreStart",
+      "Start",
+      "CallForAssistance",
+      "UpgradeBase",
+      "GeneralKill",
+      "Finish",
+      "GeneralEvacuationStart",
+      "GeneralEvacuationEnd",
+      "DoorOpen",
+      "AllPassword"
+    ]
+  },
+  "List of prefabs to be deleted in the event zone": [
+    "minicopter.entity",
+    "douglas_fir_d",
+    "american_beech_b",
+    "pine_c",
+    "american_beech_a",
+    "sulfur-collectable",
+    "stone-collectable",
+    "metal-collectable",
+    "loot-barrel-1",
+    "loot-barrel-2",
+    "bush_spicebush_d",
+    "scraptransporthelicopter",
+    "hotairballoon",
+    "rowboat",
+    "rhib",
+    "submarinesolo.entity",
+    "submarineduo.entity",
+    "sled.deployed",
+    "magnetcrane.entity",
+    "sedantest.entity",
+    "2module_car_spawned.entity",
+    "3module_car_spawned.entity",
+    "4module_car_spawned.entity",
+    "wolf",
+    "chicken",
+    "boar",
+    "stag",
+    "bear",
+    "testridablehorse",
+    "servergibs_bradley",
+    "servergibs_patrolhelicopter"
+  ],
+  "Do you create a PVP zone in the event area? (only for users TruePVE plugin) [true/false]": false,
+  "PVE Mode Setting (only for users PveMode plugin)": {
+    "Use the PVE mode of the plugin? [true/false]": false,
+    "The amount of damage that the player has to do to become the Event Owner": 500.0,
+    "Damage coefficients for calculate to become the Event Owner": [
+      {
+        "Type of target": "NPC",
+        "Damage Multiplier": 1.0
+      }
+    ],
+    "Can the non-owner of the event loot the crates? [true/false]": false,
+    "Can the non-owner of the event hack locked crates? [true/false]": false,
+    "Can the non-owner of the event loot NPC corpses? [true/false]": false,
+    "Can the non-owner of the event deal damage to the NPC? [true/false]": false,
+    "Can an Npc attack a non-owner of the event? [true/false]": false,
+    "Allow the non-owner of the event to enter the event zone? [true/false]": false,
+    "Allow a player who has an active cooldown of the Event Owner to enter the event zone? [true/false]": true,
+    "The time that the Event Owner may not be inside the event zone [sec.]": 300,
+    "The time until the end of Event Owner status when it is necessary to warn the player [sec.]": 60,
+    "Prevent the actions of the RestoreUponDeath plugin in the event zone? [true/false]": true,
+    "The time that the player can`t become the Event Owner, after the end of the event and the player was its owner [sec.]": 86400.0,
+    "Darkening the dome (0 - disables the dome)": 12
+  },
+  "Interrupt the teleport in the event area? (only for users NTeleportation plugin) [true/false]": true,
+  "Disable NPCs from the BetterNpc plugin on the monument while the event is on? [true/false]": true,
+  "List of commands banned in the event zone": [
+    "/remove",
+    "remove.toggle"
+  ],
+  "Configuration version": {
+    "Major": 1,
+    "Minor": 1,
+    "Patch": 9
+  }
+}

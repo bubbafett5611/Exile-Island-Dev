@@ -1,0 +1,1051 @@
+{
+  "Supplies": [
+    {
+      "Name": "heal",
+      "Item Settings": {
+        "Display Name": "Medicine Supply Signal",
+        "ShortName": "supply.signal",
+        "Skin": 2912968568
+      },
+      "Loot Settings": {
+        "Access to loot": {
+          "All players": false,
+          "Teammates (Rust in-game system)": true,
+          "Friends": true,
+          "Clanmates": true
+        },
+        "Speed": {
+          "Enabled?": true,
+          "Incoming Space Delivery Supply Drop velocity": 120.0,
+          "Parachute deploy distance from ground": 120.0
+        },
+        "Amount": {
+          "Minimal amount": 2,
+          "Maximum amount": 12
+        },
+        "Items": [
+          {
+            "Amount": {
+              "Minimal amount": 2,
+              "Maximum amount": 4
+            },
+            "Chance": 70.0,
+            "Display Name": "",
+            "ShortName": "antiradpills",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 5,
+              "Maximum amount": 10
+            },
+            "Chance": 50.0,
+            "Display Name": "",
+            "ShortName": "bandage",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 2
+            },
+            "Chance": 60.0,
+            "Display Name": "",
+            "ShortName": "largemedkit",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 2
+            },
+            "Chance": 60.0,
+            "Display Name": "",
+            "ShortName": "syringe.medical",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 10,
+              "Maximum amount": 15
+            },
+            "Chance": 20.0,
+            "Display Name": "",
+            "ShortName": "bandage",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 10,
+              "Maximum amount": 12
+            },
+            "Chance": 5.0,
+            "Display Name": "",
+            "ShortName": "largemedkit",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 15,
+              "Maximum amount": 25
+            },
+            "Chance": 10.0,
+            "Display Name": "",
+            "ShortName": "syringe.medical",
+            "Skin": 0
+          }
+        ]
+      },
+      "Drop Settings": {
+        "Enabled": true,
+        "Containers": [
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/crate_normal.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          },
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/loot_barrel_2.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          },
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/loot_barrel_1.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Name": "guns",
+      "Item Settings": {
+        "Display Name": "Guns Supply Signal",
+        "ShortName": "supply.signal",
+        "Skin": 2912968440
+      },
+      "Loot Settings": {
+        "Access to loot": {
+          "All players": false,
+          "Teammates (Rust in-game system)": true,
+          "Friends": true,
+          "Clanmates": true
+        },
+        "Speed": {
+          "Enabled?": true,
+          "Incoming Space Delivery Supply Drop velocity": 120.0,
+          "Parachute deploy distance from ground": 120.0
+        },
+        "Amount": {
+          "Minimal amount": 2,
+          "Maximum amount": 12
+        },
+        "Items": [
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 15.0,
+            "Display Name": "",
+            "ShortName": "rifle.ak",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 15.0,
+            "Display Name": "",
+            "ShortName": "rifle.lr300",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 5.0,
+            "Display Name": "",
+            "ShortName": "rifle.l96",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 10.0,
+            "Display Name": "",
+            "ShortName": "rifle.bolt",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 15.0,
+            "Display Name": "",
+            "ShortName": "rifle.m39",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 25.0,
+            "Display Name": "",
+            "ShortName": "rifle.semiauto",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 20.0,
+            "Display Name": "",
+            "ShortName": "pistol.m92",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 25.0,
+            "Display Name": "",
+            "ShortName": "pistol.python",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 25.0,
+            "Display Name": "",
+            "ShortName": "pistol.revolver",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 20.0,
+            "Display Name": "",
+            "ShortName": "pistol.semiauto",
+            "Skin": 0
+          }
+        ]
+      },
+      "Drop Settings": {
+        "Enabled": true,
+        "Containers": [
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/crate_normal.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          },
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/loot_barrel_2.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          },
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/loot_barrel_1.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Name": "explosive",
+      "Item Settings": {
+        "Display Name": "Explosive Supply Signal",
+        "ShortName": "supply.signal",
+        "Skin": 2912968298
+      },
+      "Loot Settings": {
+        "Access to loot": {
+          "All players": false,
+          "Teammates (Rust in-game system)": true,
+          "Friends": true,
+          "Clanmates": true
+        },
+        "Speed": {
+          "Enabled?": true,
+          "Incoming Space Delivery Supply Drop velocity": 120.0,
+          "Parachute deploy distance from ground": 120.0
+        },
+        "Amount": {
+          "Minimal amount": 2,
+          "Maximum amount": 6
+        },
+        "Items": [
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 2
+            },
+            "Chance": 70.0,
+            "Display Name": "",
+            "ShortName": "explosive.satchel",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 8,
+              "Maximum amount": 12
+            },
+            "Chance": 55.0,
+            "Display Name": "",
+            "ShortName": "explosive.satchel",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 20,
+              "Maximum amount": 20
+            },
+            "Chance": 15.0,
+            "Display Name": "",
+            "ShortName": "explosive.satchel",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 50.0,
+            "Display Name": "",
+            "ShortName": "explosive.timed",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 4,
+              "Maximum amount": 8
+            },
+            "Chance": 15.0,
+            "Display Name": "",
+            "ShortName": "explosive.timed",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 4,
+              "Maximum amount": 8
+            },
+            "Chance": 5.0,
+            "Display Name": "",
+            "ShortName": "explosive.timed",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 10,
+              "Maximum amount": 20
+            },
+            "Chance": 60.0,
+            "Display Name": "",
+            "ShortName": "explosives",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 20,
+              "Maximum amount": 30
+            },
+            "Chance": 10.0,
+            "Display Name": "",
+            "ShortName": "explosives",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 64,
+              "Maximum amount": 128
+            },
+            "Chance": 75.0,
+            "Display Name": "",
+            "ShortName": "ammo.rifle.explosive",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 128,
+              "Maximum amount": 256
+            },
+            "Chance": 40.0,
+            "Display Name": "",
+            "ShortName": "ammo.rifle.explosive",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 256,
+              "Maximum amount": 512
+            },
+            "Chance": 10.0,
+            "Display Name": "",
+            "ShortName": "ammo.rifle.explosive",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 4
+            },
+            "Chance": 40.0,
+            "Display Name": "",
+            "ShortName": "ammo.rocket.basic",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 10,
+              "Maximum amount": 20
+            },
+            "Chance": 10.0,
+            "Display Name": "",
+            "ShortName": "ammo.rocket.basic",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 45.0,
+            "Display Name": "",
+            "ShortName": "rocket.launcher",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 4,
+              "Maximum amount": 12
+            },
+            "Chance": 55.0,
+            "Display Name": "",
+            "ShortName": "ammo.grenadelauncher.he",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 4,
+              "Maximum amount": 16
+            },
+            "Chance": 60.0,
+            "Display Name": "",
+            "ShortName": "grenade.beancan",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 16,
+              "Maximum amount": 24
+            },
+            "Chance": 25.0,
+            "Display Name": "",
+            "ShortName": "grenade.beancan",
+            "Skin": 0
+          }
+        ]
+      },
+      "Drop Settings": {
+        "Enabled": true,
+        "Containers": [
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/crate_normal.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          },
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/loot_barrel_2.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          },
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/loot_barrel_1.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Name": "clothes",
+      "Item Settings": {
+        "Display Name": "Clothes Supply Signal",
+        "ShortName": "supply.signal",
+        "Skin": 2912968179
+      },
+      "Loot Settings": {
+        "Access to loot": {
+          "All players": false,
+          "Teammates (Rust in-game system)": true,
+          "Friends": true,
+          "Clanmates": true
+        },
+        "Speed": {
+          "Enabled?": true,
+          "Incoming Space Delivery Supply Drop velocity": 120.0,
+          "Parachute deploy distance from ground": 120.0
+        },
+        "Amount": {
+          "Minimal amount": 2,
+          "Maximum amount": 12
+        },
+        "Items": [
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 2
+            },
+            "Chance": 70.0,
+            "Display Name": "",
+            "ShortName": "coffeecan.helmet",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 60.0,
+            "Display Name": "",
+            "ShortName": "hazmatsuit",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 80.0,
+            "Display Name": "",
+            "ShortName": "hoodie",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 80.0,
+            "Display Name": "",
+            "ShortName": "pants",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 80.0,
+            "Display Name": "",
+            "ShortName": "shoes.boots",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 50.0,
+            "Display Name": "",
+            "ShortName": "roadsign.jacket",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 50.0,
+            "Display Name": "",
+            "ShortName": "roadsign.kilt",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 25.0,
+            "Display Name": "",
+            "ShortName": "metal.facemask",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 25.0,
+            "Display Name": "",
+            "ShortName": "metal.plate.torso",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 15.0,
+            "Display Name": "",
+            "ShortName": "heavy.plate.jacket",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 15.0,
+            "Display Name": "",
+            "ShortName": "heavy.plate.pants",
+            "Skin": 0
+          }
+        ]
+      },
+      "Drop Settings": {
+        "Enabled": true,
+        "Containers": [
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/crate_normal.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          },
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/loot_barrel_2.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          },
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/loot_barrel_1.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Name": "cash",
+      "Item Settings": {
+        "Display Name": "Cash Supply Signal",
+        "ShortName": "supply.signal",
+        "Skin": 2912967918
+      },
+      "Loot Settings": {
+        "Access to loot": {
+          "All players": false,
+          "Teammates (Rust in-game system)": true,
+          "Friends": true,
+          "Clanmates": true
+        },
+        "Speed": {
+          "Enabled?": true,
+          "Incoming Space Delivery Supply Drop velocity": 120.0,
+          "Parachute deploy distance from ground": 120.0
+        },
+        "Amount": {
+          "Minimal amount": 2,
+          "Maximum amount": 4
+        },
+        "Items": [
+          {
+            "Amount": {
+              "Minimal amount": 5,
+              "Maximum amount": 10
+            },
+            "Chance": 75.0,
+            "Display Name": "RUSTNote",
+            "ShortName": "sticks",
+            "Skin": 2536195910
+          },
+          {
+            "Amount": {
+              "Minimal amount": 10,
+              "Maximum amount": 20
+            },
+            "Chance": 70.0,
+            "Display Name": "RUSTNote",
+            "ShortName": "sticks",
+            "Skin": 2536195910
+          },
+          {
+            "Amount": {
+              "Minimal amount": 20,
+              "Maximum amount": 50
+            },
+            "Chance": 40.0,
+            "Display Name": "RUSTNote",
+            "ShortName": "sticks",
+            "Skin": 2536195910
+          },
+          {
+            "Amount": {
+              "Minimal amount": 50,
+              "Maximum amount": 150
+            },
+            "Chance": 20.0,
+            "Display Name": "RUSTNote",
+            "ShortName": "sticks",
+            "Skin": 2536195910
+          },
+          {
+            "Amount": {
+              "Minimal amount": 150,
+              "Maximum amount": 300
+            },
+            "Chance": 5.0,
+            "Display Name": "RUSTNote",
+            "ShortName": "sticks",
+            "Skin": 2536195910
+          }
+        ]
+      },
+      "Drop Settings": {
+        "Enabled": false,
+        "Containers": [
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/crate_normal.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          },
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/loot_barrel_2.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          },
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/loot_barrel_1.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Name": "cars",
+      "Item Settings": {
+        "Display Name": "Cars Supply Signal",
+        "ShortName": "supply.signal",
+        "Skin": 2912968057
+      },
+      "Loot Settings": {
+        "Access to loot": {
+          "All players": false,
+          "Teammates (Rust in-game system)": true,
+          "Friends": true,
+          "Clanmates": true
+        },
+        "Speed": {
+          "Enabled?": true,
+          "Incoming Space Delivery Supply Drop velocity": 120.0,
+          "Parachute deploy distance from ground": 120.0
+        },
+        "Amount": {
+          "Minimal amount": 1,
+          "Maximum amount": 2
+        },
+        "Items": [
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 40.0,
+            "Display Name": "RUSTSharing Ferrari",
+            "ShortName": "box.wooden.large",
+            "Skin": 2591806406
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 40.0,
+            "Display Name": "RUSTSharing Mazda",
+            "ShortName": "box.wooden.large",
+            "Skin": 2591806406
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 40.0,
+            "Display Name": "RUSTSharing Skoda",
+            "ShortName": "box.wooden.large",
+            "Skin": 2591806406
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 40.0,
+            "Display Name": "RUSTSharing Opel",
+            "ShortName": "box.wooden.large",
+            "Skin": 2591806406
+          }
+        ]
+      },
+      "Drop Settings": {
+        "Enabled": false,
+        "Containers": [
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/crate_normal.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          },
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/loot_barrel_2.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          },
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/loot_barrel_1.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Name": "lucky",
+      "Item Settings": {
+        "Display Name": "Lucky Supply Signal",
+        "ShortName": "supply.signal",
+        "Skin": 2912968671
+      },
+      "Loot Settings": {
+        "Access to loot": {
+          "All players": false,
+          "Teammates (Rust in-game system)": true,
+          "Friends": true,
+          "Clanmates": true
+        },
+        "Speed": {
+          "Enabled?": true,
+          "Incoming Space Delivery Supply Drop velocity": 120.0,
+          "Parachute deploy distance from ground": 120.0
+        },
+        "Amount": {
+          "Minimal amount": 2,
+          "Maximum amount": 12
+        },
+        "Items": [
+          {
+            "Amount": {
+              "Minimal amount": 1000,
+              "Maximum amount": 3000
+            },
+            "Chance": 60.0,
+            "Display Name": "",
+            "ShortName": "sulfur",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 3000,
+              "Maximum amount": 9000
+            },
+            "Chance": 20.0,
+            "Display Name": "",
+            "ShortName": "sulfur",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 50,
+              "Maximum amount": 100
+            },
+            "Chance": 60.0,
+            "Display Name": "",
+            "ShortName": "metal.refined",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 100,
+              "Maximum amount": 250
+            },
+            "Chance": 15.0,
+            "Display Name": "",
+            "ShortName": "metal.refined",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1000,
+              "Maximum amount": 3000
+            },
+            "Chance": 55.0,
+            "Display Name": "",
+            "ShortName": "gunpowder",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 3000,
+              "Maximum amount": 9000
+            },
+            "Chance": 15.0,
+            "Display Name": "",
+            "ShortName": "gunpowder",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 3000,
+              "Maximum amount": 9000
+            },
+            "Chance": 50.0,
+            "Display Name": "",
+            "ShortName": "metal.fragments",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 9000,
+              "Maximum amount": 15000
+            },
+            "Chance": 30.0,
+            "Display Name": "",
+            "ShortName": "metal.fragments",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 150,
+              "Maximum amount": 300
+            },
+            "Chance": 50.0,
+            "Display Name": "",
+            "ShortName": "scrap",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 300,
+              "Maximum amount": 900
+            },
+            "Chance": 25.0,
+            "Display Name": "",
+            "ShortName": "scrap",
+            "Skin": 0
+          },
+          {
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            },
+            "Chance": 45.0,
+            "Display Name": "",
+            "ShortName": "autoturret",
+            "Skin": 0
+          }
+        ]
+      },
+      "Drop Settings": {
+        "Enabled": true,
+        "Containers": [
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/crate_normal.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          },
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/loot_barrel_2.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          },
+          {
+            "Prefab": "assets/bundled/prefabs/radtown/loot_barrel_1.prefab",
+            "Chance": 5.0,
+            "Amount": {
+              "Minimal amount": 1,
+              "Maximum amount": 1
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "Version": {
+    "Major": 1,
+    "Minor": 0,
+    "Patch": 9
+  }
+}
