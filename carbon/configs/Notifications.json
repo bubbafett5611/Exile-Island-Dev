@@ -1,0 +1,47 @@
+{
+  "Style": {
+    "Base": {
+      "anchorMin": "1 0.5",
+      "anchorMax": "1 0.5",
+      "offsetMin": "-210 100",
+      "offsetMax": "0 170",
+      "color": "0.082 0.078 0.075 1.00",
+      "image": "",
+      "material": "assets/icons/iconmaterial.mat",
+      "fadeIn": 0.2,
+      "fadeOut": 0.4
+    },
+    "Icon": {
+      "anchorMin": "1 0.5",
+      "anchorMax": "1 0.5",
+      "offsetMin": "-205 110",
+      "offsetMax": "-155 160",
+      "fadeIn": 0.15,
+      "fadeOut": 0.3
+    },
+    "Text": {
+      "anchorMin": "1 0.5",
+      "anchorMax": "1 0.5",
+      "offsetMin": "-150 100",
+      "offsetMax": "-2 170",
+      "font": "robotocondensed-regular.ttf",
+      "size": 11,
+      "color": "1 1 1 0.5",
+      "outline": "0 0",
+      "outlineColor": "1 1 1 0",
+      "fadeIn": 0.2,
+      "fadeOut": 0.2
+    },
+    "Stripe": {
+      "anchorMin": "1 0.5",
+      "anchorMax": "1 0.5",
+      "offsetMin": "-215 100",
+      "offsetMax": "-210 170",
+      "color": "0.757 0.259 0.161 1.00",
+      "image": "",
+      "material": "assets/icons/iconmaterial.mat",
+      "fadeIn": 0.2,
+      "fadeOut": 0.4
+    }
+  }
+}

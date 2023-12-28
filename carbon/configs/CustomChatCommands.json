@@ -3,20 +3,6 @@
   "Reset Max Uses On New Map": true,
   "Reset Max Uses At Midnight": true,
   "Commands": [
-    {
-      "Command": "discord",
-      "Messages": [
-        "PvExile Island <color=purple>Discord</color>.ExileIsland.Net",
-		"or use invite code: <color=orange>JuyguE2U6R</color>"
-      ],
-      "Permission": "",
-      "ConsoleCmd": null,
-      "UserID": 0,
-      "Broadcast": true,
-      "RconCmd": null,
-      "Cooldown": 10.0,
-      "MaxUses": 0
-    },
 	{
       "Command": "bgrade",
       "Messages": [
