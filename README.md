@@ -88,21 +88,21 @@ This is the Carbon test branch for the **[US] PvExile Island Survival - Carbon T
 
 ``c.reloadmodule`` - Reloads a currently loaded module assembly entirely.
 
-``c.grant`` - Grant one or more permissions to users or groups. Do 'c.grant' for syntax info.
+``c.grant`` - Grant one or more permissions to users or groups. Do `c.grant` for syntax info.
 
-``c.revoke`` - Revoke one or more permissions from users or groups. Do 'c.revoke' for syntax info.
+``c.revoke`` - Revoke one or more permissions from users or groups. Do `c.revoke` for syntax info.
 
-``c.show`` - Displays information about a specific player or group (incl. permissions, groups and user list). Do 'c.show' for syntax info.
+``c.show`` - Displays information about a specific player or group (incl. permissions, groups and user list). Do `c.show` for syntax info.
 
-``c.usergroup`` - Adds or removes a player from a group. Do 'c.usergroup' for syntax info.
+``c.usergroup`` - Adds or removes a player from a group. Do `c.usergroup` for syntax info.
 
-``c.group`` - Adds or removes a group. Do 'c.group' for syntax info.
+``c.group`` - Adds or removes a group. Do `c.group` for syntax info.
 
-``c.reload`` - Reloads all or specific mods / plugins. E.g 'c.reload * <except[]>'' to reload everything.
+``c.reload`` - Reloads all or specific mods / plugins. E.g `c.reload * <except[]>` to reload everything.
 
-``c.load`` - Loads all mods and/or plugins. E.g 'c.load * <except[]>'' to load everything you've unloaded.
+``c.load`` - Loads all mods and/or plugins. E.g `c.load * <except[]>` to load everything you've unloaded.
 
-``c.unload`` - Unloads all mods and/or plugins. E.g 'c.unload * <except[]>' to unload everything. They'll be marked as 'ignored'.
+``c.unload`` - Unloads all mods and/or plugins. E.g `c.unload * <except[]>` to unload everything. They'll be marked as 'ignored'.
 
 ``c.plugininfo`` - Prints advanced information about a currently loaded plugin. From hooks, hook times, hook memory usage and other things.
 
