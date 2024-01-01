@@ -5,8 +5,8 @@
       "Panel Parent": "Hud.Menu",
       "Panel Family Name": "Legacy",
       "Text": {
-        "Text Position - Min": "-180 -250",
-        "Text Position - Max": "180 -50",
+        "Text Position - Min": "-100 -200",
+        "Text Position - Max": "100 -125",
         "Font (list available on website)": "RobotoCondensed-Bold.ttf",
         "Text Display Time Override": -1.0,
         "Text Font Size Override": -1,
@@ -76,6 +76,43 @@
     "Market": {
       "Anchor Position": "0.5 1",
       "Panel Parent": "Hud.Menu",
+      "Panel Family Name": "Legacy",
+      "Text": {
+        "Text Position - Min": "-180 -65",
+        "Text Position - Max": "180 0",
+        "Font (list available on website)": "RobotoCondensed-Bold.ttf",
+        "Text Display Time Override": -1.0,
+        "Text Font Size Override": -1,
+        "Text Color": "0.91 0.87 0.83 1",
+        "Text Anchor": "MiddleCenter",
+        "Outline - Color": "0 0 0 0",
+        "Outline - Size": "0 0",
+        "Fade In Time (in seconds)": 0.5,
+        "Fade Out Time (in seconds)": 0.5
+      },
+      "Background": {
+        "Enabled": true,
+        "Background Position - Min": "-180 -65",
+        "Background Position - Max": "180 0",
+        "Background Color": "0.145 0.135 0.12 1",
+        "Smooth Background": false,
+        "Background Image URL": "",
+        "Fade In Time (in seconds)": 0.5,
+        "Fade Out Time (in seconds)": 0.5,
+        "Background Details": [
+          {
+            "Background Position - Min": "4 4",
+            "Background Position - Max": "356 65",
+            "Background Color": "0.185 0.175 0.16 1",
+            "Smooth Background": false,
+            "Background Image URL": ""
+          }
+        ]
+      }
+    },
+    "UsedCard": {
+      "Anchor Position": "0.5 1",
+      "Panel Parent": "Overlay",
       "Panel Family Name": "Legacy",
       "Text": {
         "Text Position - Min": "-180 -65",

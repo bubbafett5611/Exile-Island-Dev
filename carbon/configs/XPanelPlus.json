@@ -1,0 +1,163 @@
+{
+  "General settings": {
+    "Enable panel with UI messages": true,
+    "UI message locations - [ True - in the panel above the events | False - under fast slots ]": false,
+    "Enable panel with events and time": true,
+    "Enable panel with ServerRewards balance": false,
+    "Enable panel with Economics balance": true,
+    "Display economics plugin balance [ True - Economics | False - IQEconomic ]": true,
+    "Enable panel with online": true,
+    "Enable panel with sleep": true,
+    "Enable time in panel": true,
+    "Add the number of queue to the number of connecting players": false,
+    "Enable buttons": true,
+    "List of UI messages": [
+      "INFO-0 [ ONLINE: {0}/{1} ] INFO-0",
+      "YOUR POSITION: pos",
+      "INFO-1 [ JOINING: {2} ] INFO-1",
+      "INFO-2 [ QUEUE: {3} ] INFO-2",
+      "YOUR POSITION: pos",
+      "INFO-3 [ TIME: {4} ] INFO-3",
+      "INFO-4 [ SLEEPING: {5} ] INFO-4",
+      "YOUR POSITION: pos"
+    ],
+    "Panel update interval with UI messages": 7.5,
+    "Panel update interval with events and time": 20.0,
+    "Panel update interval with online": 12.5,
+    "Panel update interval with ServerRewards balance": 15.0,
+    "Time format - [ HH:mm - 24:00 | hh:mm tt - 12:00 ]": "HH:mm"
+  },
+  "GUI settings": {
+    "AnchorMin - panel online": "1 0",
+    "AnchorMax - panel online": "1 0",
+    "OffsetMin - panel online": "-402 16",
+    "OffsetMax - panel online": "-238 42",
+    "OffsetMax - panel online [ When the Economics/ServerRewards balance panel or the sleep panel is enabled ]": "-292 42",
+    "AnchorMin - panel ServerRewards": "1 0",
+    "AnchorMax - panel ServerRewards": "1 0",
+    "OffsetMin - panel ServerRewards": "-290 16",
+    "OffsetMax - panel ServerRewards": "-238 42",
+    "AnchorMin - panel Economics": "1 0",
+    "AnchorMax - panel Economics": "1 0",
+    "OffsetMin - panel Economics": "-290 16",
+    "OffsetMax - panel Economics": "-238 42",
+    "AnchorMin - panel events": "1 0",
+    "AnchorMax - panel events": "1 0",
+    "OffsetMin - panel events": "-402 44",
+    "OffsetMax - panel events": "-210 70",
+    "AnchorMin - panel info": "1 0",
+    "AnchorMax - panel info": "1 0",
+    "OffsetMin - panel info": "-402 72",
+    "OffsetMax - panel info": "-210 98",
+    "AnchorMin - panel sleep": "1 0",
+    "AnchorMax - panel sleep": "1 1",
+    "OffsetMin - panel sleep": "2 0",
+    "OffsetMax - panel sleep": "54 0",
+    "AnchorMin - minimize button": "1 0",
+    "AnchorMax - minimize button": "1 0",
+    "OffsetMin - minimize button": "-236 16",
+    "OffsetMax - minimize button": "-210 42",
+    "Online progress color": "0.7886275 0.4476471 0.2184314 0.92921569",
+    "Connecting progress color": "0.2986275 0.6076471 0.8384314 0.92921569",
+    "Panel color": "0.9686275 0.9176471 0.8784314 0.02921569",
+    "Time text size": 13,
+    "Online text size": 13,
+    "ServerRewards balance text size": 11,
+    "Economics balance text size": 11,
+    "Message text size in panel": 11,
+    "Message text size under slots": 12
+  },
+  "Event settings": {
+    "BradleyAPC": {
+      "Link to event image": "https://i.ibb.co/5L6qYR4/05.png",
+      "Active event color": "1 1 0.5 0.6",
+      "Inactive event color": "0.9 0.9 0.9 0.6"
+    },
+    "CH47Helicopter": {
+      "Link to event image": "https://i.ibb.co/DCcp6Td/04.png",
+      "Active event color": "0.5 1 1 0.6",
+      "Inactive event color": "0.9 0.9 0.9 0.6"
+    },
+    "CargoShip": {
+      "Link to event image": "https://i.ibb.co/LvRq2X3/02.png",
+      "Active event color": "0.5 0.5 1 0.6",
+      "Inactive event color": "0.9 0.9 0.9 0.6"
+    },
+    "BaseHelicopter": {
+      "Link to event image": "https://i.ibb.co/Sf0w95T/03.png",
+      "Active event color": "1 0.5 1 0.6",
+      "Inactive event color": "0.9 0.9 0.9 0.6"
+    },
+    "CargoPlane": {
+      "Link to event image": "https://i.ibb.co/m6Fvdn1/01.png",
+      "Active event color": "1 0.5 0.5 0.6",
+      "Inactive event color": "0.9 0.9 0.9 0.6"
+    }
+  },
+  "Button settings": [
+    {
+      "Button color": "1 1 1 0.9",
+      "Button background color": "0.9686275 0.9176471 0.8784314 0.02921569",
+      "Button background material": "assets/icons/greyout.mat",
+      "Command": "chat.say /store",
+      "Link to image from internet": "",
+      "Link to icon from the game": "assets/icons/open.png"
+    },
+    {
+      "Button color": "1 1 1 0.9",
+      "Button background color": "0.9686275 0.9176471 0.8784314 0.02921569",
+      "Button background material": "assets/icons/greyout.mat",
+      "Command": "chat.say \"/kit vip\"",
+      "Link to image from internet": "",
+      "Link to icon from the game": "assets/icons/community_servers.png"
+    },
+    {
+      "Button color": "1 1 1 0.9",
+      "Button background color": "0.9686275 0.9176471 0.8784314 0.02921569",
+      "Button background material": "assets/icons/greyout.mat",
+      "Command": "chat.say \"/kit premium\"",
+      "Link to image from internet": "",
+      "Link to icon from the game": "assets/icons/market.png"
+    },
+    {
+      "Button color": "1 1 1 0.9",
+      "Button background color": "0.9686275 0.9176471 0.8784314 0.02921569",
+      "Button background material": "assets/icons/greyout.mat",
+      "Command": "chat.say /shop",
+      "Link to image from internet": "",
+      "Link to icon from the game": "assets/icons/store.png"
+    },
+    {
+      "Button color": "1 1 1 0.9",
+      "Button background color": "0.9686275 0.9176471 0.8784314 0.02921569",
+      "Button background material": "assets/icons/greyout.mat",
+      "Command": "chat.say /command1",
+      "Link to image from internet": "https://i.ibb.co/7RSrPHd/002.png",
+      "Link to icon from the game": ""
+    },
+    {
+      "Button color": "1 1 1 0.9",
+      "Button background color": "0.9686275 0.9176471 0.8784314 0.02921569",
+      "Button background material": "assets/icons/greyout.mat",
+      "Command": "chat.say /command2",
+      "Link to image from internet": "https://i.ibb.co/3BF7k9h/004.png",
+      "Link to icon from the game": ""
+    },
+    {
+      "Button color": "1 1 1 0.9",
+      "Button background color": "0.9686275 0.9176471 0.8784314 0.02921569",
+      "Button background material": "assets/icons/greyout.mat",
+      "Command": "chat.say /command3",
+      "Link to image from internet": "https://i.ibb.co/tJpxQmh/001.png",
+      "Link to icon from the game": ""
+    },
+    {
+      "Button color": "1 1 1 0.9",
+      "Button background color": "0.9686275 0.9176471 0.8784314 0.02921569",
+      "Button background material": "assets/icons/greyout.mat",
+      "Command": "chat.say /command4",
+      "Link to image from internet": "https://i.ibb.co/J2tkN4Q/003.png",
+      "Link to icon from the game": ""
+    }
+  ]
+}

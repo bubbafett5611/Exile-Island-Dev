@@ -84,12 +84,12 @@
     }
   },
   "Buff settings": {
-    "Minimum components for the component perk": 1,
-    "Maximum components for the component perk": 1,
-    "Minimum electrical components for the electrical component perk": 1,
-    "Maximum electrical components for the electrical component perk": 1,
-    "Minimum additional scrap to be added to crates and barrels": 1,
-    "Maximum additional scrap to be added to crates and barrels": 2,
+    "Minimum components for the component perk": 2,
+    "Maximum components for the component perk": 6,
+    "Minimum electrical components for the electrical component perk": 3,
+    "Maximum electrical components for the electrical component perk": 6,
+    "Minimum additional scrap to be added to crates and barrels": 5,
+    "Maximum additional scrap to be added to crates and barrels": 13,
     "PVP Buff Critical damage modifier. Picks a random value between 0 and the declared value, and += the damage% onto the hit": 0.3,
     "Should the LootPickup buff only work with melee weapons?": false,
     "Should we have a maximum distance for the loot pickup buff [0 = unlimited]?": 0.0,

@@ -1,0 +1,53 @@
+{
+  "Plugin Settings": {
+    "- Only users with perms can see the alert": false,
+    "- Time alert will be displayed (Seconds)": 3.0,
+    "- UI Anchor Min": "0.356 0.117",
+    "- UI Anchor Max": "0.63 0.158",
+    "- Config Text": "HITBAR SETTINGS",
+    "- Config Color": "#ffffff",
+    "Copter - Enable health bar": true,
+    "Bradley - Enable health bar": true,
+    "Players - Enable health bar": true,
+    "NPC - Enable health bar (Animals, Scientists, Scarecrows, etc.)": true,
+    "Minicopter - Enable health bar": true,
+    "ScrapCopter - Enable health bar": true,
+    "Deployables - Enable health bar": true,
+    "Building Blocks - Enable health bar": true,
+    "All Entities - Enable health bar": false,
+    "Show hitbar when damage type is fire (Not Recommended)": false,
+    "- Accept button text": "ACCEPT",
+    "- Close button text": "CLOSE",
+    "- Config Chat command": "hitbar",
+    "- Config Custom Players Health (ONLY CHANGE THIS IF YOU CHANGED THE DEFAULT PLAYERS HEALTH)": 100,
+    "- Config Custom Players Health (Assign the perm to the the players that have different health)": {
+      "advancedhitbar.vip": 150,
+      "advancedhitbar.vip1": 200
+    }
+  },
+  "Image Settings": {
+    "Hitbar borders": "https://media.discordapp.net/attachments/1155876595215638548/1155876753370259607/Healthbar-min.png?width=1440&height=98",
+    "Hitbar fill blue": "https://media.discordapp.net/attachments/1155876595215638548/1155879791883464734/azulinicio.png",
+    "Hitbar fill blue end": "https://media.discordapp.net/attachments/1155876595215638548/1155879523464777728/azuldentro22.png",
+    "Hitbar fill red": "https://media.discordapp.net/attachments/1155876595215638548/1155878332152434769/rojoinicio-min.png",
+    "Hitbar fill red end": "https://media.discordapp.net/attachments/1155876595215638548/1155877835320340582/rojocortado-min.png",
+    "Hitbar fill pink": "https://media.discordapp.net/attachments/1155876595215638548/1155878333687549982/rosainicio-min.png",
+    "Hitbar fill pink end": "https://media.discordapp.net/attachments/1155876595215638548/1155878332416663614/rosacortado-min.png",
+    "Hitbar fill lime": "https://media.discordapp.net/attachments/1155876595215638548/1155877833944600637/limainicio-min.png",
+    "Hitbar fill lime end": "https://media.discordapp.net/attachments/1155876595215638548/1155876753647091854/limacortado-min.png",
+    "Hitbar fill purple": "https://media.discordapp.net/attachments/1155876595215638548/1155877834812821609/moradoinicio-min.png",
+    "Hitbar fill purple end": "https://media.discordapp.net/attachments/1155876595215638548/1155877834200457266/moradocortado-min.png",
+    "Hitbar fill white": "https://media.discordapp.net/attachments/1155876595215638548/1155876752552370237/blancoinicio-min.png",
+    "Hitbar fill white end": "https://media.discordapp.net/attachments/1155876595215638548/1155879523972284547/blancocortado.png",
+    "Hitbar fill green": "https://media.discordapp.net/attachments/1155876595215638548/1155878334689988680/verdeinicio-min.png",
+    "Hitbar fill green end": "https://media.discordapp.net/attachments/1155876595215638548/1155878333981138974/verdecortado-min.png",
+    "Blue example": "https://media.discordapp.net/attachments/1155876595215638548/1155876752019701921/azulejemplo-min.png",
+    "Lime example": "https://media.discordapp.net/attachments/1155876595215638548/1155876752795648000/cyanejemplo-min.png",
+    "Green example": "https://media.discordapp.net/attachments/1155876595215638548/1155878334287319060/verdeejemplo-min.png",
+    "Red example": "https://media.discordapp.net/attachments/1155876595215638548/1155877835551019028/rojoejemplo-min.png",
+    "Pink example": "https://media.discordapp.net/attachments/1155876595215638548/1155878332706066565/rosaejemplo-min.png",
+    "Purple example": "https://media.discordapp.net/attachments/1155876595215638548/1155877834481479840/moradoejemplo-min.png",
+    "White example": "https://media.discordapp.net/attachments/1155876595215638548/1155876752250392740/blancoejemplo-min.png",
+    "Settings Background": "https://media.discordapp.net/attachments/1155876595215638548/1155876753059893339/fondo2-min.png?width=957&height=676"
+  }
+}

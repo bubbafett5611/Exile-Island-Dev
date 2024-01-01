@@ -1,5 +1,5 @@
 {
-  "Time between events [seconds]": 1800.0,
+  "Time between events [seconds]": 3600.0,
   "Time between hud updates [seconds]": 3,
   "Event settings": {
     "NodeHitFinal": {
@@ -39,7 +39,7 @@
       "Item id": 1751045826
     },
     "CollectWildBerries": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -48,7 +48,7 @@
       "Item id": 1272194103
     },
     "CollectWildHemp": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -57,7 +57,7 @@
       "Item id": -858312878
     },
     "CollectWildPumpkin": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -66,7 +66,7 @@
       "Item id": -567909622
     },
     "CollectWildPotato": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -75,7 +75,7 @@
       "Item id": -2086926071
     },
     "CollectWildCorn": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -84,7 +84,7 @@
       "Item id": 1367190888
     },
     "CollectMushrooms": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -111,7 +111,7 @@
       "Item id": 1751045826
     },
     "CollectGrownBerries": {
-      "Chance for this source to be selected [weight system][0=off]": 10,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -120,7 +120,7 @@
       "Item id": 1272194103
     },
     "CollectGrownHemp": {
-      "Chance for this source to be selected [weight system][0=off]": 10,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -129,7 +129,7 @@
       "Item id": -858312878
     },
     "CollectGrownCorn": {
-      "Chance for this source to be selected [weight system][0=off]": 10,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -138,7 +138,7 @@
       "Item id": 1367190888
     },
     "CollectGrownPotato": {
-      "Chance for this source to be selected [weight system][0=off]": 10,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -147,7 +147,7 @@
       "Item id": -2086926071
     },
     "CollectGrownPumpkin": {
-      "Chance for this source to be selected [weight system][0=off]": 10,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -156,7 +156,7 @@
       "Item id": -567909622
     },
     "SkinWolfFinal": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -165,7 +165,7 @@
       "Item id": 1751045826
     },
     "SkinBearFinal": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -174,7 +174,7 @@
       "Item id": 1751045826
     },
     "SkinChickenFinal": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -183,7 +183,7 @@
       "Item id": 1751045826
     },
     "SkinBoarFinal": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -192,7 +192,7 @@
       "Item id": 1751045826
     },
     "SkinStagFinal": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -201,7 +201,7 @@
       "Item id": 1751045826
     },
     "SkinPolarBearFinal": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -228,7 +228,7 @@
       "Item id": 1751045826
     },
     "KillTunnelDweller": {
-      "Chance for this source to be selected [weight system][0=off]": 100,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.2,
       "Minimum duration for the event to run [seconds]": 300,
@@ -237,7 +237,7 @@
       "Item id": 1751045826
     },
     "KillUnderwaterDweller": {
-      "Chance for this source to be selected [weight system][0=off]": 100,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.5,
       "Minimum duration for the event to run [seconds]": 300,
@@ -255,7 +255,7 @@
       "Item id": 1751045826
     },
     "KillBear": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.5,
       "Minimum duration for the event to run [seconds]": 300,
@@ -264,7 +264,7 @@
       "Item id": 1751045826
     },
     "KillStag": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.5,
       "Minimum duration for the event to run [seconds]": 300,
@@ -273,7 +273,7 @@
       "Item id": 1751045826
     },
     "KillBoar": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.5,
       "Minimum duration for the event to run [seconds]": 300,
@@ -282,7 +282,7 @@
       "Item id": 1751045826
     },
     "KillChicken": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.5,
       "Minimum duration for the event to run [seconds]": 300,
@@ -291,7 +291,7 @@
       "Item id": 1751045826
     },
     "KillWolf": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.5,
       "Minimum duration for the event to run [seconds]": 300,
@@ -300,7 +300,7 @@
       "Item id": 1751045826
     },
     "KillPolarBear": {
-      "Chance for this source to be selected [weight system][0=off]": 50,
+      "Chance for this source to be selected [weight system][0=off]": 0,
       "Minimum multiplier to roll": 0.8,
       "Maximum multiplier to roll": 1.5,
       "Minimum duration for the event to run [seconds]": 300,
@@ -352,11 +352,11 @@
       "Hex colour code for the hud hint": "62d507"
     },
     "UINotify settings": {
-      "Send event notifications via UINotify?": true,
+      "Send event notifications via UINotify?": false,
       "Notification type": 0
     },
     "Chat notification settings": {
-      "Send event notifications via chat message?": true,
+      "Send event notifications via chat message?": false,
       "Hex colour code of the message [null or empty is vanilla]": "62d507"
     }
   },

@@ -1,0 +1,32 @@
+{
+  "General Options": {
+    "Data save interval (seconds)": 300,
+    "Track player AFK time": true,
+    "Number of entries to display in the top playtime list": 5
+  },
+  "Reward Options": {
+    "Reward plugin (ServerRewards, Economics)": "Economics",
+    "Playtime rewards": {
+      "Issue rewards for playtime": true,
+      "Reward interval (seconds)": 900,
+      "Reward amount": 250
+    },
+    "Referral rewards": {
+      "Issue rewards for player referrals": true,
+      "Referrer reward amount": 300,
+      "Referee reward amount": 300
+    },
+    "Custom reward multipliers (permission / multiplier)": {
+      "lifetime": 1.5,
+      "reject": 2.0,
+      "outcast": 2.5,
+      "exile": 3.0,
+      "vip": 5.0
+    }
+  },
+  "Version": {
+    "Major": 0,
+    "Minor": 2,
+    "Patch": 2
+  }
+}

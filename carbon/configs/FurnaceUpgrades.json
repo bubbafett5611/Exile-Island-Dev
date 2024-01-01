@@ -1,0 +1,178 @@
+{
+  "General Options": {
+    "Currency type (ServerRewards|Economics|Item)": "Economics",
+    "Currency item (if use currency type as 'Item')": {
+      "Short name": "scrap",
+      "Skin ID": 0
+    },
+    "Disable chat messages": false,
+    "Plugin to send notifications (Toastify|Notify) (empty = disabled)": "Toastify",
+    "[Notify Plugin (ignore if use Toastify)] notifications type": {
+      "Info": 0,
+      "Success": 0,
+      "Error": 1,
+      "Warn": 1
+    },
+    "Effect to run in the furnace on upgrade": "assets/bundled/prefabs/fx/build/promote_stone.prefab",
+    "Effect to run if the user does not have enough money to upgrade": "assets/prefabs/weapons/toolgun/effects/repairerror.prefab"
+  },
+  "UI Options": {
+    "Oven status": {
+      "Anchor": "0.5 0 0.5 0",
+      "Offset": "200 20 400 100",
+      "Text alignment (left/right)": "left"
+    }
+  },
+  "Upgrade Levels (The levels will be created in order)": {
+    "furnace": [
+      {
+        "Upgrade cost": 100,
+        "Smelting speed ​multiplier": 1.0,
+        "Resource output multiplier": 1.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 0.5,
+        "Charcoal multiplier": 1.0
+      },
+      {
+        "Upgrade cost": 200,
+        "Smelting speed ​multiplier": 2.0,
+        "Resource output multiplier": 2.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 1.0,
+        "Charcoal multiplier": 2.0
+      },
+      {
+        "Upgrade cost": 300,
+        "Smelting speed ​multiplier": 3.0,
+        "Resource output multiplier": 3.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 1.5,
+        "Charcoal multiplier": 3.0
+      },
+      {
+        "Upgrade cost": 500,
+        "Smelting speed ​multiplier": 5.0,
+        "Resource output multiplier": 5.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 2.0,
+        "Charcoal multiplier": 5.0
+      }
+    ],
+    "legacyfurnace": [
+      {
+        "Upgrade cost": 100,
+        "Smelting speed ​multiplier": 1.0,
+        "Resource output multiplier": 1.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 0.5,
+        "Charcoal multiplier": 1.0
+      },
+      {
+        "Upgrade cost": 200,
+        "Smelting speed ​multiplier": 2.0,
+        "Resource output multiplier": 2.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 1.0,
+        "Charcoal multiplier": 2.0
+      },
+      {
+        "Upgrade cost": 300,
+        "Smelting speed ​multiplier": 3.0,
+        "Resource output multiplier": 3.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 1.5,
+        "Charcoal multiplier": 3.0
+      },
+      {
+        "Upgrade cost": 500,
+        "Smelting speed ​multiplier": 5.0,
+        "Resource output multiplier": 5.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 2.0,
+        "Charcoal multiplier": 5.0
+      }
+    ],
+    "furnace.large": [
+      {
+        "Upgrade cost": 200,
+        "Smelting speed ​multiplier": 1.0,
+        "Resource output multiplier": 1.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 0.5,
+        "Charcoal multiplier": 1.0
+      },
+      {
+        "Upgrade cost": 400,
+        "Smelting speed ​multiplier": 2.0,
+        "Resource output multiplier": 2.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 1.0,
+        "Charcoal multiplier": 2.0
+      },
+      {
+        "Upgrade cost": 600,
+        "Smelting speed ​multiplier": 3.0,
+        "Resource output multiplier": 3.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 1.5,
+        "Charcoal multiplier": 3.0
+      },
+      {
+        "Upgrade cost": 1000,
+        "Smelting speed ​multiplier": 5.0,
+        "Resource output multiplier": 5.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 2.0,
+        "Charcoal multiplier": 5.0
+      }
+    ],
+    "small.oil.refinery": [
+      {
+        "Upgrade cost": 100,
+        "Smelting speed ​multiplier": 1.0,
+        "Resource output multiplier": 1.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 0.5,
+        "Charcoal multiplier": 1.0
+      },
+      {
+        "Upgrade cost": 200,
+        "Smelting speed ​multiplier": 2.0,
+        "Resource output multiplier": 2.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 1.0,
+        "Charcoal multiplier": 2.0
+      },
+      {
+        "Upgrade cost": 300,
+        "Smelting speed ​multiplier": 3.0,
+        "Resource output multiplier": 3.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 1.5,
+        "Charcoal multiplier": 3.0
+      },
+      {
+        "Upgrade cost": 500,
+        "Smelting speed ​multiplier": 5.0,
+        "Resource output multiplier": 5.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 2.0,
+        "Charcoal multiplier": 5.0
+      }
+    ],
+    "electric.furnace": [
+      {
+        "Upgrade cost": 100,
+        "Smelting speed ​multiplier": 1.0,
+        "Resource output multiplier": 1.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 1.0,
+        "Charcoal multiplier": 1.0
+      },
+      {
+        "Upgrade cost": 200,
+        "Smelting speed ​multiplier": 2.0,
+        "Resource output multiplier": 2.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 1.0,
+        "Charcoal multiplier": 1.0
+      },
+      {
+        "Upgrade cost": 300,
+        "Smelting speed ​multiplier": 3.0,
+        "Resource output multiplier": 3.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 1.0,
+        "Charcoal multiplier": 1.0
+      },
+      {
+        "Upgrade cost": 500,
+        "Smelting speed ​multiplier": 5.0,
+        "Resource output multiplier": 5.0,
+        "Fuel efficiency (decrease fuel usage per tick)": 1.0,
+        "Charcoal multiplier": 1.0
+      }
+    ]
+  }
+}

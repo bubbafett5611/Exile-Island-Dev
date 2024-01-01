@@ -1,0 +1,238 @@
+{
+  "1. Don't Edit This": {
+    "WasWiped": false,
+    "WipeTime": "2023-12-30 06:26:26Z",
+    "LastWipe": "2023-12-30 06:26:26Z"
+  },
+  "2. Discord Settings": {
+    "1. Enable Discord Logging": false,
+    "2. Discord Web Hook Url": "",
+    "3. Embed Message Color": "#483D8B",
+    "4. Include Plugin Image + Name in discord messages": true,
+    "5. Discord Plugin Image": "https://assets.umod.org/images/icons/plugin/60b0e6d6c8900.png",
+    "6. Discord Plugin Name": "PlayTimeRewards"
+  },
+  "3. Track Settings": {
+    "1. Sets the Save Interval Timer": 15,
+    "2. Enable Afk Time Tracking": true,
+    "3. Enable Avatar Image Patch": false,
+    "4. Avatar Image Patch Requires Steam API Key": "",
+    "5. Ignore Specified Oxide Groups from getting rewards": [
+      "admin"
+    ]
+  },
+  "4. Reward Settings": {
+    "1. Enable Rewards": true,
+    "2. Use ServerRewards": false,
+    "3. Use Economics": true,
+    "4. Use Cash System": false,
+    "Cash System Currency": "$",
+    "5. Enable Referrals": true,
+    "6. Enable Earning By Referrals": true,
+    "7. Send Deposit Response": true,
+    "8. PlayTime Deposit Timer": 3600,
+    "9. PlayTime Deposit Amount": 5,
+    "10. Referred Player Joined Deposit Amount": 3,
+    "11. Referral Invite Sent Deposit Amount": 5
+  },
+  "5. Permission Multipliers": {
+    "vip": {
+      "SetPermission": "vip",
+      "Multiplier": 1.0
+    }
+  },
+  "6. Main UI Settings": {
+    "1. Top Bar Color": {
+      "HexColor": "#161617",
+      "Alpha": 1.0
+    },
+    "2. Bottom Bar Color": {
+      "HexColor": "#161617",
+      "Alpha": 1.0
+    },
+    "3. Content Color": {
+      "HexColor": "#0E0E10",
+      "Alpha": 1.0
+    },
+    "4. Close Button Label Color": {
+      "HexColor": "#FFFFFF",
+      "Alpha": 1.0
+    },
+    "5. Close Button BackGround Color": {
+      "HexColor": "#FF0000",
+      "Alpha": 0.4
+    },
+    "6. My Stats Button Label Color": {
+      "HexColor": "#969696",
+      "Alpha": 1.0
+    },
+    "7. My Stats Button BackGround Color": {
+      "HexColor": "#323232",
+      "Alpha": 0.5
+    },
+    "8. Highest Play Time Button Label Color": {
+      "HexColor": "#969696",
+      "Alpha": 1.0
+    },
+    "9. Highest Play Time Button BackGround Color": {
+      "HexColor": "#303030",
+      "Alpha": 0.5
+    },
+    "10. Highest Afk Time Button Label Color": {
+      "HexColor": "#969696",
+      "Alpha": 1.0
+    },
+    "11. Highest Afk Time Button BackGround Color": {
+      "HexColor": "#323232",
+      "Alpha": 0.5
+    },
+    "12. Most Referrals Button Label Color": {
+      "HexColor": "#969696",
+      "Alpha": 1.0
+    },
+    "13. Most Referrals Button BackGround Color": {
+      "HexColor": "#323232",
+      "Alpha": 0.5
+    }
+  },
+  "7. Info UI Settings": {
+    "1. Main Panel Color": {
+      "HexColor": "#0E0E10",
+      "Alpha": 0.98
+    },
+    "2. CloseButton Label Color": {
+      "HexColor": "#FFFFFF",
+      "Alpha": 1.0
+    },
+    "3. CloseButton BackGround Color": {
+      "HexColor": "#FF0000",
+      "Alpha": 0.4
+    },
+    "4. DisplayName Color": {
+      "HexColor": "#4B68FF",
+      "Alpha": 1.0
+    },
+    "5. Stats Panel Color": {
+      "HexColor": "#969696",
+      "Alpha": 0.3
+    },
+    "6. Stats PlayTime Color": {
+      "HexColor": "#4B68FF",
+      "Alpha": 1.0
+    },
+    "7. Stats AfkTime Color": {
+      "HexColor": "#4B68FF",
+      "Alpha": 1.0
+    },
+    "8. Stats LastReward Color": {
+      "HexColor": "#4B68FF",
+      "Alpha": 1.0
+    },
+    "9. Stats LastReferral Color": {
+      "HexColor": "#4B68FF",
+      "Alpha": 1.0
+    }
+  },
+  "8. PlayTime UI Settings": {
+    "1. Main Panel Color": {
+      "HexColor": "#161617",
+      "Alpha": 1.0
+    },
+    "2. Individual Content Panel Color": {
+      "HexColor": "#161617",
+      "Alpha": 1.0
+    },
+    "3. Info Button Label Color": {
+      "HexColor": "#FFFFFF",
+      "Alpha": 0.3
+    },
+    "4. Info Button BackGround Color": {
+      "HexColor": "#969696",
+      "Alpha": 0.3
+    },
+    "5. Player Position Number Panel Color": {
+      "HexColor": "#161617",
+      "Alpha": 0.4
+    },
+    "6. Player Position Label Color": {
+      "HexColor": "#FFFFFF",
+      "Alpha": 0.3
+    },
+    "7. Blue Bar Panel Color": {
+      "HexColor": "#4B68FF",
+      "Alpha": 0.4
+    },
+    "8. Blue Bar Clock Time Label Color": {
+      "HexColor": "#FFFFFF",
+      "Alpha": 0.3
+    }
+  },
+  "9. AfkTime UI Settings": {
+    "1. Main Panel Color": {
+      "HexColor": "#161617",
+      "Alpha": 1.0
+    },
+    "2. Individual Content Panel Color": {
+      "HexColor": "#161617",
+      "Alpha": 1.0
+    },
+    "3. Info Button Label Color": {
+      "HexColor": "#FFFFFF",
+      "Alpha": 0.3
+    },
+    "4. Info Button BackGround Color": {
+      "HexColor": "#969696",
+      "Alpha": 0.3
+    },
+    "5. Player Position Number Panel Color": {
+      "HexColor": "#161617",
+      "Alpha": 0.4
+    },
+    "6. Player Position Label Color": {
+      "HexColor": "#FFFFFF",
+      "Alpha": 0.3
+    },
+    "7. Red Bar Panel Color": {
+      "HexColor": "#FF0000",
+      "Alpha": 0.4
+    },
+    "8. Red Bar Clock Time Label Color": {
+      "HexColor": "#FFFFFF",
+      "Alpha": 0.3
+    }
+  },
+  "Referral UI Settings": {
+    "1. Main Panel Color": {
+      "HexColor": "#161617",
+      "Alpha": 1.0
+    },
+    "2. Individual Content Panel Color": {
+      "HexColor": "#161617",
+      "Alpha": 1.0
+    },
+    "3. Info Button Label Color": {
+      "HexColor": "#FFFFFF",
+      "Alpha": 0.3
+    },
+    "4. Info Button BackGround Color": {
+      "HexColor": "#969696",
+      "Alpha": 0.3
+    },
+    "5. Player Position Number Panel Color": {
+      "HexColor": "#161617",
+      "Alpha": 0.4
+    },
+    "6. Player Position Label Color": {
+      "HexColor": "#FFFFFF",
+      "Alpha": 0.3
+    },
+    "7. Green Bar Panel Color": {
+      "HexColor": "#A0A935",
+      "Alpha": 0.4
+    },
+    "8. Green Bar Label Color": {
+      "HexColor": "#FFFFFF",
+      "Alpha": 0.3
+    }
+  }
+}
