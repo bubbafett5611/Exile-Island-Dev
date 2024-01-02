@@ -1,14 +1,14 @@
 {
   "Enabled? [true/false]": true,
   "The size of the monument": "(40.0, 50.0, 70.0)",
-  "Remove other NPCs? [true/false]": true,
+  "Remove other NPCs? [true/false]": false,
   "Presets": [
     {
       "Enabled? [true/false]": true,
-      "Minimum numbers - Day": 12,
-      "Maximum numbers - Day": 13,
-      "Minimum numbers - Night": 12,
-      "Maximum numbers - Night": 13,
+      "Minimum numbers - Day": 4,
+      "Maximum numbers - Day": 6,
+      "Minimum numbers - Night": 3,
+      "Maximum numbers - Night": 5,
       "NPCs setting": {
         "Names": [
           "Oil Rig Worker"
@@ -178,10 +178,10 @@
     },
     {
       "Enabled? [true/false]": true,
-      "Minimum numbers - Day": 12,
-      "Maximum numbers - Day": 13,
-      "Minimum numbers - Night": 12,
-      "Maximum numbers - Night": 13,
+      "Minimum numbers - Day": 2,
+      "Maximum numbers - Day": 4,
+      "Minimum numbers - Night": 1,
+      "Maximum numbers - Night": 3,
       "NPCs setting": {
         "Names": [
           "Older Oil Rig Worker"

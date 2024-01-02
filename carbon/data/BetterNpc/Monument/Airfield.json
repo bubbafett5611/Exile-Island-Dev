@@ -5,139 +5,13 @@
   "Presets": [
     {
       "Enabled? [true/false]": true,
-      "Minimum numbers - Day": 2,
-      "Maximum numbers - Day": 2,
-      "Minimum numbers - Night": 2,
-      "Maximum numbers - Night": 2,
+      "Minimum numbers - Day": 8,
+      "Maximum numbers - Day": 10,
+      "Minimum numbers - Night": 6,
+      "Maximum numbers - Night": 8,
       "NPCs setting": {
         "Names": [
-          "The Sentry"
-        ],
-        "Health": 200.0,
-        "Roam Range": 130.0,
-        "Chase Range": 140.0,
-        "Attack Range Multiplier": 1.0,
-        "Sense Range": 150.0,
-        "Target Memory Duration [sec.]": 30.0,
-        "Scale damage": 0.5,
-        "Aim Cone Scale": 1.0,
-        "Detect the target only in the NPC's viewing vision cone? [true/false]": true,
-        "Vision Cone": 135.0,
-        "Speed": 7.5,
-        "Minimum time of appearance after death (not used for Events) [sec.]": 1800.0,
-        "Maximum time of appearance after death (not used for Events) [sec.]": 2700.0,
-        "Disable radio effects? [true/false]": false,
-        "Is this a stationary NPC? [true/false]": true,
-        "Remove a corpse after death? (it is recommended to use the true value to improve performance) [true/false]": true,
-        "Wear items": [
-          {
-            "ShortName": "hat.boonie",
-            "SkinID (0 - default)": 1275532550
-          },
-          {
-            "ShortName": "mask.bandana",
-            "SkinID (0 - default)": 1623665052
-          },
-          {
-            "ShortName": "burlap.gloves",
-            "SkinID (0 - default)": 1113475533
-          },
-          {
-            "ShortName": "hoodie",
-            "SkinID (0 - default)": 1275521888
-          },
-          {
-            "ShortName": "pants",
-            "SkinID (0 - default)": 1277403128
-          },
-          {
-            "ShortName": "shoes.boots",
-            "SkinID (0 - default)": 0
-          }
-        ],
-        "Belt items": [
-          {
-            "ShortName": "rifle.bolt",
-            "Amount": 1,
-            "SkinID (0 - default)": 897867582,
-            "Mods": [
-              "weapon.mod.8x.scope",
-              "weapon.mod.silencer",
-              "weapon.mod.lasersight"
-            ],
-            "Ammo": ""
-          },
-          {
-            "ShortName": "syringe.medical",
-            "Amount": 10,
-            "SkinID (0 - default)": 0,
-            "Mods": [],
-            "Ammo": ""
-          },
-          {
-            "ShortName": "grenade.f1",
-            "Amount": 10,
-            "SkinID (0 - default)": 0,
-            "Mods": [],
-            "Ammo": ""
-          }
-        ],
-        "Kits (it is recommended to use the previous 2 settings to improve performance)": []
-      },
-      "The amount of economics that is given for killing the NPC": {
-        "Economics": 0.0,
-        "Server Rewards (minimum 1)": 0,
-        "IQEconomic (minimum 1)": 0
-      },
-      "Type of appearance (0 - random; 1 - own list) (not used for Road and Biome)": 1,
-      "Own list of locations (not used for Road and Biome)": [
-        "(-41.6, 27.6, -83.0)",
-        "(-104.7, 15.2, 57.3)",
-        "(108.4, 14.9, 17.3)",
-        "(92.1, 15.1, -96.2)",
-        "(-106.8, 15.2, -105.3)"
-      ],
-      "If the NPC ends up below ocean sea level, should the NPC return to it's place of appearance? [true/false]": true,
-      "Type of navigation grid (0 - used mainly on the island, 1 - used mainly under water or under land, as well as outside the map, can be used on some monuments)": 0,
-      "The path to the crate that appears at the place of death (empty - not used)": "",
-      "Which loot table should the plugin use? (0 - default; 1 - own; 2 - AlphaLoot; 3 - CustomLoot; 4 - loot table of the Rust objects; 5 - combine the 1 and 4 methods)": 4,
-      "Loot table from prefabs (if the loot table type is 4 or 5)": {
-        "Minimum numbers of prefabs": 1,
-        "Maximum numbers of prefabs": 1,
-        "Use minimum and maximum values? [true/false]": true,
-        "List of prefabs": [
-          {
-            "Chance [0.0-100.0]": 100.0,
-            "The path to the prefab": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_oilrig.prefab"
-          }
-        ]
-      },
-      "Own loot table (if the loot table type is 1 or 5)": {
-        "Minimum numbers of items": 1,
-        "Maximum numbers of items": 1,
-        "Use minimum and maximum values? [true/false]": true,
-        "List of items": [
-          {
-            "ShortName": "scrap",
-            "Minimum": 100,
-            "Maximum": 200,
-            "Chance [0.0-100.0]": 50.0,
-            "Is this a blueprint? [true/false]": false,
-            "SkinID (0 - default)": 0,
-            "Name (empty - default)": ""
-          }
-        ]
-      }
-    },
-    {
-      "Enabled? [true/false]": true,
-      "Minimum numbers - Day": 10,
-      "Maximum numbers - Day": 15,
-      "Minimum numbers - Night": 7,
-      "Maximum numbers - Night": 12,
-      "NPCs setting": {
-        "Names": [
-          "Mercenary"
+          "Airman"
         ],
         "Health": 175.0,
         "Roam Range": 5.0,
@@ -205,7 +79,7 @@
           },
           {
             "ShortName": "syringe.medical",
-            "Amount": 10,
+            "Amount": 2,
             "SkinID (0 - default)": 0,
             "Mods": [],
             "Ammo": ""
@@ -290,7 +164,7 @@
       "Maximum numbers - Night": 2,
       "NPCs setting": {
         "Names": [
-          "Lieutenant"
+          "Technical Sergeant"
         ],
         "Health": 200.0,
         "Roam Range": 5.0,
@@ -430,13 +304,13 @@
     },
     {
       "Enabled? [true/false]": true,
-      "Minimum numbers - Day": 4,
-      "Maximum numbers - Day": 4,
-      "Minimum numbers - Night": 4,
-      "Maximum numbers - Night": 4,
+      "Minimum numbers - Day": 2,
+      "Maximum numbers - Day": 2,
+      "Minimum numbers - Night": 2,
+      "Maximum numbers - Night": 2,
       "NPCs setting": {
         "Names": [
-          "Military Porter"
+          "Senior Airman"
         ],
         "Health": 170.0,
         "Roam Range": 10.0,
@@ -555,13 +429,13 @@
     },
     {
       "Enabled? [true/false]": true,
-      "Minimum numbers - Day": 3,
-      "Maximum numbers - Day": 3,
-      "Minimum numbers - Night": 3,
-      "Maximum numbers - Night": 3,
+      "Minimum numbers - Day": 1,
+      "Maximum numbers - Day": 1,
+      "Minimum numbers - Night": 1,
+      "Maximum numbers - Night": 1,
       "NPCs setting": {
         "Names": [
-          "Military Scientist"
+          "Staff Sergeant"
         ],
         "Health": 175.0,
         "Roam Range": 5.0,

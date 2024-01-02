@@ -1,42 +1,46 @@
 {
   "Enabled? [true/false]": true,
-  "The size of the monument": "(50.0, 45.0, 40.0)",
-  "Remove other NPCs? [true/false]": false,
+  "The size of the monument": "(15.0, 5.0, 5.0)",
+  "Remove other NPCs? [true/false]": true,
   "Presets": [
     {
       "Enabled? [true/false]": true,
-      "Minimum numbers - Day": 3,
-      "Maximum numbers - Day": 5,
-      "Minimum numbers - Night": 2,
-      "Maximum numbers - Night": 4,
+      "Minimum numbers - Day": 1,
+      "Maximum numbers - Day": 2,
+      "Minimum numbers - Night": 1,
+      "Maximum numbers - Night": 2,
       "NPCs setting": {
         "Names": [
-          "Oil Rig Worker"
+          "Amphibiosis"
         ],
-        "Health": 175.0,
-        "Roam Range": 10.0,
-        "Chase Range": 50.0,
-        "Attack Range Multiplier": 2.5,
-        "Sense Range": 50.0,
-        "Target Memory Duration [sec.]": 120.0,
-        "Scale damage": 1.7,
-        "Aim Cone Scale": 0.6,
-        "Detect the target only in the NPC's viewing vision cone? [true/false]": true,
+        "Health": 110.0,
+        "Roam Range": 5.0,
+        "Chase Range": 10.0,
+        "Attack Range Multiplier": 1.0,
+        "Sense Range": 10.0,
+        "Target Memory Duration [sec.]": 10.0,
+        "Scale damage": 0.55,
+        "Aim Cone Scale": 1.7,
+        "Detect the target only in the NPC's viewing vision cone? [true/false]": false,
         "Vision Cone": 135.0,
         "Speed": 7.5,
-        "Minimum time of appearance after death (not used for Events) [sec.]": 3600.0,
-        "Maximum time of appearance after death (not used for Events) [sec.]": 3600.0,
-        "Disable radio effects? [true/false]": false,
+        "Minimum time of appearance after death (not used for Events) [sec.]": 1500.0,
+        "Maximum time of appearance after death (not used for Events) [sec.]": 1800.0,
+        "Disable radio effects? [true/false]": true,
         "Is this a stationary NPC? [true/false]": false,
         "Remove a corpse after death? (it is recommended to use the true value to improve performance) [true/false]": true,
         "Wear items": [
           {
-            "ShortName": "hat.miner",
+            "ShortName": "hat.gas.mask",
             "SkinID (0 - default)": 0
           },
           {
             "ShortName": "hoodie",
-            "SkinID (0 - default)": 1673310223
+            "SkinID (0 - default)": 2516935250
+          },
+          {
+            "ShortName": "diving.tank",
+            "SkinID (0 - default)": 0
           },
           {
             "ShortName": "tactical.gloves",
@@ -44,7 +48,7 @@
           },
           {
             "ShortName": "pants",
-            "SkinID (0 - default)": 1673315067
+            "SkinID (0 - default)": 2516933301
           },
           {
             "ShortName": "shoes.boots",
@@ -53,32 +57,17 @@
         ],
         "Belt items": [
           {
-            "ShortName": "smg.mp5",
+            "ShortName": "pistol.m92",
             "Amount": 1,
-            "SkinID (0 - default)": 2373921258,
+            "SkinID (0 - default)": 0,
             "Mods": [
-              "weapon.mod.flashlight",
-              "weapon.mod.holosight"
+              "weapon.mod.flashlight"
             ],
             "Ammo": ""
           },
           {
-            "ShortName": "grenade.f1",
-            "Amount": 2,
-            "SkinID (0 - default)": 0,
-            "Mods": [],
-            "Ammo": ""
-          },
-          {
-            "ShortName": "grenade.smoke",
-            "Amount": 2,
-            "SkinID (0 - default)": 0,
-            "Mods": [],
-            "Ammo": ""
-          },
-          {
             "ShortName": "syringe.medical",
-            "Amount": 10,
+            "Amount": 2,
             "SkinID (0 - default)": 0,
             "Mods": [],
             "Ammo": ""
@@ -93,40 +82,8 @@
       },
       "Type of appearance (0 - random; 1 - own list) (not used for Road and Biome)": 1,
       "Own list of locations (not used for Road and Biome)": [
-        "(-4.3, 1.0, -24.0)",
-        "(-2.9, 1.0, -11.8)",
-        "(0.9, 9.8, -9.9)",
-        "(6.3, 13.5, 3.8)",
-        "(13.0, 13.5, -1.8)",
-        "(21.0, 13.5, 2.2)",
-        "(27.6, 18.0, 0.9)",
-        "(1.5, 18.0, 1.9)",
-        "(0.3, 18.0, -9.7)",
-        "(0.4, 18.0, -21.4)",
-        "(0.8, 18.0, -31.8)",
-        "(9.7, 18.0, -36.1)",
-        "(25.5, 18.0, -31.6)",
-        "(27.4, 18.0, -12.8)",
-        "(26.9, 22.5, 1.8)",
-        "(12.1, 22.5, 8.5)",
-        "(3.0, 22.5, 2.5)",
-        "(-1.9, 22.5, -13.0)",
-        "(-0.1, 22.5, -31.7)",
-        "(11.9, 22.5, -36.0)",
-        "(27.0, 22.5, -33.4)",
-        "(27.2, 22.5, -16.4)",
-        "(26.0, 27.0, 4.0)",
-        "(8.6, 27.0, 9.5)",
-        "(6.9, 27.0, -7.5)",
-        "(17.1, 27.0, -18.7)",
-        "(31.3, 27.0, -33.1)",
-        "(15.2, 27.0, -37.2)",
-        "(-0.1, 27.0, -36.3)",
-        "(-2.5, 27.0, -15.3)",
-        "(23.7, 31.5, -7.2)",
-        "(21.2, 31.5, -13.2)",
-        "(31.0, 31.5, -3.6)",
-        "(34.2, 31.5, -17.9)"
+        "(-5.762, -1.250, -0.251)",
+        "(0.013, -1.250, -0.178)"
       ],
       "If the NPC ends up below ocean sea level, should the NPC return to it's place of appearance? [true/false]": false,
       "Type of navigation grid (0 - used mainly on the island, 1 - used mainly under water or under land, as well as outside the map, can be used on some monuments)": 1,
@@ -162,38 +119,42 @@
     },
     {
       "Enabled? [true/false]": true,
-      "Minimum numbers - Day": 3,
-      "Maximum numbers - Day": 5,
-      "Minimum numbers - Night": 2,
-      "Maximum numbers - Night": 4,
+      "Minimum numbers - Day": 1,
+      "Maximum numbers - Day": 1,
+      "Minimum numbers - Night": 1,
+      "Maximum numbers - Night": 1,
       "NPCs setting": {
         "Names": [
-          "Older Oil Rig Worker"
+          "Amphibiosis"
         ],
-        "Health": 300.0,
-        "Roam Range": 10.0,
-        "Chase Range": 50.0,
-        "Attack Range Multiplier": 6.0,
-        "Sense Range": 50.0,
-        "Target Memory Duration [sec.]": 80.0,
-        "Scale damage": 0.8,
-        "Aim Cone Scale": 0.3,
-        "Detect the target only in the NPC's viewing vision cone? [true/false]": true,
+        "Health": 110.0,
+        "Roam Range": 5.0,
+        "Chase Range": 10.0,
+        "Attack Range Multiplier": 1.0,
+        "Sense Range": 10.0,
+        "Target Memory Duration [sec.]": 10.0,
+        "Scale damage": 0.7,
+        "Aim Cone Scale": 1.7,
+        "Detect the target only in the NPC's viewing vision cone? [true/false]": false,
         "Vision Cone": 135.0,
         "Speed": 7.5,
-        "Minimum time of appearance after death (not used for Events) [sec.]": 3600.0,
-        "Maximum time of appearance after death (not used for Events) [sec.]": 3600.0,
-        "Disable radio effects? [true/false]": false,
+        "Minimum time of appearance after death (not used for Events) [sec.]": 1500.0,
+        "Maximum time of appearance after death (not used for Events) [sec.]": 1800.0,
+        "Disable radio effects? [true/false]": true,
         "Is this a stationary NPC? [true/false]": false,
         "Remove a corpse after death? (it is recommended to use the true value to improve performance) [true/false]": true,
         "Wear items": [
           {
-            "ShortName": "clatter.helmet",
+            "ShortName": "hat.gas.mask",
             "SkinID (0 - default)": 0
           },
           {
             "ShortName": "hoodie",
-            "SkinID (0 - default)": 1673310223
+            "SkinID (0 - default)": 2521537260
+          },
+          {
+            "ShortName": "diving.tank",
+            "SkinID (0 - default)": 0
           },
           {
             "ShortName": "tactical.gloves",
@@ -201,7 +162,7 @@
           },
           {
             "ShortName": "pants",
-            "SkinID (0 - default)": 1673315067
+            "SkinID (0 - default)": 2521534780
           },
           {
             "ShortName": "shoes.boots",
@@ -210,25 +171,17 @@
         ],
         "Belt items": [
           {
-            "ShortName": "rifle.lr300",
+            "ShortName": "smg.mp5",
             "Amount": 1,
-            "SkinID (0 - default)": 1837473292,
+            "SkinID (0 - default)": 0,
             "Mods": [
-              "weapon.mod.flashlight",
-              "weapon.mod.holosight"
+              "weapon.mod.flashlight"
             ],
             "Ammo": ""
           },
           {
             "ShortName": "syringe.medical",
-            "Amount": 10,
-            "SkinID (0 - default)": 0,
-            "Mods": [],
-            "Ammo": ""
-          },
-          {
-            "ShortName": "grenade.f1",
-            "Amount": 1,
+            "Amount": 2,
             "SkinID (0 - default)": 0,
             "Mods": [],
             "Ammo": ""
@@ -243,40 +196,7 @@
       },
       "Type of appearance (0 - random; 1 - own list) (not used for Road and Biome)": 1,
       "Own list of locations (not used for Road and Biome)": [
-        "(-4.3, 1.0, -24.0)",
-        "(-2.9, 1.0, -11.8)",
-        "(0.9, 9.8, -9.9)",
-        "(6.3, 13.5, 3.8)",
-        "(13.0, 13.5, -1.8)",
-        "(21.0, 13.5, 2.2)",
-        "(27.6, 18.0, 0.9)",
-        "(1.5, 18.0, 1.9)",
-        "(0.3, 18.0, -9.7)",
-        "(0.4, 18.0, -21.4)",
-        "(0.8, 18.0, -31.8)",
-        "(9.7, 18.0, -36.1)",
-        "(25.5, 18.0, -31.6)",
-        "(27.4, 18.0, -12.8)",
-        "(26.9, 22.5, 1.8)",
-        "(12.1, 22.5, 8.5)",
-        "(3.0, 22.5, 2.5)",
-        "(-1.9, 22.5, -13.0)",
-        "(-0.1, 22.5, -31.7)",
-        "(11.9, 22.5, -36.0)",
-        "(27.0, 22.5, -33.4)",
-        "(27.2, 22.5, -16.4)",
-        "(26.0, 27.0, 4.0)",
-        "(8.6, 27.0, 9.5)",
-        "(6.9, 27.0, -7.5)",
-        "(17.1, 27.0, -18.7)",
-        "(31.3, 27.0, -33.1)",
-        "(15.2, 27.0, -37.2)",
-        "(-0.1, 27.0, -36.3)",
-        "(-2.5, 27.0, -15.3)",
-        "(23.7, 31.5, -7.2)",
-        "(21.2, 31.5, -13.2)",
-        "(31.0, 31.5, -3.6)",
-        "(34.2, 31.5, -17.9)"
+        "(7.974, -1.250, 0.106)"
       ],
       "If the NPC ends up below ocean sea level, should the NPC return to it's place of appearance? [true/false]": false,
       "Type of navigation grid (0 - used mainly on the island, 1 - used mainly under water or under land, as well as outside the map, can be used on some monuments)": 1,

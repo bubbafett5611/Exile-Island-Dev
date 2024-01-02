@@ -1,0 +1,287 @@
+{
+  "Enabled? [true/false]": true,
+  "Position": "(-1102.0, 34.1, 176.8)",
+  "Rotation": "(0.0, 0.0, 0.0)",
+  "Radius": 20.0,
+  "Remove other NPCs? [true/false]": true,
+  "Presets": [
+    {
+      "Enabled? [true/false]": true,
+      "Minimum numbers - Day": 20,
+      "Maximum numbers - Day": 30,
+      "Minimum numbers - Night": 20,
+      "Maximum numbers - Night": 30,
+      "NPCs setting": {
+        "Names": [
+          "Scarecrow"
+        ],
+        "Health": 200.0,
+        "Roam Range": 10.0,
+        "Chase Range": 100.0,
+        "Attack Range Multiplier": 1.0,
+        "Sense Range": 50.0,
+        "Target Memory Duration [sec.]": 10.0,
+        "Scale damage": 2.0,
+        "Aim Cone Scale": 1.0,
+        "Detect the target only in the NPC's viewing vision cone? [true/false]": false,
+        "Vision Cone": 135.0,
+        "Speed": 7.5,
+        "Minimum time of appearance after death (not used for Events) [sec.]": 600.0,
+        "Maximum time of appearance after death (not used for Events) [sec.]": 900.0,
+        "Disable radio effects? [true/false]": true,
+        "Is this a stationary NPC? [true/false]": false,
+        "Remove a corpse after death? (it is recommended to use the true value to improve performance) [true/false]": true,
+        "Wear items": [
+          {
+            "ShortName": "scarecrow.suit",
+            "SkinID (0 - default)": 0
+          }
+        ],
+        "Belt items": [
+          {
+            "ShortName": "pitchfork",
+            "Amount": 1,
+            "SkinID (0 - default)": 0,
+            "Mods": [],
+            "Ammo": ""
+          }
+        ],
+        "Kits (it is recommended to use the previous 2 settings to improve performance)": []
+      },
+      "The amount of economics that is given for killing the NPC": {
+        "Economics": 0.0,
+        "Server Rewards (minimum 1)": 0,
+        "IQEconomic (minimum 1)": 0
+      },
+      "Type of appearance (0 - random; 1 - own list) (not used for Road and Biome)": 1,
+      "Own list of locations (not used for Road and Biome)": [
+        "(0.0, 0.0, 0.0)",
+        "(9.1, 0.1, -8.1)",
+        "(0.3, 0.1, -21.6)",
+        "(-13.6, 0.1, -36.9)",
+        "(-25.0, 0.4, -40.4)",
+        "(-48.9, -0.1, -38.9)",
+        "(-48.2, 0.0, -25.7)",
+        "(-41.8, -0.1, -11.8)",
+        "(-32.7, 0.1, 5.0)",
+        "(-14.1, 0.1, 23.1)",
+        "(-4.3, 0.0, 37.1)",
+        "(1.6, 0.0, 63.1)",
+        "(25.2, 0.0, 69.1)",
+        "(35.5, 0.0, 55.5)",
+        "(32.7, 0.0, 36.4)",
+        "(33.3, 0.0, 15.6)",
+        "(39.0, 0.0, -6.1)",
+        "(42.3, -0.4, -29.8)",
+        "(45.1, 0.1, -59.3)",
+        "(29.7, -1.1, -78.2)",
+        "(4.8, -0.2, -84.3)",
+        "(-13.1, 0.0, -92.9)",
+        "(-29.5, 0.0, -93.3)",
+        "(-38.3, 0.1, -103.4)",
+        "(-54.5, 0.1, -102.1)",
+        "(-64.7, 0.1, -93.2)",
+        "(-53.5, 0.1, -84.0)",
+        "(-74.6, 0.7, -71.1)",
+        "(-94.7, 0.0, -61.1)",
+        "(-112.5, 0.0, -65.4)",
+        "(-95.5, 0.0, -73.7)",
+        "(-76.9, 0.0, -77.7)",
+        "(-62.7, 0.1, -61.5)",
+        "(-50.8, 0.1, -48.5)",
+        "(-94.9, 0.1, -2.7)",
+        "(-94.6, 0.1, 12.1)",
+        "(-83.2, 0.1, 27.8)",
+        "(-70.2, -0.1, 44.7)",
+        "(-56.9, 0.0, 59.3)",
+        "(-45.0, -0.1, 45.8)",
+        "(-38.6, 0.0, 56.9)",
+        "(-20.3, -0.1, 39.5)",
+        "(13.6, 0.2, 29.5)",
+        "(16.4, 2.7, -26.1)",
+        "(8.8, 0.0, -33.0)",
+        "(-19.8, 0.0, -23.6)",
+        "(-36.5, 0.2, -29.8)",
+        "(-16.8, 0.0, -15.7)",
+        "(-6.3, 0.5, -14.0)",
+        "(-5.8, -3.5, -4.9)",
+        "(-14.6, -5.2, -3.2)",
+        "(-24.6, -8.2, -12.2)",
+        "(-29.1, -8.1, -20.0)",
+        "(-22.2, -8.1, -17.4)",
+        "(-13.9, -5.1, -16.0)",
+        "(-17.5, -5.2, -20.3)",
+        "(-34.1, -5.2, -17.0)",
+        "(-39.9, -5.2, -21.4)"
+      ],
+      "The path to the crate that appears at the place of death (empty - not used)": "",
+      "Which loot table should the plugin use? (0 - default; 1 - own; 2 - AlphaLoot; 3 - CustomLoot; 4 - loot table of the Rust objects; 5 - combine the 1 and 4 methods)": 4,
+      "Loot table from prefabs (if the loot table type is 4 or 5)": {
+        "Minimum numbers of prefabs": 1,
+        "Maximum numbers of prefabs": 1,
+        "Use minimum and maximum values? [true/false]": true,
+        "List of prefabs": [
+          {
+            "Chance [0.0-100.0]": 100.0,
+            "The path to the prefab": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_oilrig.prefab"
+          }
+        ]
+      },
+      "Own loot table (if the loot table type is 1 or 5)": {
+        "Minimum numbers of items": 1,
+        "Maximum numbers of items": 1,
+        "Use minimum and maximum values? [true/false]": true,
+        "List of items": [
+          {
+            "ShortName": "scrap",
+            "Minimum": 100,
+            "Maximum": 200,
+            "Chance [0.0-100.0]": 50.0,
+            "Is this a blueprint? [true/false]": false,
+            "SkinID (0 - default)": 0,
+            "Name (empty - default)": ""
+          }
+        ]
+      }
+    },
+    {
+      "Enabled? [true/false]": true,
+      "Minimum numbers - Day": 10,
+      "Maximum numbers - Day": 20,
+      "Minimum numbers - Night": 10,
+      "Maximum numbers - Night": 20,
+      "NPCs setting": {
+        "Names": [
+          "Scarecrow"
+        ],
+        "Health": 200.0,
+        "Roam Range": 10.0,
+        "Chase Range": 100.0,
+        "Attack Range Multiplier": 1.0,
+        "Sense Range": 50.0,
+        "Target Memory Duration [sec.]": 10.0,
+        "Scale damage": 2.0,
+        "Aim Cone Scale": 1.0,
+        "Detect the target only in the NPC's viewing vision cone? [true/false]": false,
+        "Vision Cone": 135.0,
+        "Speed": 7.5,
+        "Minimum time of appearance after death (not used for Events) [sec.]": 600.0,
+        "Maximum time of appearance after death (not used for Events) [sec.]": 900.0,
+        "Disable radio effects? [true/false]": true,
+        "Is this a stationary NPC? [true/false]": false,
+        "Remove a corpse after death? (it is recommended to use the true value to improve performance) [true/false]": true,
+        "Wear items": [
+          {
+            "ShortName": "halloween.mummysuit",
+            "SkinID (0 - default)": 0
+          }
+        ],
+        "Belt items": [
+          {
+            "ShortName": "machete",
+            "Amount": 1,
+            "SkinID (0 - default)": 0,
+            "Mods": [],
+            "Ammo": ""
+          }
+        ],
+        "Kits (it is recommended to use the previous 2 settings to improve performance)": []
+      },
+      "The amount of economics that is given for killing the NPC": {
+        "Economics": 0.0,
+        "Server Rewards (minimum 1)": 0,
+        "IQEconomic (minimum 1)": 0
+      },
+      "Type of appearance (0 - random; 1 - own list) (not used for Road and Biome)": 1,
+      "Own list of locations (not used for Road and Biome)": [
+        "(0.0, 0.0, 0.0)",
+        "(9.1, 0.1, -8.1)",
+        "(0.3, 0.1, -21.6)",
+        "(-13.6, 0.1, -36.9)",
+        "(-25.0, 0.4, -40.4)",
+        "(-48.9, -0.1, -38.9)",
+        "(-48.2, 0.0, -25.7)",
+        "(-41.8, -0.1, -11.8)",
+        "(-32.7, 0.1, 5.0)",
+        "(-14.1, 0.1, 23.1)",
+        "(-4.3, 0.0, 37.1)",
+        "(1.6, 0.0, 63.1)",
+        "(25.2, 0.0, 69.1)",
+        "(35.5, 0.0, 55.5)",
+        "(32.7, 0.0, 36.4)",
+        "(33.3, 0.0, 15.6)",
+        "(39.0, 0.0, -6.1)",
+        "(42.3, -0.4, -29.8)",
+        "(45.1, 0.1, -59.3)",
+        "(29.7, -1.1, -78.2)",
+        "(4.8, -0.2, -84.3)",
+        "(-13.1, 0.0, -92.9)",
+        "(-29.5, 0.0, -93.3)",
+        "(-38.3, 0.1, -103.4)",
+        "(-54.5, 0.1, -102.1)",
+        "(-64.7, 0.1, -93.2)",
+        "(-53.5, 0.1, -84.0)",
+        "(-74.6, 0.7, -71.1)",
+        "(-94.7, 0.0, -61.1)",
+        "(-112.5, 0.0, -65.4)",
+        "(-95.5, 0.0, -73.7)",
+        "(-76.9, 0.0, -77.7)",
+        "(-62.7, 0.1, -61.5)",
+        "(-50.8, 0.1, -48.5)",
+        "(-94.9, 0.1, -2.7)",
+        "(-94.6, 0.1, 12.1)",
+        "(-83.2, 0.1, 27.8)",
+        "(-70.2, -0.1, 44.7)",
+        "(-56.9, 0.0, 59.3)",
+        "(-45.0, -0.1, 45.8)",
+        "(-38.6, 0.0, 56.9)",
+        "(-20.3, -0.1, 39.5)",
+        "(13.6, 0.2, 29.5)",
+        "(16.4, 2.7, -26.1)",
+        "(8.8, 0.0, -33.0)",
+        "(-19.8, 0.0, -23.6)",
+        "(-36.5, 0.2, -29.8)",
+        "(-16.8, 0.0, -15.7)",
+        "(-6.3, 0.5, -14.0)",
+        "(-5.8, -3.5, -4.9)",
+        "(-14.6, -5.2, -3.2)",
+        "(-24.6, -8.2, -12.2)",
+        "(-29.1, -8.1, -20.0)",
+        "(-22.2, -8.1, -17.4)",
+        "(-13.9, -5.1, -16.0)",
+        "(-17.5, -5.2, -20.3)",
+        "(-34.1, -5.2, -17.0)",
+        "(-39.9, -5.2, -21.4)"
+      ],
+      "The path to the crate that appears at the place of death (empty - not used)": "",
+      "Which loot table should the plugin use? (0 - default; 1 - own; 2 - AlphaLoot; 3 - CustomLoot; 4 - loot table of the Rust objects; 5 - combine the 1 and 4 methods)": 4,
+      "Loot table from prefabs (if the loot table type is 4 or 5)": {
+        "Minimum numbers of prefabs": 1,
+        "Maximum numbers of prefabs": 1,
+        "Use minimum and maximum values? [true/false]": true,
+        "List of prefabs": [
+          {
+            "Chance [0.0-100.0]": 100.0,
+            "The path to the prefab": "assets/rust.ai/agents/npcplayer/humannpc/scientist/scientistnpc_oilrig.prefab"
+          }
+        ]
+      },
+      "Own loot table (if the loot table type is 1 or 5)": {
+        "Minimum numbers of items": 1,
+        "Maximum numbers of items": 1,
+        "Use minimum and maximum values? [true/false]": true,
+        "List of items": [
+          {
+            "ShortName": "scrap",
+            "Minimum": 100,
+            "Maximum": 200,
+            "Chance [0.0-100.0]": 50.0,
+            "Is this a blueprint? [true/false]": false,
+            "SkinID (0 - default)": 0,
+            "Name (empty - default)": ""
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,27 +1,27 @@
 {
-  "Enabled? [true/false]": true,
-  "The size of the monument": "(35.0, 15.0, 45.0)",
+  "Enabled? [true/false]": false,
+  "The size of the monument": "(30.0, 15.0, 35.0)",
   "Remove other NPCs? [true/false]": false,
   "Presets": [
     {
       "Enabled? [true/false]": true,
       "Minimum numbers - Day": 2,
       "Maximum numbers - Day": 4,
-      "Minimum numbers - Night": 1,
-      "Maximum numbers - Night": 3,
+      "Minimum numbers - Night": 2,
+      "Maximum numbers - Night": 4,
       "NPCs setting": {
         "Names": [
-          "Mechanic"
+          "Miner"
         ],
-        "Health": 100.0,
+        "Health": 125.0,
         "Roam Range": 10.0,
-        "Chase Range": 60.0,
-        "Attack Range Multiplier": 1.0,
-        "Sense Range": 40.0,
-        "Target Memory Duration [sec.]": 30.0,
-        "Scale damage": 2.0,
-        "Aim Cone Scale": 1.0,
-        "Detect the target only in the NPC's viewing vision cone? [true/false]": true,
+        "Chase Range": 40.0,
+        "Attack Range Multiplier": 2.0,
+        "Sense Range": 30.0,
+        "Target Memory Duration [sec.]": 60.0,
+        "Scale damage": 0.5,
+        "Aim Cone Scale": 1.2,
+        "Detect the target only in the NPC's viewing vision cone? [true/false]": false,
         "Vision Cone": 135.0,
         "Speed": 7.5,
         "Minimum time of appearance after death (not used for Events) [sec.]": 600.0,
@@ -31,40 +31,37 @@
         "Remove a corpse after death? (it is recommended to use the true value to improve performance) [true/false]": true,
         "Wear items": [
           {
-            "ShortName": "shirt.collared",
-            "SkinID (0 - default)": 1402339549
+            "ShortName": "hat.miner",
+            "SkinID (0 - default)": 1087075684
+          },
+          {
+            "ShortName": "hoodie",
+            "SkinID (0 - default)": 1087079674
+          },
+          {
+            "ShortName": "burlap.gloves",
+            "SkinID (0 - default)": 1113475533
+          },
+          {
+            "ShortName": "pants",
+            "SkinID (0 - default)": 1087082288
           },
           {
             "ShortName": "shoes.boots",
             "SkinID (0 - default)": 0
-          },
-          {
-            "ShortName": "hat.cap",
-            "SkinID (0 - default)": 1125552993
-          },
-          {
-            "ShortName": "burlap.gloves",
-            "SkinID (0 - default)": 1402323871
-          },
-          {
-            "ShortName": "pants",
-            "SkinID (0 - default)": 1402353612
           }
         ],
         "Belt items": [
           {
-            "ShortName": "shotgun.pump",
+            "ShortName": "pistol.revolver",
             "Amount": 1,
             "SkinID (0 - default)": 0,
-            "Mods": [
-              "weapon.mod.flashlight",
-              "weapon.mod.holosight"
-            ],
+            "Mods": [],
             "Ammo": ""
           },
           {
             "ShortName": "syringe.medical",
-            "Amount": 5,
+            "Amount": 2,
             "SkinID (0 - default)": 0,
             "Mods": [],
             "Ammo": ""
@@ -77,27 +74,12 @@
         "Server Rewards (minimum 1)": 0,
         "IQEconomic (minimum 1)": 0
       },
-      "Type of appearance (0 - random; 1 - own list) (not used for Road and Biome)": 1,
-      "Own list of locations (not used for Road and Biome)": [
-        "(14.2, 3.1, 15.5)",
-        "(3.8, 3.0, -9.7)",
-        "(-21.7, 3.0, 1.6)",
-        "(-4.6, 3.1, 11.7)",
-        "(-2.8, 3.0, 36.2)",
-        "(10.4, 3.2, 29.0)",
-        "(7.5, 3.3, 28.2)",
-        "(2.4, 3.3, 27.7)",
-        "(4.8, 3.3, 21.3)",
-        "(-4.6, 3.3, 19.2)",
-        "(-1.0, 3.3, 28.5)",
-        "(-8.1, 9.3, 23.5)",
-        "(9.5, 9.3, 25.9)",
-        "(2.3, 9.3, -5.4)"
-      ],
+      "Type of appearance (0 - random; 1 - own list) (not used for Road and Biome)": 0,
+      "Own list of locations (not used for Road and Biome)": [],
       "If the NPC ends up below ocean sea level, should the NPC return to it's place of appearance? [true/false]": true,
       "Type of navigation grid (0 - used mainly on the island, 1 - used mainly under water or under land, as well as outside the map, can be used on some monuments)": 0,
       "The path to the crate that appears at the place of death (empty - not used)": "",
-      "Which loot table should the plugin use? (0 - default; 1 - own; 2 - AlphaLoot; 3 - CustomLoot; 4 - loot table of the Rust objects; 5 - combine the 1 and 4 methods)": 5,
+      "Which loot table should the plugin use? (0 - default; 1 - own; 2 - AlphaLoot; 3 - CustomLoot; 4 - loot table of the Rust objects; 5 - combine the 1 and 4 methods)": 4,
       "Loot table from prefabs (if the loot table type is 4 or 5)": {
         "Minimum numbers of prefabs": 1,
         "Maximum numbers of prefabs": 1,
@@ -116,18 +98,9 @@
         "List of items": [
           {
             "ShortName": "scrap",
-            "Minimum": 5,
-            "Maximum": 10,
+            "Minimum": 100,
+            "Maximum": 200,
             "Chance [0.0-100.0]": 50.0,
-            "Is this a blueprint? [true/false]": false,
-            "SkinID (0 - default)": 0,
-            "Name (empty - default)": ""
-          },
-          {
-            "ShortName": "syringe.medical",
-            "Minimum": 1,
-            "Maximum": 2,
-            "Chance [0.0-100.0]": 70.0,
             "Is this a blueprint? [true/false]": false,
             "SkinID (0 - default)": 0,
             "Name (empty - default)": ""

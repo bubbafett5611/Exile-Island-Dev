@@ -1,61 +1,59 @@
 {
   "Enabled? [true/false]": true,
-  "The size of the monument": "(50.0, 45.0, 40.0)",
-  "Remove other NPCs? [true/false]": false,
+  "Position": "(-767.6, 95.4, 97.7)",
+  "Rotation": "(0.0, 0.0, 0.0)",
+  "Radius": 20.0,
+  "Remove other NPCs? [true/false]": true,
   "Presets": [
     {
       "Enabled? [true/false]": true,
-      "Minimum numbers - Day": 3,
-      "Maximum numbers - Day": 5,
-      "Minimum numbers - Night": 2,
-      "Maximum numbers - Night": 4,
+      "Minimum numbers - Day": 10,
+      "Maximum numbers - Day": 15,
+      "Minimum numbers - Night": 10,
+      "Maximum numbers - Night": 15,
       "NPCs setting": {
         "Names": [
-          "Oil Rig Worker"
+          "Soldier"
         ],
-        "Health": 175.0,
+        "Health": 200.0,
         "Roam Range": 10.0,
-        "Chase Range": 50.0,
-        "Attack Range Multiplier": 2.5,
+        "Chase Range": 100.0,
+        "Attack Range Multiplier": 1.0,
         "Sense Range": 50.0,
-        "Target Memory Duration [sec.]": 120.0,
-        "Scale damage": 1.7,
-        "Aim Cone Scale": 0.6,
-        "Detect the target only in the NPC's viewing vision cone? [true/false]": true,
+        "Target Memory Duration [sec.]": 10.0,
+        "Scale damage": 2.0,
+        "Aim Cone Scale": 1.0,
+        "Detect the target only in the NPC's viewing vision cone? [true/false]": false,
         "Vision Cone": 135.0,
         "Speed": 7.5,
-        "Minimum time of appearance after death (not used for Events) [sec.]": 3600.0,
-        "Maximum time of appearance after death (not used for Events) [sec.]": 3600.0,
+        "Minimum time of appearance after death (not used for Events) [sec.]": 600.0,
+        "Maximum time of appearance after death (not used for Events) [sec.]": 900.0,
         "Disable radio effects? [true/false]": false,
         "Is this a stationary NPC? [true/false]": false,
         "Remove a corpse after death? (it is recommended to use the true value to improve performance) [true/false]": true,
         "Wear items": [
           {
-            "ShortName": "hat.miner",
-            "SkinID (0 - default)": 0
+            "ShortName": "burlap.headwrap",
+            "SkinID (0 - default)": 2660372893
           },
           {
             "ShortName": "hoodie",
-            "SkinID (0 - default)": 1673310223
-          },
-          {
-            "ShortName": "tactical.gloves",
-            "SkinID (0 - default)": 0
+            "SkinID (0 - default)": 2746436443
           },
           {
             "ShortName": "pants",
-            "SkinID (0 - default)": 1673315067
+            "SkinID (0 - default)": 2746437796
           },
           {
             "ShortName": "shoes.boots",
-            "SkinID (0 - default)": 0
+            "SkinID (0 - default)": 2706111487
           }
         ],
         "Belt items": [
           {
-            "ShortName": "smg.mp5",
+            "ShortName": "rifle.lr300",
             "Amount": 1,
-            "SkinID (0 - default)": 2373921258,
+            "SkinID (0 - default)": 1432081812,
             "Mods": [
               "weapon.mod.flashlight",
               "weapon.mod.holosight"
@@ -64,13 +62,6 @@
           },
           {
             "ShortName": "grenade.f1",
-            "Amount": 2,
-            "SkinID (0 - default)": 0,
-            "Mods": [],
-            "Ammo": ""
-          },
-          {
-            "ShortName": "grenade.smoke",
             "Amount": 2,
             "SkinID (0 - default)": 0,
             "Mods": [],
@@ -93,43 +84,39 @@
       },
       "Type of appearance (0 - random; 1 - own list) (not used for Road and Biome)": 1,
       "Own list of locations (not used for Road and Biome)": [
-        "(-4.3, 1.0, -24.0)",
-        "(-2.9, 1.0, -11.8)",
-        "(0.9, 9.8, -9.9)",
-        "(6.3, 13.5, 3.8)",
-        "(13.0, 13.5, -1.8)",
-        "(21.0, 13.5, 2.2)",
-        "(27.6, 18.0, 0.9)",
-        "(1.5, 18.0, 1.9)",
-        "(0.3, 18.0, -9.7)",
-        "(0.4, 18.0, -21.4)",
-        "(0.8, 18.0, -31.8)",
-        "(9.7, 18.0, -36.1)",
-        "(25.5, 18.0, -31.6)",
-        "(27.4, 18.0, -12.8)",
-        "(26.9, 22.5, 1.8)",
-        "(12.1, 22.5, 8.5)",
-        "(3.0, 22.5, 2.5)",
-        "(-1.9, 22.5, -13.0)",
-        "(-0.1, 22.5, -31.7)",
-        "(11.9, 22.5, -36.0)",
-        "(27.0, 22.5, -33.4)",
-        "(27.2, 22.5, -16.4)",
-        "(26.0, 27.0, 4.0)",
-        "(8.6, 27.0, 9.5)",
-        "(6.9, 27.0, -7.5)",
-        "(17.1, 27.0, -18.7)",
-        "(31.3, 27.0, -33.1)",
-        "(15.2, 27.0, -37.2)",
-        "(-0.1, 27.0, -36.3)",
-        "(-2.5, 27.0, -15.3)",
-        "(23.7, 31.5, -7.2)",
-        "(21.2, 31.5, -13.2)",
-        "(31.0, 31.5, -3.6)",
-        "(34.2, 31.5, -17.9)"
+        "(-56.1, 0.0, 14.5)",
+        "(-62.4, -0.1, 2.5)",
+        "(-66.9, 0.1, -12.6)",
+        "(-46.3, 0.0, 0.1)",
+        "(-28.0, -0.1, 6.9)",
+        "(-8.7, 0.0, -1.4)",
+        "(6.7, 0.1, 1.4)",
+        "(19.1, 0.0, 20.0)",
+        "(19.2, -0.1, 43.7)",
+        "(29.2, -0.1, 52.7)",
+        "(43.1, -0.9, 32.0)",
+        "(57.9, -0.1, 26.6)",
+        "(72.1, -0.1, 21.5)",
+        "(77.0, 0.2, 1.2)",
+        "(75.9, -0.1, -16.6)",
+        "(55.1, -1.6, -27.8)",
+        "(14.3, 0.2, -41.7)",
+        "(14.3, 1.0, -65.3)",
+        "(-0.3, -0.1, -69.5)",
+        "(-10.9, -0.1, -63.7)",
+        "(4.1, 2.5, -34.7)",
+        "(-50.2, 0.0, -21.4)",
+        "(14.9, -19.8, -70.3)",
+        "(11.9, -19.8, -23.2)",
+        "(15.2, -19.8, 9.3)",
+        "(-0.3, -19.1, 18.1)",
+        "(-14.7, -19.8, 12.3)",
+        "(-32.2, -19.6, 20.0)",
+        "(3.2, -18.0, -11.3)",
+        "(11.3, -19.6, -13.5)",
+        "(21.5, -19.8, 11.8)",
+        "(-1.6, -19.8, 6.2)"
       ],
-      "If the NPC ends up below ocean sea level, should the NPC return to it's place of appearance? [true/false]": false,
-      "Type of navigation grid (0 - used mainly on the island, 1 - used mainly under water or under land, as well as outside the map, can be used on some monuments)": 1,
       "The path to the crate that appears at the place of death (empty - not used)": "",
       "Which loot table should the plugin use? (0 - default; 1 - own; 2 - AlphaLoot; 3 - CustomLoot; 4 - loot table of the Rust objects; 5 - combine the 1 and 4 methods)": 4,
       "Loot table from prefabs (if the loot table type is 4 or 5)": {
@@ -162,57 +149,53 @@
     },
     {
       "Enabled? [true/false]": true,
-      "Minimum numbers - Day": 3,
-      "Maximum numbers - Day": 5,
-      "Minimum numbers - Night": 2,
-      "Maximum numbers - Night": 4,
+      "Minimum numbers - Day": 10,
+      "Maximum numbers - Day": 15,
+      "Minimum numbers - Night": 10,
+      "Maximum numbers - Night": 15,
       "NPCs setting": {
         "Names": [
-          "Older Oil Rig Worker"
+          "Soldier"
         ],
-        "Health": 300.0,
+        "Health": 200.0,
         "Roam Range": 10.0,
-        "Chase Range": 50.0,
-        "Attack Range Multiplier": 6.0,
+        "Chase Range": 100.0,
+        "Attack Range Multiplier": 1.0,
         "Sense Range": 50.0,
-        "Target Memory Duration [sec.]": 80.0,
-        "Scale damage": 0.8,
-        "Aim Cone Scale": 0.3,
-        "Detect the target only in the NPC's viewing vision cone? [true/false]": true,
+        "Target Memory Duration [sec.]": 10.0,
+        "Scale damage": 2.0,
+        "Aim Cone Scale": 1.0,
+        "Detect the target only in the NPC's viewing vision cone? [true/false]": false,
         "Vision Cone": 135.0,
         "Speed": 7.5,
-        "Minimum time of appearance after death (not used for Events) [sec.]": 3600.0,
-        "Maximum time of appearance after death (not used for Events) [sec.]": 3600.0,
+        "Minimum time of appearance after death (not used for Events) [sec.]": 600.0,
+        "Maximum time of appearance after death (not used for Events) [sec.]": 900.0,
         "Disable radio effects? [true/false]": false,
         "Is this a stationary NPC? [true/false]": false,
         "Remove a corpse after death? (it is recommended to use the true value to improve performance) [true/false]": true,
         "Wear items": [
           {
-            "ShortName": "clatter.helmet",
-            "SkinID (0 - default)": 0
+            "ShortName": "burlap.headwrap",
+            "SkinID (0 - default)": 2660372893
           },
           {
             "ShortName": "hoodie",
-            "SkinID (0 - default)": 1673310223
-          },
-          {
-            "ShortName": "tactical.gloves",
-            "SkinID (0 - default)": 0
+            "SkinID (0 - default)": 2674836342
           },
           {
             "ShortName": "pants",
-            "SkinID (0 - default)": 1673315067
+            "SkinID (0 - default)": 2674838261
           },
           {
             "ShortName": "shoes.boots",
-            "SkinID (0 - default)": 0
+            "SkinID (0 - default)": 2706111487
           }
         ],
         "Belt items": [
           {
-            "ShortName": "rifle.lr300",
+            "ShortName": "rifle.ak",
             "Amount": 1,
-            "SkinID (0 - default)": 1837473292,
+            "SkinID (0 - default)": 2729766998,
             "Mods": [
               "weapon.mod.flashlight",
               "weapon.mod.holosight"
@@ -220,15 +203,15 @@
             "Ammo": ""
           },
           {
-            "ShortName": "syringe.medical",
-            "Amount": 10,
+            "ShortName": "grenade.f1",
+            "Amount": 2,
             "SkinID (0 - default)": 0,
             "Mods": [],
             "Ammo": ""
           },
           {
-            "ShortName": "grenade.f1",
-            "Amount": 1,
+            "ShortName": "syringe.medical",
+            "Amount": 10,
             "SkinID (0 - default)": 0,
             "Mods": [],
             "Ammo": ""
@@ -243,43 +226,39 @@
       },
       "Type of appearance (0 - random; 1 - own list) (not used for Road and Biome)": 1,
       "Own list of locations (not used for Road and Biome)": [
-        "(-4.3, 1.0, -24.0)",
-        "(-2.9, 1.0, -11.8)",
-        "(0.9, 9.8, -9.9)",
-        "(6.3, 13.5, 3.8)",
-        "(13.0, 13.5, -1.8)",
-        "(21.0, 13.5, 2.2)",
-        "(27.6, 18.0, 0.9)",
-        "(1.5, 18.0, 1.9)",
-        "(0.3, 18.0, -9.7)",
-        "(0.4, 18.0, -21.4)",
-        "(0.8, 18.0, -31.8)",
-        "(9.7, 18.0, -36.1)",
-        "(25.5, 18.0, -31.6)",
-        "(27.4, 18.0, -12.8)",
-        "(26.9, 22.5, 1.8)",
-        "(12.1, 22.5, 8.5)",
-        "(3.0, 22.5, 2.5)",
-        "(-1.9, 22.5, -13.0)",
-        "(-0.1, 22.5, -31.7)",
-        "(11.9, 22.5, -36.0)",
-        "(27.0, 22.5, -33.4)",
-        "(27.2, 22.5, -16.4)",
-        "(26.0, 27.0, 4.0)",
-        "(8.6, 27.0, 9.5)",
-        "(6.9, 27.0, -7.5)",
-        "(17.1, 27.0, -18.7)",
-        "(31.3, 27.0, -33.1)",
-        "(15.2, 27.0, -37.2)",
-        "(-0.1, 27.0, -36.3)",
-        "(-2.5, 27.0, -15.3)",
-        "(23.7, 31.5, -7.2)",
-        "(21.2, 31.5, -13.2)",
-        "(31.0, 31.5, -3.6)",
-        "(34.2, 31.5, -17.9)"
+        "(-56.1, 0.0, 14.5)",
+        "(-62.4, -0.1, 2.5)",
+        "(-66.9, 0.1, -12.6)",
+        "(-46.3, 0.0, 0.1)",
+        "(-28.0, -0.1, 6.9)",
+        "(-8.7, 0.0, -1.4)",
+        "(6.7, 0.1, 1.4)",
+        "(19.1, 0.0, 20.0)",
+        "(19.2, -0.1, 43.7)",
+        "(29.2, -0.1, 52.7)",
+        "(43.1, -0.9, 32.0)",
+        "(57.9, -0.1, 26.6)",
+        "(72.1, -0.1, 21.5)",
+        "(77.0, 0.2, 1.2)",
+        "(75.9, -0.1, -16.6)",
+        "(55.1, -1.6, -27.8)",
+        "(14.3, 0.2, -41.7)",
+        "(14.3, 1.0, -65.3)",
+        "(-0.3, -0.1, -69.5)",
+        "(-10.9, -0.1, -63.7)",
+        "(4.1, 2.5, -34.7)",
+        "(-50.2, 0.0, -21.4)",
+        "(14.9, -19.8, -70.3)",
+        "(11.9, -19.8, -23.2)",
+        "(15.2, -19.8, 9.3)",
+        "(-0.3, -19.1, 18.1)",
+        "(-14.7, -19.8, 12.3)",
+        "(-32.2, -19.6, 20.0)",
+        "(3.2, -18.0, -11.3)",
+        "(11.3, -19.6, -13.5)",
+        "(21.5, -19.8, 11.8)",
+        "(-1.6, -19.8, 6.2)"
       ],
-      "If the NPC ends up below ocean sea level, should the NPC return to it's place of appearance? [true/false]": false,
-      "Type of navigation grid (0 - used mainly on the island, 1 - used mainly under water or under land, as well as outside the map, can be used on some monuments)": 1,
       "The path to the crate that appears at the place of death (empty - not used)": "",
       "Which loot table should the plugin use? (0 - default; 1 - own; 2 - AlphaLoot; 3 - CustomLoot; 4 - loot table of the Rust objects; 5 - combine the 1 and 4 methods)": 4,
       "Loot table from prefabs (if the loot table type is 4 or 5)": {

@@ -138,7 +138,7 @@
       "Width BAR SIZE : 1 - 15": 1
     },
     "DefendableBases": {
-      "On/Off (true/false)": true,
+      "On/Off (true/false)": false,
       "The order the icon should place": 5,
       "The position on the screen that the icon should be ( LeftTop, CenterTop, RightTop, LeftBottom, CenterBottom, RightBottom)": "RightTop",
       "On Event start ( Hook )": "OnDefendableBasesStart",
@@ -616,15 +616,15 @@
       "Width BAR SIZE : 1 - 15": 2
     },
     "Times": {
-      "On/Off (true/false)": false,
+      "On/Off (true/false)": true,
       "Reload delay": 5,
       "Commands (leave blank to disable)": null,
-      "The order the icon should place": 5,
+      "The order the icon should place": 7,
       "Change text alignment": 4,
       "Text size": 11,
       "Text fonts ( 0 - 3 )": 0,
       "Color Text ( HEX )": "#ffffff",
-      "The position on the screen that the icon should be ( LeftTop, CenterTop, RightTop, LeftBottom, CenterBottom, RightBottom)": "LeftTop",
+      "The position on the screen that the icon should be ( LeftTop, CenterTop, RightTop, LeftBottom, CenterBottom, RightBottom)": "RightTop",
       "Position of text in the logo": "20 0 -1 0",
       "Swich On": {
         "Themes ( HUD - BASIC - CUBE - TRIANGLE )": "HUD",
